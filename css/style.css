@@ -25,7 +25,7 @@ html, body{
     /* padding: 10vw; */
 }
 h1.logo a{
-    padding: 10vw 10vw 20vh 10vw;
+    padding: 10vw 10vw 30vw 10vw;
     font-size: 4.5vw;
     font-weight: normal;
     display: block;
@@ -54,7 +54,7 @@ ul{
 }
 ul li {
     padding: 5vw 0vw;
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    /* border-bottom: 1px solid rgba(0,0,0,.1); */
 }
 ul li:last-child{
     border: none;
@@ -65,7 +65,7 @@ ul li:last-child{
     font-weight: normal;
 }
 ul.contact{
-    padding: 30vh 10vw;
+    padding: 30vw 10vw;
 }
 ul.contact li{
     font-size: 4vw;
@@ -81,16 +81,18 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1vw;
     color: #999;
-    border-top: 1px solid rgba(0,0,0,.1);
+    /* background: rgba(0,0,0,.03); */
+    /* border-top: 1px solid rgba(0,0,0,.05); */
 }
 
 
 
 /* project */
 
+
+
 .project{
 }
-
 .txt {
     padding: 10vw;
 }
@@ -98,7 +100,6 @@ footer {
 }
 .txt:last-child{    
 }
-
 .txt h2{
     font-size: 5vw;
     font-weight: normal;
@@ -109,29 +110,32 @@ footer {
     line-height: 150%;
 }
 .txt h4,.txt h5,.txt h6{
-    font-size: 4.5vw;
+    font-size: 5vw;
     font-weight: normal;
 }
 .txt a{
     display: block;
+    color: #999;
 }
 .txt span{
     /* padding: 0vw 0 3vw 0; */
 }
 .txt p{
-    padding: 5vw 0 0 0;
+    font-size: 4vw;
+    padding: 5vw 0 5vw 0;
     line-height: 200%;
 }
-
+.txt p:last-child{
+    padding: 5vw 0vw 0vw 0vw;
+}
 .img{
     padding: 0 5vw;
 }
-
 picture img{
     width: 100%;
-    background: rgba(0,0,0,.1);
+    /* background: rgba(0,0,0,.1); */
     border-radius: 1vw;
-    /* margin: 10vw 0 0vw 0; */
+    /* padding: 5vw 0 0 0; */
 }
 figcaption{
     font-size: 3.5vw;
@@ -139,6 +143,18 @@ figcaption{
     padding: 0vw 0 5vw 0;
     color: #999;
 }
+figcaption:last-child{
+    /* padding: 0; */
+}
+.blockquote{
+    padding: 20vw 10vw;
+}
+.blockquote p{
+    font-size: 4vw;
+    line-height: 200%;
+    padding: 0 0 10vw 0;
+}
+
 
 
 
@@ -149,6 +165,8 @@ figcaption{
     }
 }
 
+
+
 /* desktop */
 @media screen and (min-width: 1136px) {
     body{
@@ -156,12 +174,16 @@ figcaption{
     }
 }
 
+
+
 /* tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
     body{
         background: purple;
     }
 }
+
+
 
 /* landscape */   
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
