@@ -1,22 +1,77 @@
+- Nielsen Tips
+---------------
+- Problema - abandono carrinho
+- Hipotese - otimizar conteúdo
+- Função / Equipe
+- Processo - teste usab. / usr sem info
+- Validação - 
+- 
+-
 ----------------------
 - Resumindo o Projeto
 ----------------------
 -
+- Titulo
+- Descrição
 -
-- Análise
-----------
+- Cliente
+- Agência
+-
+- Sobre
+--------
+- Empresa
+- Produto
+- Equipe
 -
 -
-- Fluxo de conversão - Identificação
--------------------------------------
-- Saída de usuários do carrinho para a página de planos
+-
+- 01 - Analise de dados
+-------------------
+- Analisando dados do fluxo de conversão e vídeos de navegação, identificamos que uma parcela dos usuários abandonavam o processo de assinatura e retornavam para a página inicial em busca de mais informações do produto.
+-
+- O mapa de calor nos mostrou uma alta taxa de cliques nos botões 'mais benefícios' dos cards e que poucos usuários rolavam a página até a seção de detalhes do produto.
+-
+- A idéia era aproveitar a interação dos usuários com os cards para oferecer as informações necessárias para a assinatura do plano e otimizar o conteúdo da página focando nos benefícios exclusivos do produto.
+-
+-
+- 02 - Arquitetura da Informação
+----------------------------
+- Junto com a UX Writer e o time de negócios, foi feito uma análise competitiva para entender como poderíamos impactar o usuário que está em fase de busca, comparando planos, benefícios e preços. Decidimos reorganizamos a estrutura do conteúdo para focar nas vantagens e nos diferenciais do produto, aproveitando o atual comportamento de scroll dos usuários. 
+-
+-
+- 03 - Mudança na identidade visual
+-------------------------------
+- Durante o processo de criação, foi informado que a paleta de cores do produto mudaria de roxo para verde, decidimos então desenolver o prototipo seguindo essa nova orientação.
 - 
+- 
+- 04 - Mudança nos cards
+--------------------
+- Card Atual
+-------------
+- Botão 'mais benefícios' sem informações necessárias
+- Ordem do maior para o menor preço
 -
-- Mapa de calor - Indicadores
+- Novos Cards
+--------------
+- Destaque para os principais benefícios
+- Interação com detalhes dos planos  
+-
+----------------------------------------
+-
+- Formas de pagamento
+- Troque minutos por internet
+- Benefícios inclusos nos planos
+- Incluido no plano
+-
+----------------------------------------
+-
+- 05 - Diferenças / Resultado 
 ------------------------------
-- Usuários clicam em 'mais beneficios' dos cards
-- Usuários
+- Tamanho da página
+- Vídeo comportamento
 -
-- Hipotese
------------
-- Aproveitar a interação dos usuários com os cards e exibir as informações necessárias do plano para que os usuários cheguem no processo de assinatura com todas as informações 
+-
+-
+
+
+ 
