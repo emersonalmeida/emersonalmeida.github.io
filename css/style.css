@@ -1,15 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    animation: fadeInAnimation ease 1s ;
-    animation-iteration-count: 1; 
-    animation-fill-mode: both;
-    scroll-behavior: smooth;
-    transition: 1s;
+    /* animation: fadeInAnimation ease 1s ; */
+    /* animation-iteration-count: 1;  */
+    /* animation-fill-mode: both; */
+    /* scroll-behavior: smooth; */
+    /* transition: 1s; */
 }
 html, body{
     font-family: monospace;
     line-height: 150%;
+    background: #000;
 }
 @keyframes fadeInAnimation{ 
     0%{ 
@@ -25,11 +26,11 @@ html, body{
     /* padding: 10vw; */
 }
 h1.logo a{
-    padding: 10vw 10vw 20vw 10vw;
+    padding: 10vw 10vw 10vw 10vw;
     font-size: 4vw;
     font-weight: normal;
     display: block;
-    color: #000;
+    color: #fff;
 
 }
 h1.logo a span{
@@ -40,8 +41,9 @@ h1.logo a span{
 .home h2{
     font-size: 4vw;
     line-height: 150%;
-    padding: 10vw 10vw 20vw 10vw;
+    padding: 10vw;
     font-weight: normal;
+    color: #666;
 }
 .home span, .project span{
     font-size: 3vw;
@@ -54,17 +56,17 @@ h1.logo a span{
 }
 .home a, .project a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
-ul{
+.home ul{
     list-style: none;
     padding: 0vw 10vw;
 }
-ul li {
+.home ul li {
     padding: 5vw 0vw;
-    border-bottom: 1px solid rgba(0,0,0,.05);
+    border-bottom: 1px solid rgba(255,255,255,.1);
 }
-ul li:last-child{
+.home ul li:last-child{
     border: none;
 }
 .home h3{
@@ -81,13 +83,13 @@ ul.contact li{
     border: none;
 }
 ul.contact li a{
-
+    color: #999;
 }
 footer {
     padding: 5vw 10vw;
     font-size: 2.5vw;
     text-transform: uppercase;
-    letter-spacing: 1vw;
+    letter-spacing: .2vw;
     color: #999;
     /* background: rgba(0,0,0,.03); */
     border-top: 1px solid rgba(0,0,0,.05);
@@ -111,6 +113,7 @@ footer {
 .txt h2{
     font-size: 5vw;
     font-weight: normal;
+    color: #fff;
 }
 .tit {
     padding: 0 10vw;
@@ -119,10 +122,12 @@ footer {
     font-size: 7vw;
     font-weight: normal;
     line-height: 180%;
+    color: #fff;
 }
 .txt h4,.txt h5,.txt h6{
     font-size: 5vw;
     font-weight: normal;
+    color: #fff;
 }
 .txt a{
     font-size: 4vw;
@@ -135,8 +140,9 @@ footer {
 }
 .txt p{
     font-size: 4vw;
-    padding: 5vw 0 5vw 0;
+    padding: 5vw 0 0vw 0;
     line-height: 200%;
+    color: #fff;
 }
 .txt p:last-child{
     padding: 5vw 0vw 0vw 0vw;
@@ -189,6 +195,7 @@ figcaption:last-child{
         font-size: .9vw;
         padding: 10vw 33vw;
         line-height: 150%;
+        transition: .3s;
     }
     h1.logo a span{
         font-size: .6vw;
@@ -196,7 +203,12 @@ figcaption:last-child{
         padding: .0vw 0;
     }
     h1.logo a:hover{
-        color: #999;
+        /* color: #999; */
+        transition: .3s;
+    }
+    .home h2{
+        font-size: .8vw;
+        padding: 0vw 33vw 10vw 33vw;
     }
     .home span, .project span{
         font-size: .6vw;
@@ -207,16 +219,20 @@ figcaption:last-child{
         font-size: 1vw;
         padding: .5vw 0;
     }
-    ul{
+    .home ul{
         padding: 0 33vw;;
     }
-    ul li{
+    .home ul li{
         padding: 2vw 0;
-        transition: .5s;
+        transition: .3s;
     }
-    ul li a:hover{
-        color: #999;
+    .home ul li a{
+        transition: .3s;
+    }
+    .home ul li:hover{
+        /* color: #999; */
         transition: .5s;
+        /* transform: scale(1.1); */
     }
     ul.contact{
         padding: 10vw 33vw;
@@ -224,6 +240,10 @@ figcaption:last-child{
     ul.contact li{
         font-size: .8vw;
         padding: 1vw 0;
+    }
+    ul.contact li a:hover{
+        transition: .3s;
+        color: #fff;
     }
     footer{
         font-size: .5vw;
@@ -236,10 +256,10 @@ figcaption:last-child{
     /*  */
 
     .txt{
-        padding: 5vw 33vw;
+        padding: 3vw 33vw;
     }
     .txt h2{
-        font-size: 1.2vw;
+        font-size: 1vw;
         line-height: 200%;
     }
     .tit h3{
@@ -270,8 +290,11 @@ figcaption:last-child{
         padding: .5vw 0 5vw 0;
     }
     .txt h4, .txt h5, .txt h6 {
-        font-size: 1vw;
+        font-size: 1.2vw;
         line-height: 200%;
+    }
+    .img{
+        /* padding: 0 10vw; */
     }
 }
 
