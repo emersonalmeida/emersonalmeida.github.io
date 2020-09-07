@@ -172,6 +172,7 @@ figcaption:last-child{
     font-size: 4vw;
     line-height: 200%;
     padding: 0 0 10vw 0;
+    color: #999;
 }
 
 
@@ -295,6 +296,15 @@ figcaption:last-child{
     }
     .img{
         /* padding: 0 10vw; */
+    }
+    .blockquote{
+        padding: 10vw 33vw;
+    }
+    .blockquote p{
+        font-size: 1.2vw;
+        /* line-height: 200%; */
+        padding: 0 0 5vw 0;
+        color: #999;
     }
 }
 
