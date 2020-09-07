@@ -301,7 +301,7 @@ figcaption:last-child{
         padding: 10vw 33vw;
     }
     .blockquote p{
-        font-size: 1.2vw;
+        font-size: 1vw;
         /* line-height: 200%; */
         padding: 0 0 5vw 0;
         color: #999;
