@@ -8,7 +8,7 @@
     /* transition: 1s; */
 }
 html, body{
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;
     line-height: 150%;
     background: #fff;
 }
@@ -174,7 +174,7 @@ figcaption:last-child{
     font-size: 4vw;
     line-height: 200%;
     padding: 0 0 10vw 0;
-    color: #000;
+    color: #999;
 }
 
 
@@ -195,13 +195,13 @@ figcaption:last-child{
         /* background: red; */
     }
     h1.logo{
-        font-size: .9vw;
+        font-size: 1vw;
         padding: 15vw 33vw 10vw 33vw;
         line-height: 150%;
         transition: .3s;
     }
     h1.logo span{
-        font-size: .6vw;
+        font-size: .7vw;
         letter-spacing: .2vw;
         padding: .0vw 0;
     }
@@ -210,16 +210,16 @@ figcaption:last-child{
         transition: .3s;
     }
     .home h2{
-        font-size: .8vw;
+        font-size: 1vw;
         padding: 0vw 33vw 10vw 33vw;
     }
     .home span, .project span{
-        font-size: .6vw;
+        font-size: .8vw;
         padding: .0vw 0;
         letter-spacing: .2vw;
     }
     .home h3{
-        font-size: 1vw;
+        font-size: 1.2vw;
         padding: .5vw 0;
     }
     .home ul{
@@ -241,7 +241,7 @@ figcaption:last-child{
         padding: 10vw 33vw;
     }
     ul.contact li{
-        font-size: .8vw;
+        font-size: 1vw;
         padding: 1vw 0;
     }
     ul.contact li a:hover{
@@ -249,7 +249,7 @@ figcaption:last-child{
         color: #000;
     }
     footer{
-        font-size: .5vw;
+        font-size: .6vw;
         letter-spacing: .2vw;
         padding: 5vw 33vw 5vw 33vw;
         /* text-align: center; */
@@ -262,7 +262,7 @@ figcaption:last-child{
         padding: 3vw 33vw;
     }
     .txt h2{
-        font-size: 1vw;
+        font-size: 1.2vw;
         line-height: 200%;
     }
     .tit h3{
@@ -271,11 +271,11 @@ figcaption:last-child{
         padding: 0 23vw;
     }
     .txt a{
-        font-size: .8vw;
+        font-size: 1vw;
         line-height: 200%;
     }
     .txt p{
-        font-size: 1vw;
+        font-size: 1.1vw;
         width: 33vw;
         padding: 2vw 0 0vw 0;
     }
@@ -289,13 +289,13 @@ figcaption:last-child{
         border-radius: 0vw;
     }
     figcaption{
-        font-size: .6vw;
+        font-size: .7vw;
         letter-spacing: .2vw;
         padding: .5vw 0 5vw 0;
     }
     .txt h4, .txt h5, .txt h6 {
-        font-size: 1.2vw;
-        line-height: 200%;
+        font-size: 1.3vw;
+        line-height: 150%;
     }
     .img{
         /* padding: 0 10vw; */
@@ -304,9 +304,9 @@ figcaption:last-child{
         padding: 5vw 33vw 10vw 33vw;
     }
     .blockquote p{
-        font-size: 1vw;
+        font-size: 1.2vw;
         /* line-height: 200%; */
-        padding: 0 0 2vw 0;
+        padding: 0 0 3vw 0;
         /* color: #999; */
     }
 }
