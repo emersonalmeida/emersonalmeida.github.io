@@ -298,12 +298,12 @@ figcaption:last-child{
         /* padding: 0 10vw; */
     }
     .blockquote{
-        padding: 10vw 33vw;
+        padding: 5vw 33vw 10vw 33vw;
     }
     .blockquote p{
         font-size: 1vw;
         /* line-height: 200%; */
-        padding: 0 0 5vw 0;
+        padding: 0 0 2vw 0;
         color: #999;
     }
 }
