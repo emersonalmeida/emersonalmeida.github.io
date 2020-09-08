@@ -1,40 +1,65 @@
-- Nielsen Tips
----------------
-- Problema - abandono carrinho
-- Hipotese - otimizar conteúdo
-- Função / Equipe
-- Processo - teste usab. / usr sem info
-- Validação - 
-- 
+--------------
+- Oi Controle
+--------------
 -
-----------------------
-- Resumindo o Projeto
-----------------------
+- Oi Controle
+- Web / Mobile
 -
-- Titulo
-- Descrição
+- Melhoria na página mobile do plano de celular Oi Controle.
 -
-- Cliente
-- Agência
+- Cliente: oi.com.br
+- Agência: vml.com
+-
+-
 -
 - Sobre
 --------
-- Empresa
-- Produto
+- A Oi é uma das principais provedoras de telefonia móvel do Brasil com mais de 48 milhões de clientes no segmento de mobilidade pessoal.
+-
+- Um dos principais produtos é o plano Oi Controle, que tem como objetivo oferecer benefícios intermediários com o melhor custo benefício.
+-
+- O objetivo do time era identificar pontos de melhoria na página e propor soluções que impactassem na entrada de novos usuários para o topo do funil de vendas.
+-
+-
+-
 - Equipe
+---------
+- Doni Marques - B.I
+- Raquel Dias - P.O
+- Juliana - P.M
+- Gustavo Grawy - UX Lead
+- Sue Nascimento - UX Writer
+- Emerson Almeida - UX/UI
+- Diego Souza - Dev
+- Reinaldo Amorin - Dev
 -
 -
 -
-- 01 - Analise de dados
--------------------
-- Analisando dados do fluxo de conversão e vídeos de navegação, identificamos que uma parcela dos usuários abandonavam o processo de assinatura e retornavam para a página inicial em busca de mais informações do produto.
+- Fase 01
+- Descoberta
+-------------
+- 
+- Problema:
+- Abandono de carrinho
+------------------------
+- Analisando dados de fluxo de conversão, vídeos de navegação e testes de usabilidade, identificamos que uma parcela dos usuários abandonavam o processo de assinatura e retornavam para a página inicial em busca de mais informações sobre o produto.
+- 
+- Hipotese:
+- 
 -
 - O mapa de calor nos mostrou uma alta taxa de cliques nos botões 'mais benefícios' dos cards e que poucos usuários rolavam a página até a seção de detalhes do produto.
+-
+-
+- 
+- Fase 02
+- Ideação
+-----------
+- A idéia é aproveitar os padrões de comportamento vistos no mapa de calor para otimizar o conteúdo e focar nos principais benefícios do produto.
 -
 - A idéia era aproveitar a interação dos usuários com os cards para oferecer as informações necessárias para a assinatura do plano e otimizar o conteúdo da página focando nos benefícios exclusivos do produto.
 -
 -
-- 02 - Arquitetura da Informação
+- Arquitetura da Informação
 ----------------------------
 - Junto com a UX Writer e o time de negócios, foi feito uma análise competitiva para entender como poderíamos impactar o usuário que está em fase de busca, comparando planos, benefícios e preços. Decidimos reorganizamos a estrutura do conteúdo para focar nas vantagens e nos diferenciais do produto, aproveitando o atual comportamento de scroll dos usuários. 
 -

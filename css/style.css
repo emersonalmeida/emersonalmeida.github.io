@@ -168,13 +168,19 @@ figcaption:last-child{
     /* padding: 0; */
 }
 .blockquote{
-    padding: 20vw 10vw;
+    padding: 0 10vw;
 }
 .blockquote p{
     font-size: 4vw;
     line-height: 200%;
     padding: 0 0 10vw 0;
     color: #999;
+}
+.blockquote span{
+    padding: 0 0 2vw 0;
+}
+.project section{
+    padding: 0 0 5vw 0;
 }
 
 
@@ -280,7 +286,7 @@ figcaption:last-child{
         padding: 2vw 0 0vw 0;
     }
     .txt p:last-child {
-        padding: 2vw 0vw 0vw 0vw;
+        padding: 2vw 0vw 2vw 0vw;
     }
     .txt:last-child {
         padding: 0 33vw 1vw 33vw;
@@ -301,13 +307,16 @@ figcaption:last-child{
         /* padding: 0 10vw; */
     }
     .blockquote{
-        padding: 5vw 33vw 10vw 33vw;
+        padding: 5vw 33vw 0vw 33vw;
     }
     .blockquote p{
         font-size: 1.2vw;
         /* line-height: 200%; */
         padding: 0 0 3vw 0;
         /* color: #999; */
+    }
+    .blockquote span{
+        padding: 0 0 2vw 0;
     }
 }
 
