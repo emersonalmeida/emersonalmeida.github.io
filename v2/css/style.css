@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    animation: fadeInAnimation ease 1s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: both;
 }
 html{
   scroll-behavior: smooth;
@@ -9,9 +12,7 @@ html{
 }
 body{
     font-family: monospace;
-    animation: fadeInAnimation ease 1s ;
-    animation-iteration-count: 1; 
-    animation-fill-mode: both;
+    
 }
 @keyframes fadeInAnimation{ 
     0%{ 
@@ -249,7 +250,7 @@ blockquote{
 /* desktop */
 @media screen and (min-width: 1136px) {
   #fp-nav.fp-right {
-    top: 85vh;
+    top: 50vh;
     right: 1.5vw;
   }
   body{
@@ -407,7 +408,7 @@ blockquote{
     border-radius: 0;
   }
   #projects a.slide:hover{
-    transform: scale(.75);
+    transform: scale(1);
     border-radius: 0;
   }
   #projects .txt{
