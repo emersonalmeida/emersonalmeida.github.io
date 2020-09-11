@@ -218,7 +218,7 @@ figcaption:last-child{
     .home ul li{
         padding: 2vw 0;
     }
-    .home a:hover{
+    .home a:hover, .project a:hover{
         color: rgb(0, 255, 255);
     }
     ul.contact{
@@ -247,7 +247,7 @@ figcaption:last-child{
     }
     .tit h3{
         font-size: 3vw;
-        width: 40vw;
+        /* width: 40vw; */
         padding: 0 23vw;
     }
     .txt a{
