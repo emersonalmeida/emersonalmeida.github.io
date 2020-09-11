@@ -105,7 +105,7 @@ footer {
     color: #fff;
 }
 .tit {
-    padding: 0 10vw;
+    padding: 0 5vw;
 }
 .tit h3{
     font-size: 9vw;
@@ -114,7 +114,7 @@ footer {
     color: #fff;
 }
 .txt h4,.txt h5,.txt h6{
-    font-size: 6vw;
+    font-size: 8vw;
     font-family: inter;
     line-height: 150%;
     color: #fff;
@@ -167,6 +167,10 @@ figcaption:last-child{
 }
 .project section{
     padding: 0 0 5vw 0;
+}
+/*  */
+[data-anime]{
+    opacity: 0;
 }
 
 
@@ -286,6 +290,9 @@ figcaption:last-child{
     .txt h2{
         font-size: 1vw;
         line-height: 150%;
+    }
+    .tit {
+        padding: 0 10vw;
     }
     .tit h3{
         font-size: 9vw;
