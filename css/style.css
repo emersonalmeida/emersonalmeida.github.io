@@ -12,16 +12,7 @@ html, body{
     line-height: 150%;
     background: #000;
 }
-@keyframes fadeInAnimation{ 
-    0%{ 
-        opacity: 0;
-        margin: 0vh 0 0 -10vw;
-    } 
-    100%{ 
-        opacity: 1;
-        margin: 0;
-    } 
-}
+
 .home, .project{
     /* padding: 10vw; */
 }
@@ -114,8 +105,9 @@ footer {
 .txt:last-child{    
 }
 .txt h2{
-    font-size: 5vw;
-    font-family: inter;
+    font-size: 4vw;
+    /* font-family: inter; */
+    line-height: 150%;
     /* font-weight: normal; */
     color: #fff;
 }
@@ -130,7 +122,7 @@ footer {
     color: #fff;
 }
 .txt h4,.txt h5,.txt h6{
-    font-size: 8vw;
+    font-size: 7vw;
     font-family: inter;
     line-height: 150%;
     /* font-weight: normal; */
@@ -147,12 +139,12 @@ footer {
 }
 .txt p{
     font-size: 4vw;
-    padding: 5vw 0 0vw 0;
+    padding: 10vw 0 0vw 0;
     line-height: 200%;
     color: #fff;
 }
 .txt p:last-child{
-    padding: 5vw 0vw 0vw 0vw;
+    padding: 10vw 0vw 0vw 0vw;
 }
 .img{
     padding: 0 5vw;
@@ -181,7 +173,7 @@ figcaption:last-child{
     font-size: 3.5vw;
     line-height: 200%;
     padding: 0 0 10vw 0;
-    color: #999;
+    color: #fff;
 }
 .blockquote span{
     padding: 0 0 2vw 0;
@@ -195,6 +187,16 @@ figcaption:last-child{
 
 /* mobile */
 @media screen and (max-width: 768px) {
+    @keyframes fadeInAnimation{ 
+        0%{ 
+            opacity: 0;
+            margin: 0 0 0 -10vw;
+        } 
+        100%{ 
+            opacity: 1;
+            margin: 0;
+        } 
+    }
     body{
         background: hsla(0,0,50,1);
     }
@@ -237,7 +239,7 @@ figcaption:last-child{
         padding: 0vw 33vw 10vw 33vw;
     }
     .home span, .project span{
-        font-size: .8vw;
+        font-size: .7vw;
         padding: .0vw 0;
         letter-spacing: .2vw;
     }
@@ -285,12 +287,12 @@ figcaption:last-child{
         padding: 3vw 33vw;
     }
     .txt h2{
-        font-size: 1.2vw;
-        line-height: 200%;
+        font-size: 1vw;
+        line-height: 150%;
     }
     .tit h3{
-        font-size: 2vw;
-        width: 33vw;
+        font-size: 3vw;
+        width: 40vw;
         padding: 0 23vw;
     }
     .txt a{
@@ -313,21 +315,21 @@ figcaption:last-child{
     }
     figcaption{
         font-size: .7vw;
-        letter-spacing: .2vw;
-        padding: .5vw 0 5vw 0;
+        letter-spacing: .1vw;
+        padding: .3vw 0 5vw 0;
     }
     .txt h4, .txt h5, .txt h6 {
-        font-size: 1.3vw;
+        font-size: 2vw;
         line-height: 150%;
     }
     .img{
         /* padding: 0 10vw; */
     }
     .blockquote{
-        padding: 5vw 33vw 0vw 33vw;
+        padding: 10vw 33vw 5vw 33vw;
     }
     .blockquote p{
-        font-size: 1.2vw;
+        font-size: 1vw;
         /* line-height: 200%; */
         padding: 0 0 3vw 0;
         /* color: #999; */
