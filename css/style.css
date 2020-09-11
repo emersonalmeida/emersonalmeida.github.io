@@ -23,6 +23,7 @@ h1.logo span{
     font-size: 3vw;
     padding: 0;
     font-family: Roboto Mono;
+    /* line-height: 100%; */
 }
 .home h2{
     font-size: 4vw;
@@ -49,7 +50,7 @@ h1.logo span{
 }
 .home ul li {
     padding: 5vw 0vw;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
 }
 .home ul li:last-child{
     border: none;
@@ -78,6 +79,21 @@ footer {
     letter-spacing: .5vw;
     color: #999;
 }
+.scroll-up{
+    font-size: 5vw;
+    /* font-family: inter; */
+    text-align: center;
+    line-height: 100%;
+    padding: 5vw;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    display: block;
+    color: #666;
+    display: none;
+}
 /* project */
 .txt {
     padding: 10vw;
@@ -85,6 +101,7 @@ footer {
 .txt h2{
     font-size: 4vw;
     line-height: 150%;
+    font-weight: normal;
     color: #fff;
 }
 .tit {
@@ -192,7 +209,8 @@ figcaption:last-child{
     }
     h1.logo{
         font-size: 1vw;
-        padding: 15vw 33vw 10vw 33vw;
+        /* padding: 15vw 33vw 10vw 33vw; */
+        padding: 15vw 10vw 10vw 10vw;
         line-height: 150%;
     }
     h1.logo span{
@@ -206,23 +224,32 @@ figcaption:last-child{
     }
     .home span, .project span{
         font-size: .7vw;
+        /* font-size: 1vw; */
         padding: .0vw 0;
         letter-spacing: .2vw;
     }
     .home h3{
-        font-size: 3vw;
+        /* font-size: 3vw; */
+        font-size: 10vw;
     }
     .home ul{
-        padding: 0 33vw;;
+        /* padding: 0 33vw; */
+        padding: 0 10vw;
     }
     .home ul li{
-        padding: 2vw 0;
+        /* padding: 2vw 0; */
+        padding: 5vw 0;
+    }
+    .home a, project a{
+        transition: .5s;
     }
     .home a:hover, .project a:hover{
         color: rgb(0, 255, 255);
+        transition: .5s;
     }
     ul.contact{
-        padding: 10vw 33vw;
+        /* padding: 10vw 33vw; */
+        padding: 10vw;
     }
     ul.contact li{
         font-size: 1vw;
@@ -234,21 +261,38 @@ figcaption:last-child{
     footer{
         font-size: .6vw;
         letter-spacing: .2vw;
-        padding: 5vw 33vw 5vw 33vw;
+        /* padding: 5vw 33vw 5vw 33vw; */
+        padding: 5vw 10vw;
         border: none;
     }
+    .scroll-up{
+        font-size: 1vw;
+        padding: 1vw;
+        display: block;
+        background: #111;
+    }
     /* project */
-    .txt{
+    .info .txt{
         padding: 3vw 33vw;
+    }
+    .info .txt:last-child {
+        padding: 0 33vw 1vw 33vw;
+        /* padding: 0 10vw 1vw 10vw; */
+    }
+    .txt{
+        /* padding: 3vw 33vw; */
+        padding: 3vw 10vw;
     }
     .txt h2{
         font-size: 1vw;
         line-height: 150%;
     }
     .tit h3{
-        font-size: 3vw;
-        /* width: 40vw; */
-        padding: 0 23vw;
+        font-size: 9vw;
+        /* width: 50vw; */
+        padding: 3vw 0;
+        line-height: 120%;
+        /* padding: 0 23vw; */
     }
     .txt a{
         font-size: 1vw;
@@ -264,7 +308,8 @@ figcaption:last-child{
         padding: 2vw 0vw 2vw 0vw;
     }
     .txt:last-child {
-        padding: 0 33vw 1vw 33vw;
+        /* padding: 0 33vw 1vw 33vw; */
+        padding: 0 10vw 1vw 10vw;
     }
     picture img{
         border-radius: 0vw;
@@ -277,15 +322,17 @@ figcaption:last-child{
         font-size: .7vw;
         letter-spacing: .1vw;
         padding: .3vw 0 5vw 0;
+        /* text-align: left; */
     }
     .txt h4, .txt h5, .txt h6 {
-        font-size: 2vw;
+        font-size: 3vw;
         line-height: 150%;
     }
     .img{
     }
     .blockquote{
         padding: 5vw 33vw 0vw 33vw;
+        /* padding: 5vw 60vw 0 10vw; */
     }
     .blockquote p{
         font-size: 1vw;
@@ -311,3 +358,4 @@ figcaption:last-child{
         background: green;
     }
 }
+
