@@ -3,7 +3,7 @@
     padding: 0;
     animation: fadeInAnimation ease 1s ;
     animation-iteration-count: 1; 
-    animation-fill-mode: both;
+    animation-fill-mode: none;
     scroll-behavior: smooth;
     transition: 1s;
 }
@@ -154,6 +154,10 @@ picture img{
     /* background: rgba(0,0,0,.1); */
     /* border-radius: 1vw; */
     /* padding: 5vw 0 0 0; */
+}
+.img img{
+    border-radius: 1vw;
+
 }
 figcaption{
     font-size: 3vw;
@@ -312,6 +316,10 @@ figcaption:last-child{
     }
     picture img{
         border-radius: 0vw;
+    }
+    .img img{
+        border-radius: .3vw;
+    
     }
     figcaption{
         font-size: .7vw;
