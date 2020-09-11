@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    transition: 1s;
 }
 html, body{
     font-family: 'Roboto Mono', monospace;
@@ -12,17 +11,12 @@ html, body{
     animation-fill-mode: both;
     scroll-behavior: smooth;
 }
-
-.home, .project{
-    /* padding: 10vw; */
-}
 h1.logo{
     padding: 15vw 10vw 30vw 10vw;
     font-size: 4vw;
     font-weight: normal;
     display: block;
     color: #fff;
-    /* font-family: inter; */
 }
 h1.logo span{
     color: #999;
@@ -43,7 +37,6 @@ h1.logo span{
     letter-spacing: .5vw;
     display: block;
     font-weight: normal;
-    /* padding: 1vw 0; */
     color: #999;
 }
 .home a, .project a{
@@ -63,7 +56,6 @@ h1.logo span{
 }
 .home h3{
     font-size: 7vw;
-    /* padding: 1vw 0; */
     font-weight: normal;
     font-family: inter;
     line-height: 150%;
@@ -85,30 +77,14 @@ footer {
     text-transform: uppercase;
     letter-spacing: .5vw;
     color: #999;
-    /* background: rgba(0,0,0,.03); */
-    /* border-top: 1px solid rgba(0,0,0,.1); */
 }
-
-
-
 /* project */
-
-
-
-.project{
-}
 .txt {
     padding: 10vw;
 }
-.txt:first-child{    
-}
-.txt:last-child{    
-}
 .txt h2{
     font-size: 4vw;
-    /* font-family: inter; */
     line-height: 150%;
-    /* font-weight: normal; */
     color: #fff;
 }
 .tit {
@@ -117,7 +93,6 @@ footer {
 .tit h3{
     font-size: 9vw;
     font-family: inter;
-    /* font-weight: normal; */
     line-height: 130%;
     color: #fff;
 }
@@ -125,7 +100,6 @@ footer {
     font-size: 6vw;
     font-family: inter;
     line-height: 150%;
-    /* font-weight: normal; */
     color: #fff;
 }
 .txt a{
@@ -133,9 +107,6 @@ footer {
     display: block;
     color: #999;
     line-height: 150%;
-}
-.txt span{
-    /* padding: 0vw 0 3vw 0; */
 }
 .txt p{
     font-size: 4vw;
@@ -151,13 +122,9 @@ footer {
 }
 picture img{
     width: 100%;
-    /* background: rgba(0,0,0,.1); */
-    /* border-radius: 1vw; */
-    /* padding: 5vw 0 0 0; */
 }
 .img img{
     border-radius: 1vw;
-
 }
 figcaption{
     font-size: 2.5vw;
@@ -168,7 +135,6 @@ figcaption{
     letter-spacing: .5vw;
 }
 figcaption:last-child{
-    /* padding: 0; */
 }
 .blockquote{
     padding: 20vw 15vw 10vw 15vw;
@@ -188,9 +154,11 @@ figcaption:last-child{
 
 
 
-
 /* mobile */
 @media screen and (max-width: 768px) {
+    *{
+        transition: 1s;
+    }
     @keyframes fadeInAnimation{ 
         0%{ 
             opacity: 0;
@@ -207,12 +175,10 @@ figcaption:last-child{
 }
 
 
-
 /* desktop */
 @media screen and (min-width: 1136px) {
     *{
         animation: fadeInAnimation ease 1s ;
-
     }
     @keyframes fadeInAnimation{ 
         0%{ 
@@ -224,23 +190,15 @@ figcaption:last-child{
             margin: 0;
         } 
     }
-    body{
-        /* background: red; */
-    }
     h1.logo{
         font-size: 1vw;
         padding: 15vw 33vw 10vw 33vw;
         line-height: 150%;
-        transition: .3s;
     }
     h1.logo span{
         font-size: .7vw;
         letter-spacing: .2vw;
         padding: .0vw 0;
-    }
-    h1.logo a:hover{
-        /* color: #999; */
-        transition: .3s;
     }
     .home h2{
         font-size: 1vw;
@@ -253,22 +211,15 @@ figcaption:last-child{
     }
     .home h3{
         font-size: 3vw;
-        /* padding: .5vw 0; */
     }
     .home ul{
         padding: 0 33vw;;
     }
     .home ul li{
         padding: 2vw 0;
-        transition: .3s;
     }
-    .home ul li a{
-        transition: .3s;
-    }
-    .home ul li:hover{
-        /* color: #999; */
-        transition: .5s;
-        /* transform: scale(1.1); */
+    .home a:hover{
+        color: rgb(0, 255, 255);
     }
     ul.contact{
         padding: 10vw 33vw;
@@ -278,19 +229,15 @@ figcaption:last-child{
         padding: 1vw 0;
     }
     ul.contact li a:hover{
-        transition: .3s;
-        color: #999;
+        color: rgb(0, 255, 255);
     }
     footer{
         font-size: .6vw;
         letter-spacing: .2vw;
         padding: 5vw 33vw 5vw 33vw;
-        /* text-align: center; */
         border: none;
     }
-
-    /*  */
-
+    /* project */
     .txt{
         padding: 3vw 33vw;
     }
@@ -336,22 +283,18 @@ figcaption:last-child{
         line-height: 150%;
     }
     .img{
-        /* padding: 0 10vw; */
     }
     .blockquote{
         padding: 5vw 33vw 0vw 33vw;
     }
     .blockquote p{
         font-size: 1vw;
-        /* line-height: 200%; */
         padding: 0 0 3vw 0;
-        /* color: #999; */
     }
     .blockquote span{
         padding: 0 0 2vw 0;
     }
 }
-
 
 
 /* tablet */
@@ -360,7 +303,6 @@ figcaption:last-child{
         background: purple;
     }
 }
-
 
 
 /* landscape */   
