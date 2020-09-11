@@ -1,18 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    animation: fadeInAnimation ease 1s ;
-    animation-iteration-count: 1; 
-    animation-fill-mode: both;
 }
 html{
   scroll-behavior: smooth;
+  animation: fadeInAnimation ease 1s ;
+  animation-iteration-count: 1; 
+  animation-fill-mode: both;
   background: #000;
 }
 body{
-    font-family: monospace;
-    
+    font-family: 'Roboto Mono', monospace;
 }
 @keyframes fadeInAnimation{ 
     0%{ 
@@ -49,19 +47,28 @@ header .menu{
     display: block;
     line-height: 100%;
 }
-h1,h2,h3,h4,h5,h6,p{
-    font-size: 4vw;
-    font-weight: normal;
-    line-height: 150%;
-    color: rgba(255, 255, 255, 1);
-    /* padding: 2vw 0; */
+header h1{
+  font-size: 4vw;
+  color: #fff;
+  font-family: inter;
+}
+header h1 span{
+  display: none;
+}
+.tit-sec{
+  position: fixed;
+  top: 8vw;
+  text-align: center;
+  margin: 0 auto;
+  width: 100vw;
+  z-index: 9999;
 }
 span{
-    font-size: 3vw;
-    text-transform: uppercase;
-    letter-spacing: .5vw;
-    color: rgba(255, 255, 255, 0.7);
-    display: block;
+  font-size: 3vw;
+  text-transform: uppercase;
+  letter-spacing: .5vw;
+  color: rgba(255, 255, 255, 0.7);
+  display: block;
 }
 a{
     text-decoration: none;
@@ -75,120 +82,28 @@ img, video, iframe{
     border-radius: 1vw;  
 }
 .content iframe{
-  height: 33vh;
+  height: 80vh;
 }
 .content{
     padding: 0 10vw;
-}
-.tit-sec{
-  position: absolute;
-  top: 8vw;
-  text-align: center;
-  margin: 0 auto;
-  width: 100vw;
-  z-index: 9999;
 }
 .txt{
     padding: 3vw 0;
 }
 .txt:last-child{
-  /* padding: 0; */
 }
 .txt h2{
-    /* padding: 3vw 0; */
 }
 .txt h3{
   padding: 3vw 0;
   font-family: inter;
-  font-size: 10vw;
-}
-span.tit{
-    padding: 0 0 5vw 0;
-}
-p.tit{
-    padding: 0 0 10vw 0;
-}
-blockquote{
-  font-size: 6vw;
+  font-size: 8vw;
   color: #fff;
-  padding: 10vw;
-  line-height: 150%;
 }
-.txt-video{
-  padding: 5vw 0 0 0;
-}
-.txt-desc{
-  text-align: center;
-  padding: 5vw 0 0 0;
-}
-.txt-video p{
-  color: rgba(255,255,255,.5);
-  font-size: 3.5vw;
-}
-.content ul{
-
-}
-.content ul li{
-  padding: 3vw 0;
-  border-bottom: 1px solid rgba(150,150,150,.2);
-}
-#experience li, ul.tools li{
-  float: left;
-  width: 35vw;
-  margin: 0 0 0 5vw;
-}
-.tnks span{
-  font-size: 10vw;
-  text-align: center;
-  color: rgba(255, 255, 255, 1);
-  padding: 0 0 5vw 0;
-}
-.tnks h6{
+.txt span{
   font-size: 4vw;
-  text-align: center;
-  color: rgba(255, 255, 255, 1);
-  font-weight: normal;
+  color: #fff;
 }
-.txt-right{
-  padding: 5vw 0;
-}
-.txt-right span{
-  padding: 1vw 0;
-  line-height: 200%;
-}
-.txt img{
-  padding: 5vw 0;
-}
-
-
-#about{
-}
-#about h1{
-  opacity: 0;
-  font-size: 3vw;
-}
-
-#projects{
-  
-}
-
-/*  */
-#process{
-}
-#process .txt:last-child span:last-child{
-  text-align: center;
-}
-/*  */
-#experience{
-}
-/*  */
-#contact{
-}
-/*  */
-#menu{
-}
-
-
 
 
 .mission-bg-01{
@@ -198,13 +113,13 @@ blockquote{
     background-position: center;
 }
 .mission-bg-02{
-  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)80%, rgba(0, 0, 0, 0.7)200%), url(../img/missao-genese/missao-genese_emerson-almeida-ux-ui-produxt-designer_capa_desk.jpg);
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)80%, rgba(0, 0, 0, 0.5)200%), url(../img/missao-genese/missao-genese_emerson-almeida-ux-ui-produxt-designer_capa_desk.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .mission-bg-03{
-  background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)80%, rgba(0, 0, 0, 0.9)200%), url(../img/missao-genese/missao-genese_emerson-almeida-ux-ui-produxt-designer_04_desk.jpg);
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)80%, rgba(0, 0, 0, 0.5)200%), url(../img/missao-genese/missao-genese_emerson-almeida-ux-ui-produxt-designer_04_desk.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -228,16 +143,16 @@ blockquote{
     background-position: center;
 }
 .nyte-bg-01{
-  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)80%, rgba(0, 0, 0, 0.7)200%), url(../img/nyte/nyte_emerson-almeida-ux-ui-product-designer_img-01_mob.jpg);
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)80%, rgba(0, 0, 0, 0.5)200%), url(../img/nyte/nyte_emerson-almeida-ux-ui-product-designer_img-01_mob.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
 }
 .technos-bg-01{
   background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)80%, rgba(0, 0, 0, 0.5)200%), url(../img/technos/technos_emerson-almeida-ux-ui-produxt-designer_img-01_desk.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
 }
 
 
@@ -345,7 +260,7 @@ blockquote{
     padding:  1.5vw 0 2vw 0;
     border-bottom: 1px solid rgba(150,150,150,.2);
   }
-  #projects h3{
+  .section h3{
     font-size: 1vw;
     padding: .3vw 0 .3vw 0;
   }
@@ -402,21 +317,22 @@ blockquote{
   }
 
   /*  */
-  #projects a.slide{
+
+  .section a.slide{
     transition: 1s;
     transform: scale(.7);
     border-radius: 0;
   }
-  #projects a.slide:hover{
+  .section a.slide:hover{
     transform: scale(1);
     border-radius: 0;
   }
-  #projects .txt{
+  .section .txt{
     transition: 1s;
     transform: scale(2);
     margin-left: 20vw;
   }
-  #projects a.slide:hover .txt{
+  .section a.slide:hover .txt{
     /* transform: scale(2); */
     margin-left: 23vw;
   }
@@ -427,32 +343,7 @@ blockquote{
     transition: 1s;
     transform: scale(1.5);
   }
-  
-  #projects a.slide:hover .txt-right {
-    /* transform: scale(2); */
-    margin-right: -0vw;
-  }
-  .sec-txt .content{
-    padding: 0 33vw;
-  }
-  .sec-txt span{
-    padding: 0 0 0vw 0;
-  }
-  .sec-txt p{
-    font-size: 1vw;
-    padding: 0 0 0vw 0;
-    line-height: 200%;
-  }
-  blockquote{
-    font-size: 3vw;
-  }
-  #gallery .slide img{
-    /* transform: scale(.9); */
-    transition: 1s;
-  }
-  #gallery .slide img:hover{
-    /* transform: scale(1); */
-  }
+
   .sec-bg{
     transform: scale(.8);
     transition: 1s;
@@ -466,31 +357,6 @@ blockquote{
     padding: 2vw 0;
   }
     
-  .tnks span{
-    font-size: 5vw;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    padding: 0 0 1vw 0;
-  }
-  .tnks h6{
-    font-size: 4vw;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    font-weight: normal;
-  }
-  .fp-slidesNav.fp-bottom {
-    bottom: 4vh;
-  }
-  #contact .content, #menu .content{
-    padding: 0 33vw;
-  }
-  .content li{
-    transition: .5s;
-    opacity: .5;
-  }
-  .content li:hover{
-    opacity: 1;
-  }
 }
 
 
