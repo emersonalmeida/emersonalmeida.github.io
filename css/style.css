@@ -1,21 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    /* animation: fadeInAnimation ease 1s ; */
-    /* animation-iteration-count: 1;  */
-    /* animation-fill-mode: both; */
-    /* scroll-behavior: smooth; */
-    /* transition: 1s; */
+    animation: fadeInAnimation ease 1s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: both;
+    scroll-behavior: smooth;
+    transition: 1s;
 }
 html, body{
     font-family: 'Roboto Mono', monospace;
     line-height: 150%;
-    background: #fff;
+    background: #000;
 }
 @keyframes fadeInAnimation{ 
     0%{ 
         opacity: 0;
-        margin: 10vh 0 0 0;
+        margin: 0vh 0 0 -10vw;
     } 
     100%{ 
         opacity: 1;
@@ -30,13 +30,14 @@ h1.logo{
     font-size: 4vw;
     font-weight: normal;
     display: block;
-    color: #000;
-
+    color: #fff;
+    /* font-family: inter; */
 }
 h1.logo span{
     color: #999;
     font-size: 3vw;
     padding: 0;
+    font-family: Roboto Mono;
 }
 .home h2{
     font-size: 4vw;
@@ -51,12 +52,12 @@ h1.logo span{
     letter-spacing: .5vw;
     display: block;
     font-weight: normal;
-    padding: 1vw 0;
+    /* padding: 1vw 0; */
     color: #999;
 }
 .home a, .project a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 .home ul{
     list-style: none;
@@ -64,15 +65,17 @@ h1.logo span{
 }
 .home ul li {
     padding: 5vw 0vw;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .home ul li:last-child{
     border: none;
 }
 .home h3{
-    font-size: 5vw;
-    padding: 1vw 0;
+    font-size: 7vw;
+    /* padding: 1vw 0; */
     font-weight: normal;
+    font-family: inter;
+    line-height: 150%;
 }
 ul.contact{
     padding: 30vw 10vw;
@@ -83,16 +86,16 @@ ul.contact li{
     border: none;
 }
 ul.contact li a{
-    color: #000;
+    color: #fff;
 }
 footer {
     padding: 5vw 10vw;
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-transform: uppercase;
-    letter-spacing: .2vw;
+    letter-spacing: .5vw;
     color: #999;
     /* background: rgba(0,0,0,.03); */
-    border-top: 1px solid rgba(0,0,0,.1);
+    /* border-top: 1px solid rgba(0,0,0,.1); */
 }
 
 
@@ -112,22 +115,26 @@ footer {
 }
 .txt h2{
     font-size: 5vw;
-    font-weight: normal;
-    color: #000;
+    font-family: inter;
+    /* font-weight: normal; */
+    color: #fff;
 }
 .tit {
     padding: 0 10vw;
 }
 .tit h3{
-    font-size: 7vw;
-    font-weight: normal;
-    line-height: 160%;
-    color: #000;
+    font-size: 9vw;
+    font-family: inter;
+    /* font-weight: normal; */
+    line-height: 130%;
+    color: #fff;
 }
 .txt h4,.txt h5,.txt h6{
-    font-size: 5vw;
-    font-weight: normal;
-    color: #000;
+    font-size: 8vw;
+    font-family: inter;
+    line-height: 150%;
+    /* font-weight: normal; */
+    color: #fff;
 }
 .txt a{
     font-size: 4vw;
@@ -142,7 +149,7 @@ footer {
     font-size: 4vw;
     padding: 5vw 0 0vw 0;
     line-height: 200%;
-    color: #000;
+    color: #fff;
 }
 .txt p:last-child{
     padding: 5vw 0vw 0vw 0vw;
@@ -168,10 +175,10 @@ figcaption:last-child{
     /* padding: 0; */
 }
 .blockquote{
-    padding: 0 10vw;
+    padding: 20vw 15vw 0 15vw;
 }
 .blockquote p{
-    font-size: 4vw;
+    font-size: 3.5vw;
     line-height: 200%;
     padding: 0 0 10vw 0;
     color: #999;
@@ -197,6 +204,16 @@ figcaption:last-child{
 
 /* desktop */
 @media screen and (min-width: 1136px) {
+    @keyframes fadeInAnimation{ 
+        0%{ 
+            opacity: 0;
+            margin: 10vh 0 0 0vw;
+        } 
+        100%{ 
+            opacity: 1;
+            margin: 0;
+        } 
+    }
     body{
         /* background: red; */
     }
@@ -225,8 +242,8 @@ figcaption:last-child{
         letter-spacing: .2vw;
     }
     .home h3{
-        font-size: 1.2vw;
-        padding: .5vw 0;
+        font-size: 3vw;
+        /* padding: .5vw 0; */
     }
     .home ul{
         padding: 0 33vw;;
