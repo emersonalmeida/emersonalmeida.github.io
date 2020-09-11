@@ -122,7 +122,7 @@ footer {
     color: #fff;
 }
 .txt h4,.txt h5,.txt h6{
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: inter;
     line-height: 150%;
     /* font-weight: normal; */
@@ -167,7 +167,7 @@ figcaption:last-child{
     /* padding: 0; */
 }
 .blockquote{
-    padding: 20vw 15vw 0 15vw;
+    padding: 20vw 15vw 10vw 15vw;
 }
 .blockquote p{
     font-size: 3.5vw;
