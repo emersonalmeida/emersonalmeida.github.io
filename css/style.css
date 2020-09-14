@@ -10,6 +10,7 @@ html, body{
     animation-iteration-count: 1; 
     animation-fill-mode: both;
     scroll-behavior: smooth;
+    /* height: 100vh; */
 }
 h1.logo{
     padding: 15vw 10vw 30vw 10vw;
@@ -168,7 +169,11 @@ figcaption:last-child{
 .project section{
     padding: 0 0 5vw 0;
 }
+
+
+
 /*  */
+
 [data-anime]{
     opacity: 0;
 }
