@@ -12,26 +12,33 @@ html, body{
     scroll-behavior: smooth; */
     /* height: 100vh; */
 }
+header nav a img{
+    padding: 10vw;
+    width: 15vw;
+    display: block;
+}
 h1.logo{
-    padding: 10vw 10vw 10vw 10vw;
-    font-size: 10vw;
+    padding: 27vw 10vw;
+    font-size: 4vw;
     display: block;
     color: #fff;
-    font-family: inter;
+    /* font-family: inter; */
     line-height: 110%;
+    /* font-weight: normal; */
 }
-h1 a .tag-top{
+h1 .tag-top{
     color: #666;
     font-family:'Roboto Mono';
-    padding: 0 0 20vw 0;
+    padding: 0 0 0vw 0;
 }
-h1 a .tag-bottom{
+h1 .tag-bottom{
     color: #999;
     font-family:'Roboto Mono';
-    padding: 3vw 0 0 0;
+    /* padding: 3vw 0 0 0; */
     line-height: 100%;
+    font-style: normal;
 }
-h1 a .none{
+h1 .none{
     opacity: .0;
     font-style: normal;
     /* display: none; */
@@ -74,8 +81,8 @@ h1 a .none{
     border: none;
 }
 .home h3{
-    font-size: 8vw;
-    font-weight: normal;
+    font-size: 9vw;
+    /* font-weight: normal; */
     font-family: inter;
     line-height: 150%;
 }
@@ -114,7 +121,7 @@ footer {
 }
 /* project */
 .project h1.logo{
-    font-size: 8vw;
+    font-size: 4vw;
     line-height: 130%;
 }
 .txt {
@@ -132,7 +139,7 @@ footer {
 .tit h3{
     font-size: 9vw;
     font-family: inter;
-    line-height: 130%;
+    line-height: 120%;
     color: #fff;
 }
 .txt h4,.txt h5,.txt h6{
@@ -149,12 +156,15 @@ footer {
 }
 .txt p{
     font-size: 4vw;
-    padding: 10vw 0 0vw 0;
-    line-height: 200%;
-    color: #fff;
+    padding: 5vw 0 0vw 0;
+    line-height: 150%;
+    color: rgb(150,150,150);
+    font-family: inter;
+    font-weight: 300;
+    letter-spacing: .5px;
 }
 .txt p:last-child{
-    padding: 10vw 0vw 0vw 0vw;
+    padding: 5vw 0vw 0vw 0vw;
 }
 .img{
     padding: 0 5vw;
@@ -179,10 +189,12 @@ figcaption:last-child{
     padding: 20vw 15vw 10vw 15vw;
 }
 .blockquote p{
-    font-size: 3.5vw;
+    font-size: 4vw;
     line-height: 200%;
     padding: 0 0 10vw 0;
     color: #999;
+    font-family: inter;
+    font-weight: 300;
 }
 .blockquote span{
     padding: 0 0 2vw 0;
@@ -219,6 +231,9 @@ figcaption:last-child{
     body{
         /* background: #0f0; */
     }
+    .tag-top{
+        opacity: 0;
+    }
 }
 
 /* tablet */
@@ -226,14 +241,20 @@ figcaption:last-child{
     body{
         /* background: #00f; */
     }
-    h1 a .tag-top{
+    header nav a img{
+        padding: 10vw;
+        width: 10vw;
+    }
+    h1 .tag-top{
         font-size: 1.5vw;
+        opacity: 0;
     }
     h1.logo{
-        padding: 10vw 10vw 15vw 10vw;
+        font-size: 2.7vw;
+        padding: 20vw 10vw 20vw 10vw;
     }
     .project h1.logo {
-        font-size: 6vw;
+        font-size: 3vw;
         line-height: 130%;
     }
    
@@ -280,22 +301,34 @@ figcaption:last-child{
     }
 
 }
+
 /*  */
 @media (min-width: 1136px) and (max-width: 1365px){
     body{
         /* background: #ff0; */
     }
+    header nav a img{
+        padding: 5vw 10vw 0vw 10vw;
+        width: 5vw;
+    }
+    h1.logo{
+        font-size: 10vw;
+        padding: 8vw 10vw 10vw 10vw;
+        font-family: inter;
+        /* width: 30vw; */
+    }
     .project h1.logo{
-        font-size: 5vw;
+        font-size: 3vw;
+        padding: 10vw;
     }
-    h1 a .tag-top{
+    h1 .tag-top{
         font-size: 1vw;
-        padding: 0 0 10vw 0;
+        padding: 0 0 5vw 0;
     }
-    h1 a .tag-bottom{
-        padding: 2vw 0 0 0;
+    h1 .tag-bottom{
+        padding: 1vw 0 0 0;
     }
-    h1 a .none{
+    h1 .none{
         opacity: 1;
     }
     .home span, .project span {
@@ -312,10 +345,10 @@ figcaption:last-child{
     }
     .txt p{
         font-size: 1.5vw;
-        padding: 5vw 0 0vw 0;
+        padding: 3vw 0 0vw 0;
     }
     .txt p:last-child {
-        padding: 5vw 0vw 0vw 0vw;
+        padding: 3vw 0vw 0vw 0vw;
     }
     figcaption {
         font-size: 1vw;
@@ -357,27 +390,36 @@ figcaption:last-child{
     body{
         /* background: #f00; */
     }
+    header nav a img{
+        padding: 5vw 10vw;
+        width: 3vw;
+    }
     h1.logo{
         font-size: 10vw;
-        padding: 5vw 10vw 10vw 10vw;
+        padding: 2vw 10vw 10vw 10vw;
         line-height: 100%;
+        font-family: inter;
+    }
+    .project h1.logo{
+        font-size: 3vw;
+        padding: 10vw;
     }
     h1.logo a:hover{
         color: #fff;
     }
-    h1 a .none{
+    h1 .none{
         /* display: block; */
         opacity: 1;
         color: #666;
     }
-    h1 a .tag-top{
-        padding: 0vw 0 30vh 0;
+    h1 .tag-top{
+        padding: 0vw 0 5vw 0;
         line-height: 100%;
         font-size: .7vw;
         letter-spacing: .2vw;
     }
-    h1 a .tag-bottom{
-        padding: 3vw 0 0vh 0;
+    h1 .tag-bottom{
+        padding: 1vw 0 0vh 0;
         line-height: 100%;
         font-size: .8vw;
         letter-spacing: .5vw;
@@ -393,7 +435,7 @@ figcaption:last-child{
     .home span, .project span{
         font-size: .8vw;
         /* font-size: 1vw; */
-        padding: .0vw 0;
+        /* padding: .0vw 0; */
         letter-spacing: .3vw;
     }
     .home h3{
@@ -470,10 +512,10 @@ figcaption:last-child{
         line-height: 200%;
     }
     .txt p{
-        font-size: 1vw;
-        line-height: 180%;
+        font-size: 1.5vw;
+        line-height: 150%;
         width: 33vw;
-        padding: 2vw 0 0vw 0;
+        padding: 3vw 0 0vw 0;
     }
     .txt p:last-child {
         padding: 2vw 0vw 2vw 0vw;
@@ -506,8 +548,10 @@ figcaption:last-child{
         /* padding: 5vw 60vw 0 10vw; */
     }
     .blockquote p{
-        font-size: 1vw;
+        font-size: 1.5vw;
         padding: 0 0 3vw 0;
+        line-height: 150%;
+        font-weight: 300;
     }
     .blockquote span{
         padding: 0 0 2vw 0;
@@ -519,7 +563,7 @@ figcaption:last-child{
     body{
         /* background: #000; */
     }
-    h1 a .tag-top {
+    h1 .tag-top {
         font-size: 1.5vw;
         color: #666;
         font-family: 'Roboto Mono';
@@ -528,7 +572,7 @@ figcaption:last-child{
     .home span, .project span{
         font-size: 2vw;
     }
-    h1 a .none{
+    h1 .none{
         opacity: 1;
     }
 }
