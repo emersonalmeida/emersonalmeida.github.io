@@ -216,6 +216,12 @@ figcaption:last-child{
 .project section{
     padding: 0 0 5vw 0;
 }
+img, video, iframe{
+    width: 100%;
+}
+video{
+    padding: 0 0 5vw 0;
+}
 
 
 
