@@ -14,15 +14,15 @@ html, body{
 }
 header nav a img{
     padding: 10vw;
-    width: 15vw;
+    width: 12vw;
     display: block;
 }
 h1.logo{
     padding: 27vw 10vw;
-    font-size: 4vw;
+    font-size: 10vw;
     display: block;
     color: #fff;
-    /* font-family: inter; */
+    font-family: inter;
     line-height: 110%;
     /* font-weight: normal; */
 }
@@ -121,7 +121,7 @@ footer {
 }
 /* project */
 .project h1.logo{
-    font-size: 4vw;
+    font-size: 6vw;
     line-height: 130%;
 }
 .txt {
@@ -157,7 +157,7 @@ footer {
 .txt p{
     font-size: 4vw;
     padding: 5vw 0 0vw 0;
-    line-height: 150%;
+    line-height: 180%;
     color: rgb(150,150,150);
     font-family: inter;
     font-weight: 300;
@@ -193,7 +193,7 @@ figcaption:last-child{
     line-height: 200%;
     padding: 0 0 10vw 0;
     color: #999;
-    font-family: inter;
+    /* font-family: inter; */
     font-weight: 300;
 }
 .blockquote span{
@@ -250,7 +250,7 @@ figcaption:last-child{
         opacity: 0;
     }
     h1.logo{
-        font-size: 2.7vw;
+        font-size: 10vw;
         padding: 20vw 10vw 20vw 10vw;
     }
     .project h1.logo {
@@ -308,18 +308,19 @@ figcaption:last-child{
         /* background: #ff0; */
     }
     header nav a img{
-        padding: 5vw 10vw 0vw 10vw;
-        width: 5vw;
+        padding: 3.5vw 0vw 0vw 3.5vw;
+        width: 3vw;
+        position: fixed;
     }
     h1.logo{
         font-size: 10vw;
-        padding: 8vw 10vw 10vw 10vw;
+        padding: 15vw 10vw 10vw 10vw;
         font-family: inter;
         /* width: 30vw; */
     }
     .project h1.logo{
         font-size: 3vw;
-        padding: 10vw;
+        padding: 20vw 20vw 15vw 10vw;
     }
     h1 .tag-top{
         font-size: 1vw;
@@ -391,18 +392,19 @@ figcaption:last-child{
         /* background: #f00; */
     }
     header nav a img{
-        padding: 5vw 10vw;
+        padding: 3.5vw;
         width: 3vw;
+        position: fixed;
     }
     h1.logo{
         font-size: 10vw;
-        padding: 2vw 10vw 10vw 10vw;
+        padding: 15vw 10vw 10vw 10vw;
         line-height: 100%;
         font-family: inter;
     }
     .project h1.logo{
         font-size: 3vw;
-        padding: 10vw;
+        padding: 20vw 10vw 10vw 10vw;
     }
     h1.logo a:hover{
         color: #fff;
@@ -415,7 +417,7 @@ figcaption:last-child{
     h1 .tag-top{
         padding: 0vw 0 5vw 0;
         line-height: 100%;
-        font-size: .7vw;
+        font-size: .6vw;
         letter-spacing: .2vw;
     }
     h1 .tag-bottom{
@@ -438,6 +440,7 @@ figcaption:last-child{
         /* padding: .0vw 0; */
         letter-spacing: .3vw;
     }
+
     .home h3{
         /* font-size: 3vw; */
         font-size: 10vw;
@@ -544,14 +547,14 @@ figcaption:last-child{
     .img{
     }
     .blockquote{
-        padding: 5vw 33vw 0vw 33vw;
+        padding: 5vw 35vw 0vw 35vw;
         /* padding: 5vw 60vw 0 10vw; */
     }
     .blockquote p{
-        font-size: 1.5vw;
-        padding: 0 0 3vw 0;
+        font-size: 1vw;
+        padding: 0 0 2vw 0;
         line-height: 150%;
-        font-weight: 300;
+        /* font-weight: 300; */
     }
     .blockquote span{
         padding: 0 0 2vw 0;
