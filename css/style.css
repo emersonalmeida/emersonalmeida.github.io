@@ -20,8 +20,8 @@ header nav a img{
 .menu-icon{
     font-size: 7vw;
     position: fixed;
-    top: 10vw;
-    right: 8vw;
+    top: 3vw;
+    right: 3vw;
     padding: 3vw;
     background: #000;
     line-height: 50%;
@@ -41,14 +41,14 @@ h1.logo{
     /* font-weight: normal; */
 }
 .tag-top{
-    color: #666;
+    color: #999;
     font-family:'Roboto Mono';
     padding: 0 0 0vw 0;
 }
-h1 .tag-bottom{
+.tag-bottom{
     color: #999;
     font-family:'Roboto Mono';
-    /* padding: 3vw 0 0 0; */
+    padding: 1vw 0 0 0;
     line-height: 100%;
     font-style: normal;
 }
@@ -63,7 +63,7 @@ h1 .none{
     line-height: 150%;
     padding: 10vw;
     font-weight: normal;
-    color: #666;
+    color: #999;
 }
 .home span, .project span{
     font-size: 3vw;
@@ -71,7 +71,7 @@ h1 .none{
     letter-spacing: .5vw;
     display: block;
     font-weight: normal;
-    color: #666;
+    color: #999;
     font-family: 'Roboto Mono', monospace;
     line-height: 200%;
 }
@@ -130,7 +130,7 @@ footer {
     bottom: 0;
     text-decoration: none;
     display: block;
-    color: #666;
+    color: #999;
     display: none;
 }
 /* project */
@@ -221,6 +221,11 @@ img, video, iframe{
 }
 video{
     padding: 0 0 5vw 0;
+}
+iframe{
+    height: 50vh;
+    padding: 0 0 5vw 0;
+
 }
 
 
@@ -350,7 +355,7 @@ video{
     }
     h1.logo{
         font-size: 10vw;
-        padding: 20vw 10vw 10vw 10vw;
+        padding: 10vw 10vw 10vw 10vw;
         font-family: inter;
         /* width: 30vw; */
     }
@@ -360,7 +365,7 @@ video{
     }
     .tag-top{
         font-size: 1vw;
-        padding: 0 0 2vw 0;
+        padding: 0 0 5vw 0;
     }
     h1 .tag-bottom{
         padding: 1vw 0 0 0;
@@ -407,6 +412,14 @@ video{
     .txt h4, .txt h5, .txt h6 {
         font-size: 4vw;
     }
+    video{
+        padding: 0 0 5vw 0;
+    }
+    iframe{
+        height: 80vh;
+        padding: 0 0 5vw 0;
+    
+    }
 }
 
 /* desktop */
@@ -428,7 +441,7 @@ video{
         /* background: #f00; */
     }
     header nav a img{
-        padding: 1.5vw 3.5vw 0vw 1.5vw;
+        padding: 1.5vw 3.5vw 0vw 1.3vw;
         width: 2.5vw;
         position: fixed;
     }
@@ -443,13 +456,13 @@ video{
     }
     h1.logo{
         font-size: 10vw;
-        padding: 20vw 10vw 10vw 10vw;
+        padding: 10vw 10vw 10vw 10vw;
         line-height: 100%;
         font-family: inter;
     }
     .project h1.logo{
         font-size: 3vw;
-        padding: 20vw 10vw 10vw 10vw;
+        padding: 10vw 10vw 10vw 10vw;
     }
     h1.logo a:hover{
         color: #fff;
@@ -457,16 +470,16 @@ video{
     h1 .none{
         /* display: block; */
         opacity: 1;
-        color: #666;
+        color: #999;
     }
     .tag-top{
-        padding: 0vw 0 1vw 0;
+        padding: 0vw 0 10vw 0!important;
         line-height: 100%;
-        font-size: .5vw;
+        font-size: .6vw!important;
         letter-spacing: .2vw;
     }
     h1 .tag-bottom{
-        padding: 1vw 0 0vh 0;
+        padding: 2vw 0 0vh 0;
         line-height: 100%;
         font-size: .8vw;
         letter-spacing: .5vw;
@@ -482,7 +495,7 @@ video{
     .home span, .project span{
         font-size: .8vw;
         /* font-size: 1vw; */
-        /* padding: .0vw 0; */
+        padding: 1vw 0 1vw 0;
         letter-spacing: .3vw;
     }
 
@@ -539,7 +552,7 @@ video{
     }
     .txt{
         /* padding: 3vw 33vw; */
-        padding: 3vw 10vw;
+        padding: 5vw 10vw;
     }
     .txt h2{
         font-size: 1vw;
@@ -551,7 +564,7 @@ video{
     .tit h3{
         font-size: 9vw;
         /* width: 50vw; */
-        padding: 3vw 0;
+        padding: 0vw 0;
         line-height: 110%;
         /* padding: 0 23vw; */
     }
@@ -561,7 +574,7 @@ video{
     }
     .txt p{
         font-size: 1.5vw;
-        line-height: 150%;
+        line-height: 160%;
         /* width: 33vw; */
         padding: 3vw 0 0vw 0;
     }
@@ -604,6 +617,14 @@ video{
     .blockquote span{
         padding: 0 0 2vw 0;
     }
+    video{
+        padding: 0 0 5vw 0;
+    }
+    iframe{
+        height: 80vh;
+        padding: 0 0 5vw 0;
+    
+    }
 }
 
 /* landscape */   
@@ -613,7 +634,7 @@ video{
     }
     .tag-top {
         font-size: 1.5vw;
-        color: #666;
+        color: #999;
         font-family: 'Roboto Mono';
         padding: 0 0 10vw 0;
     }
