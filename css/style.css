@@ -6,25 +6,36 @@ html, body{
     font-family: 'Roboto Mono', monospace;
     line-height: 150%;
     background: #000;
-    animation: fadeInAnimation ease 1s ;
+    /* animation: fadeInAnimation ease 1s ;
     animation-iteration-count: 1; 
     animation-fill-mode: both;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; */
     /* height: 100vh; */
 }
 h1.logo{
-    padding: 15vw 10vw 30vw 10vw;
-    font-size: 4vw;
-    font-weight: normal;
+    padding: 10vw 10vw 10vw 10vw;
+    font-size: 10vw;
     display: block;
     color: #fff;
+    font-family: inter;
+    line-height: 110%;
 }
-h1.logo span{
+h1 a .tag-top{
+    color: #666;
+    font-family:'Roboto Mono';
+    padding: 0 0 20vh 0;
+}
+h1 a .tag-bottom{
     color: #999;
-    font-size: 3vw;
-    padding: 0;
-    font-family: Roboto Mono;
-    /* line-height: 100%; */
+    font-family:'Roboto Mono';
+    padding: 3vw 0 0 0;
+    line-height: 100%;
+}
+h1 a .none{
+    opacity: .0;
+    font-style: normal;
+    /* display: none; */
+    /* color: #0f0!important; */
 }
 .home h2{
     font-size: 4vw;
@@ -39,7 +50,13 @@ h1.logo span{
     letter-spacing: .5vw;
     display: block;
     font-weight: normal;
-    color: #999;
+    color: #666;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 200%;
+}
+
+.tag-top{
+    color: #f00;
 }
 .home a, .project a{
     text-decoration: none;
@@ -57,7 +74,7 @@ h1.logo span{
     border: none;
 }
 .home h3{
-    font-size: 7vw;
+    font-size: 8vw;
     font-weight: normal;
     font-family: inter;
     line-height: 150%;
@@ -96,6 +113,10 @@ footer {
     display: none;
 }
 /* project */
+.project h1.logo{
+    font-size: 8vw;
+    line-height: 130%;
+}
 .txt {
     padding: 10vw;
 }
@@ -183,7 +204,7 @@ figcaption:last-child{
 /* mobile */
 @media screen and (max-width: 768px) {
     *{
-        transition: 1s;
+        /* transition: 1s; */
     }
     @keyframes fadeInAnimation{ 
         0%{ 
@@ -204,7 +225,7 @@ figcaption:last-child{
 /* desktop */
 @media screen and (min-width: 1136px) {
     *{
-        animation: fadeInAnimation ease 1s ;
+        /* animation: fadeInAnimation ease 1s; */
     }
     @keyframes fadeInAnimation{ 
         0%{ 
@@ -217,25 +238,43 @@ figcaption:last-child{
         } 
     }
     h1.logo{
-        font-size: 1vw;
-        /* padding: 15vw 33vw 10vw 33vw; */
-        padding: 15vw 10vw 10vw 10vw;
-        line-height: 150%;
+        font-size: 10vw;
+        padding: 5vw 10vw 5vw 10vw;
+        line-height: 100%;
     }
-    h1.logo span{
+    h1.logo a:hover{
+        color: #fff;
+    }
+    h1 a .none{
+        /* display: block; */
+        opacity: 1;
+        color: #666;
+    }
+    h1 a .tag-top{
+        padding: 0vw 0 30vh 0;
+        line-height: 100%;
         font-size: .7vw;
         letter-spacing: .2vw;
-        padding: .0vw 0;
+    }
+    h1 a .tag-bottom{
+        padding: 3vw 0 0vh 0;
+        line-height: 100%;
+        font-size: .8vw;
+        letter-spacing: .5vw;
+    }
+    .project h1.logo{
+        font-size: 2vw;
+        line-height: 130%;
     }
     .home h2{
         font-size: 1vw;
         padding: 0vw 33vw 10vw 33vw;
     }
     .home span, .project span{
-        font-size: .7vw;
+        font-size: .8vw;
         /* font-size: 1vw; */
         padding: .0vw 0;
-        letter-spacing: .2vw;
+        letter-spacing: .3vw;
     }
     .home h3{
         /* font-size: 3vw; */
@@ -250,11 +289,11 @@ figcaption:last-child{
         padding: 5vw 0;
     }
     .home a, project a{
-        transition: .5s;
+        /* transition: .5s; */
     }
     .home a:hover, .project a:hover{
         color: rgb(0, 255, 255);
-        transition: .5s;
+        /* transition: .5s; */
     }
     ul.contact{
         /* padding: 10vw 33vw; */
@@ -303,7 +342,7 @@ figcaption:last-child{
         font-size: 9vw;
         /* width: 50vw; */
         padding: 3vw 0;
-        line-height: 120%;
+        line-height: 110%;
         /* padding: 0 23vw; */
     }
     .txt a{
