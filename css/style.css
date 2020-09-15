@@ -17,8 +17,22 @@ header nav a img{
     width: 12vw;
     display: block;
 }
+.menu-icon{
+    font-size: 7vw;
+    position: fixed;
+    top: 10vw;
+    right: 8vw;
+    padding: 3vw;
+    background: #000;
+    line-height: 50%;
+    text-align: center;
+    text-decoration: none;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100%;
+}
 h1.logo{
-    padding: 27vw 10vw;
+    padding: 30vw 10vw;
     font-size: 10vw;
     display: block;
     color: #fff;
@@ -234,6 +248,9 @@ figcaption:last-child{
     .tag-top{
         opacity: 0;
     }
+    .menu-icon{
+
+    }
 }
 
 /* tablet */
@@ -244,6 +261,9 @@ figcaption:last-child{
     header nav a img{
         padding: 10vw;
         width: 10vw;
+    }
+    .menu-icon{
+        
     }
     h1 .tag-top{
         font-size: 1.5vw;
@@ -299,6 +319,7 @@ figcaption:last-child{
         color: #999;
         line-height: 200%;
     }
+    
 
 }
 
@@ -311,6 +332,15 @@ figcaption:last-child{
         padding: 3.5vw 0vw 0vw 3.5vw;
         width: 3vw;
         position: fixed;
+    }
+    .menu-icon{
+        width: 1vw;
+        height: 1vw;
+        top: 3.5vw;
+        right:3.5vw;
+        font-size: 1.5vw;
+        background: #000;
+        padding: 1vw;
     }
     h1.logo{
         font-size: 10vw;
@@ -395,6 +425,15 @@ figcaption:last-child{
         padding: 3.5vw;
         width: 3vw;
         position: fixed;
+    }
+    .menu-icon{
+        width: 1vw;
+        height: 1vw;
+        top: 3.5vw;
+        right:3.5vw;
+        font-size: 1.5vw;
+        background: #000;
+        padding: 1vw;
     }
     h1.logo{
         font-size: 10vw;
