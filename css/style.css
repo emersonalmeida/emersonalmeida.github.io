@@ -23,7 +23,7 @@ h1.logo{
 h1 a .tag-top{
     color: #666;
     font-family:'Roboto Mono';
-    padding: 0 0 20vh 0;
+    padding: 0 0 20vw 0;
 }
 h1 a .tag-bottom{
     color: #999;
@@ -202,7 +202,7 @@ figcaption:last-child{
 
 
 /* mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     *{
         /* transition: 1s; */
     }
@@ -217,13 +217,130 @@ figcaption:last-child{
         } 
     }
     body{
-        background: hsla(0,0,50,1);
+        /* background: #0f0; */
     }
 }
 
+/* tablet */
+@media (min-width: 768px) and (max-width: 1135px) {
+    body{
+        /* background: #00f; */
+    }
+    h1 a .tag-top{
+        font-size: 1.5vw;
+    }
+    h1.logo{
+        padding: 10vw 10vw 15vw 10vw;
+    }
+    .project h1.logo {
+        font-size: 6vw;
+        line-height: 130%;
+    }
+   
+    .home span, .project span{
+        font-size: 2vw;
+    }
+    .home h3{
+        font-size: 10vw;
+    }
+    .home ul li{
+        /* padding: 10vw 0; */
+    }
+    .txt p {
+        font-size: 3vw;
+        padding: 5vw 0 0vw 0;
+        line-height: 200%;
+        color: #fff;
+    }
+    .txt p:last-child {
+        padding: 5vw 0vw 0vw 0vw;
+    }
+    .txt h4, .txt h5, .txt h6 {
+        font-size: 6vw;
+    }
+    figcaption {
+        font-size: 2vw;
+        text-align: center;
+        padding: 2vw 0 5vw 0;
+        color: #999;
+        text-transform: uppercase;
+        letter-spacing: .5vw;
+    }
+    .blockquote p {
+        font-size: 3vw;
+        line-height: 200%;
+        padding: 0 0 5vw 0;
+        color: #999;
+    }
+    .txt a {
+        font-size: 2vw;
+        display: block;
+        color: #999;
+        line-height: 200%;
+    }
+
+}
+/*  */
+@media (min-width: 1136px) and (max-width: 1365px){
+    body{
+        /* background: #ff0; */
+    }
+    .project h1.logo{
+        font-size: 5vw;
+    }
+    h1 a .tag-top{
+        font-size: 1vw;
+        padding: 0 0 10vw 0;
+    }
+    h1 a .tag-bottom{
+        padding: 2vw 0 0 0;
+    }
+    h1 a .none{
+        opacity: 1;
+    }
+    .home span, .project span {
+        font-size: 1vw;
+    }
+    .home h3 {
+        font-size: 10vw;
+    }
+    .txt a{
+        font-size: 1.5vw;
+    }
+    .info .txt{
+        padding: 5vw 30vw;
+    }
+    .txt p{
+        font-size: 1.5vw;
+        padding: 5vw 0 0vw 0;
+    }
+    .txt p:last-child {
+        padding: 5vw 0vw 0vw 0vw;
+    }
+    figcaption {
+        font-size: 1vw;
+        text-align: center;
+        padding: 1vw 0 5vw 0;
+        color: #999;
+        text-transform: uppercase;
+        letter-spacing: .3vw;
+    }
+    .blockquote {
+        padding: 5vw 30vw 5vw 30vw;
+    }
+    .blockquote p {
+        font-size: 1.5vw;
+        line-height: 200%;
+        padding: 0 0 5vw 0;
+        color: #999;
+    }
+    .txt h4, .txt h5, .txt h6 {
+        font-size: 4vw;
+    }
+}
 
 /* desktop */
-@media screen and (min-width: 1136px) {
+@media (min-width: 1366px) and (max-width: 1920px){
     *{
         /* animation: fadeInAnimation ease 1s; */
     }
@@ -237,9 +354,12 @@ figcaption:last-child{
             margin: 0;
         } 
     }
+    body{
+        /* background: #f00; */
+    }
     h1.logo{
         font-size: 10vw;
-        padding: 5vw 10vw 5vw 10vw;
+        padding: 5vw 10vw 10vw 10vw;
         line-height: 100%;
     }
     h1.logo a:hover{
@@ -263,7 +383,7 @@ figcaption:last-child{
         letter-spacing: .5vw;
     }
     .project h1.logo{
-        font-size: 2vw;
+        font-size: 3vw;
         line-height: 130%;
     }
     .home h2{
@@ -394,19 +514,22 @@ figcaption:last-child{
     }
 }
 
-
-/* tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-    body{
-        background: purple;
-    }
-}
-
-
 /* landscape */   
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
     body{
-        background: green;
+        /* background: #000; */
+    }
+    h1 a .tag-top {
+        font-size: 1.5vw;
+        color: #666;
+        font-family: 'Roboto Mono';
+        padding: 0 0 10vw 0;
+    }
+    .home span, .project span{
+        font-size: 2vw;
+    }
+    h1 a .none{
+        opacity: 1;
     }
 }
 
