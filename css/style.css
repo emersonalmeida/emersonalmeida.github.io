@@ -33,7 +33,7 @@ header nav a img{
 }
 .logo{
     padding: 30vw 10vw;
-    font-size: 6vw;
+    font-size: 7vw;
     display: block;
     color: #fff;
     font-family: inter;
@@ -76,6 +76,7 @@ span{
     color: #999;
     font-family: 'Roboto Mono', monospace;
     line-height: 200%;
+    padding: 0;
 }
 .home a, .project a{
     text-decoration: none;
@@ -97,6 +98,7 @@ span{
     /* font-weight: normal; */
     font-family: inter;
     line-height: 150%;
+    /* padding: 1vw 0; */
 }
 ul.contact{
     padding: 30vw 10vw;
@@ -481,8 +483,8 @@ iframe{
     .tag-bottom{
         padding: 2vw 0 0vh 0;
         line-height: 100%;
-        font-size: .8vw;
-        letter-spacing: .5vw;
+        font-size: .7vw;
+        letter-spacing: .3vw;
     }
     .project h1.logo{
         font-size: 3vw;
@@ -495,7 +497,7 @@ iframe{
     span{
         font-size: 1vw;
         /* font-size: 1vw; */
-        padding: 2vw 0 1vw 0;
+        /* padding: 2vw 0 1vw 0; */
         letter-spacing: .3vw;
     }
 
@@ -509,7 +511,7 @@ iframe{
     }
     .home ul li{
         /* padding: 2vw 0; */
-        padding: 5vw 0;
+        padding: 3vw 0;
     }
     .home a, project a{
         /* transition: .5s; */
