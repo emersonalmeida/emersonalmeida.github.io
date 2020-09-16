@@ -12,6 +12,11 @@ html, body{
     scroll-behavior: smooth; */
     /* height: 100vh; */
 }
+#top{
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
 header nav a img{
     padding: 10vw;
     width: 12vw;
