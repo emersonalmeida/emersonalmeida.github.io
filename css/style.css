@@ -43,7 +43,7 @@ header nav a img{
 .tag-top{
     color: #999;
     font-family:'Roboto Mono';
-    padding: 0 0 0vw 0;
+    padding: 0 0 2vw 0;
 }
 .tag-bottom{
     color: #999;
@@ -259,7 +259,7 @@ iframe{
         /* background: #0f0; */
     }
     .tag-top{
-        opacity: 0;
+        /* opacity: 0; */
     }
     .menu-icon{
 
