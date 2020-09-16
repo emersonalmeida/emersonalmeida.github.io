@@ -20,20 +20,20 @@ header nav a img{
 .menu-icon{
     font-size: 7vw;
     position: fixed;
-    top: 3vw;
-    right: 3vw;
-    padding: 3vw;
+    top: 0vw;
+    right: 0vw;
+    padding: 5vw;
     background: #000;
     line-height: 50%;
     text-align: center;
     text-decoration: none;
     width: 5vw;
     height: 5vw;
-    border-radius: 100%;
+    /* border-radius: 100%; */
 }
-h1.logo{
+.logo{
     padding: 30vw 10vw;
-    font-size: 10vw;
+    font-size: 6vw;
     display: block;
     color: #fff;
     font-family: inter;
@@ -48,11 +48,13 @@ h1.logo{
 .tag-bottom{
     color: #999;
     font-family:'Roboto Mono';
-    padding: 1vw 0 0 0;
+    padding: 3vw 0 0 0;
     line-height: 100%;
     font-style: normal;
+    font-size: 3vw;
+    letter-spacing: 1vw;
 }
-h1 .none{
+.none{
     opacity: .0;
     font-style: normal;
     /* display: none; */
@@ -65,7 +67,7 @@ h1 .none{
     font-weight: normal;
     color: #999;
 }
-.home span, .project span{
+span{
     font-size: 3vw;
     text-transform: uppercase;
     letter-spacing: .5vw;
@@ -74,10 +76,6 @@ h1 .none{
     color: #999;
     font-family: 'Roboto Mono', monospace;
     line-height: 200%;
-}
-
-.tag-top{
-    color: #f00;
 }
 .home a, .project a{
     text-decoration: none;
@@ -88,7 +86,7 @@ h1 .none{
     padding: 0vw 10vw;
 }
 .home ul li {
-    padding: 5vw 0vw;
+    padding: 10vw 0vw;
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
 }
 .home ul li:last-child{
@@ -133,7 +131,9 @@ footer {
     color: #999;
     display: none;
 }
+
 /* project */
+
 .project h1.logo{
     font-size: 6vw;
     line-height: 130%;
@@ -206,7 +206,7 @@ figcaption:last-child{
     font-size: 4vw;
     line-height: 200%;
     padding: 0 0 10vw 0;
-    color: #999;
+    color: #fff;
     font-family: inter;
     font-weight: 300;
 }
@@ -289,7 +289,7 @@ iframe{
         line-height: 130%;
     }
    
-    .home span, .project span{
+    span{
         font-size: 2vw;
     }
     .home h3{
@@ -353,7 +353,7 @@ iframe{
         background: #111;
         padding: 1vw;
     }
-    h1.logo{
+    .logo{
         font-size: 10vw;
         padding: 10vw 10vw 10vw 10vw;
         font-family: inter;
@@ -367,13 +367,13 @@ iframe{
         font-size: 1vw;
         padding: 0 0 5vw 0;
     }
-    h1 .tag-bottom{
+    .tag-bottom{
         padding: 1vw 0 0 0;
     }
-    h1 .none{
+    .none{
         opacity: 1;
     }
-    .home span, .project span {
+    span {
         font-size: 1vw;
     }
     .home h3 {
@@ -454,31 +454,31 @@ iframe{
         background: rgb(0, 0, 0);
         padding: .7vw;
     }
-    h1.logo{
-        font-size: 10vw;
-        padding: 10vw 10vw 10vw 10vw;
+    .logo{
+        font-size: 3vw;
+        padding: 20vw 10vw 10vw 10vw;
         line-height: 100%;
         font-family: inter;
     }
     .project h1.logo{
         font-size: 3vw;
-        padding: 10vw 10vw 10vw 10vw;
+        padding: 20vw 10vw 15vw 10vw;
     }
-    h1.logo a:hover{
+    .logo a:hover{
         color: #fff;
     }
-    h1 .none{
+    .none{
         /* display: block; */
         opacity: 1;
         color: #999;
     }
     .tag-top{
-        padding: 0vw 0 10vw 0!important;
+        padding: 0vw 0 2vw 0!important;
         line-height: 100%;
         font-size: .6vw!important;
         letter-spacing: .2vw;
     }
-    h1 .tag-bottom{
+    .tag-bottom{
         padding: 2vw 0 0vh 0;
         line-height: 100%;
         font-size: .8vw;
@@ -492,10 +492,10 @@ iframe{
         font-size: 1vw;
         padding: 0vw 33vw 10vw 33vw;
     }
-    .home span, .project span{
-        font-size: .8vw;
+    span{
+        font-size: 1vw;
         /* font-size: 1vw; */
-        padding: 1vw 0 1vw 0;
+        padding: 2vw 0 1vw 0;
         letter-spacing: .3vw;
     }
 
@@ -573,10 +573,10 @@ iframe{
         line-height: 200%;
     }
     .txt p{
-        font-size: 1.5vw;
-        line-height: 160%;
+        font-size: 1.2vw;
+        line-height: 180%;
         /* width: 33vw; */
-        padding: 3vw 0 0vw 0;
+        padding: 2vw 0 0vw 0;
     }
     .txt p:last-child {
         padding: 2vw 0vw 2vw 0vw;
@@ -609,8 +609,8 @@ iframe{
         /* padding: 5vw 60vw 0 10vw; */
     }
     .blockquote p{
-        font-size: 1.5vw;
-        padding: 0 0 3vw 0;
+        font-size: 1.2vw;
+        padding: 0 0 2vw 0;
         line-height: 160%;
         /* font-weight: 300; */
     }
@@ -638,7 +638,7 @@ iframe{
         font-family: 'Roboto Mono';
         padding: 0 0 10vw 0;
     }
-    .home span, .project span{
+    span{
         font-size: 2vw;
     }
     h1 .none{
