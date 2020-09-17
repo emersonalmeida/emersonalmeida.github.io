@@ -11,38 +11,42 @@ body{
 }
 
 .logo img{
-    width: 15vw;
+    width: 12vw;
     display: block;
     padding: 10vw 10vw 20vw 10vw;
 }
 .menu-icon{
     position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 4vw 5vw 4vw 5vw;
+    bottom: 5vw;
+    right: 5vw;
+    width: 10vw;
+    height: 10vw;
+    padding: 1vw;
     font-size: 5vw;
-    line-height: 100%;
+    line-height: 200%;
     color: #fff;
     background: #f00;
     text-decoration: none;
+    border-radius: 100%;
+    text-align: center;
 }
 
 /* home */
 
 h1{
-    font-size: 6vw;
+    font-size: 10vw;
 }
 
 ul{
     list-style: none;
-    padding: 20vw 10vw;
+    padding: 10vw;
 }
 ul li{
     padding: 5vw 0;
     font-size: 1rem;
 }
 h2{
-    font-size: 8vw;
+    font-size: 9vw;
     color: #fff;
 }
 a{
@@ -55,31 +59,37 @@ a:hover{
 }
 
 /* project */
-
+#project h1{
+    font-size: 6vw;
+}
 video, picture, img, iframe{
     width: 100%;
 }
 iframe{
     height: 50vw;
 }
+.tit{
+    padding: 0vw 10vw;
+}
 .txt{
     padding: 10vw 10vw 10vw 10vw;
 }
-.tit{
-    padding: 0vw 10vw;
+.txt a{
+    line-height: 150%;
 }
 h3{
     font-size: 9vw;
     padding: 5vw 0;
 }
 pre, small, figcaption{
-    font-size: .7rem;
+    font-size: .6rem;
     line-height: 150%;
     color: #999;
     padding: 2vw 0;
     display: block;
     text-transform: uppercase;
     letter-spacing: 1vw;
+    font-family: monospace;
 }
 small{
 }
@@ -98,10 +108,11 @@ p{
     padding: 5vw 0 0 0;
 }
 .quote{
-    padding: 5vw 15vw 30vw 15vw;
+    padding: 10vw 15vw 30vw 15vw;
 }
 .next-project{
     padding: 10vw 10vw;
+    margin: 0 0 20vw 0;
     background: #111;
 }
 .next-project a{
@@ -118,4 +129,5 @@ footer{
     color: #999;
     font-size: .7rem;
     padding: 20vw 10vw 10vw 10vw;
+    font-family: monospace;
 }
