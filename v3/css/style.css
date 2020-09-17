@@ -14,17 +14,17 @@ body{
 }
 .menu-icon{
     position: fixed;
-    bottom: 0vw;
-    right: 0vw;
+    bottom: 10vw;
+    right: 7vw;
     width: 10vw;
     height: 10vw;
-    padding: 0vw;
+    padding: 2vw;
     font-size: 7vw;
     line-height: 140%;
     color: #fff;
     background: #f00;
     text-decoration: none;
-    /* border-radius: 100%; */
+    border-radius: 100%;
     text-align: center;
 }
 
