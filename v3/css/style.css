@@ -3,13 +3,11 @@
     margin: 0;
     border: 0;
 }
-
 body{
     background: #000;
     color: #fff;
-    font-family: 'Inter', Roboto, Helvetica, sans-serif;
+    font-family: 'Inter';
 }
-
 .logo img{
     width: 12vw;
     display: block;
@@ -25,30 +23,36 @@ body{
     font-size: 7vw;
     line-height: 140%;
     color: #fff;
-    background: #111;
+    background: #f00;
     text-decoration: none;
     /* border-radius: 100%; */
     text-align: center;
 }
 
 /* home */
+
 #home .txt{
     padding: 15vw 10vw 20vw 10vw;
 }
-h1{
-    font-size: 12vw;
+#home .txt pre{
+    font-size: .6em;
 }
-small i{}
+h1{
+    font-size: 6vw;
+    line-height: 100%;
+    padding: 1vw 0;
+    font-weight: normal;
+}
 ul{
     list-style: none;
     padding: 10vw;
 }
 ul li{
     padding: 5vw 0;
-    font-size: 1rem;
+    font-size: 1em;
 }
 h2{
-    font-size: 8vw;
+    font-size: 10vw;
     color: #fff;
 }
 a{
@@ -61,8 +65,10 @@ a:hover{
 }
 
 /* project */
+
 #project h1{
     font-size: 6vw;
+    font-weight: bold;
 }
 #project h2{
     font-size: 9vw;
@@ -79,6 +85,9 @@ iframe{
 .txt{
     padding: 10vw 10vw 10vw 10vw;
 }
+.txt:last-child{
+    padding: 5vw 10vw 10vw 10vw;
+}
 .txt a{
     line-height: 150%;
 }
@@ -87,14 +96,14 @@ h3{
     padding: 5vw 0;
 }
 pre, small, figcaption{
-    font-size: .6rem;
+    font-size: .8em;
     line-height: 150%;
     color: #999;
     padding: 2vw 0;
     display: block;
     text-transform: uppercase;
     letter-spacing: 1vw;
-    font-family: monospace;
+    font-family: 'Roboto Mono',monospace;
 }
 small{
 }
@@ -102,9 +111,9 @@ figcaption{
     text-align: center;
 }
 p{
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 150%;
-    padding: 10vw 0 0 0;
+    padding: 5vw 0 0 0;
 }
 .gallery{
     padding: 0 5vw 0 5vw;
@@ -128,11 +137,51 @@ p{
     color: #fff;
 }
 
+/* contact */
+
+#contact ul a{
+    color: #fff;
+}
+
 /* footer */
 
 footer{
     color: #999;
-    font-size: .7rem;
+    font-size: .7em;
     padding: 20vw 10vw 10vw 10vw;
     /* font-family: monospace; */
+}
+
+
+/* media queries */
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    body{
+        background: #000;
+    }
+    i{
+        opacity: 0;
+    }
+}
+
+/* desktop */
+@media all and (min-width: 1136px) and (max-width: 1920px) {
+    body{
+        background: #222;
+    }
+}
+
+/* tablet */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background: #00f;
+    }
+}
+
+/* landscape */   
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    body{
+        background: #ff0;
+    }
 }
