@@ -36,7 +36,10 @@ body{
     padding: 10vw 10vw 10vw 10vw;
 }
 #home .txt pre{
-    font-size: .6em;
+    font-size: 2.5vw;
+}
+#home .txt small{
+    font-size: 3vw;
 }
 h1{
     font-size: 6vw;
@@ -89,6 +92,9 @@ iframe{
 .txt{
     padding: 10vw 10vw 10vw 10vw;
 }
+#info .txt:first-child{
+    padding: 10vw 10vw 0 10vw;
+}
 .txt a{
     line-height: 150%;
 }
@@ -97,7 +103,7 @@ h3{
     padding: 5vw 0;
 }
 pre, small, figcaption{
-    font-size: .8em;
+    font-size: 3vw;
     line-height: 150%;
     color: #999;
     padding: 2vw 0;
@@ -112,7 +118,7 @@ figcaption{
     text-align: center;
 }
 p{
-    font-size: 1em;
+    font-size: 4vw;
     line-height: 150%;
     padding: 5vw 0 0 0;
 }
@@ -128,10 +134,13 @@ p{
 .next-project{
     padding: 10vw 10vw;
     margin: 0 0 20vw 0;
-    background: #111;
+    /* background: #111; */
 }
 .next-project a{
     /* padding: 5vw 0; */
+}
+.next-project pre{
+    color: #f00;
 }
 .next-project h6{
     font-size: 9vw;
