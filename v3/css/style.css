@@ -56,7 +56,7 @@ ul li{
     font-size: 1em;
 }
 h2{
-    font-size: 10vw;
+    font-size: 8vw;
     color: #fff;
 }
 a{
@@ -135,16 +135,30 @@ p{
     padding: 10vw 10vw;
     margin: 0 0 20vw 0;
     /* background: #111; */
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255,255,255,.1);
+
 }
 .next-project a{
     /* padding: 5vw 0; */
 }
 .next-project pre{
-    color: #f00;
+    line-height: 150%;
+    color: #000;
+    background: #fff;
+    display: block;
+    padding: 0;
+    margin: 0 0 5vw 0;
+    width: 44vw;
+    text-align: center;
 }
 .next-project h6{
     font-size: 9vw;
     color: #fff;
+}
+.next-project small{
+    /* padding: 0 0 10vw 0; */
+    /* border-bottom: 1px solid rgba(255,255,255,.1); */
 }
 
 /* contact */
