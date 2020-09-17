@@ -37,7 +37,7 @@ body{
 }
 .intro pre{
     font-size: 2.5vw;
-    letter-spacing: .3vw;
+    letter-spacing: .5vw;
 }
 .intro small{
     /* font-size: 3vw; */
@@ -46,7 +46,7 @@ body{
     padding: 10vw;
 }
 h1{
-    font-size: 6vw;
+    font-size: 8vw;
     line-height: 100%;
     padding: 1vw 0;
     /* font-weight: normal; */
@@ -219,7 +219,7 @@ footer{
         height: 1vw;
         padding: 1vw;
         line-height: 40%;
-        right: 2vw;
+        right: 1.5vw;
         top: 2vw;
     }
     pre, small, figcaption{
@@ -249,6 +249,7 @@ footer{
     .intro{
         /* padding: 5vw 10vw 10vw 10vw; */
     }
+    
     ul li h2:hover{
         color: aqua;
     }
@@ -275,7 +276,14 @@ footer{
         padding: 15vw 10vw 4vw 10vw;
     }
     #project h1{
-        font-size: 2vw;
+        font-size: 3vw;
+        padding: 2vw 0;
+    }
+    #project .intro pre{
+        font-size: .8vw;
+    }
+    #project h2{
+        line-height: 110%;
     }
     
 
