@@ -11,7 +11,6 @@ body{
 .logo img{
     width: 12vw;
     display: block;
-    padding: 10vw 10vw 20vw 10vw;
 }
 .menu-icon{
     position: fixed;
@@ -19,7 +18,7 @@ body{
     right: 0vw;
     width: 10vw;
     height: 10vw;
-    padding: 2vw;
+    padding: 0vw;
     font-size: 7vw;
     line-height: 140%;
     color: #fff;
@@ -30,9 +29,11 @@ body{
 }
 
 /* home */
-
+#home .logo img{
+    padding: 10vw 10vw 30vw 10vw;
+}
 #home .txt{
-    padding: 15vw 10vw 20vw 10vw;
+    padding: 10vw 10vw 10vw 10vw;
 }
 #home .txt pre{
     font-size: .6em;
@@ -45,7 +46,7 @@ h1{
 }
 ul{
     list-style: none;
-    padding: 10vw;
+    padding: 20vw 10vw;
 }
 ul li{
     padding: 5vw 0;
@@ -66,6 +67,9 @@ a:hover{
 
 /* project */
 
+#project .logo img{
+    padding: 10vw 10vw 30vw 10vw;
+}
 #project h1{
     font-size: 6vw;
     font-weight: bold;
@@ -84,9 +88,6 @@ iframe{
 }
 .txt{
     padding: 10vw 10vw 10vw 10vw;
-}
-.txt:last-child{
-    padding: 5vw 10vw 10vw 10vw;
 }
 .txt a{
     line-height: 150%;
@@ -148,7 +149,7 @@ p{
 footer{
     color: #999;
     font-size: .7em;
-    padding: 20vw 10vw 10vw 10vw;
+    padding: 30vw 10vw 10vw 10vw;
     /* font-family: monospace; */
 }
 
