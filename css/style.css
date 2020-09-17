@@ -49,6 +49,7 @@ header nav a img{
     color: #999;
     font-family:'Roboto Mono';
     padding: 0 0 2vw 0;
+    font-size: 2vw;
 }
 .tag-bottom{
     color: #999;
@@ -284,11 +285,12 @@ iframe{
         
     }
     .tag-top{
-        font-size: 1.5vw;
-        opacity: 0;
+        font-size: 2vw;
+        opacity: 1;
+        padding: 0 0 2vw 0;
     }
     h1.logo{
-        font-size: 10vw;
+        /* font-size: 10vw; */
         padding: 20vw 10vw 20vw 10vw;
     }
     .project h1.logo {
@@ -297,7 +299,7 @@ iframe{
     }
    
     span{
-        font-size: 2vw;
+        font-size: 3    vw;
     }
     .home h3{
         font-size: 10vw;
@@ -341,7 +343,7 @@ iframe{
 
 }
 
-/*  */
+/* 1136px */
 @media (min-width: 1136px) and (max-width: 1365px){
     body{
         /* background: #ff0; */
@@ -361,7 +363,7 @@ iframe{
         padding: 1vw;
     }
     .logo{
-        font-size: 10vw;
+        font-size: 3vw;
         padding: 10vw 10vw 10vw 10vw;
         font-family: inter;
         /* width: 30vw; */
@@ -372,16 +374,22 @@ iframe{
     }
     .tag-top{
         font-size: 1vw;
-        padding: 0 0 5vw 0;
+        padding: 0 0 1vw 0;
+        letter-spacing: .3vw;
     }
     .tag-bottom{
-        padding: 1vw 0 0 0;
+        font-size: 1vw;
+        padding: 2vw 0 0 0;
+        letter-spacing: .3vw;
     }
     .none{
         opacity: 1;
     }
     span {
         font-size: 1vw;
+    }
+    .home ul li{
+        padding: 5vw 0;
     }
     .home h3 {
         font-size: 10vw;
