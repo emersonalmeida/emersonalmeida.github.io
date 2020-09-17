@@ -17,17 +17,17 @@ body{
 }
 .menu-icon{
     position: fixed;
-    bottom: 3vw;
-    right: 2vw;
+    bottom: 0vw;
+    right: 0vw;
     width: 10vw;
     height: 10vw;
-    padding: 3vw;
-    font-size: 5vw;
-    line-height: 200%;
+    padding: 2vw;
+    font-size: 7vw;
+    line-height: 140%;
     color: #fff;
-    background: #f00;
+    background: #111;
     text-decoration: none;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     text-align: center;
 }
 
@@ -35,11 +35,10 @@ body{
 #home .txt{
     padding: 15vw 10vw 20vw 10vw;
 }
-
 h1{
     font-size: 12vw;
 }
-
+small i{}
 ul{
     list-style: none;
     padding: 10vw;
@@ -49,7 +48,7 @@ ul li{
     font-size: 1rem;
 }
 h2{
-    font-size: 9vw;
+    font-size: 8vw;
     color: #fff;
 }
 a{
@@ -64,6 +63,9 @@ a:hover{
 /* project */
 #project h1{
     font-size: 6vw;
+}
+#project h2{
+    font-size: 9vw;
 }
 video, picture, img, iframe{
     width: 100%;
@@ -101,7 +103,7 @@ figcaption{
 }
 p{
     font-size: 1rem;
-    line-height: 200%;
+    line-height: 150%;
     padding: 10vw 0 0 0;
 }
 .gallery{
@@ -132,5 +134,5 @@ footer{
     color: #999;
     font-size: .7rem;
     padding: 20vw 10vw 10vw 10vw;
-    font-family: monospace;
+    /* font-family: monospace; */
 }
