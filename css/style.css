@@ -31,6 +31,7 @@ header .menu-icon{
 
 /* tipografia */
 h1{
+    font-weight: normal;
 }
 h2{
 }
@@ -92,7 +93,7 @@ ul li a{
 .projects-list{
 }
 .projects-list h2{
-    font-size: 8vw;
+    font-size: 6vw;
 }
 /* contact */
 .contact{
@@ -100,7 +101,7 @@ ul li a{
 }
 .contact ul li{
     font-size: 5vw;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
     padding: 3vw 0;
 }
 /* footer */
