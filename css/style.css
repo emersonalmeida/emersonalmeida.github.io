@@ -31,14 +31,10 @@ header .menu-icon{
 
 /* tipografia */
 h1{
-    font-size: 6vw;
 }
 h2{
-    font-size: 10vw;
 }
 h3{
-    font-size: 8vw;
-    padding: 2vw 0;
 }
 h4, h5, h6{}
 pre, small, figcaption{
@@ -88,14 +84,22 @@ ul li a{
 .intro{
     padding: 50vw 0 20vw 0;
 }
+#home .intro h1{
+    font-size: 6vw;
+    /* font-weight: normal; */
+}
 /* projects list */
 .projects-list{
+}
+.project-list h2{
+    font-size: 8vw;
 }
 /* contact */
 .contact{
     padding: 30vw 0;
 }
 .contact ul li{
+    font-size: 5vw;
     font-family: 'Roboto Mono', monospace;
     padding: 3vw 0;
 }
@@ -110,6 +114,12 @@ footer{
 
 #project .intro{
     padding: 50vw 0 10vw 0;
+}
+#project .intro h1{
+    font-size: 6vw;
+}
+#project h2{
+    font-size: 10vw;
 }
 .links{
     padding: 10vw 0;
@@ -140,15 +150,18 @@ footer{
 .process .txt{
     padding: 10vw;
 }
-.process .media{
-    padding: 0 5vw;
-    display: block;
-}
 .process p{
     padding: 10vw 15vw;
     color: #999;
     /* font-family: 'Roboto Mono', monospace; */
     /* font-size: 5vw; */
+}
+.process h3{
+    font-size: 8vw;
+}
+.process .media{
+    padding: 0 5vw;
+    display: block;
 }
 .process figcaption{
     padding: 0 0 5vw 0;
@@ -172,7 +185,7 @@ footer{
     text-align: center;
 }
 .next-project h6{
-    font-size: 9vw;
+    font-size: 10vw;
     color: #fff;
 }
 
