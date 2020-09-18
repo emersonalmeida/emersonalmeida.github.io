@@ -6,7 +6,10 @@
 html{
     font-family: 'Inter', sans-serif;
     background: #000;
-    color: #fff; 
+    color: #fff;
+    scroll-behavior: smooth;
+}
+body{
 }
 /* header */
 header .logo{
@@ -89,6 +92,9 @@ ul li a{
     font-size: 6vw;
     /* font-weight: normal; */
 }
+.intro small i{
+    font-style: normal;
+}
 /* projects list */
 .projects-list{
 }
@@ -100,7 +106,7 @@ ul li a{
     padding: 30vw 0;
 }
 .contact ul li{
-    font-size: 5vw;
+    font-size: 4vw;
     /* font-family: 'Roboto Mono', monospace; */
     padding: 3vw 0;
 }
@@ -126,6 +132,7 @@ footer{
     padding: 10vw 0;
 }
 .links a{
+    font-size: 4.5vw;
     display: block;
     color: #fff;
     text-decoration: none;
@@ -164,6 +171,9 @@ footer{
     padding: 0 5vw;
     display: block;
 }
+.process .media img, .process .media video{
+    border-radius: 1vw;
+}
 .process figcaption{
     padding: 0 0 5vw 0;
 }
@@ -190,24 +200,6 @@ footer{
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* mobile */
 @media screen and (max-width: 767px) {
     body{
@@ -220,22 +212,416 @@ footer{
 }
 
 /* desktop */
-@media all and (min-width: 1136px) and (max-width: 1920px) {
+@media all and (min-width: 1025px) and (max-width: 1920px) {
     body{
         background: #000;
+    }
+    /* header */
+    header .logo{
+        width: 3vw;
+        padding: 1vw;
+        position: fixed;
+    }
+    header .menu-icon{
+        font-size: 2vw;
+        padding: .5vw 1vw;
+    }
+    /* #global */
+    /* tipografia */
+    h1{
+    }
+    h2{
+    }
+    h3{
+    }
+    h4, h5, h6{}
+    pre, small, figcaption{
+        font-size: .8vw;
+        letter-spacing: .2vw;
+        padding: 1vw 0;
+    }
+    figcaption{
+    }
+    p{
+        font-size: 1.2vw;
+        padding: 1vw 0;
+    }
+    /* video img */
+    video, picture, img, iframe{
+    }
+    iframe{
+    }
+    /* list */
+    ul{}
+    ul li{
+        padding: 3vw 0;
+    }
+    ul li a{
+    }
+    /* layout */
+    .content{
+    }
+    /* #home */
+    /* intro */
+    .intro{
+        padding: 5vw 0 10vw 0;
+    }
+    #home .intro h1{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    #home .intro pre{
+        font-size: .6vw;
+    }
+    #home .intro small{
+        font-size: .8vw;
+    }
+    .intro small i{
+    }
+    /* projects list */
+    .projects-list{
+    }
+    .projects-list h2{
+        font-size: 8vw;
+    }
+    .projects-list h2:hover{
+        color: aqua;
+    }
+    /* contact */
+    .contact{
+        padding: 10vw 0 5vw 0;
+    }
+    .contact ul li{
+        font-size: 1vw;
+        padding: 1vw 0;
+    }
+    .contact li a:hover{
+        color: aqua;
+    }
+    /* footer */
+    footer{
+    }
+    /* #project */
+    #project .intro{
+        padding: 5vw 0 4vw 0;
+    }
+    #project .intro h1{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    #project h2{
+        font-size: 5vw;
+        width: 50vw;
+    }
+    .links{
+        padding: 5vw 0;
+    }
+    .links a{
+        font-size: 1vw;
+        padding: .3vw 0;
+    }
+    .links a:hover{
+        color: aqua;
+    }
+    /* info */
+    .info{
+        padding: 0 0 5vw 0;
+    }
+    .info .txt{
+        padding: 5vw 33vw 3vw 33vw;
+    }
+    .info .txt:last-child{
+        padding: 0 33vw;
+    }
+    .info p:last-child{
+        padding: 1vw 0 0 0;
+    }
+    /* process */
+    .process{
+        padding: 0vw 0 0vw 0;
+    }
+    .process .txt{
+        padding: 5vw 20vw 5vw 20vw;
+    }
+    .process p{
+        padding: 5vw 33vw;
+        font-size: 1.5vw;
+        color: #999;
+    }
+    .process h3{
+        font-size: 3vw;
+        width: 30vw;
+    }
+    .process .media{
+        padding: 0 15vw;
+    }
+    .process .media img, .process .media video{
+        border-radius: .2vw;
+    }
+    .process figcaption{
+    }
+    /* next projext */
+    .next-project{
+        padding: 15vw 10vw 5vw 10vw;
+    }
+    .next-project a{
+    }
+    .next-project h6:hover{
+        color: aqua;
+    }
+    .next-project pre{
+        width: 11vw;
+        margin: 0 0 1vw 0;
+    }
+    .next-project h6{
+        font-size: 5vw;
     }
 }
 
 /* tablet */
 @media all and (min-width: 768px) and (max-width: 1024px) {
     body{
-        background: #00f;
+        background: #000;
+    }
+
+    /* header */
+    header .logo{
+        width: 8vw;
+    }
+    header .menu-icon{
+        font-size: 5vw;
+        padding: 2vw 3vw;
+    }
+
+    /* #global */
+
+    /* tipografia */
+    h1{
+    }
+    h2{
+    }
+    h3{
+    }
+    h4, h5, h6{}
+    pre, small, figcaption{
+        font-size: 1.5vw;
+        letter-spacing: .5vw;
+    }
+    figcaption{
+    }
+    p{
+    }
+    /* video img */
+    video, picture, img, iframe{
+    }
+    iframe{
+    }
+    /* list */
+    ul{}
+    ul li{
+        padding: 3vw 0;
+    }
+    ul li a{
+    }
+    /* layout */
+    .content{
+    }
+
+    /* #home */
+
+    /* intro */
+    .intro{
+        padding: 40vw 0 20vw 0;
+    }
+    #home .intro h1{
+    }
+    .intro small i{
+        opacity: 1;
+    }
+    /* projects list */
+    .projects-list{
+    }
+    .projects-list h2{
+    }
+    /* contact */
+    .contact{
+        padding: 20vw 0;
+    }
+    .contact ul li{
+        font-size: 2vw;
+        padding: 2vw 0;
+    }
+    /* footer */
+    footer{
+    }
+
+    /* #project */
+
+    #project .intro{
+    }
+    #project .intro h1{
+    }
+    #project h2{
+    }
+    .links{
+    }
+    .links a{
+    }
+    /* info */
+    .info{
+    }
+    .info .txt{
+    }
+    .info .txt:last-child{
+    }
+    .info p:last-child{
+    }
+    /* process */
+    .process{
+    }
+    .process .txt{
+    }
+    .process p{
+    }
+    .process h3{
+    }
+    .process .media{
+    }
+    .process .media img, .process .media video{
+    }
+    .process figcaption{
+    }
+    /* next projext */
+    .next-project{
+    }
+    .next-project a{
+    }
+    .next-project pre{
+    }
+    .next-project h6{
     }
 }
 
 /* landscape */   
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-width: 1024px) and (orientation: landscape) {
     body{
-        background: #ff0;
+        background: #000;
+    }
+
+    /* header */
+    header .logo{
+        width: 6vw;
+    }
+    header .menu-icon{
+        font-size: 2vw;
+        padding: 1.5vw 2vw;
+    }
+
+    /* #global */
+
+    /* tipografia */
+    h1{
+    }
+    h2{
+    }
+    h3{
+    }
+    h4, h5, h6{}
+    pre, small, figcaption{
+        font-size: 1vw;
+        letter-spacing: .5vw;
+    }
+    figcaption{
+    }
+    p{
+    }
+    /* video img */
+    video, picture, img, iframe{
+    }
+    iframe{
+    }
+    /* list */
+    ul{}
+    ul li{
+    }
+    ul li a{
+    }
+    /* layout */
+    .content{
+    }
+
+    /* #home */
+
+    /* intro */
+    .intro{
+        padding: 30vw 0 10vw 0;
+    }
+    #home .intro h1{
+        font-weight: bold;
+    }
+    .intro small i{
+        opacity: 1;
+    }
+    /* projects list */
+    .projects-list{
+    }
+    .projects-list h2{
+    }
+    /* contact */
+    .contact{
+        padding: 10vw 0;
+    }
+    .contact ul li{
+        font-size: 2vw;
+        padding: 2vw 0;
+    }
+    /* footer */
+    footer{
+    }
+
+    /* #project */
+
+    #project .intro{
+    }
+    #project .intro h1{
+    }
+    #project h2{
+    }
+    .links{
+    }
+    .links a{
+    }
+    /* info */
+    .info{
+    }
+    .info .txt{
+    }
+    .info .txt:last-child{
+    }
+    .info p:last-child{
+    }
+    /* process */
+    .process{
+    }
+    .process .txt{
+    }
+    .process p{
+    }
+    .process h3{
+    }
+    .process .media{
+    }
+    .process .media img, .process .media video{
+    }
+    .process figcaption{
+    }
+    /* next projext */
+    .next-project{
+    }
+    .next-project a{
+    }
+    .next-project pre{
+    }
+    .next-project h6{
     }
 }
