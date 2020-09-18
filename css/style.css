@@ -11,7 +11,7 @@ html{
 /* header */
 header .logo{
     position: fixed;
-    width: 15vw;
+    width: 12vw;
     padding: 5vw;
 }
 header .menu-icon{
@@ -48,11 +48,10 @@ figcaption{
     text-align: center;
 }
 p{
-    font-size: 4vw;
-    line-height: 150%;
-    padding: 5vw 0 0 0;
+    font-size: 5vw;
+    line-height: 160%;
+    padding: 10vw 0 0 0;
 }
-
 /* video img */
 video, picture, img, iframe{
     width: 100%;
@@ -60,42 +59,38 @@ video, picture, img, iframe{
 iframe{
     height: 50vw;
 }
-
 /* list */
 ul{}
 ul li{
-    padding: 5vw 0;
+    padding: 2vw 0;
     list-style: none;
 }
 ul li a{
     color: #fff;
     text-decoration: none;
 }
-
 /* layout */
 .content{
-    padding: 10vw;
+    padding: 0 10vw;
 }
 
 /* #home */
 
 /* intro */
 .intro{
-    padding: 40vw 0 0 0;
+    padding: 50vw 0 20vw 0;
 }
-
 /* projects list */
 .projects-list{
 }
-
 /* contact */
 .contact{
     padding: 10vw 0 20vw 0;
 }
 .contact ul li{
     font-family: 'Roboto Mono', monospace;
+    padding: 5vw 0;
 }
-
 /* footer */
 footer{
     color: #999;
@@ -105,6 +100,21 @@ footer{
 
 /* #project */
 
+#project .intro{
+    padding: 50vw 0 10vw 0;
+}
+.links{
+    padding: 10vw 0;
+}
+.links a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1vw 0;
+}
+.txt{
+    padding: 10vw 0;
+}
 
 
 
