@@ -10,7 +10,7 @@ html{
 }
 /* header */
 header .logo{
-    position: fixed;
+    position: absolute;
     width: 12vw;
     padding: 5vw;
 }
@@ -50,7 +50,7 @@ figcaption{
 p{
     font-size: 5vw;
     line-height: 160%;
-    padding: 10vw 0 0 0;
+    padding: 5vw 0 5vw 0;
 }
 /* video img */
 video, picture, img, iframe{
@@ -112,8 +112,52 @@ footer{
     text-decoration: none;
     padding: 1vw 0;
 }
-.txt{
-    padding: 10vw 0;
+/* info */
+.info{
+    padding: 0vw 0 10vw 0;
+}
+.info .txt{
+    padding: 10vw;
+}
+.info .txt:last-child{
+    padding: 0vw 10vw 10vw 10vw;
+    /* background: #f00; */
+}
+/* process */
+.process{
+}
+.process .txt{
+    padding: 10vw;
+}
+.process .img{
+    padding: 0 5vw;
+    display: block;
+}
+.process p{
+    padding: 15vw;
+    font-size: 5vw;
+}
+/* next projext */
+.next-project{
+    padding: 20vw 10vw;
+    margin: 20vw 0;
+}
+.next-project a{
+    text-decoration: none;
+}
+.next-project pre{
+    line-height: 150%;
+    color: #000;
+    background: #fff;
+    display: block;
+    padding: 0;
+    margin: 0 0 5vw 0;
+    width: 44vw;
+    text-align: center;
+}
+.next-project h6{
+    font-size: 9vw;
+    color: #fff;
 }
 
 
