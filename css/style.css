@@ -52,10 +52,12 @@ pre, small, figcaption{
     font-family: 'Roboto Mono', monospace;
 }
 figcaption{
+    font-size: 2.5vw;
+    letter-spacing: .5vw;
     text-align: center;
 }
 p{
-    font-size: 4.5vw;
+    font-size: 4vw;
     line-height: 160%;
     padding: 5vw 0 5vw 0;
     /* font-family: 'Roboto Mono', monospace; */
@@ -142,16 +144,16 @@ footer{
     text-decoration: none;
     padding: 1vw 0;
 }
-.cover{}
+
 /* info */
 .info{
     padding: 0vw 0 0vw 0;
 }
 .info .txt{
-    padding: 10vw;
+    padding: 10vw 10vw 10vw 10vw;
 }
 .info .txt:last-child{
-    padding: 0vw 10vw 10vw 10vw;
+    padding: 10vw 10vw 10vw 10vw;
     /* background: #f00; */
 }
 .info p:last-child{
@@ -160,31 +162,30 @@ footer{
 /* process */
 .process{
 }
+.process .tit{
+    padding: 10vw;
+}
 .process .txt{
     padding: 10vw;
 }
 .process p{
-    padding: 10vw 15vw;
-    color: #fff;
-    /* font-family: 'Roboto Mono', monospace; */
-    /* font-size: 5vw; */
 }
 .process small{
-    padding: 2vw 33vw 0 33vw;
-    color: #666;
 }
 .process h3{
     font-size: 8vw;
 }
 .media{
     padding: 0 5vw;
-    display: block;
 }
 .media img, .media video{
     border-radius: 1vw;
 }
+.media .txt{
+    /* padding: 10vw 5vw; */
+}
 .process figcaption{
-    padding: 0 0 5vw 0;
+    /* padding: 0 0 5vw 0; */
 }
 /* next projext */
 .next-project{
@@ -252,7 +253,7 @@ footer{
     figcaption{
         font-size: .8em;
         letter-spacing: .1vw;
-        margin: .5vw;
+        /* margin: .5vw; */
     }
     p{
         font-size: 1.5em;
@@ -266,7 +267,7 @@ footer{
     /* list */
     ul{}
     ul li{
-        padding: 1vw 0;
+        padding: 3vw 0;
     }
     ul li a{
     }
@@ -371,16 +372,20 @@ footer{
     .process{
         padding: 0vw 0 5vw 0;
     }
-    .process .txt{
+    .process .tit{
         padding: 5vw 20vw 5vw 20vw;
     }
+    .process .txt{
+        padding: 5vw 33vw;
+    }
+    .process .media .txt{
+        padding: 10vw 18vw;
+    }
     .process p{
-        padding: 1vw 33vw;
-        font-size: 1.5vw;
-        color: #999;
     }
     .media p{
-        padding: 2vw 18vw 10vw 18vw;
+    }
+    .process small{
     }
     .process h3{
         font-size: 3vw;
@@ -392,6 +397,10 @@ footer{
     .media img, .media video{
         border-radius: .2vw;
     }
+    .process .media small{
+        /* padding: 0 18vw; */
+    }
+
     .process figcaption{
     }
     /* next projext */
