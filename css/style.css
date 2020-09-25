@@ -169,6 +169,10 @@ footer{
     /* font-family: 'Roboto Mono', monospace; */
     /* font-size: 5vw; */
 }
+.process small{
+    padding: 2vw 33vw 0 33vw;
+    color: #666;
+}
 .process h3{
     font-size: 8vw;
 }
@@ -375,6 +379,7 @@ footer{
         font-size: 1.5vw;
         color: #999;
     }
+
     .process h3{
         font-size: 3vw;
         width: 30vw;
