@@ -379,7 +379,9 @@ footer{
         font-size: 1.5vw;
         color: #999;
     }
-
+    .media p{
+        padding: 2vw 18vw 10vw 18vw;
+    }
     .process h3{
         font-size: 3vw;
         width: 30vw;
