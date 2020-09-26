@@ -8,6 +8,7 @@ html{
     background: #000;
     color: #fff;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
 }
@@ -34,14 +35,14 @@ header .menu-icon{
 
 /* tipografia */
 h1{
-    /* font-weight: normal; */
+    font-size: 6vw;
 }
 h2{
 }
 h3{
 }
-h4, h5, h6{}
-pre, small, figcaption{
+h5, h6{}
+pre, small, figcaption, em, h4{
     font-size: 3vw;
     line-height: 150%;
     color: #999;
@@ -50,6 +51,7 @@ pre, small, figcaption{
     text-transform: uppercase;
     letter-spacing: 1vw;
     font-family: 'Roboto Mono', monospace;
+    font-style: normal;
 }
 figcaption{
     font-size: 2.5vw;
@@ -59,15 +61,7 @@ figcaption{
 p{
     font-size: 4vw;
     line-height: 160%;
-    padding: 5vw 0 5vw 0;
-    /* font-family: 'Roboto Mono', monospace; */
-}
-/* video img */
-video, picture, img, iframe{
-    width: 100%;
-}
-iframe{
-    height: 50vw;
+    padding: 3vw 0 3vw 0;
 }
 /* list */
 ul{}
@@ -79,114 +73,89 @@ ul li a{
     color: #fff;
     text-decoration: none;
 }
-/* layout */
-.content{
+/* content */
+.tit{
+    padding: 10vw;
+}
+.sub-tit{
     padding: 0 10vw;
 }
-
-/* #home */
-
-/* intro */
-.intro{
-    padding: 50vw 0 20vw 0;
+.txt{
+    padding: 0 10vw;
 }
-#home .intro h1{
-    font-size: 6vw;
-    /* font-weight: normal; */
-}
-.intro small i{
-    font-style: normal;
-}
-.intro p{
-    font-size: 1em;
-    padding: 30vw 0 10vw 0;
-}
-/* projects list */
-.projects-list{
-}
-.projects-list h2{
-    font-size: 6vw;
-}
-/* contact */
-.contact{
-    padding: 30vw 0;
-}
-.contact ul li{
-    font-size: 4vw;
-    /* font-family: 'Roboto Mono', monospace; */
-    padding: 3vw 0;
-}
-/* footer */
-footer{
-    color: #999;
-    font-size: .7em;
-    padding: 10vw;
-}
-
-/* #project */
-
-#project .intro{
-    padding: 50vw 0 10vw 0;
-}
-#project .intro h1{
-    font-size: 6vw;
-}
-#project h2{
-    font-size: 10vw;
-}
+/* links */
 .links{
-    padding: 10vw 0;
+    padding: 10vw;   
 }
 .links a{
-    font-size: 4.5vw;
+    font-size: 5vw;
+    line-height: 150%;
     display: block;
-    color: #fff;
     text-decoration: none;
-    padding: 1vw 0;
+    color: #fff;
 }
-
-/* info */
-.info{
-    padding: 0vw 0 0vw 0;
+/* video img */
+video, picture, img, iframe{
+    width: 100%;
 }
-.info .txt{
-    padding: 10vw 10vw 10vw 10vw;
-}
-.info .txt:last-child{
-    padding: 10vw 10vw 10vw 10vw;
-    /* background: #f00; */
-}
-.info p:last-child{
-    padding: 5vw 0 0vw 0;
-}
-/* process */
-.process{
-}
-.process .tit{
-    padding: 10vw;
-}
-.process .txt{
-    padding: 10vw;
-}
-.process p{
-}
-.process small{
-}
-.process h3{
-    font-size: 8vw;
+iframe{
+    height: 50vw;
 }
 .media{
     padding: 0 5vw;
 }
-.media img, .media video{
-    border-radius: 1vw;
+
+/*  */
+
+/* #home */
+#home{
 }
-.media .txt{
-    /* padding: 10vw 5vw; */
+/* intro */
+.intro .tit{
+    padding: 50vw 10vw 10vw 10vw;
 }
-.process figcaption{
-    /* padding: 0 0 5vw 0; */
+#home h2{
+    font-size: 5vw;
+    font-weight: normal;
+    line-height: 150%;
 }
+/* project list */
+.projects-list{
+    padding: 10vw;
+}
+.projects-list h3{
+    font-size: 6vw;
+}
+
+/*  */
+
+/* #project case */
+#project{}
+#project .sub-tit h2{
+    font-size: 10vw;
+}
+/* info */
+.info{
+    padding: 10vw 0 5vw 0;
+}
+.info .txt{
+    padding: 0vw 10vw 5vw 10vw;
+}
+/* process */
+.process{}
+.process .tit h3{
+    font-size: 8vw;
+}
+.process .desc{
+    padding: 20vw 0 10vw 0;
+}
+.desc .txt{
+    padding: 0 10vw 5vw 10vw;
+}
+
+/*  */
+
+
 /* next projext */
 .next-project{
     padding: 20vw 10vw 0vw 10vw;
@@ -209,6 +178,23 @@ footer{
     font-size: 10vw;
     color: #fff;
 }
+
+/* contact */
+.contact{
+    padding: 10vw;
+}
+
+/*  */
+
+/* footer */
+footer{
+    color: #999;
+    font-size: .8em;
+    padding: 10vw;
+}
+
+
+
 
 /* mobile */
 @media screen and (max-width: 767px) {
@@ -236,173 +222,7 @@ footer{
         font-size: 2vw;
         padding: .5vw 1vw;
     }
-    /* #global */
-    /* tipografia */
-    h1{
-    }
-    h2{
-    }
-    h3{
-    }
-    h4, h5, h6{}
-    pre, small, figcaption{
-        font-size: .8em;
-        letter-spacing: .2vw;
-        padding: 1vw 0;
-    }
-    figcaption{
-        font-size: .8em;
-        letter-spacing: .1vw;
-        /* margin: .5vw; */
-    }
-    p{
-        font-size: 1.5em;
-        padding: 1vw 0;
-    }
-    /* video img */
-    video, picture, img, iframe{
-    }
-    iframe{
-    }
-    /* list */
-    ul{}
-    ul li{
-        padding: 3vw 0;
-    }
-    ul li a{
-    }
-    /* layout */
-    .content{
-    }
-    /* #home */
-    /* intro */
-    .intro{
-        padding: 10vw 0 10vw 0;
-    }
-    .intro p{
-        font-size: 2vw;
-        width: 50vw;
-        padding: 10vw 0 0 0;
-        line-height: 130%;
-    }
-    #home .intro h1{
-        font-size: 2vw;
-        /* font-weight: bold; */
-    }
-    #home .intro pre{
-        font-size: .6em;
-    }
-    #home .intro small{
-        font-size: .6em;
-        letter-spacing: .15vw;
-    }
-    .intro small i{
-    }
-    /* projects list */
-    .projects-list{
-    }
-    .projects-list h2{
-        font-size: 5vw;
-    }
-    .projects-list h2:hover{
-        color: aqua;
-    }
-    /* contact */
-    .contact{
-        padding: 10vw 0 5vw 0;
-    }
-    .contact ul li{
-        font-size: 1vw;
-        padding: 1vw 0;
-    }
-    .contact li a:hover{
-        color: aqua;
-    }
-    /* footer */
-    footer{
-    }
-    /* #project */
-    #project .intro{
-        padding: 5vw 0 5vw 0;
-    }
-    #project .content{
-        /* padding: 0 40vw; */
-    }
-    #project .intro h1{
-        font-size: 2vw;
-        /* font-weight: bold; */
-    }
-    #project h2{
-        font-size: 5vw;
-        width: 50vw;
-        line-height: 100%;
-    }
-    .links{
-        padding: 5vw 0;
-    }
-    .links a{
-        font-size: 1vw;
-        padding: .3vw 0;
-    }
-    .links a:hover{
-        color: aqua;
-    }
-    .cover{
-        width: 90vw;
-        margin: 0 5vw ;
-        /* padding: 0 10vw; */
-    }
-    /* info */
-    .info{
-        padding: 0 0 5vw 0;
-    }
-    .info .txt{
-        padding: 0vw 33vw 5vw 33vw;
-    }
-    .info .txt:first-child{
-        padding: 5vw 33vw 5vw 33vw;
-    }
-    .info .txt:last-child{
-        padding: 0vw 33vw 5vw 33vw;
-    }
-    .info p:last-child{
-        padding: 1vw 0 0 0;
-    }
-    /* process */
-    .process{
-        padding: 0vw 0 5vw 0;
-    }
-    .process .tit{
-        padding: 5vw 20vw 5vw 20vw;
-    }
-    .process .txt{
-        padding: 5vw 33vw;
-    }
-    .process .media .txt{
-        padding: 10vw 18vw;
-    }
-    .process p{
-    }
-    .media p{
-    }
-    .process small{
-    }
-    .process h3{
-        font-size: 3vw;
-        width: 30vw;
-    }
-    .media{
-        padding: 0 15vw;
-    }
-    .media img, .media video{
-        border-radius: .2vw;
-    }
-    .process .media small{
-        /* padding: 0 18vw; */
-    }
 
-    .process figcaption{
-    }
     /* next projext */
     .next-project{
         padding: 15vw 10vw 5vw 10vw;
@@ -426,7 +246,6 @@ footer{
     body{
         background: #000;
     }
-
     /* header */
     header .logo{
         width: 8vw;
@@ -434,114 +253,6 @@ footer{
     header .menu-icon{
         font-size: 5vw;
         padding: 2vw 3vw;
-    }
-
-    /* #global */
-
-    /* tipografia */
-    h1{
-    }
-    h2{
-    }
-    h3{
-    }
-    h4, h5, h6{}
-    pre, small, figcaption{
-        font-size: 1.5vw;
-        letter-spacing: .5vw;
-    }
-    figcaption{
-    }
-    p{
-    }
-    /* video img */
-    video, picture, img, iframe{
-    }
-    iframe{
-    }
-    /* list */
-    ul{}
-    ul li{
-        padding: 3vw 0;
-    }
-    ul li a{
-    }
-    /* layout */
-    .content{
-    }
-
-    /* #home */
-
-    /* intro */
-    .intro{
-        padding: 40vw 0 20vw 0;
-    }
-    #home .intro h1{
-    }
-    .intro small i{
-        opacity: 1;
-    }
-    /* projects list */
-    .projects-list{
-    }
-    .projects-list h2{
-    }
-    /* contact */
-    .contact{
-        padding: 20vw 0;
-    }
-    .contact ul li{
-        font-size: 2vw;
-        padding: 2vw 0;
-    }
-    /* footer */
-    footer{
-    }
-
-    /* #project */
-
-    #project .intro{
-    }
-    #project .intro h1{
-    }
-    #project h2{
-    }
-    .links{
-    }
-    .links a{
-    }
-    /* info */
-    .info{
-    }
-    .info .txt{
-    }
-    .info .txt:last-child{
-    }
-    .info p:last-child{
-    }
-    /* process */
-    .process{
-    }
-    .process .txt{
-    }
-    .process p{
-    }
-    .process h3{
-    }
-    .process .media{
-    }
-    .process .media img, .process .media video{
-    }
-    .process figcaption{
-    }
-    /* next projext */
-    .next-project{
-    }
-    .next-project a{
-    }
-    .next-project pre{
-    }
-    .next-project h6{
     }
 }
 
@@ -560,111 +271,4 @@ footer{
         padding: 1.5vw 2vw;
     }
 
-    /* #global */
-
-    /* tipografia */
-    h1{
-    }
-    h2{
-    }
-    h3{
-    }
-    h4, h5, h6{}
-    pre, small, figcaption{
-        font-size: 1vw;
-        letter-spacing: .5vw;
-    }
-    figcaption{
-    }
-    p{
-    }
-    /* video img */
-    video, picture, img, iframe{
-    }
-    iframe{
-    }
-    /* list */
-    ul{}
-    ul li{
-    }
-    ul li a{
-    }
-    /* layout */
-    .content{
-    }
-
-    /* #home */
-
-    /* intro */
-    .intro{
-        padding: 30vw 0 10vw 0;
-    }
-    #home .intro h1{
-        /* font-weight: bold; */
-    }
-    .intro small i{
-        opacity: 1;
-    }
-    /* projects list */
-    .projects-list{
-    }
-    .projects-list h2{
-    }
-    /* contact */
-    .contact{
-        padding: 10vw 0;
-    }
-    .contact ul li{
-        font-size: 2vw;
-        padding: 2vw 0;
-    }
-    /* footer */
-    footer{
-    }
-
-    /* #project */
-
-    #project .intro{
-    }
-    #project .intro h1{
-    }
-    #project h2{
-    }
-    .links{
-    }
-    .links a{
-    }
-    /* info */
-    .info{
-    }
-    .info .txt{
-    }
-    .info .txt:last-child{
-    }
-    .info p:last-child{
-    }
-    /* process */
-    .process{
-    }
-    .process .txt{
-    }
-    .process p{
-    }
-    .process h3{
-    }
-    .process .media{
-    }
-    .process .media img, .process .media video{
-    }
-    .process figcaption{
-    }
-    /* next projext */
-    .next-project{
-    }
-    .next-project a{
-    }
-    .next-project pre{
-    }
-    .next-project h6{
-    }
 }
