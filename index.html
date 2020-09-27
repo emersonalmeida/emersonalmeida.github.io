@@ -37,19 +37,27 @@
 <body>
     <header>
         <nav>
-            <a href="">
+            <a href="#home">
                 <img class="logo" src="img/home/foto-perfil-emerson-almeida-branding-product-ux-ui-designer.png"
                     alt="Emerson Almeida" title="Emerson Almeida" data-motion="left">
             </a>
             <a class="menu-icon" href="">=</a>
+             <!--  -->
+             <div class="fixed-links" data-motion="right">
+                <li><a href="#projects">Projects -</a></li>
+                <li><a href="#contact">Contact -</a></li>
+                <li><a href="#home">Home -</a></li>
+            </div>
+            <!--  -->
+            <h1 class="fixed-tag" data-motion="down">
+                <a href="#home">Emerson Almeida </a>
+                <span>- UX / UI Designer</span><span> - Rio de Janeiro - Brazil</span></h1>
         </nav>
     </header>
 
     <main id="home">
         <section class="intro">
-            <div class="tit" data-motion="down">
-                <h1>Emerson Almeida <span>- UX / UI Designer</span><span> - Rio de Janeiro - Brazil</span> </h1>
-            </div>
+            
             <div class="txt">
                 <h2 data-motion="up">Hi<br>
                     -<br>
@@ -58,10 +66,10 @@
                     startups.<br>
                     -<br>
                     </h2>
-                    <p data-motion="up-02">Check out some projects that I had the pleasure of participating and feel free to contact me. </p>
+                    <p data-motion="up-02">Check out some <a href="#projects">projects</a> that I had the pleasure of participating and feel free to <a href="#contact">contact</a>  me. </p>
             </div>
         </section>
-        <section class="projects-list">
+        <section id="projects" class="projects-list">
             <ul>
                 <li data-motion="left">
                     <a href="project/oi-controle.html">
@@ -70,28 +78,28 @@
                         <small>Web / Mobile</small>
                     </a>
                 </li>
-                <li data-motion="left">
+                <li data-motion="left-02">
                     <a href="">
                         <pre>02</pre>
                         <h3>Missão Gênese</h3>
                         <small>UI / Games</small>
                     </a>
                 </li>
-                <li data-motion="left">
+                <li data-motion="left-03">
                     <a href="">
                         <pre>03</pre>
                         <h3>Arkave</h3>
                         <small>Branding</small>
                     </a>
                 </li>
-                <li data-motion="left">
+                <li data-motion="left-04">
                     <a href="">
                         <pre>04</pre>
                         <h3>Dunker</h3>
                         <small>Product / Web</small>
                     </a>
                 </li>
-                <li data-motion="left">
+                <li data-motion="left-05">
                     <a href="">
                         <pre>05</pre>
                         <h3>Nyte</h3>
@@ -100,25 +108,28 @@
                 </li>
             </ul>
         </section>
-        <section class="contact" >
+        <section id="contact" >
             <ul>
-                <li>
+                <pre data-motion="down">contact</pre>
+
+                <li data-motion="left">
                     <a href="">- Email</a>
                 </li>
-                <li>
+                <li data-motion="left-02">
                     <a href="">- WhatsApp</a>
                 </li>
-                <li>
+                <li data-motion="left-03">
                     <a href="">- Linkedin</a>
                 </li>
-                <li>
+                <li data-motion="left-04">
                     <a href="">- Behance</a>
                 </li>
             </ul>
+          
         </section>
     </main>
 
-    <footer>© Emerson Almeida - Rio de Janeiro - Brasil.</footer>
+    <footer>© Emerson Almeida - UX/UI - Rio de Janeiro - Brasil</footer>
 </body>
 <script src="js/lodash-core.js"></script>
 <script src="js/scoll-reveal.js"></script>
