@@ -69,6 +69,7 @@ ul{}
 ul li{
     padding: 2vw 0;
     list-style: none;
+    font-weight: normal;
 }
 ul li a{
     color: #fff;
@@ -113,8 +114,8 @@ iframe{
 #home{
 }
 /* intro */
-.intro .tit{
-    padding: 0vw 10vw 10vw 10vw;
+#home .intro{
+    padding: 10vw 0vw 0vw 0vw;
 }
 .intro i{
     font-style: normal;
@@ -133,6 +134,9 @@ iframe{
 #home .txt p{
     padding: 0;
     font-size: 1em;
+}
+#home .txt p a{
+    font-weight: bold;
 }
 /* project list */
 .projects-list{
@@ -155,10 +159,16 @@ iframe{
 .info .txt{
     padding: 0vw 10vw 5vw 10vw;
 }
+span{
+    color: #333;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    letter-spacing: 0;
+}
 /* process */
 .process{}
 #project .intro .tit{
-    padding: 50vw 10vw 5vw 10vw;
+    padding: 30vw 10vw 10vw 10vw;
 }
 .process .tit h3{
     font-size: 8vw;
@@ -221,6 +231,9 @@ footer{
     .fixed-tag, .fixed-links{
         opacity: 0!important;
     }
+    .fixed-links{
+        display: none;
+    }
     
 }
 
@@ -253,12 +266,13 @@ footer{
     .fixed-links a{
         text-decoration: none;
         font-size: .7em;
+        /* line-height: 300%; */
         text-transform: uppercase;
         letter-spacing: .1vw;
         font-family: 'Roboto Mono', monospace;
         padding: .3vw .5vw;
         color: #999;
-        background: #000;
+        /* background: #000; */
         margin: 0;
        
     }
@@ -280,7 +294,7 @@ footer{
         font-family: 'Roboto Mono', monospace;
         color: #999;
         position: absolute;
-        background: #000;
+        /* background: #000; */
         padding: .5vw;
         top: 2vw;
         left:9.5vw;
@@ -297,7 +311,7 @@ footer{
     }
     h5, h6{}
     pre, small, figcaption, h4{
-        font-size: .8em;
+        font-size: .7em;
         letter-spacing: .2vw;
         padding: 1vw 0;
     }
@@ -356,7 +370,7 @@ footer{
     }
 
     #home .intro .txt{
-        padding: 10vw 10vw 0vw 10vw;
+        padding: 0vw 10vw 0vw 10vw;
     }
     /* intro */
     .intro .tit{
@@ -381,7 +395,7 @@ footer{
     }
     /* project list */
     .projects-list{
-        padding: 5vw 10vw 5vw 10vw;
+        padding: 5vw 10vw 1vw 10vw;
     }
     .projects-list h3{
         font-size: 5vw;
@@ -392,9 +406,9 @@ footer{
         padding: 5vw 10vw 3vw 10vw;
     }
     .sub-tit h2{
-        font-size: 5vw;
+        font-size: 3vw;
         width: 50vw;
-        line-height: 110%;
+        line-height: 130%;
         padding: 1vw 0;
     }
     /* info */
@@ -421,7 +435,7 @@ footer{
     }
     /* next projext */
     .next-project{
-        padding: 15vw 10vw 15vw 10vw;
+        padding: 5vw 10vw 5vw 10vw;
     }
     .next-project a{
     }
@@ -437,7 +451,7 @@ footer{
     }
     /* contact */
     #contact{
-        padding: 5vw 10vw;
+        padding: 10vw 10vw;
     }
     #contact li a{
         font-size: 1.5em;
@@ -698,26 +712,26 @@ footer{
 }
 [data-motion="left-02"] {
     transform: translate3d(-10vw, 0, 0);  
-    transition-delay:.2s ;
+    transition-delay:.1s ;
   
 }
 [data-motion="left-03"] {
     transform: translate3d(-10vw, 0, 0);  
-    transition-delay:.3s ;
+    transition-delay:.2s ;
   
 }
 [data-motion="left-04"] {
     transform: translate3d(-15vw, 0, 0);  
-    transition-delay:.5s ;
+    transition-delay:.3s ;
   
 }
 [data-motion="left-05"] {
     transform: translate3d(-15vw, 0, 0);  
-    transition-delay:.6s ;
+    transition-delay:.4s ;
 }
 [data-motion="right"] {
     transform: translate3d(15vw, 0, 0);  
-    transition-delay: .5s ;
+    transition-delay: .8s ;
   
 }
 [data-motion="up"] {
@@ -728,10 +742,15 @@ footer{
     transition-delay:.1s ;
     transform: translate3d(0,10vw,0);  
 }
+[data-motion="up-03"] {
+    opacity: 0; 
+    transition-delay:.2s ;
+    transform: translate3d(0,10vw,0);  
+}
 [data-motion="down"] {
     opacity: 0; 
     transition-delay:.2s ;
-    transform: translate3d(0,-2vw,0);  
+    transform: translate3d(0,-5vw,0);  
 }
 
 [data-motion].animate {
