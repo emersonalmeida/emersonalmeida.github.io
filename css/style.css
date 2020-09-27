@@ -13,10 +13,13 @@ html{
 body{
 }
 /* header */
+header{
+}
 header .logo{
     position: absolute;
     width: 12vw;
     padding: 5vw;
+    z-index: 99999;
 }
 header .menu-icon{
     font-size: 7vw;
@@ -26,7 +29,7 @@ header .menu-icon{
     bottom: 0;
     position: fixed;
     color: #fff;
-    background: #f00;
+    background: #111;
     text-decoration: none;
     text-align: center;
 }
@@ -73,6 +76,7 @@ ul li a{
 /* content */
 .tit{
     padding: 10vw;
+    z-index: -99999;
 }
 .sub-tit{
     padding: 0 10vw;
@@ -85,7 +89,7 @@ ul li a{
     padding: 10vw;   
 }
 .links a{
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 150%;
     display: block;
     text-decoration: none;
@@ -106,7 +110,7 @@ iframe{
 }
 /* intro */
 .intro .tit{
-    padding: 50vw 10vw 10vw 10vw;
+    padding: 0vw 10vw 10vw 10vw;
 }
 .intro i{
     font-style: normal;
@@ -115,17 +119,28 @@ iframe{
     font-size: 1em;
     font-weight: normal;
     line-height: 150%;
-    padding: 10vw 0;
+    padding: 0vw 0 0 0;
+}
+#home h2 em{
+    color: #fff;
+    font-weight: bold;
+    font-style: normal;
+}
+#home .txt p{
+    padding: 0;
+    font-size: 1em;
 }
 /* project list */
 .projects-list{
     padding: 10vw 10vw 10vw 10vw;
 }
 .projects-list h3{
-    font-size: 6vw;
+    font-size: 8vw;
 }
 /* #project case */
 #project{}
+.project .intro .tit{
+}
 .sub-tit h2{
     font-size: 8vw;
 }
@@ -138,6 +153,9 @@ iframe{
 }
 /* process */
 .process{}
+#project .intro .tit{
+    padding: 50vw 10vw 5vw 10vw;
+}
 .process .tit h3{
     font-size: 8vw;
 }
@@ -190,7 +208,7 @@ footer{
         background: #000;
     }
     /*  */
-    .intro small i{
+    #home h1{
         opacity: 0;
     }
 }
@@ -202,7 +220,7 @@ footer{
     }
     /* header */
     header .logo{
-        width: 2.5vw;
+        width: 3vw;
         padding: 1vw;
         position: fixed;
     }
@@ -220,7 +238,7 @@ footer{
     }
     h5, h6{}
     pre, small, figcaption, h4{
-        font-size: .7em;
+        font-size: .8em;
         letter-spacing: .2vw;
         padding: 1vw 0;
     }
@@ -272,19 +290,39 @@ footer{
     /* #home */
     #home{
     }
+    #home h1{
+        font-size: .7em;
+        text-transform: uppercase;
+        letter-spacing: .1vw;
+        font-weight: normal;
+        font-family: 'Roboto Mono', monospace;
+        color: #999;
+        /* position: fixed; */
+        background: #000;
+    }
     /* intro */
     .intro .tit{
-        padding: 20vw 10vw 10vw 10vw;
+        padding: 2vw 10vw 10vw 10vw;
     }
     #home h2{
-        font-size: 1.2vw;
-        font-weight: 400;
-        line-height: 150%;
+        font-size: 3vw;
+        font-weight: 700;
+        line-height: 120%;
         padding: 0vw 0;
-        width: 33vw;
+        width: 77vw;
+    }
+    #home h2 em{
+        color: aqua;
+        font-style: normal;
+    }
+    #home .txt p{
+        font-size: 1.5vw;
+        /* line-height: 150%; */
+        width: 33%;
     }
     /* project list */
     .projects-list{
+        padding: 5vw 10vw 5vw 10vw;
     }
     .projects-list h3{
     }
@@ -371,10 +409,12 @@ footer{
     }
     h5, h6{}
     pre, small, figcaption, h4{
+        font-size: 2vw;
     }
     figcaption{
     }
     p{
+        font-size: 1.5em;
     }
     /* list */
     ul{}
@@ -393,6 +433,7 @@ footer{
     .links{   
     }
     .links a{
+        font-size: 3vw;
     }
     /* video img */
     video, picture, img, iframe{
@@ -404,10 +445,18 @@ footer{
     /* #home */
     #home{
     }
+    #home h1{
+        opacity: 0;
+    }
     /* intro */
     .intro .tit{
+
     }
     #home h2{
+        font-size: 3vw;
+    }
+    #home .txt p{
+        font-size: 3vw;
     }
     /* project list */
     .projects-list{
@@ -473,10 +522,12 @@ footer{
     }
     h5, h6{}
     pre, small, figcaption, h4{
+        font-size: .8em;
     }
     figcaption{
     }
     p{
+        font-size: 1.5em;
     }
     /* list */
     ul{}
@@ -490,11 +541,14 @@ footer{
     .sub-tit{
     }
     .txt{
+
     }
     /* links */
     .links{   
     }
     .links a{
+        font-size: 2vw;
+        line-height: 180%;
     }
     /* video img */
     video, picture, img, iframe{
@@ -508,8 +562,13 @@ footer{
     }
     /* intro */
     .intro .tit{
+        padding: 0vw 10vw 0vw 10vw;
     }
     #home h2{
+        font-size: 3vw;
+    }
+    #home .txt p{
+        font-size: 3vw;
     }
     /* project list */
     .projects-list{
@@ -518,6 +577,9 @@ footer{
     }
     /* #project case */
     #project{}
+    #project .intro .tit{
+        padding: 20vw 10vw 10vw 10vw;
+    }
     .sub-tit h2{
     }
     /* info */
@@ -551,4 +613,29 @@ footer{
     footer{
     }  
 
+}
+
+/*  */
+
+[data-motion] {
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-motion="left"] {
+    transform: translate3d(-10vw, 0, 0);    
+}
+[data-motion="up"] {
+    transform: translate3d(0, 10vw, 0);    
+}
+[data-motion="down"] {
+    transform: translate3d(0, -5vw, 0);    
+}
+[data-motion="opacity"] {
+    opacity: 0; 
+    transition-delay:.3s ;
+}
+[data-motion].animate {
+    opacity: 1;
+    transform: translate3d(0,0,0);
 }

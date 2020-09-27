@@ -39,7 +39,7 @@
         <nav>
             <a href="">
                 <img class="logo" src="img/home/foto-perfil-emerson-almeida-branding-product-ux-ui-designer.png"
-                    alt="Emerson Almeida" title="Emerson Almeida">
+                    alt="Emerson Almeida" title="Emerson Almeida" data-motion="left">
             </a>
             <a class="menu-icon" href="">=</a>
         </nav>
@@ -47,52 +47,51 @@
 
     <main id="home">
         <section class="intro">
-            <div class="tit">
-                <pre>Portfolio</pre>
-                <h1>Emerson Almeida</h1>
-                <small>UX / UI Designer <i>/ Rio de Janeiro / Brazil</i></small>
+            <div class="tit" data-motion="down">
+                <h1>Emerson Almeida <span>- UX / UI Designer</span><span> - Rio de Janeiro - Brazil</span> </h1>
             </div>
             <div class="txt">
-                <h2>Hi<br>
+                <h2 data-motion="up">Hi<br>
                     -<br>
-                    My name is Emerson Almeida, I work with Interface Design since 2009 developing interactive projects
+                    My name is <em>Emerson Almeida</em>, I work with Interface Design since 2009 developing interactive projects
                     for several clients, with experience in advertising agencies, e-commerces and technology
                     startups.<br>
                     -<br>
-                    Check out some projects that I had the pleasure of participating and feel free to contact me. </h2>
+                    </h2>
+                    <p data-motion="opacity">Check out some projects that I had the pleasure of participating and feel free to contact me. </p>
             </div>
         </section>
         <section class="projects-list">
             <ul>
-                <li>
+                <li data-motion="up">
                     <a href="project/oi-controle.html">
                         <pre>01</pre>
                         <h3>Oi Controle</h3>
                         <small>Web / Mobile</small>
                     </a>
                 </li>
-                <li>
+                <li data-motion="up">
                     <a href="">
                         <pre>02</pre>
                         <h3>Missão Gênese</h3>
                         <small>UI / Games</small>
                     </a>
                 </li>
-                <li>
+                <li data-motion="left">
                     <a href="">
                         <pre>03</pre>
                         <h3>Arkave</h3>
                         <small>Branding</small>
                     </a>
                 </li>
-                <li>
+                <li data-motion="left">
                     <a href="">
                         <pre>04</pre>
                         <h3>Dunker</h3>
                         <small>Product / Web</small>
                     </a>
                 </li>
-                <li>
+                <li data-motion="left">
                     <a href="">
                         <pre>05</pre>
                         <h3>Nyte</h3>
@@ -101,7 +100,7 @@
                 </li>
             </ul>
         </section>
-        <section class="contact">
+        <section class="contact" >
             <ul>
                 <li>
                     <a href="">- Email</a>
@@ -121,5 +120,6 @@
 
     <footer>© Emerson Almeida - Rio de Janeiro - Brasil.</footer>
 </body>
-
+<script src="js/lodash-core.js"></script>
+<script src="js/scoll-reveal.js"></script>
 </html>
