@@ -302,7 +302,7 @@ footer{
     }
     /* intro */
     .intro .tit{
-        padding: 2vw 10vw 10vw 10vw;
+        padding: 2vw 10vw 6vw 10vw;
     }
     #home h2{
         font-size: 3vw;
@@ -322,7 +322,7 @@ footer{
     }
     /* project list */
     .projects-list{
-        padding: 5vw 10vw 5vw 10vw;
+        padding: 5vw 10vw 10vw 10vw;
     }
     .projects-list h3{
     }
@@ -621,20 +621,37 @@ footer{
     opacity: 0;
     transition: 1s;
 }
-
 [data-motion="left"] {
     transform: translate3d(-10vw, 0, 0);    
+}
+[data-motion="left-02"] {
+    transform: translate3d(-10vw, 0, 0);  
+    transition-delay:.2s ;
+  
+}
+[data-motion="left-03"] {
+    transform: translate3d(-10vw, 0, 0);  
+    transition-delay:.3s ;
+  
 }
 [data-motion="up"] {
     transform: translate3d(0, 10vw, 0);    
 }
-[data-motion="down"] {
-    transform: translate3d(0, -5vw, 0);    
-}
-[data-motion="opacity"] {
+[data-motion="up-02"] {
     opacity: 0; 
-    transition-delay:.3s ;
+    transition-delay:.1s ;
+    transform: translate3d(0,10vw,0);  
 }
+[data-motion="down"] {
+    opacity: 0; 
+    transition-delay:.2s ;
+    transform: translate3d(0,-2vw,0);  
+}
+[data-motion="zoom"] {
+    opacity: 1;
+    transform: scale(2);
+}
+
 [data-motion].animate {
     opacity: 1;
     transform: translate3d(0,0,0);
