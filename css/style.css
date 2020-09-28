@@ -21,7 +21,7 @@ header .logo{
     padding: 5vw;
     z-index: 99999;
 }
-header .menu-icon{
+.menu-icon{
     font-size: 7vw;
     line-height: 100%;
     padding: 4vw 5vw;
@@ -35,7 +35,7 @@ header .menu-icon{
 }
 /* tipografia */
 h1{
-    font-size: 6vw;
+    /* font-size: 6vw; */
     /* color: aqua; */
 }
 h2{
@@ -142,6 +142,11 @@ iframe{
 .projects-list{
     padding: 10vw 10vw 10vw 10vw;
 }
+.projects-list pre, .projects-list small{
+    font-size: .8em;
+    /* color: aqua; */
+}
+
 .projects-list h3{
     font-size: 8vw;
 }
@@ -158,12 +163,6 @@ iframe{
 }
 .info .txt{
     padding: 0vw 10vw 5vw 10vw;
-}
-span{
-    color: #333;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bolder;
-    letter-spacing: 0;
 }
 /* process */
 .process{}
@@ -249,10 +248,10 @@ footer{
         position: fixed;
     }
     header .menu-icon{
-        font-size: 2vw;
-        padding: .5vw;
+        font-size: 1vw;
+        padding: 1vw 1.1vw;
     }
-    header .fixed-links{
+    .fixed-links{
         position: fixed;
         top: 2vw;
         right: 1vw;
@@ -266,7 +265,7 @@ footer{
     .fixed-links a{
         text-decoration: none;
         font-size: .7em;
-        /* line-height: 300%; */
+        /* line-height: 250%; */
         text-transform: uppercase;
         letter-spacing: .1vw;
         font-family: 'Roboto Mono', monospace;
@@ -274,35 +273,39 @@ footer{
         color: #999;
         /* background: #000; */
         margin: 0;
-       
     }
     .fixed-links a:hover{
         color: aqua;
     }
-    .fixed-tag a{
-        text-decoration: none;
+    .fixed-links a.active{
+        color: aqua!important;
+    }
+    /*  */
+    .fixed-tag{
+        position: absolute;
+        top: 2vw;
+        left: 9.5vw;
+        z-index: 99999;
+        font-family: 'Roboto Mono', monospace;
+        text-transform: uppercase;
+        font-size: .7em;
+    }
+    .fixed-tag span, .fixed-tag a{
+        /* font-size: .3em; */
+        letter-spacing: .1vw;
+        font-weight: normal;
         color: #999;
+        text-decoration: none;
+    }
+    .fixed-tag a{
+        /* color: #999; */
     }
     .fixed-tag a:hover{
         color: aqua;
     }
-    .fixed-tag{
-        font-size: .7em;
-        text-transform: uppercase;
-        letter-spacing: .1vw;
-        font-weight: normal;
-        font-family: 'Roboto Mono', monospace;
-        color: #999;
-        position: absolute;
-        /* background: #000; */
-        padding: .5vw;
-        top: 2vw;
-        left:9.5vw;
-        z-index: 99999;
-    }
     /* tipografia */
     h1{
-        font-size: 2vw;
+        /* font-size: 2vw; */
         /* color: aqua; */
     }
     h2{
@@ -313,7 +316,7 @@ footer{
     pre, small, figcaption, h4{
         font-size: .7em;
         letter-spacing: .2vw;
-        padding: 1vw 0;
+        padding: .5vw 0;
     }
     figcaption{
         padding: .5vw 0 3vw 0;
@@ -342,7 +345,7 @@ footer{
         padding: 3vw 10vw;
     }
     .links a{
-        font-size: 1vw;
+        font-size: 1em;
         line-height: 160%;
         color: #999;
     }
@@ -403,13 +406,16 @@ footer{
     /* #project case */
     #project{}
     #project .intro .tit{
-        padding: 5vw 10vw 3vw 10vw;
+        padding: 10vw 10vw 5vw 10vw;
+    }
+    #project h1{
+        font-size: 2em;
     }
     .sub-tit h2{
-        font-size: 3vw;
-        width: 50vw;
-        line-height: 130%;
-        padding: 1vw 0;
+        font-size: 5vw;
+        width: 60vw;
+        line-height: 110%;
+        padding: 0vw 0;
     }
     /* info */
     .info{
@@ -485,6 +491,9 @@ footer{
     header .menu-icon{
         font-size: 5vw;
         padding: 2vw 3vw;
+    }
+    .fixed-links{
+        display: none;
     }
     h1{
         font-size: 6vw;
@@ -707,52 +716,53 @@ footer{
     opacity: 0;
     transition: 1s;
 }
-[data-motion="left"] {
-    transform: translate3d(-10vw, 0, 0);    
+/*  */
+/* #Home */
+[data-motion="header-photo"] {
+    transform: translate3d(0vw,-3vw, 0);
+    transition-delay: 0s;    
 }
-[data-motion="left-02"] {
-    transform: translate3d(-10vw, 0, 0);  
-    transition-delay:.1s ;
-  
+[data-motion="header-tag"] {
+    transform: translate3d(0vw,-3vw, 0);
+    transition-delay: .3s;    
 }
-[data-motion="left-03"] {
-    transform: translate3d(-10vw, 0, 0);  
-    transition-delay:.2s ;
-  
+[data-motion="header-menu-01"] {
+    transform: translate3d(0vw,20vw,0);
+    transition-delay: 1.5s;    
 }
-[data-motion="left-04"] {
-    transform: translate3d(-15vw, 0, 0);  
-    transition-delay:.3s ;
-  
+[data-motion="header-menu-02"] {
+    transform: translate3d(0vw,20vw,0);
+    transition-delay: 2s;    
 }
-[data-motion="left-05"] {
-    transform: translate3d(-15vw, 0, 0);  
-    transition-delay:.4s ;
+[data-motion="intro-tit"] {
+    transform: translate3d(0vw,-5vw, 0);
+    transition-delay: .3s;    
 }
-[data-motion="right"] {
-    transform: translate3d(15vw, 0, 0);  
-    transition-delay: .8s ;
-  
+[data-motion="intro-sub"] {
+    transform: translate3d(0vw,5vw, 0);
+    transition-delay: .5s;    
 }
 [data-motion="up"] {
-    transform: translate3d(0, 10vw, 0);    
+    transform: translate3d(0vw,10vw, 0);
+    transition-delay: 0s;    
 }
-[data-motion="up-02"] {
-    opacity: 0; 
-    transition-delay:.1s ;
-    transform: translate3d(0,10vw,0);  
+[data-motion="left"] {
+    transform: translate3d(-10vw,0vw, 0);
+    transition-delay: 0s;    
 }
-[data-motion="up-03"] {
-    opacity: 0; 
-    transition-delay:.2s ;
-    transform: translate3d(0,10vw,0);  
+[data-motion="left-02"] {
+    transform: translate3d(-10vw,0vw, 0);
+    transition-delay: .2s;    
 }
-[data-motion="down"] {
-    opacity: 0; 
-    transition-delay:.2s ;
-    transform: translate3d(0,-5vw,0);  
+[data-motion="left-03"] {
+    transform: translate3d(-10vw,0vw, 0);
+    transition-delay: .3s;    
 }
-
+[data-motion="right"] {
+    transform: translate3d(10vw,0vw, 0);
+    transition-delay: .5s;    
+}
+/*  */
 [data-motion].animate {
     opacity: 1;
     transform: translate3d(0,0,0);
