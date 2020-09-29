@@ -127,16 +127,18 @@ iframe{
     padding: 0vw 0 0 0;
 }
 #home h2 em{
-    color: #fff;
+    color: aqua;
     font-weight: bold;
     font-style: normal;
 }
 #home .txt p{
     padding: 0;
     font-size: 1em;
+    color: #999;
 }
 #home .txt p a{
     font-weight: bold;
+    /* color: aqua; */
 }
 /* project list */
 .projects-list{
@@ -229,6 +231,7 @@ footer{
     /*  */
     .fixed-tag, .fixed-links{
         opacity: 0!important;
+        font-size: 1.2em;
     }
     .fixed-links{
         display: none;
@@ -328,7 +331,7 @@ footer{
     /* list */
     ul{}
     ul li{
-        padding: 1vw 0;
+        padding: 2vw 0;
     }
     ul li a{
     }
@@ -402,6 +405,9 @@ footer{
     }
     .projects-list h3{
         font-size: 5vw;
+    }
+    .projects-list pre, .projects-list small{
+        padding: 0;
     }
     /* #project case */
     #project{}
@@ -724,15 +730,15 @@ footer{
 }
 [data-motion="header-tag"] {
     transform: translate3d(0vw,-3vw, 0);
-    transition-delay: .3s;    
+    transition-delay: .1s;    
 }
 [data-motion="header-menu-01"] {
-    transform: translate3d(0vw,20vw,0);
-    transition-delay: 1.5s;    
+    transform: translate3d(0vw,5vw,0);
+    transition-delay: 1s;    
 }
 [data-motion="header-menu-02"] {
-    transform: translate3d(0vw,20vw,0);
-    transition-delay: 2s;    
+    transform: translate3d(0vw,5vw,0);
+    transition-delay: 1.5s;    
 }
 [data-motion="intro-tit"] {
     transform: translate3d(0vw,-5vw, 0);
