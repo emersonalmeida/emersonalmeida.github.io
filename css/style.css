@@ -396,10 +396,14 @@ footer{
     #home .intro .txt{
         padding: 0vw 10vw 0vw 10vw;
     }
+    #home .intro{
+        padding: 10vw 0vw 0vw 0vw;
+    }
     /* intro */
     .intro .tit{
         padding: 2vw 10vw 6vw 10vw;
     }
+    
     #home h2{
         font-size: 3vw;
         font-weight: 700;
