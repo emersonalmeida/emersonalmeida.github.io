@@ -118,7 +118,7 @@ iframe{
 }
 /* intro */
 #home .intro{
-    padding: 10vw 0vw 0vw 0vw;
+    padding: 20vw 0vw 0vw 0vw;
 }
 .intro i{
     font-style: normal;
@@ -587,6 +587,9 @@ footer{
     }
     /* #home */
     #home{
+    }
+    #home .intro{
+        padding: 5vw 0vw 0vw 0vw;
     }
     /* #home h1{
         opacity: 0;
