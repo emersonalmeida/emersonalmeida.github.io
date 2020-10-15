@@ -118,7 +118,7 @@ iframe{
 }
 /* intro */
 #home .intro{
-    padding: 10vw 0vw 10vw 0vw;
+    padding: 20vw 0vw 0vw 0vw;
 }
 .intro i{
     font-style: normal;
@@ -154,8 +154,7 @@ iframe{
 }
 
 .projects-list h3{
-    font-size: 5vw;
-    font-weight: normal;
+    font-size: 8vw;
 }
 /* #project case */
 #project{}
@@ -232,7 +231,7 @@ iframe{
 footer{
     color: #999;
     font-size: .8em;
-    padding: 0vw 10vw 10vw 10vw;
+    padding: 10vw;
 }
 
 
@@ -346,7 +345,7 @@ footer{
     /* list */
     ul{}
     ul li{
-        padding: .2vw 0;
+        padding: 1vw 0;
     }
     ul li a{
     }
@@ -406,11 +405,11 @@ footer{
     }
     
     #home h2{
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: 700;
         line-height: 120%;
         padding: 0vw 0;
-        width: 50vw;
+        width: 77vw;
     }
     #home h2 em{
         color: aqua;
@@ -427,9 +426,8 @@ footer{
         padding: 5vw 10vw 1vw 10vw;
     }
     .projects-list h3{
-        font-size: 2vw;
-        font-weight: 700;
-        /* letter-spacing: -.1vw; */
+        font-size: 8vw;
+        letter-spacing: -.1vw;
     }
     .projects-list pre, .projects-list small{
         padding: 0;
