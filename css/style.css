@@ -118,7 +118,7 @@ iframe{
 }
 /* intro */
 #home .intro{
-    padding: 10vw 0vw 10vw 0vw;
+    padding: 30vw 0vw 10vw 0vw;
 }
 .intro i{
     font-style: normal;
@@ -127,7 +127,7 @@ iframe{
     font-size: 1em;
     font-weight: normal;
     line-height: 150%;
-    padding: 0vw 0 0 0;
+    padding: 0vw 0 5vw 0;
 }
 #home h2 em{
     color: aqua;
@@ -300,7 +300,7 @@ footer{
     }
     /*  */
     .fixed-tag{
-        position: absolute;
+        position: fixed;
         top: 2vw;
         left: 9.5vw;
         z-index: 99999;
@@ -320,6 +320,10 @@ footer{
     }
     .fixed-tag a:hover{
         color: aqua;
+    }
+    .fixed-tag span:last-child{
+        color: #666;
+        text-decoration: line-through;
     }
     /* tipografia */
     h1{
@@ -406,11 +410,11 @@ footer{
     }
     
     #home h2{
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: 700;
-        line-height: 120%;
-        padding: 0vw 0;
-        width: 50vw;
+        line-height: 130%;
+        padding: 0vw 0 2vw 0;
+        width: 80vw;
     }
     #home h2 em{
         color: aqua;
