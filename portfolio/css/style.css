@@ -16,7 +16,7 @@ body{
 header{
 }
 header .logo{
-    position: fixed;
+    position: absolute;
     width: 12vw;
     padding: 5vw;
     z-index: 99999;
@@ -52,7 +52,7 @@ pre, small, figcaption, h4{
     text-transform: uppercase;
     letter-spacing: 1vw;
     font-family: 'Roboto Mono', monospace;
-    font-style: normal;
+    font-weight: normal;
 }
 figcaption{
     font-size: 2.5vw;
@@ -67,7 +67,7 @@ p{
 /* list */
 ul{}
 ul li{
-    padding: 2vw 0;
+    padding: 5vw 0;
     list-style: none;
     font-weight: normal;
 }
@@ -92,6 +92,7 @@ ul li a{
 }
 a{
     color: #fff;
+    transition: 1s;
 }
 .links a{
     font-size: 4vw;
@@ -108,7 +109,7 @@ iframe{
     height: 50vw;
 }
 .media{
-    padding: 0 5vw;
+    /* padding: 0 5vw; */
 }
 .info .media iframe, .info .media video, .info .media img{
     padding: 5vw 0 10vw 0;
@@ -118,7 +119,15 @@ iframe{
 }
 /* intro */
 #home .intro{
-    padding: 20vw 0vw 0vw 0vw;
+    padding: 5vw 0vw 0vw 0vw;
+}
+.intro a:last-child{
+    /* color: #666; */
+    text-decoration: none;
+}
+.intro a:last-child:hover{
+    color: aqua;
+    text-decoration: none;
 }
 .intro i{
     font-style: normal;
@@ -131,7 +140,7 @@ iframe{
 }
 #home h2 em{
     color: aqua;
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 #home .txt p{
@@ -140,7 +149,7 @@ iframe{
     color: #999;
 }
 #home .txt p a{
-    font-weight: bold;
+    font-weight: 700;
     /* color: aqua; */
 }
 /* project list */
@@ -148,13 +157,26 @@ iframe{
     padding: 10vw 10vw 10vw 10vw;
 }
 .projects-list pre, .projects-list small{
-    font-size: .7em;
+    font-size: .8em;
     letter-spacing: .5vw;
     /* color: aqua; */
 }
 
 .projects-list h3{
     font-size: 8vw;
+    font-weight: 700;
+    color: #fff;
+    transition: .3s;
+}
+.projects-list h3:hover{
+    /* font-size: 8vw!important; */
+    color: aqua;
+}
+
+.projects-list li{
+    transition: 1s;
+}
+.projects-list li:hover{
 }
 /* #project case */
 #project{}
@@ -176,7 +198,7 @@ iframe{
 /* process */
 .process{}
 #project .intro .tit{
-    padding: 30vw 10vw 10vw 10vw;
+    padding: 0vw 10vw 10vw 10vw;
 }
 
 .process .tit h3{
@@ -234,13 +256,86 @@ footer{
     padding: 10vw;
 }
 
-
+/* slide */
+/* * {box-sizing:border-box} */
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides1, .mySlides2 {display: none}
+/* img {vertical-align: middle;} */
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.6s ease;
+  /* border-radius: 1em; */
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,1);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #999;
+  font-size: 8px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 1);
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 10px;
+  background-color: #999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: .5s;
+}
+.active, .dot:hover {
+  background-color: #fff;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4; transform:scaleX(.99);}
+  to {opacity: 1; transform: scaleX(1);}
+}
+@keyframes fade {
+    from {opacity: .4; transform: scaleX(.99);}
+    to {opacity: 1; transform: scaleX(1);}
+}
 
 
 /* mobile */
 @media screen and (max-width: 767px) {
     body{
-        background: #000;
+        /* background: #000; */
     }
     /*  */
     .fixed-tag, .fixed-links{
@@ -250,19 +345,26 @@ footer{
     .fixed-links{
         display: none;
     }
+    header .logo{
+        position: fixed;
+    }
     
 }
 
 /* desktop */
 @media all and (min-width: 1025px) and (max-width: 1920px) {
     body{
-        background: #000;
+        /* background: #000; */
+        /* border: 1vw solid #fff; */
     }
     /* header */
     header .logo{
         width: 3vw;
         padding: 1vw;
         position: fixed;
+    }
+    header .logo:hover{
+        transform: scale(1.1);
     }
     header .menu-icon{
         font-size: 1vw;
@@ -281,7 +383,7 @@ footer{
     }
     .fixed-links a{
         text-decoration: none;
-        font-size: .7em;
+        font-size: .8em;
         /* line-height: 250%; */
         text-transform: uppercase;
         letter-spacing: .1vw;
@@ -290,9 +392,12 @@ footer{
         color: #999;
         /* background: #000; */
         margin: 0;
+        /* transition: 1s; */
+        font-weight: 700;
     }
     .fixed-links a:hover{
         color: aqua;
+        font-weight: 700;
     }
     .fixed-links a.active{
         color: aqua!important;
@@ -305,7 +410,10 @@ footer{
         z-index: 99999;
         font-family: 'Roboto Mono', monospace;
         text-transform: uppercase;
-        font-size: .7em;
+        font-size: .8em;
+    }
+    small.fixed-tag{
+        padding: 0;
     }
     .fixed-tag span, .fixed-tag a{
         /* font-size: .3em; */
@@ -336,7 +444,7 @@ footer{
         padding: 1vw 0;
     }
     figcaption{
-        padding: .5vw 0 3vw 0;
+        padding: .5vw 0 1vw 0;
     }
     p{
         font-size: 1.2vw;
@@ -351,7 +459,7 @@ footer{
     }
     /* content */
     .tit{
-        padding: 5vw 25vw;
+        padding: 3vw 20vw 3vw 20vw;
     }
     .sub-tit{
     }
@@ -360,18 +468,25 @@ footer{
     /* links */
     .links{   
         padding: 3vw 10vw;
+        transition: 1s;
+
     }
     .links a{
         font-size: 1em;
         line-height: 160%;
         color: #999;
+        transition: 1s;
+    }
+    .links a:hover{
+        transition: 1s;
+        /* width: 10%; */
     }
     a{
-        /* transition: 1s; */
+        transition: 1s;
     }
     a:hover{
         color: aqua;
-        /* transition: 1s; */
+        transition: 1s;
     }
     /* video img */
     video, picture, img, iframe{
@@ -383,16 +498,42 @@ footer{
         padding: 3vw 0 5vw 0;
     }
     .media{
-        padding: 0 20vw;
+        padding: 0 10vw;
     }
+    .numbertext {
+        color: #666;
+        font-size: 12px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0);
+        position: absolute;
+        bottom: 10px;
+      }
+      .prev, .next{
+          padding: 10px;
+          /* margin: 0 10px; */
+      }
+      .prev:hover, .next:hover {
+          color: #fff;
+        background-color: rgba(0,0,0,1);
+      }
     .cover{
         width: 90vw;
         padding: 0 5vw;
     }
+    /* The dots/bullets/indicators */
+    .dot {
+        height: .5vw;
+        width: .5vw;
+        margin: 0 .5vw;
+        background-color: #666;
+    }
+    .active, .dot:hover {
+        background-color: #fff;
+        transform: scale(1.1);
+    }
     /* #home */
     #home{
     }
-
     #home .intro .txt{
         padding: 0vw 10vw 0vw 10vw;
     }
@@ -403,31 +544,42 @@ footer{
     .intro .tit{
         padding: 2vw 10vw 6vw 10vw;
     }
-    
+    .intro a:last-child{
+        /* color: #666; */
+        /* text-decoration: none; */
+        /* font-size: 2vw; */
+        /* color: #666; */
+    }
+    .intro a:last-child:hover{
+    }
     #home h2{
-        font-size: 3vw;
-        font-weight: 700;
-        line-height: 120%;
+        font-size: 1vw;
+        font-weight: 400;
+        line-height: 150%;
         padding: 0vw 0;
-        width: 77vw;
+        width: 33vw;
     }
     #home h2 em{
         color: aqua;
         font-style: normal;
+        font-weight: 700;
     }
     #home .txt p{
-        font-size: 1.5vw;
+        font-size: 1vw;
         /* line-height: 150%; */
         width: 33%;
         color: #999;
+        font-weight: 400;
     }
     /* project list */
     .projects-list{
-        padding: 5vw 10vw 1vw 10vw;
+        padding: 5vw 10vw 5vw 10vw;
     }
     .projects-list h3{
-        font-size: 8vw;
-        letter-spacing: -.1vw;
+        font-size: 3vw;
+        font-weight: 700;
+        /* letter-spacing: -.1vw; */
+        /* color: #333; */
     }
     .projects-list pre, .projects-list small{
         padding: 0;
@@ -435,10 +587,26 @@ footer{
         font-size: .8em;
         /* font-weight: normal; */
     }
+    .projects-list li{
+        transition: 1s;
+    }
+    .projects-list li:hover{
+        padding: 3vw;
+        display: block;
+        /* background: aqua; */
+        background: #111;
+        
+        /* border-bottom: 1px solid aqua; */
+    }
+    .projects-list li:hover h3{
+        font-size: 8vw;
+        /* color: aqua; */
+        /* color: black; */
+    }
     /* #project case */
     #project{}
     #project .intro .tit{
-        padding: 10vw 10vw 5vw 10vw;
+        padding: 10vw 10vw 3vw 10vw;
     }
     #project h1{
         font-size: 2em;
@@ -446,15 +614,20 @@ footer{
     #project .intro small, #project .intro pre{
         padding: .5vw 0;
     }
+    .intro img {
+        /* padding: 0 5vw; */
+        /* width: 90vw; */
+    }
     .sub-tit h2{
         font-size: 5vw;
         width: 60vw;
-        line-height: 100%;
+        line-height: 110%;
         padding: 0vw 0;
+        /* font-weight: 900; */
     }
     /* info */
     .info{
-        padding: 5vw 0 5vw 0;
+        padding: 5vw 0 0vw 0;
     }
     .info .txt{
         padding: 0 33vw 2vw 33vw;
@@ -463,12 +636,13 @@ footer{
     .process{}
     .process .tit h3{
         font-size: 3vw;
-        width: 60%;
-        padding: 0;
-        letter-spacing: -.05vw;
+        font-weight: 700;
+        width: 50%;
+        padding: 1vw 0 0 0;
+        letter-spacing: 0px;
     }
     .process .desc{
-        padding: 5vw 0 5vw 0;
+        padding: 5vw 0 3vw 0;
     }
     .desc .txt{
         padding: 0 33vw 2vw 33vw;
@@ -477,8 +651,8 @@ footer{
         /* font-size: 1.5em; */
     }
     .process pre, .process h4, .process small{
-        padding: 0 0 1vw 0;
-        font-weight: normal;
+        padding: 0 0 .5vw 0;
+        /* font-weight: normal; */
     }
     /* next projext */
     .next-project{
@@ -490,7 +664,7 @@ footer{
         color: aqua;
     }
     .next-project pre{
-        width: 11vw;
+        width: 14vw;
         margin: 0 0 1vw 0;
     }
     .next-project h6{
@@ -498,7 +672,7 @@ footer{
     }
     /* contact */
     #contact{
-        padding: 10vw 10vw;
+        padding: 0vw 10vw;
     }
     #contact li a{
         font-size: 1.5em;
@@ -514,8 +688,8 @@ footer{
     }
     /* footer */
     footer{
-        color: #999;
-        font-size: .8em;
+        color: #fff;
+        font-size: 1em;
         padding: 5vw 10vw 5vw 10vw;
     }
 }
@@ -523,7 +697,7 @@ footer{
 /* tablet */
 @media all and (min-width: 768px) and (max-width: 1024px) {
     body{
-        background: #000;
+        /* background: #000; */
     }
     /* header */
     header .logo{
@@ -661,7 +835,7 @@ footer{
 /* landscape */   
 @media screen and (min-width: 320px) and (max-width: 1024px) and (orientation: landscape) {
     body{
-        background: #000;
+        /* background: #000; */
     }
 
     /* header */
@@ -807,7 +981,7 @@ footer{
     transition-delay: .5s;    
 }
 [data-motion="up"] {
-    transform: translate3d(0vw,5vw, 0);
+    transform: translate3d(0vw,-5vw, 0);
     transition-delay: 0s;  
     opacity: 1;
 }
@@ -815,7 +989,7 @@ footer{
     transform: translate3d(0vw,5vw, 0);
     transition-delay: 0s;
     /* background-image: linear-gradient(#111, #000);   */
-    opacity: 1;
+    opacity: .5 ;
 }
 [data-motion="left"] {
     transform: translate3d(-10vw,0vw, 0);
