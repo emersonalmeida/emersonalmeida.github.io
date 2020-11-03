@@ -59,15 +59,22 @@ figcaption{
     letter-spacing: .5vw;
     text-align: center;
 }
-p{
+p, blockquote{
     font-size: .8em;
     line-height: 160%;
     padding: 3vw 0 3vw 0;
+    color: #ccc;
+}
+blockquote{
+    font-size: 8vw;
+    color: #999;
+    font-weight: 400;
+    padding: 10vw 0;
 }
 /* list */
 ul{}
 ul li{
-    padding: 5vw 0;
+    padding: 3vw 0;
     list-style: none;
     font-weight: normal;
 }
@@ -111,6 +118,9 @@ iframe{
 .media{
     /* padding: 0 5vw; */
 }
+.gallery{
+    padding: 5vw;
+}
 .info .media iframe, .info .media video, .info .media img{
     padding: 5vw 0 10vw 0;
 }
@@ -122,7 +132,7 @@ iframe{
     padding: 5vw 0vw 0vw 0vw;
 }
 .intro a:last-child{
-    /* color: #666; */
+    /* color: #999; */
     text-decoration: none;
 }
 .intro a:last-child:hover{
@@ -178,6 +188,9 @@ iframe{
 }
 .projects-list li:hover{
 }
+.projects-list span{
+    display: none;
+}
 /* #project case */
 #project{}
 #project h1{
@@ -213,7 +226,7 @@ iframe{
     padding: 0 10vw 5vw 10vw;
 }
 .process pre, .process h4, .process small{
-    /* color:#666; */
+    /* color:#999; */
     padding: 2vw 0;
 }
 /*  */
@@ -254,6 +267,7 @@ footer{
     color: #999;
     font-size: .8em;
     padding: 10vw;
+    font-weight: 700;
 }
 
 /* slide */
@@ -323,12 +337,12 @@ footer{
   animation-duration: 1s;
 }
 @-webkit-keyframes fade {
-  from {opacity: .4; transform:scaleX(.99);}
-  to {opacity: 1; transform: scaleX(1);}
+  from {opacity: .4; transform:scale(.95);}
+  to {opacity: 1; transform: scale(1);}
 }
 @keyframes fade {
-    from {opacity: .4; transform: scaleX(.99);}
-    to {opacity: 1; transform: scaleX(1);}
+    from {opacity: .4; transform: scale(.95);}
+    to {opacity: 1; transform: scale(1);}
 }
 
 
@@ -362,9 +376,11 @@ footer{
         width: 3vw;
         padding: 1vw;
         position: fixed;
+        /* transition: .3s; */
     }
     header .logo:hover{
         transform: scale(1.1);
+
     }
     header .menu-icon{
         font-size: 1vw;
@@ -384,20 +400,22 @@ footer{
     .fixed-links a{
         text-decoration: none;
         font-size: .8em;
-        /* line-height: 250%; */
+        line-height: 200%;
         text-transform: uppercase;
         letter-spacing: .1vw;
         font-family: 'Roboto Mono', monospace;
-        padding: .3vw .5vw;
+        /* padding: .3vw .5vw; */
+        padding: .2vw;
         color: #999;
         /* background: #000; */
         margin: 0;
         /* transition: 1s; */
-        font-weight: 700;
+        /* font-weight: 700; */
     }
     .fixed-links a:hover{
-        color: aqua;
-        font-weight: 700;
+        color: #000;
+        /* font-weight: 700; */
+        background: aqua;
     }
     .fixed-links a.active{
         color: aqua!important;
@@ -444,11 +462,23 @@ footer{
         padding: 1vw 0;
     }
     figcaption{
+        font-size: .7em;
         padding: .5vw 0 1vw 0;
+        /* letter-spacing: .1vw; */
     }
     p{
         font-size: 1.2vw;
         padding: 1vw 0 ;
+    }
+    blockquote{
+        font-size: 3vw;
+        color: #fff;
+        padding: 5vw 10vw;
+        margin: 5vw 0;
+        border-left: 10px solid #222;
+        font-weight: 400;
+        line-height: 130%;
+        background: #050505;
     }
     /* list */
     ul{}
@@ -459,7 +489,7 @@ footer{
     }
     /* content */
     .tit{
-        padding: 3vw 20vw 3vw 20vw;
+        padding: 5vw 20vw 3vw 20vw;
     }
     .sub-tit{
     }
@@ -468,21 +498,23 @@ footer{
     /* links */
     .links{   
         padding: 3vw 10vw;
-        transition: 1s;
+        /* transition: 1s; */
 
     }
     .links a{
-        font-size: 1em;
+        font-size: 1vw;
         line-height: 160%;
         color: #999;
-        transition: 1s;
+        font-weight: normal;
+        /* transition: 1s; */
     }
     .links a:hover{
-        transition: 1s;
+        /* transition: .3s; */
         /* width: 10%; */
     }
     a{
-        transition: 1s;
+        transition: .3s;
+        font-weight: 700;
     }
     a:hover{
         color: aqua;
@@ -500,21 +532,22 @@ footer{
     .media{
         padding: 0 10vw;
     }
-    .numbertext {
-        color: #666;
-        font-size: 12px;
-        padding: 10px;
-        background: rgba(0, 0, 0, 0);
-        position: absolute;
-        bottom: 10px;
-      }
+    .gallery{
+        padding: 0vw 20vw;
+    }
       .prev, .next{
-          padding: 10px;
+          top: 95%;
+          font-size: 1em;
+          padding: 1em;
+          line-height: 100%;
           /* margin: 0 10px; */
+          background-color: rgba(0,0,0,1);
+          transition: .3s;
       }
       .prev:hover, .next:hover {
-          color: #fff;
-        background-color: rgba(0,0,0,1);
+          color: #000;
+        background-color: rgb(255, 255, 255);
+        transition: .3s;
       }
     .cover{
         width: 90vw;
@@ -525,7 +558,7 @@ footer{
         height: .5vw;
         width: .5vw;
         margin: 0 .5vw;
-        background-color: #666;
+        background-color: #999;
     }
     .active, .dot:hover {
         background-color: #fff;
@@ -545,22 +578,22 @@ footer{
         padding: 2vw 10vw 6vw 10vw;
     }
     .intro a:last-child{
-        /* color: #666; */
+        /* color: #999; */
         /* text-decoration: none; */
         /* font-size: 2vw; */
-        /* color: #666; */
+        /* color: #999; */
     }
     .intro a:last-child:hover{
     }
     #home h2{
-        font-size: 1vw;
+        font-size: 2vw;
         font-weight: 400;
         line-height: 150%;
         padding: 0vw 0;
-        width: 33vw;
+        width: 60vw;
     }
     #home h2 em{
-        color: aqua;
+        color: #fff;
         font-style: normal;
         font-weight: 700;
     }
@@ -576,7 +609,7 @@ footer{
         padding: 5vw 10vw 5vw 10vw;
     }
     .projects-list h3{
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: 700;
         /* letter-spacing: -.1vw; */
         /* color: #333; */
@@ -588,20 +621,39 @@ footer{
         /* font-weight: normal; */
     }
     .projects-list li{
-        transition: 1s;
+        transition: .5s;
     }
     .projects-list li:hover{
         padding: 3vw;
-        display: block;
+        /* display: block; */
         /* background: aqua; */
         background: #111;
         
         /* border-bottom: 1px solid aqua; */
     }
     .projects-list li:hover h3{
-        font-size: 8vw;
-        /* color: aqua; */
-        /* color: black; */
+        color: aqua;
+    }
+    .projects-list li:hover pre, .projects-list li:hover small{
+        color: #999;
+        font-weight: 700;
+    }
+    .projects-list li:hover span{
+        /* color: #000; */
+    }
+    .projects-list span{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 5vw;
+        font-weight: bold;
+        color: #222;
+        display: block;
+        /* padding: 5vw; */
+        width: 10vw;
+        height: 10vw;
+        /* background: #f00; */
+        float: left;
+        clear: both;
+        margin: .1em 0 0 0;
     }
     /* #project case */
     #project{}
@@ -642,7 +694,7 @@ footer{
         letter-spacing: 0px;
     }
     .process .desc{
-        padding: 5vw 0 3vw 0;
+        padding: 5vw 0 0vw 0;
     }
     .desc .txt{
         padding: 0 33vw 2vw 33vw;
@@ -654,6 +706,7 @@ footer{
         padding: 0 0 .5vw 0;
         /* font-weight: normal; */
     }
+ 
     /* next projext */
     .next-project{
         padding: 5vw 10vw 5vw 10vw;
@@ -714,14 +767,14 @@ footer{
     #home h1{
         font-size: 1.5vw;
         padding: 10vw 10vw 10vw 10vw;
-        color: #666;
+        color: #999;
         text-transform: uppercase;
         font-family: 'Roboto Mono', monospace;
         letter-spacing: .3vw;
     }
     h1 a{
         text-decoration: none;
-        color: #666;
+        color: #999;
     }
     h2{
     }
