@@ -1,0 +1,247 @@
+1) personas definidas
+	- Entrevista com Estilo
+	- Questionário
+		- Objetivos
+		- Necessidades
+		- Problemas
+		
+2) lean definido
+	- mapa de processo
+	- definir problema
+	- definir proprosta de valor
+	-
+3) questionário definido
+	- descoberta de usuario
+	- validação de hipoteses
+
+-
+
+- O que queremos com isso?
+- Como vamos utilizar esses dados?
+
+-
+
+Objetivo da Discovery
+- Definir público alvo
+	- Estilo
+	- Estilistas
+	- Assistente de Estilo
+- Entrevistas
+
+
+O que queremos descobrir?
+- Quem é o público alvo do +Produtos
+
+# Hipoteses
+---
+- Fornecer dados de performance dos produtos para ajudar o time a entender o comportamento do cliente e identificar tendências para as próximas coleções
+
+- Fornecer dados de produto, cliente, venda...
+- Esperando gerar insights para o time de Estilo
+- 
+- Acreditamos que conseguimos impactar as vendas fornecendo dados de coleções passadas para que o time de Estilo tenha insumos de dado para construir
+- Ex.: Na coleção passada, teve um vestido que vendeu mais que o esperado, esse vestido era composto pelas materias primas X e Y, manga bufante, 
+
+
+
+
+
+
+-
+
+
+
+
+
+
+- Card Sorting
+---
+-
+- Contexto
+---
+- Emerson - Designer de produto
+- Squad Estilo - Comecei há 2 semanas =]
+-
+- Etapa / Projeto
+---
+- Discovery do +Produtos
+-
+- Hipotese do produto
+---
+- Acreditamos que conseguimos ajudar o time de Estilo a gerar insights para as próximas coleções através de dados de produto como: 
+- Quais foram os produtos mais vendidos nas coleções passadas?
+- Quais foram as matérias primas utilizadas?
+- Qual o custo do produto?
+- Que tipo de estampa e aviamento foi usado?
+- Quem é o estilista?
+- ...
+- 
+- 
+- Objetivo da sprint 
+---
+- mapear o pefil dos usuários chaves
+- validar a hipotese de produto
+-
+- Ferramentas
+---
+- Formulário
+- Mapear o perfil do usuário e validar hipotese
+-
+- Mapa de Processos
+- Entender o processo das estilistas e assistentes de Estilo
+- Identificar objetivos e problemas
+- 
+-
+- A sugestão do Jota, foi focarmos o questionário apenas para validar hipotese
+- E fazer um card sorting pra aprofundar um pouco mais nas questoes qualitativas
+- 
+- Dúvida
+- Como o card sorting pode nos ajudar na estapa de descoberta?
+- Do que precisamos para aplicar?
+
+
+
+Contexto
+---
+- Designer de produto
+- Squad Estilo
+- Começou há 2 semanas
+-
+- Discovery
+---
+- Mapear usuário chave
+- Validar hipotese
+-
+- Usuário Chave
+---
+- 
+- 
+- Form
+- https://gfdp0mdqcl5.typeform.com/to/dRcKhtsB
+-
+- Mapa de Processo
+- https://miro.com/app/board/o9J_lXU3-oU=/
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+Mapa de processo - Estilo
+---
+- 
+- Levar ideias de temas para discussão
+- Levar tema fechado e idéias de formas, cores, estampas...
+- Levar caminhos de estampas e cores feitos
+- Pedir para estampar na bandeira 
+- Cores e Bandeiras ja no tecido para efeturar a compra da materia-prima
+
+
+
+
+
+-
+
+
+
+
+
+Chris Lucchetti e Chris Machado
+
+- Buscar por tipos de pesquisas
+---
+- Deixa eu ver todas as pesquisas que ja fiz sore 'Decote'
+- Buscar por todas as pesquisas da Estilista 'X'
+- Filtrar por tags
+- Tipos de tags, vestidos, decote, manga bufante...
+
+
+Ferramenta para
+--- 
+- Criar - Pesquisas
+- Buscar - Pesquisas anteriores - Historico da marca
+- Filtrar - Caracteristicas - Estampa - Cor - Linha...
+ 
+
+Status Quo
+---
+- Grupo de Estilistas no Whatsapp com 17 mil imagens
+- Problema para filtrar imagens por caracteristicas 
+- Problema com a falta de organização dessas imagens
+
+
+Desejo
+---
+- Deixa eu ver toda minha pesquisa de 'decote'
+- Buscar por pesquisas passadas
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 - Concepts como ferramentas de visão de produtos
+2 - Como migrar do design gráfico para design de produtos digitais sem trauma
+
+
+
+
+
+
+
+-
+
+
+
+Farm
+- 
+- Meninas do planejamento
+Passam informações de venda, tipo de produto, estampa
+-
+-
+- 
+
+
+card sorting
+como as clientes agrupariam os itens do menu
+
+
+-
+
+
+Formulario e Dinamica
+
+
+
+
+
+
+
+
+
+

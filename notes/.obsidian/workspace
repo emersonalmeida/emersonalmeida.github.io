@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "d096cd84a9e1f0e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7529216565d93d8",
+        "type": "leaf",
+        "dimension": 38.25910931174089,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pesquisa/dual-tracking.md.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "6836f3fbac0f713b",
+        "type": "leaf",
+        "dimension": 33.80566801619433,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pesquisa/dual-tracking.md.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "a7d2a661a1237de1",
+        "type": "split",
+        "dimension": 27.93522267206478,
+        "children": [
+          {
+            "id": "f0b4ad75e798522e",
+            "type": "leaf",
+            "dimension": 64.16382252559727,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasks/tasks.md",
+                "mode": "preview"
+              }
+            }
+          },
+          {
+            "id": "9994b29a2111615c",
+            "type": "leaf",
+            "dimension": 35.83617747440273,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasks/tasks.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b548b9eaa24e4f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "43a1748a1f7339bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "413c4a6775080653",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "76bd9c35b83ccf6f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68c47f9d4588a78d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 248,
+    "collapsed": true
+  },
+  "right": {
+    "id": "30a0d0abef2adf20",
+    "type": "split",
+    "children": [
+      {
+        "id": "f498906dbb812665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e0011c68b9d90f9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pesquisa/dual-tracking.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5005dc6af2a5e237",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f46847c15e5d904f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pesquisa/dual-tracking.md.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.23086547851562,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "pesquisa/dual-tracking.md.md",
+    "tasks/tasks.md",
+    "pesquisa/dual-tracking-somalabs.md.md",
+    "Untitled.md",
+    "pesquisa/leitura-artigo-declaracao-problema-mari-alves.md.md",
+    "daily/2021-02-27.md",
+    "mais-produtos/personas-mais-produtos.md.md",
+    "pesquisa/Untitled.md",
+    "tasks/tasks.md.md",
+    "markdown-syntax.md"
+  ]
+}

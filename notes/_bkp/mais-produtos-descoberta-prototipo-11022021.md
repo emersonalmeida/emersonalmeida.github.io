@@ -1,0 +1,28 @@
+Projeto
+
++Produtos
+
+
+
+Descoberta
+
+- Oxigenar o estilo
+- Organizar pesquisas
+- Acompanhar resultados
+
+
+
+Prototipo
+
+- Pesquisar no acervo - Buscar - Filtrar - Ordenar - Produtos - Coleções
+- Salvar pesquisas em pastas - 
+- Ver detalhes do produto - 
+
+
+
+Teste
+- Buscar e filtrar produtos no acervo
+- Salvar e organizar produtos em pastas
+- Ver relatórios de desempenho
+
+-

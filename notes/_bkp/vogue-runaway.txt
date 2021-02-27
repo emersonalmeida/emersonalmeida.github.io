@@ -1,0 +1,63 @@
+Vogue
+- Ferramenta interativa para explorar o arquivo cada vez maior da Vogue Runway.
+
+-
+
+Interação
+---
+- Filtrar
+- Ver detalhes da foto
+
+-
+
+Filtros
+---
+- Item
+- Style
+- City
+- Season
+
+-
+
+-
+- Fotos tageadas por
+- Item - Blusa, Saia, Casaco...
+- Style - Cor, Material, Caracteristicas
+- City - Londres, Paris, Milão...
+- Season - Coleções - Temporada
+
+-
+
+
+
+O que estamos fazendo? 
+---
+Teste de usabilidade +Produtos
+Mapeando pontos de atenção no fluxo e na interação com o produto
+-
+Percebemos um excesso de etapas deixando o fluxo de busca por produto muito extenso. A interface do usário não é clara nas ações que o usário precisa executar. 
+-
+Status
+- Aguardando acesso testes salvos no lookback
+- 
+- 
+-  
+-
+-
+- Teste de usabilidade +Produtos
+- Mapear pontos de atenção 
+- 
+- Status
+- 
+
+Qual o problema que estamos resolvendo? 
+- Validando se o prototipo atende as necessidades 
+
+Status
+
+
+Postem aqui, por favor!
+
+Não se esqueçam que isso é uma forma de engajarmos um no projeto do outro e aprendermos juntos, então se se interessar por um tema mostrado, chame o colega no pvt e troque muita idéia!
+ 
+

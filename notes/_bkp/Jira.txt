@@ -1,0 +1,86 @@
+Criar Material de Discovery
+---
+- Precisamos definir qual estrutura de entrevistas iremos adotar e criar modelos.
+- Criar questionários.
+- Criar ambientes para testes dos protótipos.
+
+-
+
+Entregáveis
+---
+- Persona - Contexto - Objetivos - Necessidades - Problemas
+- Lean Canvas - Problema - Proposta de Valor 
+- Análise Heuristica - Usabilidade
+
+-
+
+Dados utilizados
+---
+- Entrevistas com Estilo
+- Testes de usabilidade
+- Analise Heuristica
+- Questionário
+
+
+
+
+Objetivo da sprint
+---
+- mapear universo do cliente
+- validar hipoteses +produtos
+
+Mapear Perfil
+-
+- Contexto 
+- Necessidades
+- Problemas 
+- Expectativas
+
+Analisar
+-
+- Entrevistas com usuários
+- Teste de usabilidade
+- Análise Heurística
+- Questionário
+
+Sintetizar
+-
+- Persona
+- Lean Canvas
+- Product Vision
+
+
+
+-
+
+Criar Material de Discovery
+---
+- Entrevistas
+- https://somagrupo.sharepoint.com/:f:/s/SomaLabs327/EqflO0TwpllHhgHOobGgUZ0BRyC-uTJFDebFSgPItiCbPw?e=2nWdDp
+-
+- Questionário		
+- https://gfdp0mdqcl5.typeform.com/to/dRcKhtsB
+- https://somagrupo-my.sharepoint.com/:x:/g/personal/emerson_santos_somagrupo_com_br/ETMSGx70pvBCotY6ahE-ldcBqvqGPOSrJyQQ28DiKmt3Zw?e=NBhREr
+-
+- Fluxo +Produtos
+- https://whimsical.com/produtos-fluxo-homolog-Smzp7D6NvSRhc2prNcZyHm
+
+
+Criar Material de Discovery
+-
+Questionário
+- https://gfdp0mdqcl5.typeform.com/to/dRcKhtsB
+-
+Anotações Entrevistas
+- 
+-
+Teste de usabilidade
+- Descobertas
+-
+Analise +Produtos
+- Fluxograma
+-
+Criar persona
+- 
+- 
+- 

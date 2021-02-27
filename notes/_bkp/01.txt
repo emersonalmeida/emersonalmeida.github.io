@@ -1,0 +1,48 @@
+Ferramenta
+-
+- Pesquisar no acervo da marca - Filtros
+- Acompanhar resultados dos produtos e coleções - Reviews
+- Salvar e organizar pesquisas - Pastas
+-
+-
+
+- Coleçao inteira
+- Entradas na loja
+- pacote 1,2,3
+
+Familia
+- itens com a mesma estampa
+
+
+-
+
+
+
+- Tempo de venda em loja - 30 dias
+
+
+
+Detalhes do produto
+- 
+- Nota do provão
+- Aposta de performance
+-
+- Estampa - Ref
+- Cor - ref
+-
+- Giro Produto
+- Preço Venda
+- Custo
+-
+- Markup
+- Composição
+-
+- Base
+- Aviamentos
+-
+- Lacre Amarelo - Data
+- Lacre Azul - Data
+- Provão
+-
+-
+-
