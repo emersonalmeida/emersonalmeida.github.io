@@ -1,9 +1,0 @@
-- Fazer Login
-- Ver Produtos e Coleções
-- Selecionar Coleção
-- Ver Produtos da Coleção
-- Ver Review da Coleção
-- Selecionar Produto
-- Ver Detalhes do Produto
-- Salvar Produto
-- Criar Pasta

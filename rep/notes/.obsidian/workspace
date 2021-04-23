@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "d096cd84a9e1f0e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4b822df04eb3dd4",
+        "type": "split",
+        "children": [
+          {
+            "id": "15dfbd0c0d3554d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2021-04-22.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "25997df2209819be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+produtos/+produtos-apresentacao.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b548b9eaa24e4f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "43a1748a1f7339bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "413c4a6775080653",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "76bd9c35b83ccf6f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "lacre",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "68c47f9d4588a78d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267,
+    "collapsed": true
+  },
+  "right": {
+    "id": "30a0d0abef2adf20",
+    "type": "split",
+    "children": [
+      {
+        "id": "f498906dbb812665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e0011c68b9d90f9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2021-04-22.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5005dc6af2a5e237",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f46847c15e5d904f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2021-04-22.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.23086547851562,
+    "collapsed": true
+  },
+  "active": "15dfbd0c0d3554d8",
+  "lastOpenFiles": [
+    "2021-04-22.md",
+    "+produtos/+produtos-apresentacao.md",
+    "historia/historia-design.md",
+    "historia/Untitled.md",
+    "2021-04-21.md",
+    "2021-04-20.md",
+    "2021-04-15.md",
+    "2021-04-19.md",
+    "TO-DO.md",
+    "2021-04-16.md"
+  ]
+}
