@@ -68,6 +68,8 @@ Emerson
 
 ---
 
+# +Produto
+
 # Meus Produtos
 - Produtos salvos e organizados em pastas
 
@@ -114,7 +116,10 @@ Emerson
 
 (O que descobrimos)
 # Descoberta
-- Problemas
+- **Necessidades**
+  - Fácil acesso mobile
+  
+- **Problemas**
 - Oxigenar o estilo com novas informações
   - Pesquisar no histórico da marca
   - Acompanhar desenvolvimento dos produtos
@@ -133,7 +138,9 @@ Emerson
 (O que descobrimos)
 # Descoberta
 - Necessidade mobile
-- Infos de produtos centra
+- Infos de produtos centralizados
+- dados de venda
+- staus do produto
 
 ---
 
@@ -220,3 +227,122 @@ Emerson
 - Testar prototipo com estilista da Fábula(Rodrigo Hull)
 
 ---
+
+Comparação antes / depois /metricas /visual
+
+---
+
+trazer assuntos relevantes para discussão 
+
+puxar assunto tema
+
+feedback
+semana q vem
+
+---
+
+# Inicio (Antes)
+- O time
+- O cliente
+- O produto
+
+# Meio (Durante)
+- Descoberta (cliente x produto)(necessidades/problemas)
+- Ideação (rascunhos/wireframes)
+- Prototipo V1 - (Busca por produtos e info)
+- Teste - 
+
+# Fim (Depois)
+- Prototipo v2 ( Busca e acompanhamento )
+
+---
+
+Produtos
+
+
+---
+
+
+# O que mudou?
+
+# O que precisa melhorar?
+
+
+
+---
+
+# Apresentar os produtos da Squad
+
+---
+
+# 01. inicio - O que é / O que fazemos
+
+  ## o time
+  - Discovery
+  - Delivery
+
+  ## o cliente
+  - Estilo Arte - Designers
+  - Estilo - Estilistas, Assistentes, Coordenadoras
+
+  ## os produtos
+  - +Estampas
+  - +Produtos
+  - +Cadastro
+  - +Aprovação Visual
+  - +Provão
+
+---
+
+# 02. meio - O que fizemos / Como fazemos
+  - O cliente participa de quase todos os processos 
+    - Reuniões com os usuários para definir as necessidades, problemas, ideias, validação
+
+  - Review 
+    - Alinhamento com as marcas do que foi feito e do que vamos fazer na próxima sprint
+    
+  - Retro
+    - Analise da equipe sobre como foi a sprint
+    
+  - Planning
+    - Analise de backlog
+    - Discussão sobre as tarefas
+    - Votação (grau de dificuldade)
+
+- Reuniao para discutir a tarefa com o time, tem sido útil para gerar ideias 
+
+---
+
+
+
+
+---
+
+# 03. fim
+
+
+# Apresentação #fabula 
+
+]
+
+
+
+
+
+-------
+
+
+
+
+
+
+Persona Canvas
+
+- Tendências Negativas
+- Dores de cabeça
+- Medos
+- tendências positivas
+- necessidades
+
+
+
