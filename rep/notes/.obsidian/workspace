@@ -4,35 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2c55367ace922ffb",
-        "type": "split",
-        "children": [
-          {
-            "id": "2a8f8548d4af1a99",
-            "type": "leaf",
-            "dimension": 25.95656670113754,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2021-04-29.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "1d8067e13cf5f764",
-            "type": "leaf",
-            "dimension": 74.04343329886245,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2021-05-04.md",
-                "mode": "source"
-              }
-            }
+        "id": "cb223f61d65e490c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ideias/IDEIA.md",
+            "mode": "source"
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -59,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "BI",
+                "query": "lacre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267,
+    "width": 215,
     "collapsed": true
   },
   "right": {
@@ -97,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-05-04.md",
+                "file": "ideias/IDEIA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2021-05-04.md"
+                "file": "ideias/IDEIA.md"
               }
             }
           }
@@ -133,20 +113,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.23086547851562,
+    "width": 202.5,
     "collapsed": true
   },
-  "active": "1d8067e13cf5f764",
+  "active": "cb223f61d65e490c",
   "lastOpenFiles": [
-    "2021-05-04.md",
+    "Untitled.md",
+    "2021-05-09.md",
+    "2021-05-07.md",
     "2021-04-29.md",
-    "2021-05-03.md",
     "2021-04-30.md",
-    "+produtos/+produtos-apresentacao.md",
-    "2021-04-28.md",
-    "2021-04-27.md",
-    "2021-04-26.md",
-    "2021-04-15.md",
-    "2021-04-16.md"
+    "2021-05-06.md",
+    "2021-05-05.md",
+    "2021-05-04.md",
+    "2021-04-25.md",
+    "2021-04-23.md"
   ]
 }
