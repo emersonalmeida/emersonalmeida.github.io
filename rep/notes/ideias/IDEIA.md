@@ -127,20 +127,31 @@ https://revistagalileu.globo.com/Revista/Common/0,,EMI339153-17770,00-A+HISTORIA
 
 ---
 
-https://ricardoartur.com.br/historia/
+- https://ricardoartur.com.br/historia/
+- https://www.slideshare.net/mduart/histria-do-design-2016
+- http://www.hartismere.com/view/1489PC4ZF10.pdf/Design_Movements_Timeline
+- https://www.sutori.com/story/design-history-timeline--H2m39qDa3Fse8aYqWq5PasiM
+- https://www.preceden.com/timelines/308433-timeline-of-design-periods
+- http://gdh.2rsolutions.cz/
 
 ---
 
-https://www.slideshare.net/mduart/histria-do-design-2016
+Graphical User Interface Timeline
+- http://toastytech.com/guis/guitimeline.html
+- https://www.timetoast.com/timelines/gui-history
+- https://studentwork.prattsi.org/infovis/labs/timeline-of-user-interface-history/
+  - https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1RZw2TYK9PV5pHdgYj5s8hhuPiZN_eC2IbgL8-AVGAkY&font=Default&lang=en&initial_zoom=2&height=650
+- https://ohiostate.pressbooks.pub/graphicshistory/chapter/16-5-timeline-of-the-gui/
+- https://guidebookgallery.org/timelines
+- https://www.computerhistory.org/timeline/1983/
+- https://www.webdesignerdepot.com/2009/03/operating-system-interface-design-between-1981-2009/
+- https://www.sitepoint.com/real-history-gui/ (txt)
+- https://usabilla.com/blog/short-history-computer-user-interface-design/
+- https://onfoss.com/a-timeline-of-computer-interface-technology/
+- 
+
 
 ---
-
-
-
-
-
-
-
 
 
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-05-09.md",
+            "file": "historia/historia-design.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "BI",
+                "query": "historia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,11 +56,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 267
+    "width": 267,
+    "collapsed": true
   },
   "right": {
     "id": "30a0d0abef2adf20",
@@ -76,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-05-09.md",
+                "file": "historia/historia-design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2021-05-09.md"
+                "file": "historia/historia-design.md"
               }
             }
           }
@@ -117,15 +119,15 @@
   },
   "active": "985c1eb738a04f32",
   "lastOpenFiles": [
+    "historia/historia-design.md",
+    "2021-05-13.md",
+    "processo-estilo.md",
+    "Untitled.md",
+    "2021-05-12.md",
+    "2021-05-10.md",
     "2021-05-09.md",
+    "ideias/IDEIA.md",
     "2021-05-06.md",
-    "2021-04-29.md",
-    "2021-05-04.md",
-    "2021-05-03.md",
-    "2021-04-30.md",
-    "+produtos/+produtos-apresentacao.md",
-    "2021-04-28.md",
-    "2021-04-27.md",
-    "2021-04-26.md"
+    "2021-04-29.md"
   ]
 }
