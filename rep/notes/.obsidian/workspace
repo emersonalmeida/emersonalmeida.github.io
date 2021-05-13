@@ -4,12 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "985c1eb738a04f32",
+        "id": "cb223f61d65e490c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "historia/historia-design.md",
+=======
+            "file": "ideias/IDEIA.md",
+>>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
             "mode": "source"
           }
         }
@@ -39,7 +43,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "historia",
+=======
+                "query": "lacre",
+>>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +69,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 267,
+=======
+    "width": 215,
+>>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
     "collapsed": true
   },
   "right": {
@@ -78,7 +90,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "historia/historia-design.md",
+=======
+                "file": "ideias/IDEIA.md",
+>>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +122,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "historia/historia-design.md"
+=======
+                "file": "ideias/IDEIA.md"
+>>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
               }
             }
           }
@@ -114,11 +134,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.23086547851562,
+    "width": 202.5,
     "collapsed": true
   },
-  "active": "985c1eb738a04f32",
+  "active": "cb223f61d65e490c",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "historia/historia-design.md",
     "2021-05-13.md",
     "processo-estilo.md",
@@ -129,5 +150,17 @@
     "ideias/IDEIA.md",
     "2021-05-06.md",
     "2021-04-29.md"
+=======
+    "Untitled.md",
+    "2021-05-09.md",
+    "2021-05-07.md",
+    "2021-04-29.md",
+    "2021-04-30.md",
+    "2021-05-06.md",
+    "2021-05-05.md",
+    "2021-05-04.md",
+    "2021-04-25.md",
+    "2021-04-23.md"
+>>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
   ]
 }
