@@ -1,19 +1,15 @@
 {
   "main": {
-    "id": "d096cd84a9e1f0e0",
+    "id": "ca46e5946bfa0a1d",
     "type": "split",
     "children": [
       {
-        "id": "cb223f61d65e490c",
+        "id": "90f8c043dd2a4c80",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "historia/historia-design.md",
-=======
-            "file": "ideias/IDEIA.md",
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+            "file": "PIV-SomaLabs.md",
             "mode": "source"
           }
         }
@@ -22,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4b548b9eaa24e4f2",
+    "id": "4d25deb1351461e1",
     "type": "split",
     "children": [
       {
-        "id": "43a1748a1f7339bc",
+        "id": "73c3564e9db85553",
         "type": "tabs",
         "children": [
           {
-            "id": "413c4a6775080653",
+            "id": "fe0f5e4281ee9612",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -38,95 +34,17 @@
             }
           },
           {
-            "id": "76bd9c35b83ccf6f",
+            "id": "f7ac17169ef4be0d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "historia",
-=======
-                "query": "lacre",
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
-              }
-            }
-          },
-          {
-            "id": "68c47f9d4588a78d",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      }
-    ],
-    "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 267,
-=======
-    "width": 215,
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
-    "collapsed": true
-  },
-  "right": {
-    "id": "30a0d0abef2adf20",
-    "type": "split",
-    "children": [
-      {
-        "id": "f498906dbb812665",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1e0011c68b9d90f9",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-<<<<<<< HEAD
-                "file": "historia/historia-design.md",
-=======
-                "file": "ideias/IDEIA.md",
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "5005dc6af2a5e237",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "f46847c15e5d904f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "file": "historia/historia-design.md"
-=======
-                "file": "ideias/IDEIA.md"
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -134,33 +52,48 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5,
+    "width": 300
+  },
+  "right": {
+    "id": "015f1d27706ef83a",
+    "type": "split",
+    "children": [
+      {
+        "id": "71c553f386055330",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ecb6a9d22feba43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PIV-SomaLabs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
     "collapsed": true
   },
-  "active": "cb223f61d65e490c",
+  "active": "90f8c043dd2a4c80",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "historia/historia-design.md",
-    "2021-05-13.md",
-    "processo-estilo.md",
+    "PIV-SomaLabs.md",
+    "QLS/QLS-TEMA.md",
+    "QLS/QLS-Labs.md",
+    "QLS/QLS-pesquisa.md",
     "Untitled.md",
-    "2021-05-12.md",
-    "2021-05-10.md",
-    "2021-05-09.md",
-    "ideias/IDEIA.md",
-    "2021-05-06.md",
-    "2021-04-29.md"
-=======
-    "Untitled.md",
-    "2021-05-09.md",
-    "2021-05-07.md",
-    "2021-04-29.md",
-    "2021-04-30.md",
-    "2021-05-06.md",
-    "2021-05-05.md",
-    "2021-05-04.md",
-    "2021-04-25.md",
-    "2021-04-23.md"
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+    "resenha-livro-leis-da-psicologia-aplicadas-a-ux.md",
+    "2021-05-13.md"
   ]
 }

@@ -81,3 +81,72 @@ Estrutura
 
 # Lei de Fitts
 - Quanto maior a distância e menor o tamanho do alvo, mais tempo leva.
+
+---
+
+Lessons - Estilo
+- Aprender algo junto com o time
+
+O que seria interessante para o time?
+Como o time pode aproveitar esse conhecimento?
+
+Time
+- Negocio
+- Design
+- Desenvolvimento
+
+---
+
+
+Negocio
+- identificar problema de mercado
+- validar oportunidade
+
+Design
+- entender as necessidades do publico
+- mapear solucoes disponiveis
+- identificar oportunidade
+
+Desenvolvimento
+- viablidade técnica
+- 
+
+
+---
+
+Negocio
+- Analise de dados
+- Oportunidade
+
+Design
+- Necessidades
+- Hipoteses
+- Validação
+
+Desenvolvimento
+- Front-End
+- Back-End
+- MVP
+
+Acompanhamento
+- Analytics
+- Mapa de calor
+- Teste A/B
+
+---
+
+Fluxo processo de design
+
+Inicio
+- necessidade - tomar cafe da manha com paozinho na manteiga
+- problema - nao tem pao em casa
+- opcoes - comer outra coisa - ir na padaria
+- motivacao - a familia quer pao
+- objetivo - 
+
+Meio
+
+
+Fim
+
+
