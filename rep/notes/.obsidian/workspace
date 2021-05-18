@@ -1,19 +1,15 @@
 {
   "main": {
-    "id": "d096cd84a9e1f0e0",
+    "id": "e80218416acabbca",
     "type": "split",
     "children": [
       {
-        "id": "cb223f61d65e490c",
+        "id": "12f9374d73f7f00d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "historia/historia-design.md",
-=======
-            "file": "ideias/IDEIA.md",
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+            "file": "2021-05-14.md",
             "mode": "source"
           }
         }
@@ -22,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4b548b9eaa24e4f2",
+    "id": "521b3d52cdd6458f",
     "type": "split",
     "children": [
       {
-        "id": "43a1748a1f7339bc",
+        "id": "5b0c183688f05569",
         "type": "tabs",
         "children": [
           {
-            "id": "413c4a6775080653",
+            "id": "2751bfc6543aa322",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -38,75 +34,62 @@
             }
           },
           {
-            "id": "76bd9c35b83ccf6f",
+            "id": "bfee550b53213fdb",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "historia",
-=======
-                "query": "lacre",
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "68c47f9d4588a78d",
+            "id": "e83ce99a85d338d3",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 267,
-=======
-    "width": 215,
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+    "width": 156,
     "collapsed": true
   },
   "right": {
-    "id": "30a0d0abef2adf20",
+    "id": "b06b839d1d17c8a4",
     "type": "split",
     "children": [
       {
-        "id": "f498906dbb812665",
+        "id": "470cea7d0d83c974",
         "type": "tabs",
         "children": [
           {
-            "id": "1e0011c68b9d90f9",
+            "id": "a46b8068033af445",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "historia/historia-design.md",
-=======
-                "file": "ideias/IDEIA.md",
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+                "file": "2021-05-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5005dc6af2a5e237",
+            "id": "4ae32e531b1cbfcb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -117,16 +100,12 @@
             }
           },
           {
-            "id": "f46847c15e5d904f",
+            "id": "b80be983cbbe72da",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "historia/historia-design.md"
-=======
-                "file": "ideias/IDEIA.md"
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+                "file": "2021-05-14.md"
               }
             }
           }
@@ -134,33 +113,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5,
+    "width": 300,
     "collapsed": true
   },
-  "active": "cb223f61d65e490c",
+  "active": "12f9374d73f7f00d",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "historia/historia-design.md",
-    "2021-05-13.md",
-    "processo-estilo.md",
-    "Untitled.md",
-    "2021-05-12.md",
-    "2021-05-10.md",
-    "2021-05-09.md",
-    "ideias/IDEIA.md",
-    "2021-05-06.md",
-    "2021-04-29.md"
-=======
-    "Untitled.md",
-    "2021-05-09.md",
-    "2021-05-07.md",
-    "2021-04-29.md",
-    "2021-04-30.md",
-    "2021-05-06.md",
-    "2021-05-05.md",
-    "2021-05-04.md",
-    "2021-04-25.md",
-    "2021-04-23.md"
->>>>>>> de715d94a5997d9e6b3f9e60a78d1a1f60176893
+    "2021-05-14.md"
   ]
 }
