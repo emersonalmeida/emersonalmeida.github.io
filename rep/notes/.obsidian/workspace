@@ -1,36 +1,43 @@
 {
   "main": {
-<<<<<<< HEAD
     "id": "ca46e5946bfa0a1d",
     "type": "split",
     "children": [
       {
-        "id": "90f8c043dd2a4c80",
-=======
-    "id": "e80218416acabbca",
-    "type": "split",
-    "children": [
-      {
-        "id": "12f9374d73f7f00d",
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-<<<<<<< HEAD
-            "file": "PIV-SomaLabs.md",
-=======
-            "file": "2021-05-14.md",
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
-            "mode": "source"
+        "id": "118cf017da1100ec",
+        "type": "split",
+        "children": [
+          {
+            "id": "e1a4df2b6ce675d2",
+            "type": "leaf",
+            "dimension": 59.71223021582733,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "24-05-2021.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "6a9cd5a9cc0a265c",
+            "type": "leaf",
+            "dimension": 40.28776978417266,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "piv-entrevista-arthur-lemos.md",
+                "mode": "source"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
     "id": "4d25deb1351461e1",
     "type": "split",
     "children": [
@@ -40,17 +47,6 @@
         "children": [
           {
             "id": "fe0f5e4281ee9612",
-=======
-    "id": "521b3d52cdd6458f",
-    "type": "split",
-    "children": [
-      {
-        "id": "5b0c183688f05569",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2751bfc6543aa322",
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,11 +54,7 @@
             }
           },
           {
-<<<<<<< HEAD
             "id": "f7ac17169ef4be0d",
-=======
-            "id": "bfee550b53213fdb",
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,24 +67,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-<<<<<<< HEAD
-=======
-          },
-          {
-            "id": "e83ce99a85d338d3",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
           }
         ]
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "015f1d27706ef83a",
@@ -104,30 +85,11 @@
         "children": [
           {
             "id": "0ecb6a9d22feba43",
-=======
-    "width": 156,
-    "collapsed": true
-  },
-  "right": {
-    "id": "b06b839d1d17c8a4",
-    "type": "split",
-    "children": [
-      {
-        "id": "470cea7d0d83c974",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a46b8068033af445",
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "PIV-SomaLabs.md",
-=======
-                "file": "2021-05-14.md",
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
+                "file": "24-05-2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,30 +97,6 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-<<<<<<< HEAD
-=======
-              }
-            }
-          },
-          {
-            "id": "4ae32e531b1cbfcb",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "b80be983cbbe72da",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2021-05-14.md"
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
               }
             }
           }
@@ -169,20 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "90f8c043dd2a4c80",
+  "active": "e1a4df2b6ce675d2",
   "lastOpenFiles": [
-    "PIV-SomaLabs.md",
-    "QLS/QLS-TEMA.md",
-    "QLS/QLS-Labs.md",
-    "QLS/QLS-pesquisa.md",
-    "Untitled.md",
-    "resenha-livro-leis-da-psicologia-aplicadas-a-ux.md",
-    "2021-05-13.md"
-=======
-  "active": "12f9374d73f7f00d",
-  "lastOpenFiles": [
-    "2021-05-14.md"
->>>>>>> f44b3d461641ef29bae874bea1f4a11fa20dd8d7
+    "24-05-2021.md",
+    "piv-entrevista-arthur-lemos.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "pesquisa-moda-estilo-estacoes.md",
+    "Analise-Discovery-Mais-Produtos.md",
+    "processo-estilo.md",
+    "Untitled 1.md",
+    "2021-05-21.md",
+    "Untitled.md"
   ]
 }

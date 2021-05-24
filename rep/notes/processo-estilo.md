@@ -64,3 +64,47 @@
 ---
 
 # +Produtos
+
+---
+
+---
+
+---
+
+# Como nasce um vestido
+
+- Pesquisa
+- Conceito
+- 
+- Estampas
+- Desenho
+- Job de Estampa
+- 
+- Cadastro
+- Linx
+- 
+- Aprovacao Visual
+- 
+- Qual desenho(peça aprovada)vai para mostruário? Lacre Azul
+- 
+- Atelie(desenvolvimento do piloto)
+- 
+- Provão(apresentacao/votacao)
+- 
+- Lacre Azul (mostruário)
+- 
+- Fazer pedido de Matéria Prima para a colecao
+- 
+- Ultimos ajustes na peça(feedback provao)
+- 
+- Finalizar produto - Lacre Amarelo
+- 
+- Entrega de matéria prima
+- Produção das peças
+- Distribuição(lojas)
+- 
+
+---
+
+
+

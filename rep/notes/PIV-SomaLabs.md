@@ -91,7 +91,16 @@ Mapear
 ---
 
 # Analise Estado Atual SomaLabs
-- 
+- Marca não difundida 
+- Simbolo - pode melhorar
+- Tipografia - pode melhorar
+- Cor - Paleta triste
+- Grafismo - comum
+- Produtos - Ide
+
+
+# Qual o propósito do labs?
+# Qual a visão de futuro do labs?
 
 ---
 
