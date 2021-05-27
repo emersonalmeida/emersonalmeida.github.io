@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-05-18.md",
+            "file": "2021-05-25.md",
             "mode": "source"
           }
         }
@@ -60,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 197.01218795776367
+    "width": 197.01218795776367,
+    "collapsed": true
   },
   "right": {
     "id": "b06b839d1d17c8a4",
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-05-18.md",
+                "file": "2021-05-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2021-05-18.md"
+                "file": "2021-05-25.md"
               }
             }
           }
@@ -117,6 +118,13 @@
   },
   "active": "12f9374d73f7f00d",
   "lastOpenFiles": [
+    "2021-05-25.md",
+    "2021-05-20.md",
+    "PIV-SomaLabs.md",
+    "design-system-prototipacao-figma-pesquisa.md",
+    "definicao-produto.md",
+    "resenha-livro-leis-da-psicologia-aplicadas-a-ux.md",
+    "visao-design-estilo.md",
     "2021-05-18.md",
     "2021-05-14.md"
   ]
