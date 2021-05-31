@@ -1,15 +1,48 @@
 {
   "main": {
-    "id": "e80218416acabbca",
+    "id": "95d046d7353799be",
     "type": "split",
     "children": [
       {
-        "id": "12f9374d73f7f00d",
+        "id": "208e2eb7ea2a8e4a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-05-25.md",
+            "file": "PIV-Entrevista-Arthur-Lemos.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "bf55bec8830c4191",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "PIV-Entrevista-Arthur-Matsuda.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "a825ebd1d3a8e4f4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "PIV-Entrevista-Danilo-Silva.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "5448a53b91f34fc0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "PIV-Entrevista-Juliana-Silva.md",
             "mode": "source"
           }
         }
@@ -18,15 +51,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "521b3d52cdd6458f",
+    "id": "f4a431a155b41e49",
     "type": "split",
     "children": [
       {
-        "id": "5b0c183688f05569",
+        "id": "eb91e7267c5c9b01",
         "type": "tabs",
         "children": [
           {
-            "id": "2751bfc6543aa322",
+            "id": "c289efffbc795d06",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +67,7 @@
             }
           },
           {
-            "id": "bfee550b53213fdb",
+            "id": "b4440d7913bf9b78",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -47,37 +80,29 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "e83ce99a85d338d3",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 197.01218795776367,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "b06b839d1d17c8a4",
+    "id": "6f0cc0048830a64f",
     "type": "split",
     "children": [
       {
-        "id": "470cea7d0d83c974",
+        "id": "50fa691128c2d786",
         "type": "tabs",
         "children": [
           {
-            "id": "a46b8068033af445",
+            "id": "67bf96c474ffcbdb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-05-25.md",
+                "file": "PIV-Entrevista-Danilo-Silva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,27 +110,6 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "4ae32e531b1cbfcb",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "b80be983cbbe72da",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2021-05-25.md"
               }
             }
           }
@@ -116,16 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "12f9374d73f7f00d",
+  "active": "a825ebd1d3a8e4f4",
   "lastOpenFiles": [
-    "2021-05-25.md",
-    "2021-05-20.md",
-    "PIV-SomaLabs.md",
-    "design-system-prototipacao-figma-pesquisa.md",
-    "definicao-produto.md",
-    "resenha-livro-leis-da-psicologia-aplicadas-a-ux.md",
-    "visao-design-estilo.md",
-    "2021-05-18.md",
-    "2021-05-14.md"
+    "PIV-Entrevista-Danilo-Silva.md",
+    "PIV-Entrevista-Arthur-Matsuda.md",
+    "PIV-Entrevista-Arthur-Lemos.md",
+    "PIV-Entrevista-Juliana-Silva.md",
+    "2021-05-28.md",
+    "Untitled 3.md",
+    "piv-entrevista-arthur-lemos.md",
+    "2021-05-27.md",
+    "2021-05-31.md",
+    "design/estudo/leitura-artigo-declaracao-problema-mari-alves.md.md"
   ]
 }

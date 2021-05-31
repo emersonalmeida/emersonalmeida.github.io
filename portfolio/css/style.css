@@ -668,8 +668,8 @@ footer{
         transition: .3s;
       }
     .cover{
-        width: 99.2vw;
-        padding: 0 0vw;
+        width: 80vw;
+        padding: 0 5vw 0 10vw;
         /* background-image: linear-gradient(45deg, rgba(0, 255, 255, 0.424), rgba(0, 255, 255, 0.534)); */
     }
     .cover-left{
@@ -677,6 +677,9 @@ footer{
         padding: 0;
         /* float: right; */
         position: relative;
+    }
+    .cover img{
+        padding: 0 0 5vw 0;
     }
     /* .img-side{
         float: right;
@@ -827,7 +830,7 @@ footer{
         padding: 10vw 10vw 3vw 10vw;
     }
     #project h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: normal;
     }
     #project .intro small, #project .intro pre{
