@@ -2,14 +2,14 @@
 
 ---
 
-Contexto
-Proposito
-Percepcao
-Missao
-Visao
-Futuro
-Filosofia
-Valores
+Contexto - Moda - Tech
+Proposito - Estrategia - Design - Tech
+Percepcao - Explorador - Solucoes Internas - Inovar
+Missao - 
+Visao - 
+Futuro - 
+Filosofia - 
+Valores - 
 
 ---
 
@@ -139,3 +139,146 @@ Labs
 - https://mblabs.com.br/
 - https://rarolabs.com.br/
 - https://www.simplypsychology.org/experimental-designs.html
+
+---
+
+---
+
+---
+
+#objetivo
+
+# O quanto a identidade do labs se diferencia do grupo?
+
+---
+
+# Planejamento
+
+---
+
+# Entregaveis
+
+- [ ] Marca
+- [ ] Deck
+- [ ] Look and Feel produtos digitais
+- [ ] Componentes básicos
+- [ ] Mockups
+
+---
+
+# Etapas
+
+- [x] Definicao de stakeholders
+- [x] Entrevistas com stakeholders
+- [ ] Pesquisa referencias
+- [ ] Consolidacao com o time
+- [ ] Geracao de alternativas
+- [ ] Validacao com stakeholders
+- [ ] Fechamento
+
+
+---
+
+# Validacao com stakeholders
+
+- [ ] Marca
+- [ ] Sugestoes de deck
+- [ ] Mockups dos produtos
+
+- [ ] Matriz CSD depois do questionario?
+
+---
+
+# Como faremos
+
+- [x] Questionario Base
+- [x] Entrevista objetiva
+- [ ] Pesquisa de referencia pode comecar desde ja
+
+> tentar captar o qualitativo que nao foi levantado no questionario
+
+---
+
+# Argumentos
+
+O Somalabs tem que ser visto como um diferencial do Grupo Soma. É uma feature valiosa. Identidade feita para produtos digitais.
+
+---
+
+# Stakeholders
+
+- Alisson
+- Bruno
+- GPMs - Ju Be, Japa, Lemos
+- Danilo
+- Denise Marques
+
+
+---
+
+
+# Questionario
+
+Resumo
+
+# O somalabs é como se fosse...
+- Explorador
+- Sabio
+- Criador
+
+# como deve ser percebido por fora?
+- possuir identidade propria mas manter a essencia do grupo
+
+# A forma de se comunicar é
+- Descontraida
+- Formal
+- Equilibrada?
+
+# Descrever o labs
+- Area de inovacao
+- executores de estrategia(autonomia)
+- dia a dia leve e descontraido
+- autonomia para propor e executar
+- 
+- Laboratorio de inovacao
+- Diverso, livre, pegado
+- 
+- laboratorio de inovacao
+- presente em toda cadeia produtiva do grupo
+
+
+# A paleta de cores representa o labs?
+- discordam
+- nem discordam nem concordam
+- 
+
+# Futuro do labs
+- ser mais uma marca do grupo
+- identidade forte comunicada pelo grupo junto as marcas
+- principais ativos
+- focada em expansao
+- focado na inovacao
+- potencia geradora de receita
+- labs como time de tecnologia reconhecido no brasil e no mundo
+- atividades inovadoras no segmento
+- atividades sociais
+- 
+
+---
+
+# Como podemos utilizar os dados do questionários e das entrevista para gerar insumos para a continuidade do projeto?
+
+Visoes do labs sobre
+
+perfil - explorador
+posicionamento - moda - tech - social
+comunicacao - descontraida
+proposito - inovar - 
+conexao com a paleta de cores - ter uma id propria mas com a essencia do grupo
+visao de futuro - inovacao - receita	
+
+---
+
+Caracteristicas em comum
+- inovador
+- 

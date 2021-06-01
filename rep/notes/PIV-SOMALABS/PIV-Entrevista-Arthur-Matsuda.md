@@ -43,12 +43,13 @@ Explorador
 - 
 
 Como o labs deve ser percebido
+
 - compartilhar essencia do grupo mas com uma id propria
 - magulu - luiza labs
 - herdar caracteristicas e essencias do grupo
 
 Labs linkado ao grupo somalabs
-A percepcao de valor do labs atrelado ao grupo é maior juntos
+A percepcao de valor do SomaLabs é maior atrelado ao GrupoSoma
 
 Faz sentido ela ser filha do soma e nao completamente apartada
 
@@ -100,4 +101,4 @@ testar
 errar
 questionar status quo
 
-Rebeldia jogando dentro das regras
+Rebeldia para inovar dentro das regras

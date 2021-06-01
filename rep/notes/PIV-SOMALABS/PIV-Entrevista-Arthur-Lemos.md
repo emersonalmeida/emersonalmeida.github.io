@@ -1,8 +1,12 @@
+# PIV - Arthur Lemos
+
+---
+
 # Perfil do Labs
 
 Explorador - 
-Sabedoria - Mapear processos das marcas
-Magico - Surpreender
+Sabedoria - Mapear processos, entender o problema
+Magico - Surpreender na entrega
 
 ---
 
@@ -38,18 +42,13 @@ A falta de uma identidade propria pode gerar a falta de laco com as outras areas
 
 # Historia
 
-comeco
-consultoria
-foco em resolver problema
+comeco como consultoria 
+- foco em resolver problema
 
 mudanca
-foco nos processos
-
-mudanca
-foco no usuario
-
-mudanca
-mais estrategico
+- foco nos processos
+- foco no usuario
+- foco na estrategia
 
 ---
 
