@@ -176,7 +176,6 @@ Labs
 - [ ] Validacao com stakeholders
 - [ ] Fechamento
 
-
 ---
 
 # Validacao com stakeholders
@@ -270,15 +269,27 @@ Resumo
 
 Visoes do labs sobre
 
-perfil - explorador
+perfil - explorador - descobridor
 posicionamento - moda - tech - social
 comunicacao - descontraida
-proposito - inovar - 
+proposito - inovação - 
 conexao com a paleta de cores - ter uma id propria mas com a essencia do grupo
 visao de futuro - inovacao - receita	
+
+
+Proposito
+- inovar para gerar resultado
+- inovar para atender as necessidades do grupo/segmento/mercado... 
 
 ---
 
 Caracteristicas em comum
 - inovador
-- 
+
+---
+
+Denise
+qual é o personagemd o labs na historia do grupo soma?
+
+---
+

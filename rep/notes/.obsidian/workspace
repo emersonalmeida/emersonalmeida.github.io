@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-06-01.md",
+            "file": "2021-06-07.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "53e32f876eaf4064",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2021-06-07.md",
             "mode": "source"
           }
         }
@@ -40,11 +51,11 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           }
@@ -52,7 +63,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.0121879577637
+    "width": 191.01218795776367,
+    "collapsed": true
   },
   "right": {
     "id": "6f0cc0048830a64f",
@@ -68,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-06-01.md",
+                "file": "2021-06-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dd64339000ec37ad",
+  "active": "53e32f876eaf4064",
   "lastOpenFiles": [
-    "2021-06-01.md",
-    "2021-05-31.md",
-    "PIV-Entrevista-Juliana-Silva.md",
-    "Untitled 3.md",
-    "PIV-Entrevista-Arthur-Matsuda.md",
-    "PIV-Entrevista-Arthur-Lemos.md",
-    "PIV-Entrevista-Danilo-Silva.md",
-    "Untitled 4.md",
-    "2021-05-28.md",
-    "piv-entrevista-arthur-lemos.md"
+    "2021-06-07.md",
+    "2021-06-02.md",
+    "2021-06-03.md",
+    "2021-04-14.md",
+    "2021-04-15.md",
+    "2021-04-29.md",
+    "2021-05-12.md",
+    "2021-05-27.md",
+    "PIV-SOMALABS/PIV-SomaLabs.md",
+    "PIV-SOMALABS/PIV-Entrevista-Arthur-Lemos.md"
   ]
 }
