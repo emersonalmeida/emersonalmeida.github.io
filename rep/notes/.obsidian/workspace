@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "dd64339000ec37ad",
+        "id": "6591e6a7a09b49ce",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-06-07.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "53e32f876eaf4064",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2021-06-07.md",
+            "file": "2021-07-06.md",
             "mode": "source"
           }
         }
@@ -58,6 +47,14 @@
                 "sortOrder": "byModifiedTime"
               }
             }
+          },
+          {
+            "id": "778a3fe4fc39dd53",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
@@ -80,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-06-07.md",
+                "file": "2021-07-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +85,39 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dfccc290db011c68",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2021-07-06.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ceba4c8bd8840a8c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3a1def336ea79a56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2021-07-06.md"
               }
             }
           }
@@ -98,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "53e32f876eaf4064",
+  "active": "6591e6a7a09b49ce",
   "lastOpenFiles": [
-    "2021-06-07.md",
-    "2021-06-02.md",
-    "2021-06-03.md",
-    "2021-04-14.md",
-    "2021-04-15.md",
-    "2021-04-29.md",
-    "2021-05-12.md",
-    "2021-05-27.md",
-    "PIV-SOMALABS/PIV-SomaLabs.md",
-    "PIV-SOMALABS/PIV-Entrevista-Arthur-Lemos.md"
+    "2021-07-06.md",
+    "2021-07-01.md",
+    "2021-06-30.md",
+    "2021-06-26.md",
+    "2021-06-25.md",
+    "2021-06-24.md",
+    "2021-06-23.md",
+    "2021-06-22.md",
+    "2021-06-17.md",
+    "2021-06-18.md"
   ]
 }
