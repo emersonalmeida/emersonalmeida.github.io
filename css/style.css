@@ -866,7 +866,7 @@ footer{
         /* background: #f00; */
         float: left;
         clear: both;
-        margin: 1vw 0 0 0;
+        margin: 0vw 0 0 0;
     }
     .projects-list li:hover span{
         /* color: #000; */
@@ -1078,13 +1078,13 @@ footer{
     }
     h5, h6{}
     pre, small, figcaption{
-        font-size: 1.7vw;
+        font-size: 1.5vw!important;
         letter-spacing: .7vw;
     }
     figcaption{
     }
     p{
-        font-size: 1.5em;
+        font-size: 2vw!important;
     }
     /* list */
     ul{}
@@ -1132,7 +1132,7 @@ footer{
         font-size: 3vw;
     }
     #home .txt p{
-        font-size: 2vw;
+        font-size: 2vw!important;
     }
     /* project list */
     .projects-list{
