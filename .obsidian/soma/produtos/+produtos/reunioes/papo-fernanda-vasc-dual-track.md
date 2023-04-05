@@ -1,0 +1,4 @@
+
+# ajuda
+
+- entender como 
