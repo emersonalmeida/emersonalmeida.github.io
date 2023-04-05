@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=gnome-software %U
+Terminal=false
+Type=Application
+StartupNotify=true
+DBusActivatable=true
+NoDisplay=true

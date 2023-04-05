@@ -1,0 +1,12 @@
+gnome-shell-extension-alphabetical-grid-extension 26.0-1
+gnome-shell-extension-blur-my-shell 45-1
+gnome-shell-extension-caffeine-git 46.r0.g498ed43-1
+gnome-shell-extension-custom-accent-colors 5-1
+gnome-shell-extension-custom-hot-corners-extended-git 23.r29.gf5c26b8-1
+gnome-shell-extension-dash-to-dock 79-1
+gnome-shell-extension-gnome-ui-tune-git 1.7.1.r0.gbd81dc8-1
+gnome-shell-extension-hidetopbar-git 112.r0.g9218872-1
+gnome-shell-extension-pop-shell 1.2.0+290+gfab66e1-1
+gnome-shell-extension-system-monitor-next-git r1201.2ed5b80-1
+gnome-shell-extension-todotxt-git 39.r11.gcc29307-1
+gnome-shell-extensions 43.1-1
