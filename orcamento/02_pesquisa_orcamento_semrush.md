@@ -1,0 +1,42 @@
+# Dados do Semrush
+
+- orçamento: 40.9k - 54% difficult 
+- modelo de orçamento
+- orçamento empresarial: 2.1k - 27% easy
+- o que é
+- para que serve
+- como elaborar
+- Orçamento online: 3.8k - 18% easy
+- orçamento online
+- orçamento online grátis
+- gerar orçamento online
+- como conseguir orçamentos online
+- como fazer orçamento online
+- como criar
+- fazer orçamento online
+- criar orçamento online grátis
+
+- planilha de orçamento: 4.2k
+- planilha de orçamento
+- planilha de orçamento de obras
+- planilha de orçamento familiar
+- planilha de orçamento pessoal
+- como fazer planilha de orçamento
+- como fazer planilha de orçamento no excel
+- como fazer planilha de orçamento de obra
+- como montar planilha de orçamento
+- como criar planilha de orçamento
+- planilha de orçamentos
+- tabela de orçamento
+- planilha orcamento
+- modelo planilha orcamento
+
+- orçamento em pdf: 390 - 17% easy
+- orçamento em pdf
+- como fazer
+- modelo
+- criar
+- fazer no celular
+- como mandar
+- orçamento simples pdf
+- modelo orçamento
