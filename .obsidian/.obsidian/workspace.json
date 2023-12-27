@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "system/archlinux.md",
+                "file": "2023-07-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,6 +65,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "67993864f1d12ab7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "system/archlinux.md",
+                "file": "2023-07-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "system/archlinux.md",
+                "file": "2023-07-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "system/archlinux.md"
+                "file": "2023-07-18.md"
               }
             }
           }
@@ -150,6 +158,8 @@
   },
   "active": "c0e15c74a61eecce",
   "lastOpenFiles": [
+    "system/archlinux.md",
+    "2023-07-18.md",
     "bootcamp/bootcamp.md",
     "2023-04-03.md",
     "soma/workshop-animale-anotacoes.md",
@@ -174,8 +184,6 @@
     "soma/QLS-bloqueio-criativo.md",
     "soma/prototipo-v2.md",
     "soma/processo-proxima-sprint.md",
-    "soma/processo-estilo.md",
-    "soma/processo.md",
     "soma/Pasted image 20220721080852.png",
     "soma/Pasted image 20220720162325.png",
     "soma/Pasted image 20220720162313.png",

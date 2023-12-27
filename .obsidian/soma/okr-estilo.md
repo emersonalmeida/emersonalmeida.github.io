@@ -1,80 +1,188 @@
-#okr #triboestilo
-
-# OKRs - Estilo
-
-[Estratégia 2022 - Estilo v4.pptx](https://somagrupo-my.sharepoint.com/:p:/g/personal/arielle_maia_somagrupo_com_br/EdQCsdytOr1OhdIPOotEFeIBS-i5khRjMV9sQNsS2n2Csg?e=rQ6UQG)
+# Sugerir Métricas Para os Produtos da Squad
 
 ---
 
-- ## Estratégia Grupo Soma 2022 - 2024 
-	
-	- ### Ambição
-		- Ser uma das 100 melhores empresas para se trabalhar no Brasil com crescimento sustentável, atingindo um EBITIDA de R$ 1Bi até 2024
-	
-	- ### Objetivos e Planejamento
-		- **Integração e Alavancagem Hering**
-		- **Exponencialização da Farm Global e NV**
-		- **Ganho de share e crescimento sustentável na Farm Brasil e Animale**
-		- **Independência das marcas** 
-		- **Digital pelo menos 2x maior**
-		- **Atacado 2x maior**
-	
-	- ### Pilares e Produtos
-		- **Produto como diferencial**
-			- +Estampas
-			- +Produtos
-			- +Provão
-		- **Cadeia produtiva sólida**
-			- Aprovação Visual
-			- 3D
-		- **Eficiência**
-			- Provão
-		- **Técnologia e inovação**
-			- 3D
-			- +Estilo
+# OKR TRI
+## Ocupar definitivamente o espaço de maior plataforma de moda do Brasil
+  - Lucro liquido de R$ 200 MM (sem M&A)
+  - Agregar R$ 40 MM de EBITDA...
 
 ---
 
-- ## Estratégia Estilo
-	
-	- ### Objetivos
-		- **Integração PLM x Hering**
-			- Suportar processo de integração da Hering em nossas plataformas
-		- **Processo Hering**
-			- Garantir que a Hering entre no ecossistema do Grupo Soma, mitigando riscos
-			- Garantir a implementação do Provão na Hering (ajeitar a cadeia, quickwin no processo)
-		- **3D – Sustentação do projeto de modelagem 3D**
-			- Estruturar, pilotar e sustentar o processo de modelagem 3D de peças piloto no Grupo Soma
-			- Marcas chave: Farm Global, Farm Brasil e Hering
-		- **Expansão +Produtos**
-			- Aumentar penetração do +Produtos no dia-a-dia do Estilo e Estilo Arte (estampa)
-			- Aumentar participação no processo (workshop, pesquisa, desenvolvimento) e volume de informações relevantes acessíveis
-		- **Expansão +Estampas**
-			- Aumentar penetração do +Estampas no dia-a-dia do Estilo e Estilo Arte (estampa)
-			- Aumentar participação no processo (cadastro, aprovação) e volume de informações relevantes acessíveis
-		- **Plataforma +Estilo**
-			- Estruturar plataforma de informação, dados, imagens e processos para Estilo e Estilo Arte (Estampa)
-			- Potencializar de início ao fim o processo criativo das marcas
-			- Resolver a dor de Cadastro do Grupo Soma
+## Se destacar em sustentabilidade social e ambiental
 
 ---
 
-- ## OKR Q3 2022
-	
-	- [ ] Integração Farm Global - +Produtos e +Estampas
-	- [ ] Expansão do time do cadastro – inclusão da Farm Global e maturidade da Farm Brasil (100% da coleção?)
-	- [ ] Desenvolvimento do +Cadastro como produto stand-alone integrado no Estilo
-	- [ ] Design sprint Provão (Farm) – incluir times de loja, produto, datascience e stakeholders (validar com pessoas/datas)
-	- [ ] Design sprint Provão (Animale+Roberto?) – incluir times de loja, produto, datascience e stakeholders (validar com pessoas/datas)
-	- [ ] +Estampas – parcerias e lisos como prioridade – Entender FarmLab e caminho para estampas/Jobs/silks
-	- [ ] +Estampas – pesquisa por imagens nativa
-	- [ ] +Produtos / 3D – como integrar a biblioteca?
-	- [ ] Estilo – controle de acessos é relevante para esse tri
-	- [ ] Custos de ETLs do Estilo
-	- [ ] API de imagens como “gargalo” do Estilo
-	- [ ] 3D – entender com Farm se vamos ter recursos da marca
-	- [ ] 3D – integrar objetivos de Hering
-	- [ ] 3D – integrar via cadastro/PLM dentro dos produtos?
+## Ser foda em digital e tecnologia
+  - Vender R$ 1 Bi nos canais digitais
+  - NPS dos canais digitais de 65% para 80%
+  - Crescer base ativa de clientes total de 1,1 milhao para 1,3 milhao (+20%)
+ 
+
+ ---
+ 
+ # OKR GRUPO
+ # Ser foda em digital e tecnologia
+  - Vender R$ 1 Bi nos canais digitais
+  - NPS dos canais digitais de 65% para 80%
+  - Crescer base ativa de clientes total de 1,1 milhao para 1,3 milhao (+20%)
 
 ---
 
+ # Estilo / Comercial
+ 
+ ---
+ 
+ # Cadastro
+ - Transformação Digital do processo de Cadastro
+   - KR1: Reduzir erros de compra de Produto em 20%
+   - A1: Mapear processo de Cadastro
+   - A2: Desenvolver nova funcionalidade de Cadastro
+   - A3: Implantar Cadastro Digital em 3 células da FARM
+
+---
+
+# +Estampas
+- Estabelecer +Estampas como principal base de conhecimento de Estampas e Cores do Grupo Soma
+  - KR1: Ter 100% das Estampas do Grupo cadastradas na aplicação
+  - A1: Criar painéis oficiais das coleções no +Estampas
+  - A2: Taggear todas as Estampas
+  - A3: Linkar Produtos nas Estampas
+
+---
+
+# +Produtos
+- Tranformar o trabalho da Planner e do Estilo nas marcas com o +Produtos
+  - KR1: Atingir 20 sessões por usuário no mês
+  - KR2: Atingir 150 usuários no mês
+  - A1: Desenvolver ferramenta de busca avançada para Produtos
+  - A2: Disponibilizar dados de venda de Produtos
+  - A3: Integrar dados de desenvolvimento de Produtos
+
+---
+
+# Provão
+- Integrar Maria Filó e Foxton no Provão
+  - KR1: Rodar 1x Provão Online na Maria Filó
+  - KR2: Rodar 2x Provão Online na Foxton
+
+---
+
+# Métricas para os produtos
+- Metrificar o quanto as soluções resolvem os problemas do Estilo
+
+---
+
+# HEART
+
+# Happiness
+- Medir nível de satisfação
+  - Coletar dados em pesquisas qualitativas
+
+# Engagement
+- medir nível de engajamento
+  - medir o tempo que o usuário interage com o produto
+  - quantidade/tempo de objetivos concluídos
+
+# Adoption
+- medir a quantidade de novos usuários
+- medir a adoção por determinada funcionalidade
+
+# Retenção
+- usuários ativos por determinado periodo de tempo
+
+# Task Sucess
+- dificuldade de realizar determinada tarefa
+
+---
+
+# Felipe
+
+- O OKR deve transmitir um objetivo claro e inspiracional
+- Fazer com que o +estampas converse com o +produtos
+
+# Joao
+- Foco em aumentar a receita líquida
+
+# OKR Felipe
+
+---
+
+# Digitalizar o dia-a-dia do Estilo
+
+---
+
+## Digitalizar o processo no +Produtos
+  - Fazer o processo do Estilo passar por dentro do app
+  - Integrar Estampas no +Produtos
+
+---
+
+# MEDIR PARA MELHORAR
+
+## Reduzir custo agregado
+
+Produto: Digitalizar o processo no +produtos
+Atividade: Digitalizar processo no +produjtos
+KR:
+
+---
+
+Nao tem no PLM
+- Venda
+- Aprovação Visual
+- Cronograma
+
+---
+
+# Fazer as informações de estampas 
+
+---
+
+- Os dados de venda das estampas são o mesmo dos produtos
+- Quais foram as estampas mais vendidas na coleção anterior?
+
+---
+
+
+
+## Refinamento +Produtos
+- Qual mudança faz sentido com o objetivo?
+
+OKR
+- Digitalizar o processo do Estilo
+
+- Acompanhamento dos eventos
+- 
+
+
+
+
+
+
+
+
+
+
+ ---
+ 
+ # Persona para cada tipo de persona
+ 
+ ---
+ 
+ # Melhorar a usabilidade e interface 
+ 
+ ---
+ 
+ # Pesquisa 
+ 
+ - https://medium.com/@roger.mc/m%C3%A9tricas-para-medir-o-sucesso-de-produtos-digitais-71a6a0c9348e
+ - https://www.cursospm3.com.br/blog/metricas-de-produtos/
+ - https://conteudo.produto.io/parte-1-m%C3%A9tricas-indicadores-e-comportamento-do-usu%C3%A1rio-cfeafb45d4bd
+ - https://k21.global/blog/6-dicas-metricas-sucesso-produto
+ - https://www.dextra.com.br/blog/metricas-de-produtos-digitais/
+ - http://blog.plataformatec.com.br/2018/01/o-que-seriam-boas-metricas-para-produtos-digitais/
+ - http://www.semeru.com.br/blog/category/metricas-de-produto/
+ - https://blog.confilio.com/2018/12/metricas-para-produtos-digitais/
+ 
+ 
