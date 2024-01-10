@@ -72,10 +72,10 @@ p, blockquote{
 blockquote{
     font-size: 3vw;
     color: hsl(0, 0%, 40%);;
-    font-weight: 700;
+    /* font-weight: 700; */
     padding: 10vw 20px;
-    margin: 0vw 0 10vw 0px;
-    border-left: 1px solid hsl(0, 0%, 30%);
+    margin: 10vw 0 5vw 0px;
+    border-left: 4px solid hsl(0, 0%, 90%);
 }
 b, p b{
     color: hsl(0, 0%, 20%);
@@ -149,7 +149,8 @@ iframe{
 }
 /* intro */
 #home .intro{
-    padding: 10vw 0vw 5vw 0vw;
+    /* padding: 10vw 0vw 5vw 0vw; */
+    
 }
 .intro a:last-child{
     /* color: hsl(0, 0%, 40%);; */
@@ -1039,7 +1040,7 @@ footer{
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: hsl(0, 0%, 10%);
+    background: hsl(0, 0%, 80%);
   }
   
   /* Handle */
