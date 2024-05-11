@@ -1,0 +1,30 @@
+Category: All categories
+
+Region,energia solar: (4/23/19 - 4/23/24)
+State of Mato Grosso,100
+State of Tocantins,90
+State of Piauí,88
+State of Mato Grosso do Sul,88
+State of Rio Grande do Norte,83
+State of Rondônia,78
+State of Goiás,73
+State of Rio Grande do Sul,68
+State of Espírito Santo,67
+State of Bahia,66
+State of Pernambuco,66
+State of Roraima,64
+State of Ceará,64
+State of Pará,62
+State of Alagoas,62
+State of Amapá,61
+State of Paraíba,61
+State of Maranhão,60
+State of Acre,59
+State of Minas Gerais,59
+State of Santa Catarina,58
+State of Paraná,55
+State of Amazonas,54
+State of Sergipe,50
+State of São Paulo,49
+Federal District,45
+State of Rio de Janeiro,45

@@ -1,0 +1,30 @@
+Category: All categories
+
+Region,"energia solar: (4/22/24, 8:45 PM - 4/22/24, 9:45 PM)"
+State of Sergipe,100
+State of Ceará,33
+State of Santa Catarina,20
+State of Bahia,20
+State of Minas Gerais,18
+State of São Paulo,15
+State of Paraná,13
+State of Rio Grande do Sul,12
+State of Rio de Janeiro,8
+State of Acre,
+State of Maranhão,
+State of Mato Grosso do Sul,
+State of Mato Grosso,
+State of Pará,
+State of Paraíba,
+State of Pernambuco,
+State of Piauí,
+State of Goiás,
+State of Espírito Santo,
+State of Rio Grande do Norte,
+State of Rondônia,
+State of Roraima,
+Federal District,
+State of Amapá,
+State of Amazonas,
+State of Alagoas,
+State of Tocantins,

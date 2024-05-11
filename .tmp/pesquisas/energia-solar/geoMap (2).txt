@@ -1,0 +1,30 @@
+Category: All categories
+
+Region,"energia solar: (4/15/24, 9:46 PM - 4/22/24, 9:46 PM)"
+State of Mato Grosso,100
+State of Rio Grande do Norte,95
+State of Mato Grosso do Sul,91
+State of Piauí,75
+State of Rondônia,74
+State of Espírito Santo,73
+State of Alagoas,72
+State of Tocantins,72
+State of Pernambuco,67
+State of Bahia,63
+State of Goiás,61
+State of Pará,60
+State of Amapá,59
+State of Acre,57
+State of Ceará,56
+State of Maranhão,56
+State of Sergipe,55
+State of Roraima,55
+State of Santa Catarina,53
+State of Paraíba,52
+State of Minas Gerais,51
+State of Rio Grande do Sul,48
+State of Paraná,44
+Federal District,40
+State of São Paulo,39
+State of Amazonas,37
+State of Rio de Janeiro,31

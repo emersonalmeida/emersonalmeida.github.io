@@ -1,0 +1,51 @@
+Category: All categories
+"energia solar: (4/22/24, 8:45 PM - 4/22/24, 9:45 PM, Brazil)"
+
+TOP
+Solar energy,100
+Energy,99
+Solar power,47
+Wind power,7
+Solar panel,7
+Light,7
+Sun,5
+Electrical energy,5
+energy source,5
+Photovoltaics,4
+Power station,4
+System,4
+Renewable energy,4
+solar cell panel,4
+Biomass,4
+hydroelectric power station,3
+Gas,3
+Kilowatt hour,3
+Electric battery,3
+Solar Powered,3
+Heat,3
+Hydropower,2
+Funding,2
+
+RISING
+Heat,Breakout
+Photosynthesis,Breakout
+Sea,Breakout
+used,Breakout
+Fossil fuel,Breakout
+Earth,Breakout
+Fossil,Breakout
+Mechanics,Breakout
+Investment,Breakout
+Budget,Breakout
+succeeding,Breakout
+paid,Breakout
+Funding,+200%
+solar cell panel,+180%
+Solar Powered,+170%
+Geothermal energy,+150%
+Light,+100%
+Gas,+90%
+Power station,+80%
+Renewable energy,+70%
+Wind power,+50%
+

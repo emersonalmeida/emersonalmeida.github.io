@@ -1,0 +1,46 @@
+Category: All categories
+"energia solar: (3/23/24 - 4/23/24, Brazil)"
+
+TOP
+Solar energy,100
+Energy,88
+Sun,12
+Solar power,8
+Solar panel,5
+Wind power,5
+Renewable energy,4
+Power station,4
+Photovoltaics,3
+energy source,3
+Electrical energy,3
+Light,3
+Power inverter,3
+hydroelectric power station,3
+Electric battery,2
+Nuclear power,2
+Fee,2
+Production,2
+Electric generator,2
+Hydropower,2
+Kilowatt hour,2
+Biomass,2
+Funding,1
+Fossil fuel,1
+Oxygen,1
+
+RISING
+Solar eclipse,+750%
+Green hydrogen,+400%
+Industry,+350%
+Chemical substance,+180%
+Oxygen,+140%
+Kinetic energy,+130%
+Electricity generation,+110%
+Solar thermal collector,+110%
+Hydrogen,+90%
+Tide,+90%
+Reducing agent,+90%
+Carbon,+80%
+Sustainable energy,+70%
+Fossil fuel,+70%
+

@@ -1,0 +1,51 @@
+Category: All categories
+"energia solar: (4/23/23 - 4/23/24, Brazil)"
+
+TOP
+placa solar,100
+placa energia solar,95
+o que é energia solar,81
+o que é energia,74
+o que e energia solar,63
+placa de energia solar,62
+o que é a energia solar,52
+kit energia solar,52
+sistema solar,50
+empresa energia solar,48
+como funciona energia solar,47
+energia fotovoltaica,43
+energia eólica,41
+energia solar fotovoltaica,41
+energia solar vantagens,40
+energia solar no brasil,38
+usina solar,36
+sistema de energia solar,35
+energia solar valor,35
+energia solar desvantagens,35
+energia eolica,35
+eolica,35
+empresa de energia solar,35
+energia solar preço,33
+energia elétrica,31
+
+RISING
+eb55 energia solar,"+1,850%"
+pl 4831 23 energia solar,"+1,250%"
+taxa energia solar 2024,+950%
+"em relação à energia das marés, qual é uma vantagem direta em comparação com fontes de energia não renováveis?",+900%
+"em um cenário de gestão de desastres naturais, como a análise de dados temporais provenientes de satélites pode contribuir para o monitoramento e para a prevenção desses eventos?",+850%
+quais os benefícios mais comuns resultantes da exposição moderada à radiação solar na pele?,+750%
+como o desmatamento pode aumentar a incidência de zoonoses e quais são os exemplos de doenças relacionadas?,+700%
+ecos energia solar fotovoltaica,+550%
+estação de energia solar portatil,+450%
+yaw energia solar,+350%
+gerador portatil de energia solar,+300%
+resolve energia solar,+250%
+gerador de energia portátil solar,+250%
+energia solar portatil,+160%
+"a cartografia social expande as abordagens tradicionais ao explorar os aspectos sociais no espaço geográfico. diante disso, qual é a importância da perspectiva crítica na interpretação de mapas sociais?",+120%
+"a cartografia social é uma ferramenta fundamental para compreender e representar as dinâmicas sociais em determinadas regiões. sobre esse tema, qual é o principal objetivo da cartografia social?",+110%
+energia solar para ar condicionado,+100%
+placa solar 550w,+100%
+bateria energia solar,+50%
+

@@ -1,0 +1,41 @@
+Category: All categories
+"energia solar: (4/21/24, 9:45 PM - 4/22/24, 9:45 PM, Brazil)"
+
+TOP
+Solar energy,100
+Energy,95
+Solar power,47
+Solar panel,6
+Wind power,5
+Sun,4
+Photovoltaics,4
+Renewable energy,3
+energy source,3
+Electrical energy,3
+Power station,3
+Light,2
+Power inverter,2
+hydroelectric power station,2
+Kilowatt hour,2
+Nuclear power,2
+Electric generator,2
+Hydropower,2
+Production,2
+Biomass,2
+Electrical grid,1
+Charcoal,1
+Fossil fuel,1
+Fossil,1
+Tidal power,1
+
+RISING
+Tidal power,Breakout
+Bill,+200%
+Fossil fuel,+170%
+Charcoal,+130%
+Fossil,+130%
+Nominal power,+120%
+Intelbras,+110%
+Hydropower,+60%
+hydroelectric power station,+50%
+

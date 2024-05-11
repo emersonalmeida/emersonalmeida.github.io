@@ -1,0 +1,47 @@
+Category: All categories
+"energia solar: (3/23/24 - 4/23/24, Brazil)"
+
+TOP
+energia solar o que é,100
+o que é energia,98
+placa energia solar,85
+placa solar,85
+o que e energia solar,79
+o que é a energia solar,70
+placa de energia solar,62
+sistema solar,56
+usina energia solar,50
+empresa energia solar,48
+energia eólica,47
+sistema de energia solar,45
+placas energia solar,44
+kit energia solar,43
+energia elétrica,42
+vantagens energia solar,42
+energia solar como funciona,40
+energia solar no brasil,39
+empresa de energia solar,39
+fontes de energia,37
+energia eolica,37
+usina de energia solar,37
+energia solar desvantagens,36
+eolica,36
+energia fotovoltaica,36
+
+RISING
+eb55,Breakout
+eb55 energia solar,Breakout
+kit energia solar residencial 220v preço,Breakout
+"em relação à energia das marés, qual é uma vantagem direta em comparação com fontes de energia não renováveis?",Breakout
+fortlev solar,Breakout
+"em um cenário de gestão de desastres naturais, como a análise de dados temporais provenientes de satélites pode contribuir para o monitoramento e para a prevenção desses eventos?",Breakout
+movibio,Breakout
+por que a superfície da terra é iluminada e aquecida de forma desigual pela energia solar,Breakout
+"a cartografia social expande as abordagens tradicionais ao explorar os aspectos sociais no espaço geográfico. diante disso, qual é a importância da perspectiva crítica na interpretação de mapas sociais?",Breakout
+connect energia solar,"+3,150%"
+"a cartografia social é uma ferramenta fundamental para compreender e representar as dinâmicas sociais em determinadas regiões. sobre esse tema, qual é o principal objetivo da cartografia social?","+2,750%"
+qual é o papel das geotecnologias na gestão ambiental e no planejamento urbano?,"+2,250%"
+"o câncer é uma doença que pode estar relacionada a hábitos de vida, como também a hereditariedade. essa doença caracteriza-se como","+2,200%"
+como o desmatamento pode aumentar a incidência de zoonoses e quais são os exemplos de doenças relacionadas?,"+1,950%"
+quais são as estratégias importantes para aumentar a eficiência e a produtividade no campo de maneira sustentável?,"+1,800%"
+
