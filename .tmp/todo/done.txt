@@ -6,3 +6,4 @@ x 2024-05-04 - Idéia - AI para documentos comerciais
 x 2024-05-07 Estudar sobre XFCE
 x 2024-05-08 Analisar pesquisa por recibos no youtube
 x 2024-05-08 Analisar comentários sobre recibos no youtube
+x 2024-05-10 Ideia - Jogo em shell
