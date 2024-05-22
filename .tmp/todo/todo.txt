@@ -1,2 +1,0 @@
-Aprender analise de dados em arquivos locais com python
-Pesquisa - Quais os nichos de orçamento e recibo com maior volume financeiro?

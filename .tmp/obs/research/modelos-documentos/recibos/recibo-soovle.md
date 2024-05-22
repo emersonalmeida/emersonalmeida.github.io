@@ -1,7 +1,3 @@
-
- 
-recibo
-{}
 recibo in english
 recibo
 recibos en ingles

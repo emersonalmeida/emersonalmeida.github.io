@@ -1,0 +1,11 @@
+- https://www.nngroup.com/articles/discovery-phase/
+	- processo
+		- pesquisa exploratoria
+		- entrevistas
+		- estudos diários
+	- descoberta
+		- problema
+		- objetivo
+		- jornada
+		- persona
+		- conceito

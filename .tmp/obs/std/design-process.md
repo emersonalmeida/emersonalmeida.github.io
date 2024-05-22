@@ -1,0 +1,11 @@
+- pesquisa
+	- desk research
+	- entrevista
+	- benchmark
+- definição
+	- persona
+	- jornada
+	- objetivo
+- ideação
+- teste
+- documentação
