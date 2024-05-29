@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/todo.md",
+                "file": "todo/regularizar-cpf.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo/todo.md",
+                "file": "todo/regularizar-cpf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo/todo.md",
+                "file": "todo/regularizar-cpf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/todo.md"
+                "file": "todo/regularizar-cpf.md"
               }
             }
           }
@@ -148,8 +148,17 @@
   },
   "active": "ef7d8179793e472c",
   "lastOpenFiles": [
-    "std/portfolio-cases.md",
+    "todo/metodologias-do-mundo.md",
+    "todo/regularizar-cpf.md",
     "todo/todo.md",
+    "research/tipa.ai/tipa.ai - pesquisa exploratória.md",
+    "lnx/manj-bkp-custom.md",
+    "lnx/lnx.md",
+    "research/tipa.ai",
+    "std/pd-methods.md",
+    "ideas/matrix-bci.md",
+    "ideas/idea-linux-concept.md",
+    "std/portfolio-cases.md",
     "std/design-process.md",
     "std/discovery-process.md",
     "bkp/soma/produtos/+produtos/reunioes/qls/qls-joao-speciale.md",
@@ -167,14 +176,6 @@
     "bkp/soma/produtos/+produtos/reunioes/papo-jota.md",
     "bkp/soma/produtos/+produtos/reunioes/papo-joao-speciale.md",
     "bkp/soma/produtos/+produtos/reunioes/papo-joao-leite-010321.md",
-    "bkp/soma/produtos/+produtos/reunioes/papo-fernanda-vasc-dual-track.md",
-    "bkp/soma/produtos/+produtos/reunioes/papo-arruda-010321.md",
-    "bkp/soma/produtos/+produtos/reunioes/lorena-lessons.md.md",
-    "bkp/soma/produtos/+produtos/reunioes/lorena-010321.md",
-    "bkp/soma/produtos/+produtos/reunioes/guilda-produto-030321.md",
-    "bkp/soma/produtos/+produtos/reunioes/estilo-lessons.md.md",
-    "bkp/soma/produtos/+produtos/reunioes/eric-fontoura-processo-filtros-24-02-21.md",
-    "bkp/soma/produtos/+produtos/reunioes/eric-design-system.md",
     "bkp/soma/produtos/+produtos/reunioes/chapter-design",
     "bkp/soma/produtos/+produtos/reunioes",
     "bkp/soma/produtos/+produtos/teste-usabilidade",
@@ -192,7 +193,6 @@
     "bkp/soma/daily/2021-02-28",
     "bkp/soma/produtos/+produtos",
     "bkp/soma/produtos/+estampas",
-    "bkp/soma/agile/scrum",
-    "bkp/soma/agile/dual-track"
+    "bkp/soma/agile/scrum"
   ]
 }

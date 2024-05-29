@@ -1,0 +1,3 @@
+- https://servicos.receita.fazenda.gov.br/Servicos/CPF/regularizar/Default.asp
+- https://blog.pagseguro.uol.com.br/limite-do-mei/
+- 
