@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/regularizar-cpf.md",
+                "file": "std/resenha-lean-inception.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dcee4d0b22c151e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo/leg.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a6672051f2a004f3",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo/regularizar-cpf.md",
+                "file": "todo/leg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo/regularizar-cpf.md",
+                "file": "todo/leg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/regularizar-cpf.md"
+                "file": "todo/leg.md"
               }
             }
           }
@@ -146,12 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef7d8179793e472c",
+  "active": "dcee4d0b22c151e5",
   "lastOpenFiles": [
-    "todo/metodologias-do-mundo.md",
-    "todo/regularizar-cpf.md",
-    "todo/todo.md",
+    "std/resenha-lean-inception.md",
     "research/tipa.ai/tipa.ai - pesquisa exploratória.md",
+    "todo/leg.md",
+    "todo/metodologias-do-mundo.md",
+    "todo/todo.md",
     "lnx/manj-bkp-custom.md",
     "lnx/lnx.md",
     "research/tipa.ai",
@@ -175,7 +190,6 @@
     "bkp/soma/produtos/+produtos/reunioes/papo-lorena.md",
     "bkp/soma/produtos/+produtos/reunioes/papo-jota.md",
     "bkp/soma/produtos/+produtos/reunioes/papo-joao-speciale.md",
-    "bkp/soma/produtos/+produtos/reunioes/papo-joao-leite-010321.md",
     "bkp/soma/produtos/+produtos/reunioes/chapter-design",
     "bkp/soma/produtos/+produtos/reunioes",
     "bkp/soma/produtos/+produtos/teste-usabilidade",

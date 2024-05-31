@@ -1,8 +1,8 @@
 
 ---
 
-sqala - pagamento
-tipa - doação
+sqala - payment
+tipa - donate
 
 ---
 
@@ -61,7 +61,7 @@ Sqala
 - Benchmark
 	- [ ] LivePix
 	- [ ] Streamar
-	- [ ] Donate
+	- [ ] Outros
 
 ---
 
