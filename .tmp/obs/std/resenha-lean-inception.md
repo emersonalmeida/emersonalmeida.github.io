@@ -326,6 +326,69 @@ https://caroli.org/
 									- E - EEE - esforço
 									- $ - $ $ $ - valor negocio
 									- S2 - S2S2S2 - valor ux
-		- jornadas dos usuarios
-			- dfsdfsdfs
-		- 
+		- jornadas e funcionalidades
+			- atividades
+		- sequenciador de funcionalidades
+			- atividades
+		- regras do sequenciador
+		- convergindo regras e jornadas
+		- identificando mvp no sequenciador de funcionalidades
+		- calculo esfoço, tempo e custo
+		- detalhando funcionalidades em tarefas
+			- dimensionando tarefas
+			- entendendo custo de tempo
+			- tirando a média
+		- canvas mvp
+			- preenchendo canvas
+				- proposta mvp
+				- personas segmentadas
+				- jornadas
+				- funcionalidades
+				- resultado esperado
+				- métricas para validar hipóteses do negócio
+				- custo e cronograma
+		- sequenciador e canvas
+		- foco na proposta
+		- minimize os riscos com personas segmentadas
+		- melhore a experiencia nas jornadas
+		- reavalie as funcionalidades do mvp
+		- valide a hipótese do negócio
+		- custo e cronograma
+		- estratégia do mvp
+- apendices
+	- kick-off
+	- visão do produto
+	- o produto é - não é - faz - não faz
+	- esclarecendo objetivo
+	- personas
+	- jornadas
+	- funcionalidades
+	- revisão técnica, negócio e ux
+	- sequenciador
+	- canvas mvp
+		- proposta
+		- persona
+		- jornada
+		- funcionalidade
+		- resultado esperado
+		- métricas
+		- custo e cronograma
+- glossario
+	- personas
+	- funcionalidade
+		- nivel de confiança
+		- esforço da funcionalidade
+		- valor do negócio da funcionalidade
+	- jornada do usuario
+	- mvp
+- atividades
+	- quebra-gelo
+	- localização geografica
+	- telefone visual
+	- um dois ping quatro pong
+	- triangulos
+	- zip zao zoom
+	- desembraracem
+	- peças complexas
+	- costas com costas
+	- encontre seu par

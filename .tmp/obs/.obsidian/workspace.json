@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "dcee4d0b22c151e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sqala/sqala.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ef7d8179793e472c",
             "type": "leaf",
             "state": {
@@ -20,12 +32,12 @@
             }
           },
           {
-            "id": "dcee4d0b22c151e5",
+            "id": "600aca7e1f11dc3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/leg.md",
+                "file": "std/discovery-process.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a6672051f2a004f3",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo/leg.md",
+                "file": "std/resenha-lean-inception.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo/leg.md",
+                "file": "std/resenha-lean-inception.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/leg.md"
+                "file": "std/resenha-lean-inception.md"
               }
             }
           }
@@ -160,22 +171,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcee4d0b22c151e5",
+  "active": "ef7d8179793e472c",
   "lastOpenFiles": [
+    "sqala/sqala.md",
+    "std/discovery-process.md",
     "std/resenha-lean-inception.md",
-    "research/tipa.ai/tipa.ai - pesquisa exploratória.md",
+    "sqala/tipa.md",
     "todo/leg.md",
+    "sqala",
     "todo/metodologias-do-mundo.md",
     "todo/todo.md",
     "lnx/manj-bkp-custom.md",
     "lnx/lnx.md",
-    "research/tipa.ai",
+    "sqala/tipa.ai",
     "std/pd-methods.md",
     "ideas/matrix-bci.md",
     "ideas/idea-linux-concept.md",
     "std/portfolio-cases.md",
     "std/design-process.md",
-    "std/discovery-process.md",
     "bkp/soma/produtos/+produtos/reunioes/qls/qls-joao-speciale.md",
     "bkp/soma/produtos/+produtos/reunioes/chapter-design/UX-Nuggts-chapter-design-100321.md",
     "bkp/soma/produtos/+produtos/reunioes/wgsn-lorena-felipe.md",
@@ -189,7 +202,6 @@
     "bkp/soma/produtos/+produtos/reunioes/papo-vitor-barbosa-dev.md",
     "bkp/soma/produtos/+produtos/reunioes/papo-lorena.md",
     "bkp/soma/produtos/+produtos/reunioes/papo-jota.md",
-    "bkp/soma/produtos/+produtos/reunioes/papo-joao-speciale.md",
     "bkp/soma/produtos/+produtos/reunioes/chapter-design",
     "bkp/soma/produtos/+produtos/reunioes",
     "bkp/soma/produtos/+produtos/teste-usabilidade",
@@ -206,7 +218,6 @@
     "bkp/soma/tmp/Pasted image 20220705093921.png",
     "bkp/soma/daily/2021-02-28",
     "bkp/soma/produtos/+produtos",
-    "bkp/soma/produtos/+estampas",
-    "bkp/soma/agile/scrum"
+    "bkp/soma/produtos/+estampas"
   ]
 }
