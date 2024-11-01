@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro To-Do List</title>
+    <style>
+        body {
+            font-family: 'Ubuntu', monospace, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            margin: 0;
+            background-color: white;
+            color: black;
+            transition: background-color 0.3s, color 0.3s;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #app {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .column {
+            flex: 1;
+            margin: 10px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .form-group {
+            margin: 15px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: black;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 16px;
+            border: 1px solid black;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0.05);
+            color: black;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        }
+        input::placeholder {
+            color: gray;
+        }
+        input:focus {
+            outline: none;
+            border: 2px solid black;
+        }
+        button {
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+        }
+        .btn-primary {
+            background-color: black;
+            color: white;
+        }
+        .btn-secondary {
+            background-color: transparent;
+            border: 1px solid black;
+            color: black;
+        }
+        /* Tema Escuro */
+        body.dark {
+            background-color: black;
+            color: white;
+        }
+        body.dark .column {
+            background-color: #333;
+            border: 1px solid #444;
+        }
+        body.dark input {
+            border: 1px solid white;
+            background-color: #444;
+            color: white;
+        }
+        body.dark input::placeholder {
+            color: #ccc;
+        }
+        body.dark label {
+            color: white;
+        }
+        body.dark .btn-primary {
+            background-color: white;
+            color: black;
+        }
+        body.dark .btn-secondary {
+            border: 1px solid white;
+            color: white;
+        }
+        .task-item, .history-item {
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        body.dark .task-item, body.dark .history-item {
+            background-color: #444;
+            border: 1px solid white;
+        }
+        .btn-complete, .btn-delete, .btn-history-delete {
+            padding: 8px;
+            margin-top: 10px;
+        }
+        .btn-delete {
+            background-color: red;
+            color: white;
+        }
+        body.dark .btn-delete {
+            background-color: darkred;
+        }
+        .time-controls {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .time-controls button {
+            width: 30%;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .input-group input {
+            flex-grow: 1; /* Faz o input ocupar o espaço disponível */
+            margin: 0 10px; /* Margem horizontal entre os botões e o input */
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="column">
+            <h1>Pomodoro To-Do List</h1>
+            <div id="taskForm">
+                <div class="form-group">
+                    <label for="taskName">Tarefa:</label>
+                    <input type="text" id="taskName" placeholder="Digite o nome da tarefa" required>
+                </div>
+                <div class="form-group">
+                    <label for="timeInput">Tempo (em segundos):</label>
+                    <div class="input-group">
+                        <button onclick="changeTime(-1)">-</button>
+                        <input type="number" id="timeInput" value="10" min="1" placeholder="10 segundos" required>
+                        <button onclick="changeTime(1)">+</button>
+                    </div>
+                </div>
+                <button id="createTaskButton" class="btn-primary" onclick="createTask()">Criar Tarefa</button>
+            </div>
+            <button class="btn-secondary" onclick="saveHistoryToFile()">Salvar Histórico em .txt</button>
+            <button class="btn-secondary theme-toggle" onclick="toggleTheme()">Alternar Tema</button>
+            <button class="btn-secondary" onclick="clearHistory()">Limpar Histórico</button>
+        </div>
+        <div class="column">
+            <h2>Tarefas em Andamento</h2>
+            <ul id="taskList"></ul>
+        </div>
+        <div class="column">
+            <h2>Histórico de Tarefas</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+
+    <script>
+        let taskList = JSON.parse(localStorage.getItem("taskList")) || [];
+        let historyList = JSON.parse(localStorage.getItem("historyList")) || [];
+        let timer = null;
+
+        document.addEventListener("DOMContentLoaded", () => {
+            renderTasks();
+            renderHistory();
+        });
+
+        function saveTasksToLocalStorage() {
+            localStorage.setItem("taskList", JSON.stringify(taskList));
+            localStorage.setItem("historyList", JSON.stringify(historyList));
+        }
+
+        function createTask() {
+            const taskName = document.getElementById("taskName").value.trim();
+            const taskTime = Math.floor(document.getElementById("timeInput").value); // Em segundos
+
+            if (!taskName || taskTime < 1) {
+                alert("Por favor, insira uma tarefa e um tempo válido.");
+                return;
+            }
+
+            const task = {
+                name: taskName,
+                totalTime: taskTime,
+                remainingTime: taskTime,
+                timeSpent: 0,
+                pomodoros: 0,
+                completed: false,
+                completedAt: null,
+                createdAt: Date.now() // Timestamp para ordenar o histórico
+            };
+
+            taskList.push(task);
+            saveTasksToLocalStorage();
+            renderTasks();
+            startTimer();
+            resetForm();
+        }
+
+        function resetForm() {
+            document.getElementById("taskName").value = '';
+            document.getElementById("timeInput").value = 10; // Reset para 10 segundos
+        }
+
+        function changeTime(amount) {
+            const timeInput = document.getElementById("timeInput");
+            let currentTime = parseInt(timeInput.value);
+            currentTime += amount;
+
+            // Garante que o tempo mínimo seja 1 segundo
+            if (currentTime < 1) {
+                currentTime = 1;
+            }
+
+            timeInput.value = currentTime;
+        }
+
+        function startTimer() {
+            if (taskList.length === 0) return;
+
+            clearInterval(timer); // Limpa o timer anterior
+            timer = setInterval(() => {
+                const task = taskList[0];
+
+                // Incrementa o tempo total gasto
+                task.timeSpent++;
+
+                // Atualiza o tempo restante
+                if (task.remainingTime > 0) {
+                    task.remainingTime--;
+                } else {
+                    // Quando o tempo restante chega a zero, continue a contagem negativa
+                    task.remainingTime--;
+                }
+
+                renderTasks();
+            }, 1000);
+        }
+
+        function completeTask() {
+            if (taskList.length === 0) return;
+
+            const task = taskList.shift(); // Remove a tarefa atual
+            task.completed = true;
+            task.completedAt = Date.now();
+            task.pomodoros++; // Incrementa pomodoros
+
+            historyList.push(task); // Adiciona a tarefa ao histórico
+            saveTasksToLocalStorage();
+            renderHistory();
+            renderTasks();
+            startTimer(); // Reinicia o timer
+        }
+
+        function deleteTask(index) {
+            taskList.splice(index, 1);
+            saveTasksToLocalStorage();
+            renderTasks();
+        }
+
+        function saveHistoryToFile() {
+            const historyContent = historyList.map(task => {
+                return `Tarefa: ${task.name}, Pomodoros: ${task.pomodoros}, Tempo Total: ${task.timeSpent} segundos\n`;
+            }).join('');
+            const blob = new Blob([historyContent], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'historico_tarefas.txt';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function clearHistory() {
+            historyList = [];
+            localStorage.removeItem("historyList");
+            renderHistory();
+        }
+
+        function renderTasks() {
+            const taskListElement = document.getElementById("taskList");
+            taskListElement.innerHTML = '';
+
+            taskList.forEach((task, index) => {
+                const remainingTimeDisplay = formatTime(task.remainingTime);
+                const timeSpentDisplay = formatTime(task.timeSpent);
+                
+                taskItem = document.createElement("li");
+                taskItem.className = "task-item";
+
+                taskItem.innerHTML = `
+                    <strong>${task.name}</strong>
+                    <div>Tempo Restante: ${remainingTimeDisplay}</div>
+                    <div>Tempo Total Gasto: ${timeSpentDisplay}</div>
+                    <button class="btn-complete" onclick="completeTask()">Concluir</button>
+                    <button class="btn-delete" onclick="deleteTask(${index})">Excluir</button>
+                `;
+
+                taskListElement.appendChild(taskItem);
+            });
+        }
+
+        function renderHistory() {
+            const historyListElement = document.getElementById("historyList");
+            historyListElement.innerHTML = '';
+
+            // Ordenar o histórico pelas tarefas mais recentes
+            historyList.sort((a, b) => b.completedAt - a.completedAt);
+
+            historyList.forEach(task => {
+                const historyItem = document.createElement("li");
+                historyItem.className = "history-item";
+                
+                historyItem.innerHTML = `
+                    <strong>${task.name}</strong>
+                    <div>Pomodoros: ${task.pomodoros}</div>
+                    <div>Tempo Total: ${task.timeSpent} segundos</div>
+                `;
+
+                historyListElement.appendChild(historyItem);
+            });
+        }
+
+        function formatTime(seconds) {
+            const minutes = Math.floor(Math.abs(seconds) / 60);
+            const remainingSeconds = Math.abs(seconds) % 60;
+            const sign = seconds < 0 ? '-' : ''; // Adiciona sinal negativo se necessário
+            return `${sign}${minutes}m ${remainingSeconds}s`;
+        }
+
+        function toggleTheme() {
+            document.body.classList.toggle("dark");
+        }
+    </script>
+</body>
+</html>

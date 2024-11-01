@@ -1,0 +1,6 @@
+2024-10-27 00:11:26 - Tarefa: CRIAR UM PROGRAMA EM SHELL - Tempo: 11 segundos
+2024-10-27 00:12:39 - Tarefa: TESTAR GTK - Tempo: 10 segundos
+2024-10-27 00:17:04 - Tarefa:  - Tempo: 26 segundos
+2024-10-27 00:17:29 - Tarefa:  - Tempo: 3 segundos
+2024-10-27 00:30:22 - Tarefa: tarefa criada - Tempo: 8 segundos
+2024-10-27 00:31:31 - Tarefa: Testar - Tempo: 31 segundos

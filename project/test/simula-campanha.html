@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Campanha com Streamers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .metrics {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 4px;
+        }
+        .metric-item {
+            margin: 10px 0;
+        }
+        .examples {
+            margin-top: 30px;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 4px;
+        }
+        .example {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Campanha com Streamers</h1>
+        <h2>Insira os dados da sua campanha</h2>
+        
+        <label for="budget">Orçamento Total (R$):</label>
+        <input type="number" id="budget" placeholder="Ex: 5000" required>
+
+        <label for="creatorType">Tipo de Criador:</label>
+        <select id="creatorType">
+            <option value="nano">Nano Creators</option>
+            <option value="micro">Micro Creators</option>
+            <option value="macro">Macro Influencers</option>
+            <option value="celebrity">Celebrities</option>
+        </select>
+
+        <label for="cpm">Custo por Mil Impressões (CPM):</label>
+        <input type="number" id="cpm" placeholder="Ex: 20" required>
+
+        <label for="cpc">Custo por Clique (CPC):</label>
+        <input type="number" id="cpc" placeholder="Ex: 1" required>
+
+        <label for="cpa">Custo por Aquisição (CPA):</label>
+        <input type="number" id="cpa" placeholder="Ex: 50" required>
+
+        <label for="rmc">Receita Média por Cliente (RMC):</label>
+        <input type="number" id="rmc" placeholder="Ex: 300" required>
+
+        <label for="duration">Duração da Campanha (dias):</label>
+        <input type="number" id="duration" placeholder="Ex: 30" required>
+
+        <div class="metrics">
+            <h2>Métricas da Campanha</h2>
+            <div class="metric-item">Impressões: <span id="impressions">0</span></div>
+            <div class="metric-item">Cliques: <span id="clicks">0</span></div>
+            <div class="metric-item">Conversões: <span id="conversions">0</span></div>
+            <div class="metric-item">Receita: R$<span id="revenue">0</span></div>
+            <div class="metric-item">ROI: <span id="roi">0%</span></div>
+        </div>
+
+        <div class="examples">
+            <h2>Como funciona o simulador?</h2>
+            <p>Este simulador calcula as métricas da sua campanha com base nos dados inseridos. As fórmulas usadas são:</p>
+            <ul>
+                <li><strong>Impressões:</strong> (Orçamento / CPM) x 1000</li>
+                <li><strong>Cliques:</strong> Orçamento / CPC</li>
+                <li><strong>Conversões:</strong> Orçamento / CPA</li>
+                <li><strong>Receita:</strong> Conversões x RMC</li>
+                <li><strong>ROI:</strong> ((Receita - Orçamento) / Orçamento) x 100</li>
+            </ul>
+            <h3>Exemplo de Campanha:</h3>
+            <div class="example">
+                <p><strong>Dados da Campanha:</strong></p>
+                <ul>
+                    <li><strong>Orçamento:</strong> R$5.000</li>
+                    <li><strong>Tipo de Criador:</strong> Micro Creators</li>
+                    <li><strong>CPM:</strong> R$20</li>
+                    <li><strong>CPC:</strong> R$1,00</li>
+                    <li><strong>CPA:</strong> R$50</li>
+                    <li><strong>RMC:</strong> R$300</li>
+                    <li><strong>Duração:</strong> 30 dias</li>
+                </ul>
+                <p><strong>Resultados:</strong></p>
+                <ul>
+                    <li><strong>Impressões:</strong> <span id="example-impressions">250.000</span></li>
+                    <li><strong>Cliques:</strong> <span id="example-clicks">5.000</span></li>
+                    <li><strong>Conversões:</strong> <span id="example-conversions">100</span></li>
+                    <li><strong>Receita:</strong> R$<span id="example-revenue">30.000</span></li>
+                    <li><strong>ROI:</strong> <span id="example-roi">500%</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const budgetInput = document.getElementById('budget');
+        const creatorTypeInput = document.getElementById('creatorType');
+        const cpmInput = document.getElementById('cpm');
+        const cpcInput = document.getElementById('cpc');
+        const cpaInput = document.getElementById('cpa');
+        const rmcInput = document.getElementById('rmc');
+
+        const impressionsOutput = document.getElementById('impressions');
+        const clicksOutput = document.getElementById('clicks');
+        const conversionsOutput = document.getElementById('conversions');
+        const revenueOutput = document.getElementById('revenue');
+        const roiOutput = document.getElementById('roi');
+
+        function updateMetrics() {
+            const budget = parseFloat(budgetInput.value) || 0;
+            const cpm = parseFloat(cpmInput.value) || 0;
+            const cpc = parseFloat(cpcInput.value) || 0;
+            const cpa = parseFloat(cpaInput.value) || 0;
+            const rmc = parseFloat(rmcInput.value) || 0;
+
+            // Cálculos das métricas
+            const impressions = (budget / cpm) * 1000;
+            const clicks = budget / cpc;
+            const conversions = budget / cpa;
+            const revenue = conversions * rmc;
+            const roi = ((revenue - budget) / budget) * 100;
+
+            // Atualiza a exibição das métricas
+            impressionsOutput.textContent = Math.round(impressions).toLocaleString();
+            clicksOutput.textContent = Math.round(clicks).toLocaleString();
+            conversionsOutput.textContent = Math.round(conversions).toLocaleString();
+            revenueOutput.textContent = revenue.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            roiOutput.textContent = roi.toFixed(2) + '%';
+
+            // Atualiza o exemplo com os mesmos dados
+            document.getElementById('example-impressions').textContent = Math.round(impressions).toLocaleString();
+            document.getElementById('example-clicks').textContent = Math.round(clicks).toLocaleString();
+            document.getElementById('example-conversions').textContent = Math.round(conversions).toLocaleString();
+            document.getElementById('example-revenue').textContent = revenue.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            document.getElementById('example-roi').textContent = roi.toFixed(2) + '%';
+        }
+
+        // Atualiza as métricas em tempo real ao alterar os valores de entrada
+        budgetInput.addEventListener('input', updateMetrics);
+        creatorTypeInput.addEventListener('change', updateMetrics);
+        cpmInput.addEventListener('input', updateMetrics);
+        cpcInput.addEventListener('input', updateMetrics);
+        cpaInput.addEventListener('input', updateMetrics);
+        rmcInput.addEventListener('input', updateMetrics);
+    </script>
+</body>
+</html>
