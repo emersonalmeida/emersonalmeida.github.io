@@ -1,0 +1,88 @@
+// 23/04/2024
+// 30 dias
+Mato Grosso do Sul 100
+Rio Grande do Norte 99
+Mato Grosso 96
+Tocantins 94
+Roraima 88
+Alagoas 81
+Espírito Santo 78
+Piauí 77
+Bahia 71
+Rondônia 70
+Pernambuco 69
+Pará 59
+Ceará 58
+Goiás 58
+Sergipe 57
+Paraíba 54
+Maranhão 53
+Rio Grande do Sul 52
+Minas Gerais 52
+Paraná 52
+Santa Catarina 51
+Federal District 45
+São Paulo 44
+Rio de Janeiro 38
+Amazonas 37
+Amapá 29
+Acre 25
+
+// 12 meses
+Mato Grosso 100
+Mato Grosso do Sul 85
+Piauí 83
+Tocantins 79
+Rondônia 77
+Amapá 76
+Roraima 75
+Rio Grande do Norte 74
+Bahia 67
+Goiás 65
+Pará 64
+Alagoas 64
+Espírito Santo 63
+Pernambuco 63
+Acre 63
+Ceará 62
+Minas Gerais 62
+Rio Grande do Sul 54
+Paraná 52
+Maranhão 50
+Paraíba 48
+Santa Catarina 48
+Amazonas 47
+Sergipe 46
+São Paulo 46
+Rio de Janeiro 40
+Federal District 39
+
+// 2004 - 2024
+Mato Grosso100
+Tocantins95
+Piauí90
+Mato Grosso do Sul82
+Rondônia73
+Rio Grande do Norte73
+Maranhão70
+Pará69
+Roraima68
+Espírito Santo67
+Goiás67
+Ceará65
+Pernambuco65
+Amapá65
+Minas Gerais64
+Bahia63
+Alagoas62
+Rio Grande do Sul61
+Acre60
+Paraíba59
+Amazonas55
+Santa Catarina54
+Sergipe53
+Paraná52
+Federal District51
+São Paulo49
+Rio de Janeiro45   
+

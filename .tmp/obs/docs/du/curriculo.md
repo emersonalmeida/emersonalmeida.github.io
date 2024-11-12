@@ -1,0 +1,85 @@
+**Curriculo**
+
+---
+
+# Eduardo Almeida
+## Pedreiro / Construção Civil
+
+---
+
+### Objetivo Profissional
+
+Olá, me chamo Eduardo, tenho 31 anos e busco uma oportunidade onde eu possa colocar em prática meus conhecimentos técnicos em favor dos objetivos da empresa, focando sempre na qualidade, segurança, eficiência e ética do trabalho.
+
+---
+
+### Experiência
+
+**JR Brito Construções**
+*Pedreiro Geral / Montador Estrutural*
+- Participei da construção de um condomínio residencial desde a preparação do terreno até a finalização e acabamento dos prédios.
+- 2023 - Até o momento
+
+	
+**Eólica Real Empreendimentos**
+*Pedreiro Geral / Concreto*
+- Responsável pela preparação de materiais de construção, execução de paredes de concreto e instalações de revestimento.
+- 2018 - 2022
+
+**RD Construtora Eirelli**
+*Pedreiro Geral / Concreto*
+- Atuei na construção de edifícios comerciais o que me permitiu aprimorar minhas habilidades técnicas para serviços em altura com segurança e responsabilidade.
+- 2017 - 2018
+
+---
+
+### Formação
+
+- **Ensino Médio Completo**
+
+---
+
+### Cursos e Certificações
+
+- Carpinteiro - SENAI/RJ
+- Pedreiro, Ladrilheiro e Pintor - SECCONCI
+- Normas Regulamentadoras (NR35, NR33, NR11)
+- Habilitação: CNH AB
+
+---
+
+### Competências
+
+- Experiência em Construção Civil
+- Leitura e Interpretação de Projetos
+- Preparação de Materiais e Equipamentos
+- Liderança e Trabalho em Equipe
+- Comprometimento com a Qualidade, Segurança e Resultados do Trabalho
+
+---
+
+### Contato
+
+- Telefone: (21) 97887-5969
+- Tel. Recado: (21) 97527-2058
+- E-mail: edualmeida.pro@gmail.com
+- Endereço: Realengo, Rio de Janeiro - CEP: 21770-060
+- Linkedin: [Linkedin.com/in/eduardo-almeida-santos](https://linkedin.com/in/eduardo-almeida-santos/)
+
+---
+
+# Obrigado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

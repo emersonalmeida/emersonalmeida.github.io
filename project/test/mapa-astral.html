@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos no Seu Aniversário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Descubra o que Aconteceu no Seu Aniversário!</h1>
+<label for="birthdate">Selecione sua data de nascimento:</label>
+<input type="date" id="birthdate">
+<button onclick="getEvents()">Ver Eventos</button>
+
+<div id="result"></div>
+
+<script>
+function getWeatherData() {
+    // Dados fictícios de clima
+    return {
+        "1989": "Céu nublado, 18 °C.",
+        "1990": "Chuvoso, 20 °C.",
+        "1991": "Céu limpo, 22 °C.",
+        "1992": "Temperatura amena, 25 °C.",
+        "1993": "Céu limpo, 23 °C.",
+        "1994": "Nublado, 21 °C.",
+        "1995": "Céu limpo, 27 °C.",
+        "1996": "Chuvoso, 19 °C.",
+        "1997": "Céu nublado, 20 °C.",
+        "1998": "Céu limpo, 24 °C.",
+        "1999": "Chuvoso, 22 °C.",
+        "2000": "Céu limpo, 26 °C.",
+        "2001": "Temperatura amena, 23 °C.",
+        "2002": "Céu nublado, 21 °C.",
+        "2003": "Chuvoso, 19 °C.",
+        "2004": "Céu limpo, 28 °C.",
+        "2005": "Nublado, 20 °C.",
+        "2006": "Céu limpo, 26 °C.",
+        "2007": "Chuvoso, 18 °C.",
+        "2008": "Céu nublado, 21 °C.",
+        "2009": "Céu limpo, 25 °C.",
+        "2010": "Chuvoso, 19 °C.",
+        "2011": "Céu nublado, 20 °C.",
+        "2012": "Céu limpo, 22 °C.",
+        "2013": "Nublado, 21 °C.",
+        "2014": "Céu limpo, 27 °C.",
+        "2015": "Temperatura amena, 23 °C.",
+        "2016": "Céu limpo, 24 °C.",
+        "2017": "Chuvoso, 18 °C.",
+        "2018": "Nublado, 20 °C.",
+        "2019": "Céu limpo, 25 °C.",
+        "2020": "Sol forte, 30 °C.",
+        "2021": "Chuvoso, 19 °C.",
+        "2022": "Parcialmente nublado, 22 °C.",
+        "2023": "Céu limpo, 26 °C.",
+    };
+}
+
+function getEventsData() {
+    // Dados fictícios de eventos
+    return {
+        "1989": "Queda do Muro de Berlim.",
+        "1990": "Lançamento do Windows 3.0.",
+        "1991": "O fim da Guerra Fria é oficializado.",
+        "1992": "Lançamento do primeiro smartphone.",
+        "1993": "Acordo de paz de Oslo é assinado.",
+        "1994": "Primeira Copa do Mundo de Futebol nos EUA.",
+        "1995": "Lançamento do Windows 95.",
+        "1996": "Crescimento da Internet acelera.",
+        "1997": "A primeira missão de resgate em Marte.",
+        "1998": "O Brasil vence a Copa do Mundo na França.",
+        "1999": "O Euro é introduzido como moeda.",
+        "2000": "O início do milênio é celebrado globalmente.",
+        "2001": "Atentados de 11 de setembro nos EUA.",
+        "2002": "O Brasil ganha a Copa do Mundo novamente.",
+        "2003": "Início da Guerra do Iraque.",
+        "2004": "Desastre do tsunami no Oceano Índico.",
+        "2005": "Lançamento do YouTube.",
+        "2006": "A primeira missão de exploração em Plutão.",
+        "2007": "Lançamento do primeiro iPhone.",
+        "2008": "Crise financeira global.",
+        "2009": "Barack Obama é eleito presidente dos EUA.",
+        "2010": "Terremoto devastador no Haiti.",
+        "2011": "Movimento Occupy Wall Street começa.",
+        "2012": "Curiosidades sobre o fim do mundo segundo os maias.",
+        "2013": "Edward Snowden revela informações sobre vigilância.",
+        "2014": "A Copa do Mundo é realizada no Brasil.",
+        "2015": "Acordo de Paris sobre mudanças climáticas.",
+        "2016": "Jogos Olímpicos no Brasil.",
+        "2017": "Eclipse solar total nos EUA.",
+        "2018": "Primeira imagem de um buraco negro é capturada.",
+        "2019": "A pandemia de COVID-19 começa.",
+        "2020": "Vacinas contra a COVID-19 são aprovadas.",
+        "2021": "A vacina contra a COVID-19 é distribuída globalmente.",
+        "2022": "O início da guerra na Ucrânia.",
+        "2023": "Avanços significativos na inteligência artificial.",
+    };
+}
+
+function getFunFacts() {
+    // Curiosidades sobre as datas
+    return {
+        "1989": "O primeiro navegador de internet, o WorldWideWeb, é criado.",
+        "1990": "Os 90s foram marcados pela ascensão da cultura grunge.",
+        "1991": "O código do Linux é lançado.",
+        "1992": "A música 'Smells Like Teen Spirit' é lançada.",
+        "1993": "O primeiro site do mundo é criado.",
+        "1994": "A série 'Friends' estreia na TV.",
+        "1995": "O DVD é introduzido ao mercado.",
+        "1996": "Os primeiros vídeos do YouTube são postados.",
+        "1997": "Harry Potter é publicado pela primeira vez.",
+        "1998": "O Google é fundado.",
+        "1999": "O último presidente do século XX é Bill Clinton.",
+        "2000": "O primeiro enigma do milênio é resolvido.",
+        "2001": "A série 'Os Sopranos' estreia na TV.",
+        "2002": "O primeiro prêmio de melhor filme da Academia vai para 'Chicago'.",
+        "2003": "O primeiro carro da Tesla é apresentado.",
+        "2004": "O Facebook é fundado.",
+        "2005": "O primeiro vídeo viral do YouTube é postado.",
+        "2006": "A primeira edição do Twitter é lançada.",
+        "2007": "O iPhone muda a forma como interagimos com a tecnologia.",
+        "2008": "O site Wikipedia é acessado mais de um bilhão de vezes.",
+        "2009": "O termo 'selfie' é oficialmente reconhecido.",
+        "2010": "O primeiro iPad é lançado.",
+        "2011": "O WhatsApp é fundado.",
+        "2012": "A primeira edição do 'The Hunger Games' é lançada.",
+        "2013": "O termo 'fake news' começa a ser amplamente utilizado.",
+        "2014": "A série 'Game of Thrones' estreia na TV.",
+        "2015": "O primeiro carro autônomo é testado nas ruas.",
+        "2016": "O Pokémon Go se torna um fenômeno global.",
+        "2017": "O #MeToo ganha força nas redes sociais.",
+        "2018": "O tratamento para o HIV avança significativamente.",
+        "2019": "As redes sociais se tornam a principal forma de comunicação.",
+        "2020": "A educação à distância se torna uma necessidade global.",
+        "2021": "A telemedicina se populariza em todo o mundo.",
+        "2022": "Os direitos humanos ganham mais destaque globalmente.",
+        "2023": "A exploração espacial privada avança rapidamente.",
+    };
+}
+
+function getEvents() {
+    const birthdate = document.getElementById('birthdate').value;
+
+    if (!birthdate) {
+        alert("Por favor, selecione uma data de nascimento.");
+        return;
+    }
+
+    const birthYear = new Date(birthdate).getFullYear();
+    const currentYear = new Date().getFullYear();
+    const weatherData = getWeatherData();
+    const eventsData = getEventsData();
+    const funFactsData = getFunFacts();
+    const resultDiv = document.getElementById('result');
+    resultDiv.innerHTML = ""; // Limpa resultados anteriores
+
+    const yearsCount = currentYear - birthYear;
+
+    for (let i = 0; i <= yearsCount; i++) {
+        const year = birthYear + i;
+        const weatherInfo = weatherData[year] || "Dados climáticos não disponíveis.";
+        const eventInfo = eventsData[year] || "Eventos não disponíveis.";
+        const funFact = funFactsData[year] || "Curiosidades não disponíveis.";
+        
+        resultDiv.innerHTML += `
+            <h2>Aniversário em ${year}:</h2>
+            <p>Clima: ${weatherInfo}</p>
+            <p>Evento importante: ${eventInfo}</p>
+            <p>Curiosidade: ${funFact}</p>
+        `;
+    }
+}
+</script>
+
+</body>
+</html>

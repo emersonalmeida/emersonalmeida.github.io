@@ -1,0 +1,245 @@
+
+- **Personas**
+	- cliente
+	- prestador
+	- empresa
+
+- **Empresa de varejo:**
+	- Um supermercado utiliza modelos digitais para emitir recibos de venda para seus clientes.
+	- Isso elimina a necessidade de digitar manualmente as informações de cada compra, reduzindo o tempo de atendimento e o risco de erros. 
+	- Além disso, os dados dos recibos podem ser facilmente integrados ao sistema de gestão da empresa, permitindo uma melhor análise das vendas e do estoque.
+- **Prestador de serviços:**
+	- Um profissional autônomo utiliza modelos digitais para emitir recibos de prestação de serviços para seus clientes. 
+	- Isso facilita a comprovação de renda para fins fiscais e contribui para a organização das finanças do profissional. 
+	- Além disso, os modelos podem ser personalizados com a logo do profissional e outras informações relevantes.
+- **Empresa de logística:**
+	- Uma empresa de transporte utiliza modelos digitais para emitir recibos de frete para seus clientes. 
+	- Isso garante a padronização das informações e facilita o acompanhamento das entregas. 
+	- Além disso, os dados dos recibos podem ser utilizados para gerar relatórios e identificar oportunidades de otimização da frota.
+- **Restaurante:**
+	- Um restaurante utiliza modelos digitais para emitir recibos de consumo para seus clientes. 
+	- Isso agiliza o processo de pagamento e reduz o tempo de espera dos clientes. 
+	- Além disso, os modelos podem ser integrados ao sistema de gestão do restaurante, permitindo um melhor controle do estoque e da produção.
+- **E-commerce:**
+	- Uma loja virtual utiliza modelos digitais para emitir notas fiscais eletrônicas (NF-e) para seus clientes. 
+	- Isso garante o cumprimento das obrigações fiscais e facilita o envio das notas para o governo.
+	- Além disso, os dados das notas podem ser utilizados para gerar relatórios e analisar o desempenho das vendas online.
+
+- **Em todos esses casos, os modelos de recibo digitais podem ajudar as empresas a:**
+	-  Reduzir custos: com papel, impressão, software e mão de obra.
+	- Aumentar a eficiência: otimizando processos e reduzindo o tempo gasto em tarefas manuais.
+	- Melhorar o cumprimento legal: facilitando a emissão de notas fiscais e outros documentos fiscais.
+	- Reduzir impostos: organizando as informações financeiras e facilitando a dedução de despesas.
+
+---
+
+- **Quais os problemas?**
+	- Busca por orçamentos para serviços/produtos (cliente)
+	- Captação e fidelização de clientes (empresa)
+	- Criação e envio de documentos comerciais e fiscais (empresa)
+	- Customização, personalização e profissionalismo
+	- Gerenciamento de clientes, serviços e documentos
+	- Análises e relatórios de negócio
+	- Processos e documentações fiscais
+
+---
+
+- **Análise - Recibo**
+	- **palavras-chave**
+		- **top**
+			- recibo
+			- modelo de recibo
+			- recibo de pagamento
+			- recibo online
+			- recibo simples
+			- recibo digital
+			- recibo word
+			- preencher recibo
+			- como fazer recibo
+		- **rising**
+			- imposto de renda
+			- emitir nota fiscal mei
+			- modelo recibo prestação de serviço
+			- modelo recibo de pagamento
+			- modelo de recibo de pagamento
+			- modelo de recibo de pagamento word
+			- recibo simples de pagamento word
+			- recibo online gratuito
+			- recibo de prestação de serviço word
+			- recibo online grátis
+			- recibo de serviço
+	- **regiões**
+		- **norte**
+			- tocantins - 94
+			- roraima - 88
+			- pará - 59
+			- amazonas - 37
+			- amapá - 29
+			- acre - 25
+		- **nordeste**
+			- rio grande do norte - 99
+			- alagoas - 81
+			- piauí - 77
+			- bahia - 71
+			- pernambuco - 69
+			- ceará - 58
+			- sergipe - 57
+			- paraíba - 54
+			- maranhão - 53 
+		- **centro-oeste**
+			- mato grosso do sul - 100
+			- mato grosso - 96
+			- goiás - 58
+			- distrito federal - 45
+		- **sudeste**
+			- espirito santo - 78
+			- minas gerais - 52
+			- sao paulo - 44
+			- rio de janeiro - 38
+		- **sul**
+			- paraná - 52
+			- rio grande do sul - 52
+			- santa catarina - 51
+	- **volume de busca**
+		- recibo online - 74k
+		- recibo - 40k
+		- modelo de recibo - 40k
+		- recibo de pagamento - 33.1k
+		- recibo de compra e venda - 18.1k
+		- como preencher um recibo - 9.9k
+		- como fazer um recibo 1.6k
+	- **pinterest**
+		- recibo de pagamento personalizado
+		- recibo de pagamento para imprimir
+		- **publico**
+			- feminino - 81%
+			- masculino - 11%
+			- idade - 25-44
+	- **youtube**
+		- modelo de recibo para prestação de serviço
+		- modelo de recibo por honorários
+		- modelo de recibo de pago
+		- modelo de recibo word
+		- modelo de recibo simples
+		- modelo de recibo de pagamento
+		- modelo de recibo de compra e venda
+		- modelo de recibo de aluguel
+		- modelo de recibo com aparencia de nota fiscal
+	- **dúvidas**
+		- o que é um recibo?
+		- para que serve um recibo?
+		- quem deve emitir um recibo?
+		- quem deve receber um recibo?
+		- qual a diferença entre recibo e nota fiscal?
+		- o recibo é documento fiscal?
+		- o recibo é válido para imposto de renda?
+		- o recibo é título executivo extrajudicial?
+		- quando um recibo é obrigatório?
+		- onde posso encontrar um modelo de recibo?
+		- como preencher um recibo corretamente?
+		- como emitir um recibo online?
+		- como imprimir um recibo?
+		- posso usar um recibo em branco?
+		- qual o prazo de validade de um recibo?
+		- como guardar recibos?
+	- **tipos de recibo**
+		- aluguel
+		- compra e venda
+		- pagamento
+		- prestação de serviço
+		- quitação
+		- honorários
+		- despesas médicas
+		- vale
+		- transferência de veículo
+		- verde
+		- avulso
+		- mei
+		- autônomo
+		- digital
+		- online
+	- **ferramentas**
+		- papel
+		- arquivos word, excel, pdf...
+		- geradores online
+		- aplicativos
+		- sistemas
+		- plataformas
+		- api's
+	- **pontos de dor**
+		- dificuldade em fazer orçamentos para clientes devido à falta de tempo.
+		- tomar muito tempo para passar orçamentos aos clientes.
+		- dificuldade em organizar os dados dos orçamentos.
+		- perda de informações por anotar orçamentos em papéis
+		- demora na elaboração de orçamentos
+		- falta de padronização dos orçamentos
+		- fazer orçamentos manualmente pode ser demorado e trabalhoso
+		- contratação de uma pessoa para fazer orçamentos pode gerar custos extras
+		- dificuldade em encontrar um aplicativo que atenda às necessidades específicas de cada negócio
+		- não ter um contato cadastrado
+		- não saber o que escrever na descrição do orçamento
+		- não saber quais itens incluir no orçamento
+		- não saber como dar desconto ao cliente
+		- dificuldade em realizar orçamentos com agilidade
+		- clientes que pressionam para obter o valor do orçamento antes do momento adequado
+		- problemas com a comunicação pelo whatsapp, como desligamentos ou falhas no envio de mensagens
+		- enviar um orçamento pouco profissional;
+		- dificuldade em criar um modelo de orçamento;
+		- falta de organização dos orçamentos.
+	- **requisitos**
+		- logotipo
+		- número de identificação fiscal
+		- número de ordem
+		- descontos e taxas
+		- campo personalizado
+		- assinatura eletrônica
+		- carimbo de pago
+		- compartilhar via WhatsApp
+		- quantidade com unidade de medida
+		- remover a data de vencimento
+		- alterar a fonte
+		- criar PDFs
+		- datas para os itens da fatura
+		- salvar as faturas
+		- editar faturas
+		- pagamento recebido
+		- backup
+		- gerenciamento de estoque
+		- impostos múltiplos
+	
+---
+
+- **idéias**
+	- captação de clientes através de redes sociais
+	- atendimento personalizado via whatsapp/chatbot/ai
+	- criação automática do orçamento
+	- aprovação e envio
+	- acompanhamento 
+	- notificação de status
+	- notificação de pagamento
+	- emitir recibo e nota fiscal
+	- receber avaliação do cliente
+	- gerenciar perfil, clientes, serviços, produtos e documentos  
+	- analisar relatórios
+	- exportar dados e documentos
+	- emitir documentos fiscais
+	- salvar documentos online
+	- backup de documentos
+	- sincronização em diferentes dispositivos 
+	- integrações com serviços via api
+
+---
+
+- **mvp**
+	- modelo de recibo
+		- criar 
+		- salvar
+		- editar
+		- enviar
+		- exportar
+		- gerenciar
+		- analisar
+
+---
+
+

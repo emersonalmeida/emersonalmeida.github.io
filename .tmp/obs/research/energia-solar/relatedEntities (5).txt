@@ -1,0 +1,44 @@
+Category: All categories
+"energia solar: (4/23/23 - 4/23/24, Brazil)"
+
+TOP
+Energy,100
+Solar energy,99
+Sun,13
+Solar power,10
+Photovoltaics,6
+Solar panel,6
+Wind power,5
+Renewable energy,3
+Electricity,3
+Power station,3
+Electrical energy,3
+Power inverter,2
+Light,2
+energy source,2
+Electric battery,2
+Fee,2
+hydroelectric power station,2
+Kilowatt hour,2
+Nuclear power,2
+Electric generator,2
+Funding,2
+Production,1
+Biomass,1
+Stand-alone power system,1
+Electrical grid,1
+
+RISING
+Solar power,+400%
+Kilowatt,+180%
+WEG Australia Pty Ltd,+100%
+Solar panel,+80%
+Expense,+70%
+Water resources,+70%
+Hydroelectricity,+60%
+Lamps,+50%
+Energisa SA,+50%
+Electric battery,+50%
+Electric generator,+40%
+Heater,+40%
+

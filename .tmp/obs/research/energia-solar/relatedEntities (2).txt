@@ -1,0 +1,35 @@
+Category: All categories
+"energia solar: (4/15/24, 9:46 PM - 4/22/24, 9:46 PM, Brazil)"
+
+TOP
+Energy,100
+Solar energy,99
+Solar power,27
+Sun,7
+Solar panel,6
+Wind power,5
+Photovoltaics,4
+Renewable energy,4
+Power station,3
+energy source,3
+Electrical energy,3
+Power inverter,3
+Light,3
+hydroelectric power station,2
+Electric generator,2
+Production,2
+Nuclear power,2
+Kilowatt hour,2
+Hydropower,2
+Biomass,2
+Funding,2
+Electrical grid,1
+Electricity,1
+Kilowatt,1
+Intelbras,1
+
+RISING
+Bluetti,+150%
+Solar power,+110%
+Solar Energy Company,+50%
+

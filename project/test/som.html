@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Som de Chuva e Ambiente de Floresta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Som de Chuva e Ambiente de Floresta</h1>
+    <button id="play-rain">Tocar Som de Chuva</button>
+    <button id="stop-rain">Parar Som de Chuva</button>
+    <button id="play-forest">Tocar Som de Floresta</button>
+    <button id="stop-forest">Parar Som de Floresta</button>
+
+    <script>
+        // Criar o contexto de áudio
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+        // Variáveis para os sons
+        let rainSoundSource;
+        let birdSoundSource;
+
+        // Função para criar o som de chuva
+        function createRainSound() {
+            const bufferSize = audioContext.sampleRate * 2; // 2 segundos de áudio
+            const noiseBuffer = audioContext.createBuffer(1, bufferSize, audioContext.sampleRate);
+            const data = noiseBuffer.getChannelData(0);
+
+            // Gerar ruído branco
+            for (let i = 0; i < bufferSize; i++) {
+                data[i] = Math.random() * 2 - 1; // Valores entre -1 e 1
+            }
+
+            rainSoundSource = audioContext.createBufferSource();
+            rainSoundSource.buffer = noiseBuffer;
+
+            // Aplicar um filtro passa-baixas para suavizar o som
+            const filter = audioContext.createBiquadFilter();
+            filter.type = "lowpass";
+            filter.frequency.setValueAtTime(1000, audioContext.currentTime); // Freqüência de corte em 1000 Hz
+
+            rainSoundSource.connect(filter);
+            filter.connect(audioContext.destination);
+            rainSoundSource.loop = true; // Loop
+            rainSoundSource.start(0);
+        }
+
+        // Função para criar o som de pássaros
+        function createBirdSound() {
+            const birdFrequency = 800; // Frequência do som do pássaro
+            const birdDuration = 0.5; // Duração do som
+            const birdInterval = 1.5; // Intervalo entre os sons
+
+            birdSoundSource = audioContext.createOscillator();
+            birdSoundSource.type = 'sine';
+            birdSoundSource.frequency.setValueAtTime(birdFrequency, audioContext.currentTime);
+
+            // Envelopes para o som do pássaro
+            const gainNode = audioContext.createGain();
+            gainNode.gain.setValueAtTime(0.5, audioContext.currentTime);
+            gainNode.gain.linearRampToValueAtTime(0, audioContext.currentTime + birdDuration);
+
+            birdSoundSource.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+
+            // Tocar o som do pássaro
+            birdSoundSource.start();
+            birdSoundSource.stop(audioContext.currentTime + birdDuration);
+        }
+
+        // Função para tocar o som da floresta
+        function playForestSound() {
+            createBirdSound(); // Chama a função para tocar o som do pássaro
+            setTimeout(playForestSound, 3000); // Toca novamente a cada 3 segundos
+        }
+
+        // Funções para parar os sons
+        function stopRainSound() {
+            if (rainSoundSource) {
+                rainSoundSource.stop(); // Parar o som da chuva
+                rainSoundSource = null; // Limpar a fonte
+            }
+        }
+
+        function stopForestSound() {
+            birdSoundSource = null; // Limpar a fonte dos pássaros
+        }
+
+        // Adicionando eventos aos botões
+        document.getElementById('play-rain').addEventListener('click', createRainSound);
+        document.getElementById('stop-rain').addEventListener('click', stopRainSound);
+        document.getElementById('play-forest').addEventListener('click', playForestSound);
+        document.getElementById('stop-forest').addEventListener('click', stopForestSound);
+    </script>
+</body>
+</html>
