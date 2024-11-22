@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de Economias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    header {
+      width: 100%;
+      background: #6200ea;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    main {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    h1, h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="number"], button, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #6200ea;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #4500b8;
+    }
+
+    .progress-bar {
+      background-color: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      margin: 10px 0;
+    }
+
+    .progress-bar div {
+      height: 20px;
+      background-color: #6200ea;
+      width: 0%;
+      text-align: center;
+      color: #fff;
+      line-height: 20px;
+      font-size: 0.9em;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gerenciador de Economias</h1>
+  </header>
+  <main>
+    <section id="setup-section">
+      <h2>Definir Meta</h2>
+      <label for="goal">Valor da Meta (R$):</label>
+      <input type="number" id="goal" placeholder="Ex.: 5000" />
+      <button onclick="setGoal()">Salvar Meta</button>
+    </section>
+
+    <section id="main-section" class="hidden">
+      <h2>Progresso</h2>
+      <div class="progress-bar">
+        <div id="progress-bar"></div>
+      </div>
+      <p id="progress-text"></p>
+      <h2>Adicionar Economia</h2>
+      <label for="amount">Valor Economizado (R$):</label>
+      <input type="number" id="amount" placeholder="Ex.: 50" />
+      <button onclick="addSaving()">Adicionar</button>
+      <h2>Histórico</h2>
+      <ul id="history"></ul>
+      <button onclick="exportHistory()">Exportar Histórico</button>
+    </section>
+  </main>
+
+  <script>
+    const progressBar = document.getElementById("progress-bar");
+    const progressText = document.getElementById("progress-text");
+    const historyList = document.getElementById("history");
+    const setupSection = document.getElementById("setup-section");
+    const mainSection = document.getElementById("main-section");
+    let goal = 0;
+    let totalSavings = 0;
+    let history = [];
+
+    // Load data from localStorage
+    window.onload = () => {
+      const savedGoal = localStorage.getItem("goal");
+      const savedSavings = localStorage.getItem("totalSavings");
+      const savedHistory = JSON.parse(localStorage.getItem("history")) || [];
+
+      if (savedGoal) {
+        goal = parseFloat(savedGoal);
+        totalSavings = parseFloat(savedSavings || 0);
+        history = savedHistory;
+        updateUI();
+      }
+    };
+
+    function setGoal() {
+      const goalInput = document.getElementById("goal").value;
+      if (!goalInput || goalInput <= 0) {
+        alert("Por favor, insira um valor válido para a meta.");
+        return;
+      }
+      goal = parseFloat(goalInput);
+      localStorage.setItem("goal", goal);
+      setupSection.classList.add("hidden");
+      mainSection.classList.remove("hidden");
+      updateUI();
+    }
+
+    function addSaving() {
+      const amountInput = document.getElementById("amount").value;
+      if (!amountInput || amountInput <= 0) {
+        alert("Por favor, insira um valor válido.");
+        return;
+      }
+      const amount = parseFloat(amountInput);
+      totalSavings += amount;
+      history.push(`Economizado: R$${amount.toFixed(2)}`);
+      localStorage.setItem("totalSavings", totalSavings);
+      localStorage.setItem("history", JSON.stringify(history));
+      updateUI();
+      document.getElementById("amount").value = "";
+    }
+
+    function updateUI() {
+      const percentage = Math.min((totalSavings / goal) * 100, 100).toFixed(2);
+      progressBar.style.width = percentage + "%";
+      progressBar.textContent = percentage + "%";
+      progressText.textContent = `Você economizou R$${totalSavings.toFixed(
+        2
+      )} de R$${goal.toFixed(2)}.`;
+      historyList.innerHTML = history
+        .map((item) => `<li>${item}</li>`)
+        .join("");
+
+      if (totalSavings >= goal) {
+        alert("Parabéns! Você alcançou sua meta!");
+      }
+    }
+
+    function exportHistory() {
+      const historyText = `Meta: R$${goal.toFixed(
+        2
+      )}\nProgresso: R$${totalSavings.toFixed(
+        2
+      )}\nHistórico:\n${history.join("\n")}`;
+      const whatsappURL = `https://wa.me/?text=${encodeURIComponent(
+        historyText
+      )}`;
+      window.open(whatsappURL, "_blank");
+    }
+  </script>
+</body>
+</html>
