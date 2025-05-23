@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Zelda Diorama Prototype</title>
+  <style>
+    body {
+      margin: 0;
+      background: #2a2a2a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    canvas {
+      border: 5px solid #fff;
+      box-shadow: 0 0 20px #000;
+      image-rendering: pixelated;
+      background-color: #4cbb17;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="480" height="480"></canvas>
+  <script>
+    const TILE_SIZE = 48;
+    const ROWS = 10;
+    const COLS = 10;
+
+    // ====== MAPA (0 = chão, 1 = parede) ======
+    const mapData = [
+      [1,1,1,1,1,1,1,1,1,1],
+      [1,0,0,0,0,0,0,0,0,1],
+      [1,0,1,0,1,0,1,0,0,1],
+      [1,0,0,0,1,0,1,0,0,1],
+      [1,0,1,0,1,0,1,1,0,1],
+      [1,0,1,0,0,0,0,1,0,1],
+      [1,0,1,1,1,1,0,1,0,1],
+      [1,0,0,0,0,1,0,0,0,1],
+      [1,0,1,1,0,0,0,1,0,1],
+      [1,1,1,1,1,1,1,1,1,1],
+    ];
+
+    // ====== PLAYER ======
+    const Player = {
+      x: TILE_SIZE * 1,
+      y: TILE_SIZE * 1,
+      size: 28,
+      speed: 2.2,
+
+      draw(ctx) {
+        ctx.fillStyle = "#FFD700";
+        ctx.beginPath();
+        ctx.arc(this.x + TILE_SIZE / 2, this.y + TILE_SIZE / 2, this.size / 2.5, 0, Math.PI * 2);
+        ctx.fill();
+
+        // sombra
+        ctx.fillStyle = "rgba(0,0,0,0.3)";
+        ctx.beginPath();
+        ctx.ellipse(this.x + TILE_SIZE/2, this.y + TILE_SIZE - 8, 12, 6, 0, 0, Math.PI * 2);
+        ctx.fill();
+      },
+
+      update(keys) {
+        let dx = 0, dy = 0;
+        if (keys["ArrowUp"]) dy = -this.speed;
+        if (keys["ArrowDown"]) dy = this.speed;
+        if (keys["ArrowLeft"]) dx = -this.speed;
+        if (keys["ArrowRight"]) dx = this.speed;
+
+        const nextX = this.x + dx;
+        const nextY = this.y + dy;
+
+        if (Map.canMove(nextX, this.y)) this.x = nextX;
+        if (Map.canMove(this.x, nextY)) this.y = nextY;
+      }
+    };
+
+    // ====== MAP ======
+    const Map = {
+      draw(ctx) {
+        for (let y = 0; y < ROWS; y++) {
+          for (let x = 0; x < COLS; x++) {
+            const tile = mapData[y][x];
+            const px = x * TILE_SIZE;
+            const py = y * TILE_SIZE;
+
+            if (tile === 1) {
+              ctx.fillStyle = "#444";
+              ctx.fillRect(px, py, TILE_SIZE, TILE_SIZE);
+              ctx.fillStyle = "rgba(0,0,0,0.3)";
+              ctx.fillRect(px, py + TILE_SIZE - 6, TILE_SIZE, 6);
+            } else {
+              ctx.fillStyle = "#6dbf6b";
+              ctx.fillRect(px, py, TILE_SIZE, TILE_SIZE);
+              ctx.fillStyle = "rgba(255,255,255,0.05)";
+              ctx.fillRect(px, py, TILE_SIZE, 6);
+            }
+          }
+        }
+      },
+
+      canMove(x, y) {
+        const tileX = Math.floor(x / TILE_SIZE);
+        const tileY = Math.floor(y / TILE_SIZE);
+        return mapData[tileY] && mapData[tileY][tileX] === 0;
+      }
+    };
+
+    // ====== GAME LOOP ======
+    const Game = {
+      canvas: document.getElementById("game"),
+      ctx: null,
+      keys: {},
+
+      init() {
+        this.ctx = this.canvas.getContext("2d");
+
+        window.addEventListener("keydown", (e) => this.keys[e.key] = true);
+        window.addEventListener("keyup", (e) => this.keys[e.key] = false);
+
+        this.loop();
+      },
+
+      loop() {
+        this.update();
+        this.render();
+        requestAnimationFrame(() => this.loop());
+      },
+
+      update() {
+        Player.update(this.keys);
+      },
+
+      render() {
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        Map.draw(this.ctx);
+        Player.draw(this.ctx);
+      }
+    };
+
+    // Iniciar
+    Game.init();
+  </script>
+</body>
+</html>
