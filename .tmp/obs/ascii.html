@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Animações ASCII</title>
+  <style>
+    body {
+      background: #111;
+      color: #0f0;
+      font-family: monospace;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      padding: 20px;
+    }
+    .anim {
+      background: #222;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #333;
+      min-width: 140px;
+      max-width: 160px;
+      text-align: center;
+    }
+    .anim-title {
+      margin-bottom: 6px;
+      font-size: 12px;
+      color: #8f8;
+    }
+    pre {
+      margin: 0;
+      white-space: pre;
+      font-size: 14px;
+      line-height: 1.2;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+const animations = {
+  "respiração (frente)": [
+    "  __ \n |..| \n     ",
+    "  __ \n |..| \n  .. ",
+    "  __ \n |..| \n     ",
+    "  __ \n |..| \n  '' "
+  ],
+  "esperando (frente)": [
+    "  __ \n |..| \n  -- ",
+    "  __ \n |..| \n  .. ",
+    "  __ \n |..| \n  '' ",
+    "  __ \n |..| \n  .. "
+  ],
+  "correndo (frente)": [
+    "  __ \n.|..|-\n  .- ",
+    "  __ \n-|..|.\n  -. ",
+    "  __ \n.|..|-\n  .- ",
+    "  __ \n-|..|.\n  -. "
+  ],
+  "pulando (frente)": [
+    "  __ \n-|..|-\n  ´´ ",
+    "  __ \n`|..|´\n  .. ",
+    "  __ \n-|..|-\n  -- "
+  ],
+  "parado (lado)": [
+    "  __ \n | .| \n     "
+  ],
+  "esperando (lado)": [
+    "  __ \n | .| \n  -- ",
+    "  __ \n | .| \n  .. ",
+    "  __ \n | .| \n  '' ",
+    "  __ \n | .| \n  .. "
+  ],
+  "correndo (lado)": [
+    "  __ \n | .| \n  -. ",
+    "  __ \n | .| \n  .- ",
+    "  __ \n | .| \n  -. "
+  ]
+};
+
+for (const [name, frames] of Object.entries(animations)) {
+  const container = document.createElement("div");
+  container.className = "anim";
+
+  const title = document.createElement("div");
+  title.className = "anim-title";
+  title.textContent = name;
+  container.appendChild(title);
+
+  const pre = document.createElement("pre");
+  container.appendChild(pre);
+  document.body.appendChild(container);
+
+  let i = 0;
+  setInterval(() => {
+    pre.textContent = frames[i % frames.length];
+    i++;
+  }, 300 + Math.random() * 200); // pequenos desvios deixam o conjunto mais natural
+}
+</script>
+
+</body>
+</html>
