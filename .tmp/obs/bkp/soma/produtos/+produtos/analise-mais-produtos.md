@@ -1,4 +1,0 @@
-teste de usabilidade
-- 
-
-heuristicas

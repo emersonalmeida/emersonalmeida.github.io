@@ -1,7 +1,0 @@
-- Observação
-	- documentação sprint
-		- pre-planning
-		- planning
-		- daily
-		- review
-		- retro

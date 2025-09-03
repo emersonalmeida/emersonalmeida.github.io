@@ -1,6 +1,0 @@
-## Day Planner
-- [ ]  Feedback prototipo
-
-
----
-
