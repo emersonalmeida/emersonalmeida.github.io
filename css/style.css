@@ -1097,6 +1097,10 @@ footer{
     .fixed-links{
         display: none;
     }
+        .fixed-tag, .fixed-links{
+        opacity: 0!important;
+        font-size: 1.2em;
+    }
     header .logo{
         /* position: fixed; */
     }
