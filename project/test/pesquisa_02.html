@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Trends Dashboard: Bitcoin</title>
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/4207_RC01/embed_loader.js"></script>
+
+<style>
+    body { font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; }
+    .bloco { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h2 { margin-bottom: 15px; }
+    iframe { width: 100%; height: 400px; border: none; }
+</style>
+</head>
+<body>
+
+<div class="bloco">
+    <h2>Related queries (2025)</h2>
+    <div id="queries-2025"></div>
+    <script>
+        trends.embed.renderExploreWidget(
+            "RELATED_QUERIES",
+            { comparisonItem:[{keyword:"bitcoin",geo:"BR",time:"2025-01-01 2025-12-31"}], category:0, property:"" },
+            { exploreQuery:"date=2025-01-01%202025-12-31&geo=BR&q=bitcoin&hl=pt-BR", guestPath:"https://trends.google.com/trends/embed/" }
+        );
+    </script>
+</div>
+
+<div class="bloco">
+    <h2>Related queries (2024)</h2>
+    <div id="queries-2024"></div>
+    <script>
+        trends.embed.renderExploreWidget(
+            "RELATED_QUERIES",
+            { comparisonItem:[{keyword:"bitcoin",geo:"BR",time:"2024-01-01 2024-12-31"}], category:0, property:"" },
+            { exploreQuery:"date=2024-01-01%202024-12-31&geo=BR&q=bitcoin&hl=pt-BR", guestPath:"https://trends.google.com/trends/embed/" }
+        );
+    </script>
+</div>
+
+<div class="bloco">
+    <h2>Related queries (2023)</h2>
+    <div id="queries-2023"></div>
+    <script>
+        trends.embed.renderExploreWidget(
+            "RELATED_QUERIES",
+            { comparisonItem:[{keyword:"bitcoin",geo:"BR",time:"2023-01-01 2023-12-31"}], category:0, property:"" },
+            { exploreQuery:"date=2023-01-01%202023-12-31&geo=BR&q=bitcoin&hl=pt-BR", guestPath:"https://trends.google.com/trends/embed/" }
+        );
+    </script>
+</div>
+
+</body>
+</html>
