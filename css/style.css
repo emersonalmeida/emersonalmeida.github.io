@@ -1057,7 +1057,7 @@ footer{
     }
     /* width */
 ::-webkit-scrollbar {
-    width: 16px;
+    width: 8px;
   }
   
   /* Track */
@@ -1072,7 +1072,7 @@ footer{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: hsl(0, 0%, 30%);
+    background: hsl(0, 100%, 50%);
   }
 
 }
