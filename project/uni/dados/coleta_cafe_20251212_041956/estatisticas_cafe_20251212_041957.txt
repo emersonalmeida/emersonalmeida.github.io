@@ -1,0 +1,87 @@
+ESTATÍSTICAS AVANÇADAS - CAFE
+======================================================================
+
+Total de itens: 10
+Fontes únicas: 2
+Tipos únicos: 1
+
+
+ESTATÍSTICAS NUMÉRICAS:
+----------------------------------------------------------------------
+
+rating:
+  Média: 4.60
+  Mediana: 4.70
+  Desvio Padrão: 0.22
+  Mínimo: 4.20
+  Máximo: 4.90
+  Q25: 4.43
+  Q75: 4.78
+  Q90: 4.81
+  Q95: 4.86
+  Valores válidos: 10
+  Valores faltantes: 0
+
+ratings_count:
+  Média: 22288.60
+  Mediana: 793.50
+  Desvio Padrão: 39606.67
+  Mínimo: 0.00
+  Máximo: 125701.00
+  Q25: 0.00
+  Q75: 22200.75
+  Q90: 69728.20
+  Q95: 97714.60
+  Valores válidos: 10
+  Valores faltantes: 0
+
+price:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 10
+  Valores faltantes: 0
+
+artistId:
+  Média: 1084928517.60
+  Mediana: 1055223695.00
+  Desvio Padrão: 455701434.86
+  Mínimo: 438182507.00
+  Máximo: 1651974034.00
+  Q25: 757773329.00
+  Q75: 1521489023.00
+  Q90: 1599780029.60
+  Q95: 1625877031.80
+  Valores válidos: 5
+  Valores faltantes: 5
+
+reviews_count:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 5
+  Valores faltantes: 5
+
+
+ESTATÍSTICAS POR FONTE:
+----------------------------------------------------------------------
+
+App Stores:
+  Total: 5
+  app: 5
+
+App Store (Google Play):
+  Total: 5
+  app: 5

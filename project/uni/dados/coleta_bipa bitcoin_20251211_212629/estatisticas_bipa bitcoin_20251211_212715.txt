@@ -1,0 +1,32 @@
+ESTATÍSTICAS - BIPA BITCOIN
+======================================================================
+
+Total de itens: 2059
+Fontes únicas: 6
+Tipos únicos: 6
+
+
+Google Suggest:
+  Total: 391
+  sugestao: 391
+
+Google Trends:
+  Total: 50
+  regioes: 50
+
+SERP:
+  Total: 51
+  resultado_busca: 51
+
+YouTube:
+  Total: 1552
+  comentario: 1502
+  video: 50
+
+App Stores:
+  Total: 10
+  app: 10
+
+App Store (App Store):
+  Total: 5
+  app: 5

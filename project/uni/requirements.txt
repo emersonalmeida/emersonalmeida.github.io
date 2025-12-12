@@ -1,0 +1,14 @@
+requests>=2.31.0
+pandas>=2.0.0
+pytrends>=4.9.2
+matplotlib>=3.7.0
+duckduckgo-search>=4.0.0
+google-api-python-client>=2.100.0
+beautifulsoup4>=4.12.0
+youtube-search-python>=1.6.6
+google-play-scraper>=1.2.2
+tqdm>=4.66.0
+
+
+
+

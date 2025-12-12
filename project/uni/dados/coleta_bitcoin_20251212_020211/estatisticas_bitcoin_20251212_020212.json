@@ -1,0 +1,73 @@
+{
+  "numeric_summary": {
+    "rating": {
+      "mean": 4.55,
+      "median": 4.6,
+      "std": 0.3653765181289022,
+      "min": 3.4,
+      "max": 4.9,
+      "q25": 4.574999999999999,
+      "q75": 4.8,
+      "q90": 4.81,
+      "q95": 4.9,
+      "count": 20,
+      "missing": 0
+    },
+    "ratings_count": {
+      "mean": 11119.6,
+      "median": 124.0,
+      "std": 32953.51058901009,
+      "min": 0.0,
+      "max": 152354.0,
+      "q25": 0.0,
+      "q75": 8409.0,
+      "q90": 14990.400000000012,
+      "q95": 28719.100000000093,
+      "count": 20,
+      "missing": 0
+    },
+    "reviews_count": {
+      "mean": 0.0,
+      "median": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "q25": 0.0,
+      "q75": 0.0,
+      "q90": 0.0,
+      "q95": 0.0,
+      "count": 20,
+      "missing": 0
+    },
+    "price": {
+      "mean": 0.0,
+      "median": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "q25": 0.0,
+      "q75": 0.0,
+      "q90": 0.0,
+      "q95": 0.0,
+      "count": 20,
+      "missing": 0
+    }
+  },
+  "App Stores": {
+    "total": 10,
+    "tipos": {
+      "app": 10
+    }
+  },
+  "App Store (App Store)": {
+    "total": 10,
+    "tipos": {
+      "app": 10
+    }
+  },
+  "geral": {
+    "total_itens": 20,
+    "fontes_unicas": 2,
+    "tipos_unicos": 1
+  }
+}

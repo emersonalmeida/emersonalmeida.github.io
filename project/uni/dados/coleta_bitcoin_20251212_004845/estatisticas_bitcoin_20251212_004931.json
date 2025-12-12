@@ -1,0 +1,116 @@
+{
+  "numeric_summary": {
+    "relevancia": {
+      "mean": 610.8855606758833,
+      "median": 556.0,
+      "std": 158.26362427438733,
+      "min": 550.0,
+      "max": 1252.0,
+      "q25": 553.0,
+      "q75": 600.0,
+      "q90": 651.0,
+      "q95": 1050.95,
+      "count": 1302,
+      "missing": 1872
+    },
+    "valor": {
+      "mean": 10172.044943820225,
+      "median": 50.0,
+      "std": 53963.22476077805,
+      "min": 0.0,
+      "max": 436500.0,
+      "q25": 14.0,
+      "q75": 85.0,
+      "q90": 210.00000000000014,
+      "q95": 739.9999999999977,
+      "count": 89,
+      "missing": 3085
+    },
+    "posicao": {
+      "mean": 9.869565217391305,
+      "median": 9.0,
+      "std": 5.6051556067768065,
+      "min": 1.0,
+      "max": 20.0,
+      "q25": 5.25,
+      "q75": 14.75,
+      "q90": 18.0,
+      "q95": 19.0,
+      "count": 46,
+      "missing": 3128
+    },
+    "likes": {
+      "mean": 7.373737373737374,
+      "median": 0.0,
+      "std": 46.920001950146336,
+      "min": 0.0,
+      "max": 456.0,
+      "q25": 0.0,
+      "q75": 1.0,
+      "q90": 3.6000000000000085,
+      "q95": 12.099999999999994,
+      "count": 99,
+      "missing": 3075
+    },
+    "rating": {
+      "mean": 3.1891277641277638,
+      "median": 4.0,
+      "std": 1.8419319992385261,
+      "min": 1.0,
+      "max": 5.0,
+      "q25": 1.0,
+      "q75": 5.0,
+      "q90": 5.0,
+      "q95": 5.0,
+      "count": 1628,
+      "missing": 1546
+    }
+  },
+  "Google Suggest": {
+    "total": 1302,
+    "tipos": {
+      "sugestao": 1302
+    }
+  },
+  "Google Trends": {
+    "total": 89,
+    "tipos": {
+      "top": 36,
+      "rising": 26,
+      "regioes": 26,
+      "tempo": 1
+    }
+  },
+  "SERP": {
+    "total": 46,
+    "tipos": {
+      "resultado_busca": 46
+    }
+  },
+  "YouTube": {
+    "total": 109,
+    "tipos": {
+      "comentario": 99,
+      "video": 10
+    }
+  },
+  "App Stores": {
+    "total": 799,
+    "tipos": {
+      "review": 789,
+      "app": 10
+    }
+  },
+  "App Store (App Store)": {
+    "total": 829,
+    "tipos": {
+      "review": 819,
+      "app": 10
+    }
+  },
+  "geral": {
+    "total_itens": 3174,
+    "fontes_unicas": 6,
+    "tipos_unicos": 10
+  }
+}

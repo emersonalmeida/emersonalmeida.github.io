@@ -1,0 +1,22 @@
+{
+  "total_registros": 235,
+  "total_colunas": 168,
+  "fontes": {
+    "YouTube-date": 30,
+    "YouTube-relevance": 30,
+    "YouTube-viewCount": 30,
+    "GitHub": 20,
+    "Hacker News": 20,
+    "SERP-Brave": 20,
+    "SERP-Google": 20,
+    "Wikipedia": 20,
+    "arXiv": 20,
+    "Google News": 10,
+    "SERP-Bing": 10,
+    "Reddit": 5
+  },
+  "data_criacao": "2025-12-12T01:31:31.391993",
+  "termo": "bitcoin",
+  "regiao": "br",
+  "modo": "personalizado"
+}

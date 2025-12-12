@@ -1,0 +1,108 @@
+ESTATÍSTICAS AVANÇADAS - VIBE COD
+======================================================================
+
+Total de itens: 2331
+Fontes únicas: 6
+Tipos únicos: 9
+
+
+ESTATÍSTICAS NUMÉRICAS:
+----------------------------------------------------------------------
+
+relevancia:
+  Média: 590.86
+  Mediana: 556.00
+  Desvio Padrão: 126.27
+  Mínimo: 550.00
+  Máximo: 1252.00
+  Q25: 552.00
+  Q75: 600.00
+  Q90: 601.00
+  Q95: 601.00
+  Valores válidos: 217
+  Valores faltantes: 2114
+
+valor:
+  Média: 393672.73
+  Mediana: 0.00
+  Desvio Padrão: 1804013.25
+  Mínimo: 0.00
+  Máximo: 8660700.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 95.00
+  Valores válidos: 22
+  Valores faltantes: 2309
+
+posicao:
+  Média: 9.10
+  Mediana: 8.50
+  Desvio Padrão: 5.44
+  Mínimo: 1.00
+  Máximo: 20.00
+  Q25: 4.75
+  Q75: 13.25
+  Q90: 17.00
+  Q95: 18.65
+  Valores válidos: 48
+  Valores faltantes: 2283
+
+likes:
+  Média: 1.83
+  Mediana: 0.00
+  Desvio Padrão: 14.38
+  Mínimo: 0.00
+  Máximo: 220.00
+  Q25: 0.00
+  Q75: 1.00
+  Q90: 1.00
+  Q95: 4.00
+  Valores válidos: 277
+  Valores faltantes: 2054
+
+rating:
+  Média: 3.51
+  Mediana: 4.80
+  Desvio Padrão: 1.71
+  Mínimo: 1.00
+  Máximo: 5.00
+  Q25: 1.00
+  Q75: 5.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 1721
+  Valores faltantes: 610
+
+
+ESTATÍSTICAS POR FONTE:
+----------------------------------------------------------------------
+
+Google Suggest:
+  Total: 217
+  sugestao: 217
+
+Google Trends:
+  Total: 22
+  regioes: 20
+  top: 1
+  rising: 1
+
+SERP:
+  Total: 48
+  resultado_busca: 48
+
+YouTube:
+  Total: 307
+  comentario: 277
+  video: 30
+
+App Stores:
+  Total: 971
+  review: 941
+  app: 30
+
+App Store (App Store):
+  Total: 766
+  review: 738
+  app: 28

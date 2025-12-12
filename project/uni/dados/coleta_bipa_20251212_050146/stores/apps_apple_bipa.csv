@@ -1,0 +1,229 @@
+﻿"title","developer","rating","ratings_count","id","url","price","currency","formattedPrice","genre","genres","description","releaseDate","currentVersionReleaseDate","version","releaseNotes","contentAdvisoryRating","screenshotUrls","ipadScreenshotUrls","appletvScreenshotUrls","artworkUrl512","artworkUrl100","supportedDevices","isGameCenterEnabled","bundleId","sellerName","fileSizeBytes","minimumOsVersion","artistId","languageCodesISO2A","privacyPolicyUrl","inAppPurchases","subscriptionInfo"
+"Bipa - Bitcoin, Cartão e Pix","Bipa Ltda","4.8","8503","1516842324","https://apps.apple.com/br/app/bipa-bitcoin-cart%C3%A3o-e-pix/id1516842324?uo=4","0.0","BRL","Grátis","Finance","['Finanças']","A FORMA MAIS SIMPLES DE COMPRAR, VENDER E VIVER COM BITCOIN
+
+A Bipa é a conta digital que te conecta ao Bitcoin e Dólar digital de forma simples, rápida e acessível. Compre, venda e use Bitcoin e USDT no dia a dia sem burocracia e sem complicação.
+
+Com poucos cliques, você pode comprar Bitcoin e USDT a partir de R$1, programar compras recorrentes sem taxas, operar com preço-alvo e até receber Pix diretamente convertido em cripto. Além disso, você conta com um cartão gratuito que permite pagar suas compras e ganhar cashback em Bitcoin.
+
+CONTA PJ PARA EMPRESAS INOVADORAS: Diversifique o caixa da sua empresa com Bitcoin e USDT. Receba pagamentos internacionais instantâneos, proteja seu patrimônio da inflação e transforme sua empresa em uma Bitcoin Treasury. Ideal para empresas que querem modernizar suas finanças.
+
+Descubra um novo jeito de ter liberdade financeira com criptomoedas através da Bipa.
+
+COMPRE BITCOIN E USDT DE FORMA SIMPLES E ACESSÍVEL
+Seja para investir ou usar no dia a dia, usar a Bipa é rápido e fácil:
+
+• COMPRE A PARTIR DE R$1: Deposite via Pix e compre Bitcoin e USDT de forma acessível, sem burocracia.
+• TAXA ZERO PARA COMPRAS RECORRENTES: Configure compras automáticas e acumule cripto sem pagar taxa.*
+• COMPRE E VENDA BITCOIN COM PREÇO-ALVO: Defina o valor desejado e deixe que a Bipa execute automaticamente.
+• RESERVA DE VALOR INTELIGENTE: Bitcoin é o ativo digital mais sólido e USDT oferece estabilidade atrelada ao dólar. Proteja seu patrimônio de forma simples.
+
+*Taxa zero para compras de hora em hora ou diárias a partir do oitavo dia. 
+*Taxa zero para compras semanais ou mensais a partir da segunda compra.
+
+CRIPTOMOEDAS QUE VOCÊ USA NO DIA A DIA
+A Bipa não é só uma exchange – é uma plataforma completa para integrar Bitcoin e USDT ao seu cotidiano:
+
+RECEBA PIX EM CRIPTO
+Cadastre sua chave BitPix e receba Pix direto em Bitcoin ou USDT, sem complicação.
+
+CONTA DIGITAL COMPLETA
+Pague contas, envie e receba transferências, e gerencie reais, Bitcoin e USDT em um só lugar.
+
+SAQUES GRATUITOS, CONTROLE TOTAL
+Transfira seu Bitcoin para qualquer carteira — sem taxas, on-chain ou pela Lightning Network.
+
+ENVIE E RECEBA USDT COM TAXAS BAIXAS
+Use redes como Ethereum ou Polygon para mover USDT com eficiência.
+
+CARTÃO BIPA: PAGUE E GANHE BITCOIN
+Com o Cartão Bipa, pague no crédito e acumule Bitcoin em todas as compras:
+• CRIPTO COMO GARANTIA: Use BTC ou USDT como garantia para aumentar seu limite sem vender seus ativos.
+• SATSBACK®: Ganhe 0,5% de cashback em Bitcoin em todas as compras.
+• BIPA TURBO: Assinantes ganham 1% de Satsback® e limite de até R$ 160.000!
+
+SEGURANÇA E SUPORTE DEDICADOS
+Na Bipa, sua segurança e experiência são prioridade absoluta.","2020-06-30T07:00:00Z","2025-12-11T19:23:52Z","4.1.22","Nesta versão, fizemos algumas melhorias importantes:
+
+• Melhorias na campanha de natal
+ 
+Ficou com alguma dúvida?
+Entre em contato com o nosso suporte no app.
+Siga a Bipa nas redes sociais: @usebipa","+4","[]","[]","[]","https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/25/4d/1c254d2a-83d4-64e2-acc5-4473cb050711/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/512x512bb.jpg","https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/25/4d/1c254d2a-83d4-64e2-acc5-4473cb050711/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/100x100bb.jpg","['iPhone5s-iPhone5s', 'iPadAir-iPadAir', 'iPadAirCellular-iPadAirCellular', 'iPadMiniRetina-iPadMiniRetina', 'iPadMiniRetinaCellular-iPadMiniRetinaCellular', 'iPhone6-iPhone6', 'iPhone6Plus-iPhone6Plus', 'iPadAir2-iPadAir2', 'iPadAir2Cellular-iPadAir2Cellular', 'iPadMini3-iPadMini3', 'iPadMini3Cellular-iPadMini3Cellular', 'iPodTouchSixthGen-iPodTouchSixthGen', 'iPhone6s-iPhone6s', 'iPhone6sPlus-iPhone6sPlus', 'iPadMini4-iPadMini4', 'iPadMini4Cellular-iPadMini4Cellular', 'iPadPro-iPadPro', 'iPadProCellular-iPadProCellular', 'iPadPro97-iPadPro97', 'iPadPro97Cellular-iPadPro97Cellular', 'iPhoneSE-iPhoneSE', 'iPhone7-iPhone7', 'iPhone7Plus-iPhone7Plus', 'iPad611-iPad611', 'iPad612-iPad612', 'iPad71-iPad71', 'iPad72-iPad72', 'iPad73-iPad73', 'iPad74-iPad74', 'iPhone8-iPhone8', 'iPhone8Plus-iPhone8Plus', 'iPhoneX-iPhoneX', 'iPad75-iPad75', 'iPad76-iPad76', 'iPhoneXS-iPhoneXS', 'iPhoneXSMax-iPhoneXSMax', 'iPhoneXR-iPhoneXR', 'iPad812-iPad812', 'iPad834-iPad834', 'iPad856-iPad856', 'iPad878-iPad878', 'iPadMini5-iPadMini5', 'iPadMini5Cellular-iPadMini5Cellular', 'iPadAir3-iPadAir3', 'iPadAir3Cellular-iPadAir3Cellular', 'iPodTouchSeventhGen-iPodTouchSeventhGen', 'iPhone11-iPhone11', 'iPhone11Pro-iPhone11Pro', 'iPadSeventhGen-iPadSeventhGen', 'iPadSeventhGenCellular-iPadSeventhGenCellular', 'iPhone11ProMax-iPhone11ProMax', 'iPhoneSESecondGen-iPhoneSESecondGen', 'iPadProSecondGen-iPadProSecondGen', 'iPadProSecondGenCellular-iPadProSecondGenCellular', 'iPadProFourthGen-iPadProFourthGen', 'iPadProFourthGenCellular-iPadProFourthGenCellular', 'iPhone12Mini-iPhone12Mini', 'iPhone12-iPhone12', 'iPhone12Pro-iPhone12Pro', 'iPhone12ProMax-iPhone12ProMax', 'iPadAir4-iPadAir4', 'iPadAir4Cellular-iPadAir4Cellular', 'iPadEighthGen-iPadEighthGen', 'iPadEighthGenCellular-iPadEighthGenCellular', 'iPadProThirdGen-iPadProThirdGen', 'iPadProThirdGenCellular-iPadProThirdGenCellular', 'iPadProFifthGen-iPadProFifthGen', 'iPadProFifthGenCellular-iPadProFifthGenCellular', 'iPhone13Pro-iPhone13Pro', 'iPhone13ProMax-iPhone13ProMax', 'iPhone13Mini-iPhone13Mini', 'iPhone13-iPhone13', 'iPadMiniSixthGen-iPadMiniSixthGen', 'iPadMiniSixthGenCellular-iPadMiniSixthGenCellular', 'iPadNinthGen-iPadNinthGen', 'iPadNinthGenCellular-iPadNinthGenCellular', 'iPhoneSEThirdGen-iPhoneSEThirdGen', 'iPadAirFifthGen-iPadAirFifthGen', 'iPadAirFifthGenCellular-iPadAirFifthGenCellular', 'iPhone14-iPhone14', 'iPhone14Plus-iPhone14Plus', 'iPhone14Pro-iPhone14Pro', 'iPhone14ProMax-iPhone14ProMax', 'iPadTenthGen-iPadTenthGen', 'iPadTenthGenCellular-iPadTenthGenCellular', 'iPadPro11FourthGen-iPadPro11FourthGen', 'iPadPro11FourthGenCellular-iPadPro11FourthGenCellular', 'iPadProSixthGen-iPadProSixthGen', 'iPadProSixthGenCellular-iPadProSixthGenCellular', 'iPhone15-iPhone15', 'iPhone15Plus-iPhone15Plus', 'iPhone15Pro-iPhone15Pro', 'iPhone15ProMax-iPhone15ProMax', 'iPadAir11M2-iPadAir11M2', 'iPadAir11M2Cellular-iPadAir11M2Cellular', 'iPadAir13M2-iPadAir13M2', 'iPadAir13M2Cellular-iPadAir13M2Cellular', 'iPadPro11M4-iPadPro11M4', 'iPadPro11M4Cellular-iPadPro11M4Cellular', 'iPadPro13M4-iPadPro13M4', 'iPadPro13M4Cellular-iPadPro13M4Cellular', 'iPhone16-iPhone16', 'iPhone16Plus-iPhone16Plus', 'iPhone16Pro-iPhone16Pro', 'iPhone16ProMax-iPhone16ProMax', 'iPadMiniA17Pro-iPadMiniA17Pro', 'iPadMiniA17ProCellular-iPadMiniA17ProCellular', 'iPhone16e-iPhone16e', 'iPadA16-iPadA16', 'iPadA16Cellular-iPadA16Cellular', 'iPadAir11M3-iPadAir11M3', 'iPadAir11M3Cellular-iPadAir11M3Cellular', 'iPadAir13M3-iPadAir13M3', 'iPadAir13M3Cellular-iPadAir13M3Cellular', 'iPhone17Pro-iPhone17Pro', 'iPhone17ProMax-iPhone17ProMax', 'iPhone17-iPhone17', 'iPhoneAir-iPhoneAir', 'iPadPro11M5-iPadPro11M5', 'iPadPro11M5Cellular-iPadPro11M5Cellular', 'iPadPro13M5-iPadPro13M5', 'iPadPro13M5Cellular-iPadPro13M5Cellular']","False","bipa.app.Bipa","Bipa Intermediacao de Ativos Digitais Ltda","103285760","16.4","1516842323","['PT']","","[]","{}"
+"BlueWallet - Carteira Bitcoin","Bluewallet Services, S. R. L.","4.4","279","1376878040","https://apps.apple.com/br/app/bluewallet-carteira-bitcoin/id1376878040?uo=4","0.0","BRL","Grátis","Finance","['Finanças', 'Compras']","Uma carteira Bitcoin que permite armazenar, enviar e receber Bitcoins. Focada em segurança e simplicidade.
+
+BlueWallet, uma carteira de bitcoin onde você detém a posse das chaves privadas. Uma carteira Bitcoin criada para a comunidade por usuários do Bitcoin.
+
+Você pode fazer transações instantaneamente com qualquer pessoa no mundo e transformar o sistema financeiro direto do seu bolso.
+
+Crie um número ilimitado de carteiras de Bitcoin gratuitamente ou importe sua carteira existente. É simples e rápido.
+
+_____
+
+Entenda o que oferecemos:
+
+
+1 - Designada para ser segura
+
+Código Aberto
+Licenciado pelo MIT, você pode compilar e rodar a sua própria versão! Feita com ReactNative
+
+Negação plausível
+Senha que descriptografa carteiras de Bitcoin ""falsas"" para utilizar caso seja forçado a revelar sua carteira
+
+Totalmente criptografada
+Além da criptografia multicamadas do iOS, criptografamos tudo com senhas adicionais
+
+Nó completo
+Conecte-se ao seu nó completo Bitcoin através da Electrum
+
+Armazenamento Frio 
+Conecte-se a sua carteira hardware e mantenha suas moedas em armazenamento frio
+
+2 - Focada na sua experiência
+
+Tenha o controle
+Chaves privadas nunca saem do seu dispositivo. Você detém o controle delas.
+
+Taxas flexíveis
+A partir de 1 Satoshi. Definidas por você, o usuário
+
+Replace-By-Fee
+(RBF) Acelere suas transações aumentando a taxa depois de enviar (BIP125)
+
+Carteiras somente leitura
+Carteiras somente leitura permitem a você ficar de olho no seu armazenamento frio sem tocar na sua carteira hardware.
+
+Rede Lightning
+Carteira Lightning sem precisar configurar nada. Transações muito baratas e rápidas para ter a melhor experiência com o Bitcoin.","2018-05-27T09:02:10Z","2025-12-07T22:11:01Z","7.2.3","Bug fixes","+4","['https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/b9/4b/0d/b94b0d4d-396a-d91e-fff5-60b0adea0246/mzl.lplhnwkt.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/3a/35/21/3a35215f-12e4-3f1c-77d5-b9fae49083a1/mzl.yvdmstnb.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/3f/56/d8/3f56d814-080e-c5fd-07a1-81fc43e21fc9/mzl.zsqwttlp.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/bd/59/5c/bd595ca1-7047-9966-ec70-974dfd19eae2/mzl.wojvbnng.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/bc/40/4a/bc404a00-be0f-2db3-3832-f971c5a6f751/mzl.rxzlfiry.jpg/392x696bb.jpg']","['https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/b1/d1/37/b1d1370d-a65d-e706-9433-6301136764e9/mzl.neuhaqhy.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/72/b8/0a/72b80a6f-95c7-52b6-24aa-39cd03e2d7bf/mzl.wjrqgnyl.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/a9/ab/10/a9ab10e3-74cf-b4eb-1868-a6e734d539d1/mzl.jluaaebn.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/df/12/a4/df12a488-1182-7a9e-eb6d-dea691809bde/mzl.cddwfdwa.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/5f/19/0d/5f190d98-5b0a-518f-fbfc-8124ceb1c3f5/mzl.fixxxxwj.jpg/576x768bb.jpg']","[]","https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/9e/be/309ebe65-4d0b-d946-7d61-711b11d1ae39/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg","https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/9e/be/309ebe65-4d0b-d946-7d61-711b11d1ae39/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg","['MacDesktop-MacDesktop', 'iPhone5s-iPhone5s', 'iPadAir-iPadAir', 'iPadAirCellular-iPadAirCellular', 'iPadMiniRetina-iPadMiniRetina', 'iPadMiniRetinaCellular-iPadMiniRetinaCellular', 'iPhone6-iPhone6', 'iPhone6Plus-iPhone6Plus', 'iPadAir2-iPadAir2', 'iPadAir2Cellular-iPadAir2Cellular', 'iPadMini3-iPadMini3', 'iPadMini3Cellular-iPadMini3Cellular', 'iPodTouchSixthGen-iPodTouchSixthGen', 'iPhone6s-iPhone6s', 'iPhone6sPlus-iPhone6sPlus', 'iPadMini4-iPadMini4', 'iPadMini4Cellular-iPadMini4Cellular', 'iPadPro-iPadPro', 'iPadProCellular-iPadProCellular', 'iPadPro97-iPadPro97', 'iPadPro97Cellular-iPadPro97Cellular', 'iPhoneSE-iPhoneSE', 'iPhone7-iPhone7', 'iPhone7Plus-iPhone7Plus', 'iPad611-iPad611', 'iPad612-iPad612', 'iPad71-iPad71', 'iPad72-iPad72', 'iPad73-iPad73', 'iPad74-iPad74', 'iPhone8-iPhone8', 'iPhone8Plus-iPhone8Plus', 'iPhoneX-iPhoneX', 'iPad75-iPad75', 'iPad76-iPad76', 'iPhoneXS-iPhoneXS', 'iPhoneXSMax-iPhoneXSMax', 'iPhoneXR-iPhoneXR', 'iPad812-iPad812', 'iPad834-iPad834', 'iPad856-iPad856', 'iPad878-iPad878', 'Watch4-Watch4', 'iPadMini5-iPadMini5', 'iPadMini5Cellular-iPadMini5Cellular', 'iPadAir3-iPadAir3', 'iPadAir3Cellular-iPadAir3Cellular', 'iPodTouchSeventhGen-iPodTouchSeventhGen', 'iPhone11-iPhone11', 'iPhone11Pro-iPhone11Pro', 'iPadSeventhGen-iPadSeventhGen', 'iPadSeventhGenCellular-iPadSeventhGenCellular', 'iPhone11ProMax-iPhone11ProMax', 'iPhoneSESecondGen-iPhoneSESecondGen', 'iPadProSecondGen-iPadProSecondGen', 'iPadProSecondGenCellular-iPadProSecondGenCellular', 'iPadProFourthGen-iPadProFourthGen', 'iPadProFourthGenCellular-iPadProFourthGenCellular', 'iPhone12Mini-iPhone12Mini', 'iPhone12-iPhone12', 'iPhone12Pro-iPhone12Pro', 'iPhone12ProMax-iPhone12ProMax', 'iPadAir4-iPadAir4', 'iPadAir4Cellular-iPadAir4Cellular', 'iPadEighthGen-iPadEighthGen', 'iPadEighthGenCellular-iPadEighthGenCellular', 'iPadProThirdGen-iPadProThirdGen', 'iPadProThirdGenCellular-iPadProThirdGenCellular', 'iPadProFifthGen-iPadProFifthGen', 'iPadProFifthGenCellular-iPadProFifthGenCellular', 'iPhone13Pro-iPhone13Pro', 'iPhone13ProMax-iPhone13ProMax', 'iPhone13Mini-iPhone13Mini', 'iPhone13-iPhone13', 'iPadMiniSixthGen-iPadMiniSixthGen', 'iPadMiniSixthGenCellular-iPadMiniSixthGenCellular', 'iPadNinthGen-iPadNinthGen', 'iPadNinthGenCellular-iPadNinthGenCellular', 'iPhoneSEThirdGen-iPhoneSEThirdGen', 'iPadAirFifthGen-iPadAirFifthGen', 'iPadAirFifthGenCellular-iPadAirFifthGenCellular', 'iPhone14-iPhone14', 'iPhone14Plus-iPhone14Plus', 'iPhone14Pro-iPhone14Pro', 'iPhone14ProMax-iPhone14ProMax', 'iPadTenthGen-iPadTenthGen', 'iPadTenthGenCellular-iPadTenthGenCellular', 'iPadPro11FourthGen-iPadPro11FourthGen', 'iPadPro11FourthGenCellular-iPadPro11FourthGenCellular', 'iPadProSixthGen-iPadProSixthGen', 'iPadProSixthGenCellular-iPadProSixthGenCellular', 'iPhone15-iPhone15', 'iPhone15Plus-iPhone15Plus', 'iPhone15Pro-iPhone15Pro', 'iPhone15ProMax-iPhone15ProMax', 'iPadAir11M2-iPadAir11M2', 'iPadAir11M2Cellular-iPadAir11M2Cellular', 'iPadAir13M2-iPadAir13M2', 'iPadAir13M2Cellular-iPadAir13M2Cellular', 'iPadPro11M4-iPadPro11M4', 'iPadPro11M4Cellular-iPadPro11M4Cellular', 'iPadPro13M4-iPadPro13M4', 'iPadPro13M4Cellular-iPadPro13M4Cellular', 'iPhone16-iPhone16', 'iPhone16Plus-iPhone16Plus', 'iPhone16Pro-iPhone16Pro', 'iPhone16ProMax-iPhone16ProMax', 'iPadMiniA17Pro-iPadMiniA17Pro', 'iPadMiniA17ProCellular-iPadMiniA17ProCellular', 'iPhone16e-iPhone16e', 'iPadA16-iPadA16', 'iPadA16Cellular-iPadA16Cellular', 'iPadAir11M3-iPadAir11M3', 'iPadAir11M3Cellular-iPadAir11M3Cellular', 'iPadAir13M3-iPadAir13M3', 'iPadAir13M3Cellular-iPadAir13M3Cellular', 'iPhone17Pro-iPhone17Pro', 'iPhone17ProMax-iPhone17ProMax', 'iPhone17-iPhone17', 'iPhoneAir-iPhoneAir', 'iPadPro11M5-iPadPro11M5', 'iPadPro11M5Cellular-iPadPro11M5Cellular', 'iPadPro13M5-iPadPro13M5', 'iPadPro13M5Cellular-iPadPro13M5Cellular']","False","io.bluewallet.bluewallet","Bluewallet Services, S. R. L.","43365376","15.6","1376878039","['EN', 'FR', 'ES']","","[]","{}"
+"Binance: Compre BTC e Cripto","Binance Switzerland AG","4.8","152354","1436799971","https://apps.apple.com/br/app/binance-compre-btc-e-cripto/id1436799971?uo=4","0.0","BRL","Grátis","Finance","['Finanças', 'Utilidades']","Compre, venda e mantenha criptomoedas como Bitcoin (BTC), Ether (ETH), Solana (SOL), Notcoin (NOT) e Pepe (PEPE) com segurança e taxas de trading baixas. Usada por mais de 240 milhões de usuários em todo o mundo, a Binance é a maior corretora de criptomoedas* do mundo. Aqui está o porquê:
+
+NEGOCIE SEUS TOKENS FAVORITOS E MAIS
+
+Negocie mais de 350 criptomoedas listadas, incluindo Bitcoin (BTC) e Ether (ETH).
+Acompanhe o mercado usando alertas de preços e negocie com ferramentas de negociação avançadas. 
+Configure ordens recorrentes (DCA) para comprar criptomoedas a cada hora, dia, semana ou mês.
+Aproveite a melhor liquidez em cada negociação de criptomoedas. 
+Compre criptomoedas e adicione fundos na sua carteira em minutos com opções de pagamento flexíveis, incluindo cartão de crédito/débito, transferências bancárias e negociação ponto a ponto (P2P).
+Encontre traders líderes e reproduza suas estratégias de negociação com um toque.
+
+GANHE RECOMPENSAS DIÁRIAS COM SEUS ATIVOS PARADOS
+
+Ganhe recompensas com staking e rendimento de farm. Aproveite os benefícios de fazer stake de criptomoedas em ativos populares como Bitcoin (BTC). 
+Use o Investimento Automático para comprar criptomoedas e obter renda passiva ao mesmo tempo.**
+
+
+CORRETORA DE CRIPTO SEGURA, CONFORME E REGULADA
+
+A Binance é a corretora de criptomoedas mais regulamentada do mundo, com licenças, registros e aprovações em diversas jurisdições. 
+Todos os fundos dos usuários são mantidos 1:1 em um Fundo Seguro de Ativos dos Usuários (SAFU) no valor de US$ 1 bilhão. 
+Nosso sistema é protegido com medidas de segurança de última geração, incluindo monitoramento de riscos em tempo real, protocolos KYC rigorosos e criptografia avançada de dados de ponta a ponta.
+
+
+GASTE E ENVIE SEU SALDO EM CRIPTO
+
+Use os tokens da sua carteira para comprar passagens aéreas ou fazer compras em marcas que aceitam criptomoedas.
+Faça transferências de criptomoedas seguras da sua carteira para amigos e familiares em todo o mundo. 
+
+
+EXPLORE O MELHOR DA WEB3, CRIPTO E BLOCKCHAIN
+
+Obtenha conteúdo personalizado Web3, blockchain e cripto. Disponível na página inicial do seu aplicativo. 
+Participe das discussões da comunidade Binance sobre as últimas tendências de blockchain e criptomoedas.
+Aprenda sobre criptomoedas com cursos e artigos sobre tópicos relacionados ao Bitcoin, trading e gerenciamento de suas finanças.
+Ganhe recompensas em criptomoedas aprendendo e respondendo questionários sobre como funcionam certas criptomoedas. 
+Use nossa carteira Web3 integrada para interagir com segurança com dApps, obter rendimento com DeFi e negociar mais de 10.000 tokens em diferentes blockchains.
+
+
+ACESSE O ATENDIMENTO AO CLIENTE 24 horas por dia, 7 dias por semana
+Deixe-nos ajudá-lo em sua jornada de criptomoedas, seja você um ávido negociante de criptomoedas ou um iniciante que deseja comprar Bitcoin.
+Obtenha ajuda do suporte ao cliente por chat em tempo real 24 horas por dia, 7 dias por semana, disponível em 18 idiomas.
+Aprenda como comprar Bitcoin, gerenciar sua carteira de criptomoedas e fazer sua primeira negociação de criptomoedas na Binance usando nossos guias de perguntas frequentes.
+
+*por volume de trading - Fonte: https://coinmarketcap.com/rankings/exchanges/ 
+**Isenção de responsabilidade de limitação de região: este é um anúncio geral. Os produtos e serviços mencionados aqui podem não estar disponíveis em sua região.
+***Aplicativo Binance está disponível apenas para cidadãos e residentes de fora dos EUA. Para cidadãos e residentes dos EUA, instale o aplicativo da Binance.US.
+
+Ainda indeciso? Baixe agora e descubra por que mais de 240 milhões de usuários escolhem a Binance para comprar criptomoedas, negociar mais de 350 criptomoedas e manter seus ativos com segurança. O aplicativo da Binance vai além do seu aplicativo de trading tradicional, permitindo que os usuários aprendam mais sobre blockchain, obtenham renda passiva por meio de staking e gastem suas criptomoedas.","2018-10-06T19:55:47Z","2025-12-10T07:42:18Z","3.7.4","Enhancing your P2P trading experience!
+
+- Beginner-friendly P2P ads for easy trading
+
+- Seamless crypto trades with trusted merchants","+4","[]","[]","[]","https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/92/4a/80924a99-ad0b-ded2-a751-e09f4be3b738/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg","https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/92/4a/80924a99-ad0b-ded2-a751-e09f4be3b738/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg","['iPhone5s-iPhone5s', 'iPadAir-iPadAir', 'iPadAirCellular-iPadAirCellular', 'iPadMiniRetina-iPadMiniRetina', 'iPadMiniRetinaCellular-iPadMiniRetinaCellular', 'iPhone6-iPhone6', 'iPhone6Plus-iPhone6Plus', 'iPadAir2-iPadAir2', 'iPadAir2Cellular-iPadAir2Cellular', 'iPadMini3-iPadMini3', 'iPadMini3Cellular-iPadMini3Cellular', 'iPodTouchSixthGen-iPodTouchSixthGen', 'iPhone6s-iPhone6s', 'iPhone6sPlus-iPhone6sPlus', 'iPadMini4-iPadMini4', 'iPadMini4Cellular-iPadMini4Cellular', 'iPadPro-iPadPro', 'iPadProCellular-iPadProCellular', 'iPadPro97-iPadPro97', 'iPadPro97Cellular-iPadPro97Cellular', 'iPhoneSE-iPhoneSE', 'iPhone7-iPhone7', 'iPhone7Plus-iPhone7Plus', 'iPad611-iPad611', 'iPad612-iPad612', 'iPad71-iPad71', 'iPad72-iPad72', 'iPad73-iPad73', 'iPad74-iPad74', 'iPhone8-iPhone8', 'iPhone8Plus-iPhone8Plus', 'iPhoneX-iPhoneX', 'iPad75-iPad75', 'iPad76-iPad76', 'iPhoneXS-iPhoneXS', 'iPhoneXSMax-iPhoneXSMax', 'iPhoneXR-iPhoneXR', 'iPad812-iPad812', 'iPad834-iPad834', 'iPad856-iPad856', 'iPad878-iPad878', 'Watch4-Watch4', 'iPadMini5-iPadMini5', 'iPadMini5Cellular-iPadMini5Cellular', 'iPadAir3-iPadAir3', 'iPadAir3Cellular-iPadAir3Cellular', 'iPodTouchSeventhGen-iPodTouchSeventhGen', 'iPhone11-iPhone11', 'iPhone11Pro-iPhone11Pro', 'iPadSeventhGen-iPadSeventhGen', 'iPadSeventhGenCellular-iPadSeventhGenCellular', 'iPhone11ProMax-iPhone11ProMax', 'iPhoneSESecondGen-iPhoneSESecondGen', 'iPadProSecondGen-iPadProSecondGen', 'iPadProSecondGenCellular-iPadProSecondGenCellular', 'iPadProFourthGen-iPadProFourthGen', 'iPadProFourthGenCellular-iPadProFourthGenCellular', 'iPhone12Mini-iPhone12Mini', 'iPhone12-iPhone12', 'iPhone12Pro-iPhone12Pro', 'iPhone12ProMax-iPhone12ProMax', 'iPadAir4-iPadAir4', 'iPadAir4Cellular-iPadAir4Cellular', 'iPadEighthGen-iPadEighthGen', 'iPadEighthGenCellular-iPadEighthGenCellular', 'iPadProThirdGen-iPadProThirdGen', 'iPadProThirdGenCellular-iPadProThirdGenCellular', 'iPadProFifthGen-iPadProFifthGen', 'iPadProFifthGenCellular-iPadProFifthGenCellular', 'iPhone13Pro-iPhone13Pro', 'iPhone13ProMax-iPhone13ProMax', 'iPhone13Mini-iPhone13Mini', 'iPhone13-iPhone13', 'iPadMiniSixthGen-iPadMiniSixthGen', 'iPadMiniSixthGenCellular-iPadMiniSixthGenCellular', 'iPadNinthGen-iPadNinthGen', 'iPadNinthGenCellular-iPadNinthGenCellular', 'iPhoneSEThirdGen-iPhoneSEThirdGen', 'iPadAirFifthGen-iPadAirFifthGen', 'iPadAirFifthGenCellular-iPadAirFifthGenCellular', 'iPhone14-iPhone14', 'iPhone14Plus-iPhone14Plus', 'iPhone14Pro-iPhone14Pro', 'iPhone14ProMax-iPhone14ProMax', 'iPadTenthGen-iPadTenthGen', 'iPadTenthGenCellular-iPadTenthGenCellular', 'iPadPro11FourthGen-iPadPro11FourthGen', 'iPadPro11FourthGenCellular-iPadPro11FourthGenCellular', 'iPadProSixthGen-iPadProSixthGen', 'iPadProSixthGenCellular-iPadProSixthGenCellular', 'iPhone15-iPhone15', 'iPhone15Plus-iPhone15Plus', 'iPhone15Pro-iPhone15Pro', 'iPhone15ProMax-iPhone15ProMax', 'iPadAir11M2-iPadAir11M2', 'iPadAir11M2Cellular-iPadAir11M2Cellular', 'iPadAir13M2-iPadAir13M2', 'iPadAir13M2Cellular-iPadAir13M2Cellular', 'iPadPro11M4-iPadPro11M4', 'iPadPro11M4Cellular-iPadPro11M4Cellular', 'iPadPro13M4-iPadPro13M4', 'iPadPro13M4Cellular-iPadPro13M4Cellular', 'iPhone16-iPhone16', 'iPhone16Plus-iPhone16Plus', 'iPhone16Pro-iPhone16Pro', 'iPhone16ProMax-iPhone16ProMax', 'iPadMiniA17Pro-iPadMiniA17Pro', 'iPadMiniA17ProCellular-iPadMiniA17ProCellular', 'iPhone16e-iPhone16e', 'iPadA16-iPadA16', 'iPadA16Cellular-iPadA16Cellular', 'iPadAir11M3-iPadAir11M3', 'iPadAir11M3Cellular-iPadAir11M3Cellular', 'iPadAir13M3-iPadAir13M3', 'iPadAir13M3Cellular-iPadAir13M3Cellular', 'iPhone17Pro-iPhone17Pro', 'iPhone17ProMax-iPhone17ProMax', 'iPhone17-iPhone17', 'iPhoneAir-iPhoneAir', 'iPadPro11M5-iPadPro11M5', 'iPadPro11M5Cellular-iPadPro11M5Cellular', 'iPadPro13M5-iPadPro13M5', 'iPadPro13M5Cellular-iPadPro13M5Cellular']","False","com.czzhao.binance","Binance Switzerland AG","789370880","15.0","1436799820","['DA', 'EN', 'KA', 'KK', 'PT', 'RU', 'ZH', 'ES', 'ZH', 'TR', 'VI']","","[]","{}"
+"BILLA","BILLA AG","4.7","6","378479081","https://apps.apple.com/br/app/billa/id378479081?uo=4","0.0","BRL","Grátis","Shopping","['Compras', 'Gastronomia e bebidas']","Es gibt so vieles, was das Leben voller macht. Deswegen möchten wir von BILLA den Menschen das Leben einfacher machen. So verhelfen wir Ihnen zu mehr Zeit für die wirklich wichtigen Dinge im Leben. In unserer BILLA App finden Sie unseren Online Shop, Bons, Gutscheine und natürlich auch Ihre jö Bonus Club Karte.
+
+Mit diesen Funktionen sorgt die BILLA App für ein volleres Leben:
+- Lebensmittel entspannt im Online Shop bestellen
+- Bons und Rabatte einfach mobil einlösen
+- jö Bonus Club Karte & Vorteile immer dabei
+- BILLA Marktfinder nutzen
+- Einfach online bezahlen
+- Aktuelle Flugblätter durchblätten
+
+BILLA Online Shop
+Mit dem BILLA Online Shop sparen Sie sich jede Menge Zeit und das Tragen der Einkäufe übernehmen wir gerne für Sie. Zu entdecken gibt es im Online Shop über 12.000 Produkte. Ihren Einkauf liefern wir direkt vor die Haustüre oder Sie bestellen per Click & Collect – dann können Sie Ihren Einkauf in einem unserer Märkte abholen. Online können Sie mit Kreditkarte, PayPal und auf Rechnung zahlen. Alle jö Bonus Club Vorteilsbons und Ihren Rabattsammler können Sie natürlich auch im Online Shop einlösen.
+
+jö Bonus Club Karte
+Mit der BILLA App haben Sie Ihre jö Bonus Club Karte immer dabei und können diese einfach an der Kassa am Smartphone herzeigen. In der App können Sie alle Vorteile der Karte nutzen. Außerdem können Sie den aktuellen Stand Ihrer Ös und Ihres Rabattsammlers abfragen und Gutscheine über Ihr Smartphone einlösen.
+
+Rabatte und Bons
+Mit der BILLA App haben Sie Ihre Rabattgutscheine und Bons immer mit dabei. Einfach am Handy auswählen und direkt an der Kassa im Markt vorzeigen oder beim Einkaufen in der App einlösen.
+
+Flugblatt
+Unser Flugblatt lässt sich über die BILLA App auch unterwegs durchstöbern - dort finden Sie die neuesten Angebote, Aktionen und Rabatte.
+
+Marktfinder
+Der nächste BILLA Markt ist sicher ganz nah. Mit unserem Marktfinder werden alle Märkte in der Nähe angezeigt. Dort finden Sie auch die Adresse, Telefonnummer und die Öffnungszeiten des Marktes. Außerdem gibt es Informationen zur Verfügbarkeit von Parkplätzen, Barrierefreiheit oder Elektrotankstellen.
+
+Mobil bezahlen
+Das Bezahlen ist mit Kredit- oder Debitkarte, mit Apple Pay, per Kauf auf Rechnung oder mit PayPal möglich.
+
+Ihre Produkte jederzeit griffbereit
+Füllen Sie Ihren wöchentlichen Warenkorb auf zeitsparende Weiße. Durch gespeicherte Lieblings-Artikel in Ihren Favoriten ersparen Sie sich umständliche Einkaufslisten.","2010-06-24T00:20:25Z","2025-11-24T13:31:04Z","25.47.0","Es ist so weit: Die neue BILLA App ist jetzt verfügbar!
+Bessere Produktsuche, schnellere Ladezeit, Anzeige von Produktverfügbarkeit, und vieles mehr.
+Bei Fragen oder Feedback können Sie uns gerne eine Mail schreiben an kundenservice@billa.at.
+Euer BILLA Team","+4","['https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/25/ff/ec/25ffec0b-bb0a-b401-569f-961195461afb/205336b7-7575-466e-9394-f5f0df69684c_2208_screen_01.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/75/9a/86/759a8678-4c05-aacd-3851-4bb206bb4a87/b9e818f2-c674-49d0-a918-c9d38e23dcdc_2208_screen_02.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/32/1d/eb/321deb41-3bef-3fad-c5b3-a719b799f38c/ccbbfbf1-12a7-43e9-98f0-f2a7a652ad1f_2208_screen_03.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/6a/3d/30/6a3d30f7-ebee-c397-aa27-ac184d170be9/f4a98105-ec26-47e6-ab0b-d84c8aeac045_2208_screen_04.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/07/9d/e8/079de81d-a33e-07de-6238-bd4c1a2776d7/f51ab993-8f69-488f-9850-8addd87b124d_2208_screen_05.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/d4/a6/9c/d4a69c87-1e4e-e54e-cffd-6b7d88e48001/aa84da7d-2a03-47ea-b054-92cd8274210b_2208_screen_06.jpg/392x696bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/36/02/46/36024692-358a-cea5-466f-3dac211b6305/411f09c6-f48b-4f91-b3c0-38593c499ec6_2208_screen_07.jpg/392x696bb.jpg']","['https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/c8/d7/3b/c8d73bc8-9e64-863d-83b7-fb897b6178ae/08531447-dd30-45cb-b2da-da9f0f400f2b_2048x2732_billa_ols_appstore_screen_01.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/db/0e/e0/db0ee04b-ca58-3200-8564-86fb8a4197de/e4e9764f-03a6-44d5-a0d3-65d17db47944_2048x2732_billa_ols_appstore_screen_02.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/33/4a/68/334a684b-2082-cceb-c616-6ed92bfa4839/30ea4135-b8af-4341-9ad2-75c3cefc1daf_2048x2732_billa_ols_appstore_screen_03.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b1/86/49/b1864905-7566-d7dc-0c69-cbd00b965051/60fcb32b-b3db-4d3e-9bb8-5403956075f2_2048x2732_billa_ols_appstore_screen_04.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/69/61/a7/6961a788-44a3-383e-8b12-2beb93de6a99/8684d432-4ef9-4416-a35b-013cf5a4937f_2048x2732_billa_ols_appstore_screen_05.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/48/fc/af/48fcafe6-9aba-9a92-cd86-42381d527917/3d5250e9-8895-466d-913b-d20716a9fa9f_2048x2732_billa_ols_appstore_screen_06.jpg/576x768bb.jpg', 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/d4/a5/90/d4a590c0-9345-3ac9-e358-0bcc22a00f46/7c77691f-1b21-4fab-a275-9800a94782b5_2048x2732_billa_ols_appstore_screen_07.jpg/576x768bb.jpg']","[]","https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/0b/4c/840b4cf6-1619-7691-3be5-3183b795e6d4/BillaAustria_appicon_release-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg","https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/0b/4c/840b4cf6-1619-7691-3be5-3183b795e6d4/BillaAustria_appicon_release-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg","['iPhone5s-iPhone5s', 'iPadAir-iPadAir', 'iPadAirCellular-iPadAirCellular', 'iPadMiniRetina-iPadMiniRetina', 'iPadMiniRetinaCellular-iPadMiniRetinaCellular', 'iPhone6-iPhone6', 'iPhone6Plus-iPhone6Plus', 'iPadAir2-iPadAir2', 'iPadAir2Cellular-iPadAir2Cellular', 'iPadMini3-iPadMini3', 'iPadMini3Cellular-iPadMini3Cellular', 'iPodTouchSixthGen-iPodTouchSixthGen', 'iPhone6s-iPhone6s', 'iPhone6sPlus-iPhone6sPlus', 'iPadMini4-iPadMini4', 'iPadMini4Cellular-iPadMini4Cellular', 'iPadPro-iPadPro', 'iPadProCellular-iPadProCellular', 'iPadPro97-iPadPro97', 'iPadPro97Cellular-iPadPro97Cellular', 'iPhoneSE-iPhoneSE', 'iPhone7-iPhone7', 'iPhone7Plus-iPhone7Plus', 'iPad611-iPad611', 'iPad612-iPad612', 'iPad71-iPad71', 'iPad72-iPad72', 'iPad73-iPad73', 'iPad74-iPad74', 'iPhone8-iPhone8', 'iPhone8Plus-iPhone8Plus', 'iPhoneX-iPhoneX', 'iPad75-iPad75', 'iPad76-iPad76', 'iPhoneXS-iPhoneXS', 'iPhoneXSMax-iPhoneXSMax', 'iPhoneXR-iPhoneXR', 'iPad812-iPad812', 'iPad834-iPad834', 'iPad856-iPad856', 'iPad878-iPad878', 'iPadMini5-iPadMini5', 'iPadMini5Cellular-iPadMini5Cellular', 'iPadAir3-iPadAir3', 'iPadAir3Cellular-iPadAir3Cellular', 'iPodTouchSeventhGen-iPodTouchSeventhGen', 'iPhone11-iPhone11', 'iPhone11Pro-iPhone11Pro', 'iPadSeventhGen-iPadSeventhGen', 'iPadSeventhGenCellular-iPadSeventhGenCellular', 'iPhone11ProMax-iPhone11ProMax', 'iPhoneSESecondGen-iPhoneSESecondGen', 'iPadProSecondGen-iPadProSecondGen', 'iPadProSecondGenCellular-iPadProSecondGenCellular', 'iPadProFourthGen-iPadProFourthGen', 'iPadProFourthGenCellular-iPadProFourthGenCellular', 'iPhone12Mini-iPhone12Mini', 'iPhone12-iPhone12', 'iPhone12Pro-iPhone12Pro', 'iPhone12ProMax-iPhone12ProMax', 'iPadAir4-iPadAir4', 'iPadAir4Cellular-iPadAir4Cellular', 'iPadEighthGen-iPadEighthGen', 'iPadEighthGenCellular-iPadEighthGenCellular', 'iPadProThirdGen-iPadProThirdGen', 'iPadProThirdGenCellular-iPadProThirdGenCellular', 'iPadProFifthGen-iPadProFifthGen', 'iPadProFifthGenCellular-iPadProFifthGenCellular', 'iPhone13Pro-iPhone13Pro', 'iPhone13ProMax-iPhone13ProMax', 'iPhone13Mini-iPhone13Mini', 'iPhone13-iPhone13', 'iPadMiniSixthGen-iPadMiniSixthGen', 'iPadMiniSixthGenCellular-iPadMiniSixthGenCellular', 'iPadNinthGen-iPadNinthGen', 'iPadNinthGenCellular-iPadNinthGenCellular', 'iPhoneSEThirdGen-iPhoneSEThirdGen', 'iPadAirFifthGen-iPadAirFifthGen', 'iPadAirFifthGenCellular-iPadAirFifthGenCellular', 'iPhone14-iPhone14', 'iPhone14Plus-iPhone14Plus', 'iPhone14Pro-iPhone14Pro', 'iPhone14ProMax-iPhone14ProMax', 'iPadTenthGen-iPadTenthGen', 'iPadTenthGenCellular-iPadTenthGenCellular', 'iPadPro11FourthGen-iPadPro11FourthGen', 'iPadPro11FourthGenCellular-iPadPro11FourthGenCellular', 'iPadProSixthGen-iPadProSixthGen', 'iPadProSixthGenCellular-iPadProSixthGenCellular', 'iPhone15-iPhone15', 'iPhone15Plus-iPhone15Plus', 'iPhone15Pro-iPhone15Pro', 'iPhone15ProMax-iPhone15ProMax', 'iPadAir11M2-iPadAir11M2', 'iPadAir11M2Cellular-iPadAir11M2Cellular', 'iPadAir13M2-iPadAir13M2', 'iPadAir13M2Cellular-iPadAir13M2Cellular', 'iPadPro11M4-iPadPro11M4', 'iPadPro11M4Cellular-iPadPro11M4Cellular', 'iPadPro13M4-iPadPro13M4', 'iPadPro13M4Cellular-iPadPro13M4Cellular', 'iPhone16-iPhone16', 'iPhone16Plus-iPhone16Plus', 'iPhone16Pro-iPhone16Pro', 'iPhone16ProMax-iPhone16ProMax', 'iPadMiniA17Pro-iPadMiniA17Pro', 'iPadMiniA17ProCellular-iPadMiniA17ProCellular', 'iPhone16e-iPhone16e', 'iPadA16-iPadA16', 'iPadA16Cellular-iPadA16Cellular', 'iPadAir11M3-iPadAir11M3', 'iPadAir11M3Cellular-iPadAir11M3Cellular', 'iPadAir13M3-iPadAir13M3', 'iPadAir13M3Cellular-iPadAir13M3Cellular', 'iPhone17Pro-iPhone17Pro', 'iPhone17ProMax-iPhone17ProMax', 'iPhone17-iPhone17', 'iPhoneAir-iPhoneAir', 'iPadPro11M5-iPadPro11M5', 'iPadPro11M5Cellular-iPadPro11M5Cellular', 'iPadPro13M5-iPadPro13M5', 'iPadPro13M5Cellular-iPadPro13M5Cellular']","False","com.diamonddogs.Billa","Billa AG","56645632","15.0","436322632","['DE']","","[]","{}"
+"CoinEx: Compre BTC e Cripto","Coinex Global Limited","4.9","823","1626447428","https://apps.apple.com/br/app/coinex-compre-btc-e-cripto/id1626447428?uo=4","0.0","BRL","Grátis","Finance","['Finanças']","CoinEx é uma exchange global de criptomoedas como Seu especialista em negociação de criptomoedas. Negocie BTC, ETH, HYPE, DOG, WEMIX e outras criptomoedas agora.
+
+COMPRE, VENDA E MANTENHA CRIPTO
+- CoinEx oferece suporte a mais de 60 moedas fiduciárias para que os traders comprem criptomoedas convencionais, como SOL, XRP, DOGE, FARTCOIN, ENA etc.
+- CoinEx oferece serviços de spot, margem & futuros para mais de 200 países, suportando 18 idiomas para usuários em todo o mundo.
+Siga as últimas tendências cripto e acompanhe preços como Principais Altas, Principais Perdas, Líderes de Valor, Principais Pesquisas, Mapa de Calor Cripto, Distribuição de Alterações de Preços, etc.
+- Compre e venda criptomoedas com um clique, a CoinEx Swap suporta qualquer combinação de criptomoedas e você pode trocar ativos instantaneamente sem negociar.
+- CoinEx oferece negociação à vista, negociação de margem e negociação de futuros.
+- Ganhe juros compostos depositando criptomoedas sem limite mínimo. Serão concedidos 70% dos juros do empréstimo e você poderá sacar a qualquer momento.
+- Stake ativos no blockchain e ganhe recompensas on-chain.
+- Negociação P2P, taxas zero.
+- Estratégias de capying trading dos principais traders líderes.
+- Pre-token trading.
+
+FORMAÇÃO DE MERCADO AUTOMATIZADA (AMM)
+- Todos podem se tornar um Criador de Mercado e desfrutar de um dividendo de 50% na taxa de negociação. A CoinEx apoia a função AMM para mais de 1300 mercados cripto, cada um possuindo um pool de financiamento. Você pode fornecer liquidez adicionando fundos ao pool e se tornar um Criador de Mercado. 
+
+RESERVA DE 100%
+- Ser uma exchange segura e transparente e manter 100% de taxa de reserva tem sido o ponto-chave da CoinEx.
+- A CoinEx adota o método de auditoria “Árvore de Merkle” para comprovar que a plataforma mantém uma taxa de reserva de 100%.
+- A CoinEx exibe abertamente o total de ativos de todos os endereços de carteiras on-chain e carteiras mantidas pela plataforma.
+
+VÁRIAS OPÇÕES DE NEGOCIAÇÃO
+- Negociação à vista: negociações simples de mais de 1300 criptomoedas com um mecanismo próprio de correspondência de negociação que suporta até 10.000 TPS.
+- Negociação de Margem: Multiplique os lucros com empréstimos.
+- Mercados de Futuros: Compre e venda. Mais de 130 pares de criptomoedas agora oferecem futuros com alavancagem de até 100x.
+
+
+MAIS DE 1300 ATIVOS SUPORTADOS
+- BTC, ETH, XRP, BNB, SOL, USDC, DOGE, ADA, TRX, LINK, TON,  XLM, HBAR, AVAX, SHIB, Sui, LTC, DOT, BCH, OM, Dai, HYPE, XMR, UNI,  APT, OKB, NEAR, PEPE, ICP, MNT, ETC, AAVE, TRUMP, CRO, POL, VET, TAO, FIL, KAS, TIA, ATOM, RENDER, HTX, ALGO, 
+ARB, OP, IP, S, Ondo, MOVE, WLD, SEI, Cake, BERA e muitas outras criptomoedas.
+
+PODEROSAS FERRAMENTAS DE NEGOCIAÇÃO
+- Plano Auto-Invest: aumente seus criptoativos por meio de estratégias de Auto-Investimento.
+- Spot Grid: Venda na alta e compre na baixa, obtendo lucros nas oscilações do mercado.
+
+RECOMPENSAS DA PROMOÇÃO
+- Tradeboard: Junte-se à tabela de líderes de negociação para ganhar mega recompensas.
+- Estação Airdrop: Aprenda a ganhar criptomoedas grátis respondendo a perguntas.
+- Mining: minere e ganhe moedas da moda facilmente por airdrop.
+- Bônus de depósito: um depósito, o dobro das vantagens
+
+ATENDIMENTO AO CLIENTE 24/7
+- A equipe multilíngue de atendimento ao cliente da CoinEx estará à sua disposição 24 horas por dia, 7 dias por semana. Todas as perguntas serão tratadas com o máximo respeito e respondidas prontamente. (Entrada: APP CoinEx - Entre em contato com o Atendimento ao Cliente)
+
+Isenção de responsabilidade: investimentos como negociar ou manter criptomoedas são arriscados e o conteúdo acima não constitui nenhum conselho.","2022-10-25T07:00:00Z","2025-12-03T13:39:47Z","4.4.0","Esta atualização inclui correções de bugs e melhorias para aprimorar sua experiência com nosso aplicativo.","+4","[]","[]","[]","https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/ca/7f/4cca7f49-5081-39c7-cc2e-b6e51b8e722c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg","https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/ca/7f/4cca7f49-5081-39c7-cc2e-b6e51b8e722c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg","['iPhone5s-iPhone5s', 'iPadAir-iPadAir', 'iPadAirCellular-iPadAirCellular', 'iPadMiniRetina-iPadMiniRetina', 'iPadMiniRetinaCellular-iPadMiniRetinaCellular', 'iPhone6-iPhone6', 'iPhone6Plus-iPhone6Plus', 'iPadAir2-iPadAir2', 'iPadAir2Cellular-iPadAir2Cellular', 'iPadMini3-iPadMini3', 'iPadMini3Cellular-iPadMini3Cellular', 'iPodTouchSixthGen-iPodTouchSixthGen', 'iPhone6s-iPhone6s', 'iPhone6sPlus-iPhone6sPlus', 'iPadMini4-iPadMini4', 'iPadMini4Cellular-iPadMini4Cellular', 'iPadPro-iPadPro', 'iPadProCellular-iPadProCellular', 'iPadPro97-iPadPro97', 'iPadPro97Cellular-iPadPro97Cellular', 'iPhoneSE-iPhoneSE', 'iPhone7-iPhone7', 'iPhone7Plus-iPhone7Plus', 'iPad611-iPad611', 'iPad612-iPad612', 'iPad71-iPad71', 'iPad72-iPad72', 'iPad73-iPad73', 'iPad74-iPad74', 'iPhone8-iPhone8', 'iPhone8Plus-iPhone8Plus', 'iPhoneX-iPhoneX', 'iPad75-iPad75', 'iPad76-iPad76', 'iPhoneXS-iPhoneXS', 'iPhoneXSMax-iPhoneXSMax', 'iPhoneXR-iPhoneXR', 'iPad812-iPad812', 'iPad834-iPad834', 'iPad856-iPad856', 'iPad878-iPad878', 'iPadMini5-iPadMini5', 'iPadMini5Cellular-iPadMini5Cellular', 'iPadAir3-iPadAir3', 'iPadAir3Cellular-iPadAir3Cellular', 'iPodTouchSeventhGen-iPodTouchSeventhGen', 'iPhone11-iPhone11', 'iPhone11Pro-iPhone11Pro', 'iPadSeventhGen-iPadSeventhGen', 'iPadSeventhGenCellular-iPadSeventhGenCellular', 'iPhone11ProMax-iPhone11ProMax', 'iPhoneSESecondGen-iPhoneSESecondGen', 'iPadProSecondGen-iPadProSecondGen', 'iPadProSecondGenCellular-iPadProSecondGenCellular', 'iPadProFourthGen-iPadProFourthGen', 'iPadProFourthGenCellular-iPadProFourthGenCellular', 'iPhone12Mini-iPhone12Mini', 'iPhone12-iPhone12', 'iPhone12Pro-iPhone12Pro', 'iPhone12ProMax-iPhone12ProMax', 'iPadAir4-iPadAir4', 'iPadAir4Cellular-iPadAir4Cellular', 'iPadEighthGen-iPadEighthGen', 'iPadEighthGenCellular-iPadEighthGenCellular', 'iPadProThirdGen-iPadProThirdGen', 'iPadProThirdGenCellular-iPadProThirdGenCellular', 'iPadProFifthGen-iPadProFifthGen', 'iPadProFifthGenCellular-iPadProFifthGenCellular', 'iPhone13Pro-iPhone13Pro', 'iPhone13ProMax-iPhone13ProMax', 'iPhone13Mini-iPhone13Mini', 'iPhone13-iPhone13', 'iPadMiniSixthGen-iPadMiniSixthGen', 'iPadMiniSixthGenCellular-iPadMiniSixthGenCellular', 'iPadNinthGen-iPadNinthGen', 'iPadNinthGenCellular-iPadNinthGenCellular', 'iPhoneSEThirdGen-iPhoneSEThirdGen', 'iPadAirFifthGen-iPadAirFifthGen', 'iPadAirFifthGenCellular-iPadAirFifthGenCellular', 'iPhone14-iPhone14', 'iPhone14Plus-iPhone14Plus', 'iPhone14Pro-iPhone14Pro', 'iPhone14ProMax-iPhone14ProMax', 'iPadTenthGen-iPadTenthGen', 'iPadTenthGenCellular-iPadTenthGenCellular', 'iPadPro11FourthGen-iPadPro11FourthGen', 'iPadPro11FourthGenCellular-iPadPro11FourthGenCellular', 'iPadProSixthGen-iPadProSixthGen', 'iPadProSixthGenCellular-iPadProSixthGenCellular', 'iPhone15-iPhone15', 'iPhone15Plus-iPhone15Plus', 'iPhone15Pro-iPhone15Pro', 'iPhone15ProMax-iPhone15ProMax', 'iPadAir11M2-iPadAir11M2', 'iPadAir11M2Cellular-iPadAir11M2Cellular', 'iPadAir13M2-iPadAir13M2', 'iPadAir13M2Cellular-iPadAir13M2Cellular', 'iPadPro11M4-iPadPro11M4', 'iPadPro11M4Cellular-iPadPro11M4Cellular', 'iPadPro13M4-iPadPro13M4', 'iPadPro13M4Cellular-iPadPro13M4Cellular', 'iPhone16-iPhone16', 'iPhone16Plus-iPhone16Plus', 'iPhone16Pro-iPhone16Pro', 'iPhone16ProMax-iPhone16ProMax', 'iPadMiniA17Pro-iPadMiniA17Pro', 'iPadMiniA17ProCellular-iPadMiniA17ProCellular', 'iPhone16e-iPhone16e', 'iPadA16-iPadA16', 'iPadA16Cellular-iPadA16Cellular', 'iPadAir11M3-iPadAir11M3', 'iPadAir11M3Cellular-iPadAir11M3Cellular', 'iPadAir13M3-iPadAir13M3', 'iPadAir13M3Cellular-iPadAir13M3Cellular', 'iPhone17Pro-iPhone17Pro', 'iPhone17ProMax-iPhone17ProMax', 'iPhone17-iPhone17', 'iPhoneAir-iPhoneAir', 'iPadPro11M5-iPadPro11M5', 'iPadPro11M5Cellular-iPadPro11M5Cellular', 'iPadPro13M5-iPadPro13M5', 'iPadPro13M5Cellular-iPadPro13M5Cellular']","False","com.coinex.trade","Coinex Global Limited","252329984","14.0","1626447430","['AR', 'EN', 'FR', 'DE', 'ID', 'IT', 'JA', 'KO', 'FA', 'PL', 'PT', 'RU', 'ZH', 'ES', 'TH', 'ZH', 'TR', 'VI']","","[]","{}"

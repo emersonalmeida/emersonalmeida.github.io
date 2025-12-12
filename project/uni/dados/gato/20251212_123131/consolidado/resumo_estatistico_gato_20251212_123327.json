@@ -1,0 +1,30 @@
+{
+  "total_registros": 9832,
+  "total_colunas": 214,
+  "fontes": {
+    "AppStore-Reviews-Google Play": 9505,
+    "AppStore-Google Play": 20,
+    "SERP-Brave": 20,
+    "YouTube-viewCount": 20,
+    "YouTube-relevance": 20,
+    "YouTube-date": 20,
+    "Wikipedia": 20,
+    "SERP-Google": 20,
+    "Hacker News": 20,
+    "Google Scholar": 20,
+    "GitHub": 20,
+    "arXiv": 20,
+    "SERP-Duckduckgo": 17,
+    "Suggest-chrome-web-a-z": 15,
+    "Suggest-chrome-web-top": 15,
+    "Suggest-chrome-youtube-a-z": 15,
+    "Suggest-chrome-youtube-top": 15,
+    "SERP-Bing": 10,
+    "Reddit": 10,
+    "Google News": 10
+  },
+  "data_criacao": "2025-12-12T12:33:28.407994",
+  "termo": "gato",
+  "regiao": "br",
+  "modo": "personalizado"
+}

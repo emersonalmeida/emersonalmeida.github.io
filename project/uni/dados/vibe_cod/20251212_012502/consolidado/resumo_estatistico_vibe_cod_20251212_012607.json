@@ -1,0 +1,18 @@
+{
+  "total_registros": 136,
+  "total_colunas": 139,
+  "fontes": {
+    "SERP-Google": 30,
+    "GitHub": 20,
+    "Hacker News": 20,
+    "arXiv": 20,
+    "SERP-Brave": 19,
+    "Reddit": 10,
+    "SERP-Bing": 10,
+    "Google Scholar": 7
+  },
+  "data_criacao": "2025-12-12T01:26:07.048211",
+  "termo": "vibe cod",
+  "regiao": "br",
+  "modo": "personalizado"
+}

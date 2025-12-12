@@ -1,0 +1,109 @@
+ESTATÍSTICAS AVANÇADAS - BISCOITO
+======================================================================
+
+Total de itens: 2540
+Fontes únicas: 6
+Tipos únicos: 10
+
+
+ESTATÍSTICAS NUMÉRICAS:
+----------------------------------------------------------------------
+
+relevancia:
+  Média: 620.87
+  Mediana: 556.00
+  Desvio Padrão: 170.24
+  Mínimo: 550.00
+  Máximo: 1252.00
+  Q25: 553.00
+  Q75: 600.00
+  Q90: 751.00
+  Q95: 1200.00
+  Valores válidos: 1201
+  Valores faltantes: 1339
+
+valor:
+  Média: 63.34
+  Mediana: 49.50
+  Desvio Padrão: 141.25
+  Mínimo: 0.00
+  Máximo: 1200.00
+  Q25: 21.00
+  Q75: 60.25
+  Q90: 85.60
+  Q95: 99.65
+  Valores válidos: 68
+  Valores faltantes: 2472
+
+posicao:
+  Média: 10.00
+  Mediana: 9.50
+  Desvio Padrão: 5.62
+  Mínimo: 1.00
+  Máximo: 20.00
+  Q25: 5.25
+  Q75: 14.75
+  Q90: 18.00
+  Q95: 19.00
+  Valores válidos: 46
+  Valores faltantes: 2494
+
+likes:
+  Média: 3.18
+  Mediana: 0.00
+  Desvio Padrão: 25.90
+  Mínimo: 0.00
+  Máximo: 363.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 1.00
+  Q95: 2.00
+  Valores válidos: 245
+  Valores faltantes: 2295
+
+rating:
+  Média: 4.22
+  Mediana: 5.00
+  Desvio Padrão: 1.38
+  Mínimo: 1.00
+  Máximo: 5.00
+  Q25: 4.00
+  Q75: 5.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 954
+  Valores faltantes: 1586
+
+
+ESTATÍSTICAS POR FONTE:
+----------------------------------------------------------------------
+
+Google Suggest:
+  Total: 1201
+  sugestao: 1201
+
+Google Trends:
+  Total: 68
+  top: 28
+  regioes: 26
+  rising: 13
+  tempo: 1
+
+SERP:
+  Total: 46
+  resultado_busca: 46
+
+YouTube:
+  Total: 270
+  comentario: 245
+  video: 25
+
+App Stores:
+  Total: 739
+  review: 729
+  app: 10
+
+App Store (App Store):
+  Total: 216
+  review: 206
+  app: 10

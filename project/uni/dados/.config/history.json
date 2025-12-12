@@ -1,0 +1,140 @@
+{
+  "terms": [
+    "bitcoin",
+    "vasco",
+    "cabrito"
+  ],
+  "configs": [
+    {
+      "term": "bitcoin",
+      "config": {
+        "term": "bitcoin",
+        "mode": "customizado",
+        "fontes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "params_globais": {
+          "region": "BR",
+          "lang": "pt",
+          "limit": 15
+        },
+        "params_especificos": {}
+      },
+      "timestamp": "2025-12-11T16:18:17.861274"
+    },
+    {
+      "term": "vasco",
+      "config": {
+        "term": "vasco",
+        "mode": "customizado",
+        "fontes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "params_globais": {
+          "region": "us",
+          "lang": "en",
+          "limit": 10
+        },
+        "params_especificos": {}
+      },
+      "timestamp": "2025-12-11T16:17:06.899764"
+    },
+    {
+      "term": "vasco",
+      "config": {
+        "term": "vasco",
+        "mode": "rapido",
+        "fontes": "todas",
+        "params_globais": {
+          "region": "us",
+          "lang": "en",
+          "limit": 10
+        },
+        "params_especificos": {}
+      },
+      "timestamp": "2025-12-11T16:16:45.566611"
+    },
+    {
+      "term": "cabrito",
+      "config": {
+        "term": "cabrito",
+        "mode": "customizado",
+        "fontes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "params_globais": {
+          "region": "br",
+          "lang": "pt",
+          "limit": 15
+        },
+        "params_especificos": {}
+      },
+      "timestamp": "2025-12-11T16:07:48.322194"
+    },
+    {
+      "term": "bitcoin",
+      "config": {
+        "term": "bitcoin",
+        "mode": "rapido",
+        "fontes": "todas",
+        "params_globais": {
+          "region": "us",
+          "lang": "en",
+          "limit": 10
+        },
+        "params_especificos": {}
+      },
+      "timestamp": "2025-12-11T15:57:33.399801"
+    },
+    {
+      "term": "bitcoin",
+      "config": {
+        "term": "bitcoin",
+        "region": "br",
+        "lang": "pt",
+        "limit": 15,
+        "mode": "advanced"
+      },
+      "timestamp": "2025-12-11T15:43:09.821873"
+    }
+  ]
+}

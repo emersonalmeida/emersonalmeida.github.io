@@ -1,0 +1,105 @@
+ESTATÍSTICAS AVANÇADAS - CRIPTO
+======================================================================
+
+Total de itens: 1316
+Fontes únicas: 6
+Tipos únicos: 7
+
+
+ESTATÍSTICAS NUMÉRICAS:
+----------------------------------------------------------------------
+
+relevancia:
+  Média: 609.30
+  Mediana: 556.00
+  Desvio Padrão: 153.70
+  Mínimo: 550.00
+  Máximo: 1253.00
+  Q25: 553.00
+  Q75: 600.00
+  Q90: 650.00
+  Q95: 1050.00
+  Valores válidos: 1110
+  Valores faltantes: 206
+
+valor:
+  Média: 17.29
+  Mediana: 0.00
+  Desvio Padrão: 29.15
+  Mínimo: 0.00
+  Máximo: 100.00
+  Q25: 0.00
+  Q75: 43.00
+  Q90: 53.00
+  Q95: 66.00
+  Valores válidos: 21
+  Valores faltantes: 1295
+
+posicao:
+  Média: 10.16
+  Mediana: 10.00
+  Desvio Padrão: 5.66
+  Mínimo: 1.00
+  Máximo: 20.00
+  Q25: 5.25
+  Q75: 15.00
+  Q90: 18.00
+  Q95: 19.00
+  Valores válidos: 58
+  Valores faltantes: 1258
+
+likes:
+  Média: 12.45
+  Mediana: 0.00
+  Desvio Padrão: 50.07
+  Mínimo: 0.00
+  Máximo: 456.00
+  Q25: 0.00
+  Q75: 2.00
+  Q90: 27.40
+  Q95: 59.00
+  Valores válidos: 97
+  Valores faltantes: 1219
+
+rating:
+  Média: 4.72
+  Mediana: 4.70
+  Desvio Padrão: 0.14
+  Mínimo: 4.50
+  Máximo: 4.90
+  Q25: 4.60
+  Q75: 4.83
+  Q90: 4.90
+  Q95: 4.90
+  Valores válidos: 20
+  Valores faltantes: 1296
+
+
+ESTATÍSTICAS POR FONTE:
+----------------------------------------------------------------------
+
+Google Suggest:
+  Total: 1110
+  sugestao: 1110
+
+Google Trends:
+  Total: 21
+  regioes: 20
+  tempo: 1
+
+SERP:
+  Total: 58
+  resultado_busca: 58
+
+YouTube:
+  Total: 107
+  comentario: 97
+  video: 10
+
+App Stores:
+  Total: 10
+  app: 10
+
+App Store (App Store):
+  Total: 10
+  app: 10

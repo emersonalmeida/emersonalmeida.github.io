@@ -1,0 +1,245 @@
+ESTATÍSTICAS AVANÇADAS - CACHORRO
+======================================================================
+
+Total de itens: 3209
+Fontes únicas: 5
+Tipos únicos: 6
+
+
+ESTATÍSTICAS NUMÉRICAS:
+----------------------------------------------------------------------
+
+relevancia:
+  Média: 610.31
+  Mediana: 556.00
+  Desvio Padrão: 158.70
+  Mínimo: 550.00
+  Máximo: 1251.00
+  Q25: 553.00
+  Q75: 562.00
+  Q90: 650.00
+  Q95: 1055.90
+  Valores válidos: 1379
+  Valores faltantes: 1830
+
+posicao:
+  Média: 9.79
+  Mediana: 10.00
+  Desvio Padrão: 5.51
+  Mínimo: 1.00
+  Máximo: 20.00
+  Q25: 5.00
+  Q75: 14.25
+  Q90: 17.00
+  Q95: 18.25
+  Valores válidos: 56
+  Valores faltantes: 3153
+
+views:
+  Média: 63036281.74
+  Mediana: 2909004.00
+  Desvio Padrão: 176640648.66
+  Mínimo: 0.00
+  Máximo: 1263596870.00
+  Q25: 3489.00
+  Q75: 65549740.00
+  Q90: 140076902.40
+  Q95: 208841316.60
+  Valores válidos: 57
+  Valores faltantes: 3152
+
+likes:
+  Média: 41669.51
+  Mediana: 16.00
+  Desvio Padrão: 295790.44
+  Mínimo: 0.00
+  Máximo: 4153841.00
+  Q25: 2.25
+  Q75: 215.50
+  Q90: 1834.00
+  Q95: 17379.00
+  Valores válidos: 666
+  Valores faltantes: 2543
+
+dislikes:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 57
+  Valores faltantes: 3152
+
+favorites:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 57
+  Valores faltantes: 3152
+
+commentCount:
+  Média: 3415.35
+  Mediana: 75.00
+  Desvio Padrão: 8166.44
+  Mínimo: 0.00
+  Máximo: 42760.00
+  Q25: 0.00
+  Q75: 2010.00
+  Q90: 11301.60
+  Q95: 23632.60
+  Valores válidos: 57
+  Valores faltantes: 3152
+
+replyCount:
+  Média: 1.80
+  Mediana: 0.00
+  Desvio Padrão: 2.19
+  Mínimo: 0.00
+  Máximo: 5.00
+  Q25: 0.00
+  Q75: 5.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 609
+  Valores faltantes: 2600
+
+totalReplyCount:
+  Média: 18.46
+  Mediana: 0.00
+  Desvio Padrão: 76.60
+  Mínimo: 0.00
+  Máximo: 746.00
+  Q25: 0.00
+  Q75: 6.00
+  Q90: 31.00
+  Q95: 67.40
+  Valores válidos: 609
+  Valores faltantes: 2600
+
+replies_count:
+  Média: 1.80
+  Mediana: 0.00
+  Desvio Padrão: 2.19
+  Mínimo: 0.00
+  Máximo: 5.00
+  Q25: 0.00
+  Q75: 5.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 609
+  Valores faltantes: 2600
+
+rating:
+  Média: 4.17
+  Mediana: 5.00
+  Desvio Padrão: 1.39
+  Mínimo: 1.00
+  Máximo: 5.00
+  Q25: 4.00
+  Q75: 5.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 1108
+  Valores faltantes: 2101
+
+ratings_count:
+  Média: 1713.33
+  Mediana: 0.00
+  Desvio Padrão: 4906.30
+  Mínimo: 0.00
+  Máximo: 28490.00
+  Q25: 0.00
+  Q75: 664.50
+  Q90: 4221.00
+  Q95: 7088.50
+  Valores válidos: 39
+  Valores faltantes: 3170
+
+reviews_count:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 20
+  Valores faltantes: 3189
+
+price:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 39
+  Valores faltantes: 3170
+
+artistId:
+  Média: 1063448097.74
+  Mediana: 968407602.00
+  Desvio Padrão: 475407974.63
+  Mínimo: 351110111.00
+  Máximo: 1821814460.00
+  Q25: 646794658.50
+  Q75: 1533720886.50
+  Q90: 1680973289.80
+  Q95: 1753339076.90
+  Valores válidos: 19
+  Valores faltantes: 3190
+
+thumbsUpCount:
+  Média: 42.48
+  Mediana: 0.00
+  Desvio Padrão: 312.18
+  Mínimo: 0.00
+  Máximo: 8221.00
+  Q25: 0.00
+  Q75: 10.00
+  Q90: 58.20
+  Q95: 130.60
+  Valores válidos: 1069
+  Valores faltantes: 2140
+
+
+ESTATÍSTICAS POR FONTE:
+----------------------------------------------------------------------
+
+Google Suggest:
+  Total: 1379
+  sugestao: 1379
+
+SERP:
+  Total: 56
+  resultado_busca: 56
+
+YouTube:
+  Total: 666
+  comentario: 609
+  video: 57
+
+App Stores:
+  Total: 782
+  review: 762
+  app: 20
+
+App Store (App Store):
+  Total: 326
+  review: 307
+  app: 19

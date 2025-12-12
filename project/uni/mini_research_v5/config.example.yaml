@@ -1,0 +1,64 @@
+# Mini Research v5.0 - Arquivo de Configuração de Exemplo
+# Copie este arquivo para mini_research_config.yaml e ajuste conforme necessário
+
+# Diretório base para salvar dados
+base_dir: "dados"
+
+# Delays e timeouts
+delay: 1.0  # Delay entre requisições (segundos)
+timeout: 30  # Timeout de requisições (segundos)
+max_retries: 3  # Número máximo de tentativas
+backoff_factor: 0.3  # Fator de backoff exponencial
+
+# Cache
+cache_enabled: true
+cache_ttl: 3600  # TTL do cache em segundos
+
+# Formatos de exportação
+export_formats:
+  - csv
+  - json
+  # - parquet  # Descomente para habilitar
+  # - excel    # Descomente para habilitar
+
+# Modos de execução
+quiet_mode: false  # Modo silencioso (sem output detalhado)
+verbose_mode: false  # Modo verbose (output máximo)
+
+# Proxy (opcional)
+proxy: null
+# proxy:
+#   http: "http://proxy.example.com:8080"
+#   https: "https://proxy.example.com:8080"
+
+# Notificações (opcional)
+notifications:
+  enabled: false
+  email: null
+  # email: "seu@email.com"
+  slack_webhook: null
+  # slack_webhook: "https://hooks.slack.com/services/..."
+
+# Configurações específicas por fonte
+sources:
+  suggest:
+    default_limit: 15
+    cache_enabled: true
+  
+  trends:
+    default_topn: 20
+    default_timeframe: "today 12-m"
+  
+  serp:
+    default_limit: 20
+    per_engine: true
+  
+  youtube:
+    default_videos: 10
+    default_comments: 20
+  
+  stores:
+    default_apps: 20
+    default_reviews: 50
+
+

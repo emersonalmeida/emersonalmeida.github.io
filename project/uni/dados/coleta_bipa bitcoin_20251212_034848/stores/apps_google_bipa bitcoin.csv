@@ -1,0 +1,755 @@
+﻿"title","developer","rating","ratings_count","reviews_count","installs","id","url","icon","headerImage","screenshots","video","videoImage","price","free","contentRating","contentRatingDescription","genre","genreId","familyGenre","familyGenreId","summary","description","descriptionHTML","updated","released","version","size","minInstalls","maxInstalls","score","developerId","developerEmail","developerWebsite","developerAddress","privacyPolicy","histogram","offersIAP","adSupported","recentChanges","permissions","whatsNew"
+"Bipa - Cartão, Pix & Bitcoin","Bipa","4.7","0","0","500.000+","","","https://play-lh.googleusercontent.com/3hAbN5x6ABUs3T4xJWzgPNAp_ZPwRFT5rGadMdj2elWMVpZF8Oots7VyAbePBKB_dt8","","['https://play-lh.googleusercontent.com/wrrla-D7Tqt2YCcNWFDMuxN62Sa0qRux0f06pCAM4vBn2JzKnzWmG38iUtPI_58LKub7m69247Y11ajpPkmuZA', 'https://play-lh.googleusercontent.com/zTqkO0RUdofVauapATxLIfDjEcpemJ4KNMfI6CYpcgk_yhi2wyq5NHRQ7s45ZyCAEOPYDieWYAXbg10oYRzhnA', 'https://play-lh.googleusercontent.com/rym2WI5N8C6hmVhN2cgkUsOfyJ_g94uWfakQ6SYcKSXXm4E48ZCDFuyW1iKbb8qyS0L90M7Xf-u1Np64v5MJ-Q', 'https://play-lh.googleusercontent.com/hrVrsLjMpeQvprSNsmFiskpRFUDInuCvpyX45JZ6ug-gDIOctzU6-EyIKcEfL_LTGN4UrSyMKQtcyGRVa6BH', 'https://play-lh.googleusercontent.com/kHFRiah8ZOOuD5Fmqb59cw7UiYUzXEasYqNY_BnNppI6_No51QeMN-tcxwtZQ2EIzQNhkP5vnk84JIMIVvWk', 'https://play-lh.googleusercontent.com/PQtw9VLMque6ESJq-JZhn5szyYY_lLfTuqJfNshCMdmpEkHElByZEFH9gROUJZFPTrnsFEUF68Jzujckv4B9Wog', 'https://play-lh.googleusercontent.com/Pv0zdftpd2s8c4cdFZQa3L-SDQFRVrwOlVUAJtprUc575sDka6TwP6xwnTV3kM_E29vUR7mrgiSSrnqFobkvzg', 'https://play-lh.googleusercontent.com/hOCze6V9PdNqZrnrZRysBTffZqlsU1ftNjD3TIkqfEE7dDWLhs-dDWzJN9mmG4eA4UNrg0mVLR_Q9RgH_Ah9IQ', 'https://play-lh.googleusercontent.com/wrrla-D7Tqt2YCcNWFDMuxN62Sa0qRux0f06pCAM4vBn2JzKnzWmG38iUtPI_58LKub7m69247Y11ajpPkmuZA', 'https://play-lh.googleusercontent.com/zTqkO0RUdofVauapATxLIfDjEcpemJ4KNMfI6CYpcgk_yhi2wyq5NHRQ7s45ZyCAEOPYDieWYAXbg10oYRzhnA', 'https://play-lh.googleusercontent.com/rym2WI5N8C6hmVhN2cgkUsOfyJ_g94uWfakQ6SYcKSXXm4E48ZCDFuyW1iKbb8qyS0L90M7Xf-u1Np64v5MJ-Q', 'https://play-lh.googleusercontent.com/hrVrsLjMpeQvprSNsmFiskpRFUDInuCvpyX45JZ6ug-gDIOctzU6-EyIKcEfL_LTGN4UrSyMKQtcyGRVa6BH', 'https://play-lh.googleusercontent.com/kHFRiah8ZOOuD5Fmqb59cw7UiYUzXEasYqNY_BnNppI6_No51QeMN-tcxwtZQ2EIzQNhkP5vnk84JIMIVvWk', 'https://play-lh.googleusercontent.com/PQtw9VLMque6ESJq-JZhn5szyYY_lLfTuqJfNshCMdmpEkHElByZEFH9gROUJZFPTrnsFEUF68Jzujckv4B9Wog', 'https://play-lh.googleusercontent.com/Pv0zdftpd2s8c4cdFZQa3L-SDQFRVrwOlVUAJtprUc575sDka6TwP6xwnTV3kM_E29vUR7mrgiSSrnqFobkvzg', 'https://play-lh.googleusercontent.com/hOCze6V9PdNqZrnrZRysBTffZqlsU1ftNjD3TIkqfEE7dDWLhs-dDWzJN9mmG4eA4UNrg0mVLR_Q9RgH_Ah9IQ', 'https://play-lh.googleusercontent.com/wrrla-D7Tqt2YCcNWFDMuxN62Sa0qRux0f06pCAM4vBn2JzKnzWmG38iUtPI_58LKub7m69247Y11ajpPkmuZA', 'https://play-lh.googleusercontent.com/zTqkO0RUdofVauapATxLIfDjEcpemJ4KNMfI6CYpcgk_yhi2wyq5NHRQ7s45ZyCAEOPYDieWYAXbg10oYRzhnA', 'https://play-lh.googleusercontent.com/rym2WI5N8C6hmVhN2cgkUsOfyJ_g94uWfakQ6SYcKSXXm4E48ZCDFuyW1iKbb8qyS0L90M7Xf-u1Np64v5MJ-Q', 'https://play-lh.googleusercontent.com/hrVrsLjMpeQvprSNsmFiskpRFUDInuCvpyX45JZ6ug-gDIOctzU6-EyIKcEfL_LTGN4UrSyMKQtcyGRVa6BH', 'https://play-lh.googleusercontent.com/kHFRiah8ZOOuD5Fmqb59cw7UiYUzXEasYqNY_BnNppI6_No51QeMN-tcxwtZQ2EIzQNhkP5vnk84JIMIVvWk', 'https://play-lh.googleusercontent.com/PQtw9VLMque6ESJq-JZhn5szyYY_lLfTuqJfNshCMdmpEkHElByZEFH9gROUJZFPTrnsFEUF68Jzujckv4B9Wog', 'https://play-lh.googleusercontent.com/Pv0zdftpd2s8c4cdFZQa3L-SDQFRVrwOlVUAJtprUc575sDka6TwP6xwnTV3kM_E29vUR7mrgiSSrnqFobkvzg', 'https://play-lh.googleusercontent.com/hOCze6V9PdNqZrnrZRysBTffZqlsU1ftNjD3TIkqfEE7dDWLhs-dDWzJN9mmG4eA4UNrg0mVLR_Q9RgH_Ah9IQ']","","","0","True","","","Finanças","","","","","A FORMA MAIS SIMPLES DE COMPRAR, VENDER E VIVER COM BITCOIN
+
+A Bipa é a conta digital que te conecta ao Bitcoin e Dólar digital de forma simples, rápida e acessível. Compre, venda e use Bitcoin e USDT no dia a dia sem burocracia e sem complicação.
+
+Com poucos cliques, você pode comprar Bitcoin e USDT a partir de R$ 1, programar compras recorrentes sem taxas, operar com preço-alvo e até receber Pix diretamente convertido em cripto. Além disso, você conta com um cartão gratuito que permite pagar suas compras e ganhar cashback em Bitcoin.
+
+CONTA PJ PARA EMPRESAS INOVADORAS
+
+Diversifique o caixa da sua empresa com Bitcoin e USDT. Receba pagamentos internacionais instantâneos, proteja seu patrimônio da inflação e transforme sua empresa em uma Bitcoin Treasury. Ideal para empresas que querem modernizar suas finanças.
+
+Descubra um novo jeito de ter liberdade financeira com criptomoedas através da Bipa.
+
+COMPRE BITCOIN E USDT DE FORMA SIMPLES E ACESSÍVEL
+Seja para investir ou usar no dia a dia, usar a Bipa é rápido e fácil:
+
+- COMPRE A PARTIR DE R$ 1: Deposite via Pix e compre Bitcoin e USDT de forma acessível, sem burocracia.
+- TAXA ZERO PARA COMPRAS RECORRENTES: Configure compras automáticas e acumule cripto sem pagar taxa.*
+- COMPRE E VENDA BITCOIN COM PREÇO-ALVO: Defina o valor desejado e deixe que a Bipa execute automaticamente.
+- RESERVA DE VALOR INTELIGENTE: Bitcoin é o ativo digital mais sólido e USDT oferece estabilidade atrelada ao dólar. Proteja seu patrimônio de forma simples.
+
+*Taxa zero para compras de hora em hora ou diárias a partir do oitavo dia.
+*Taxa zero para compras semanais ou mensais a partir da segunda compra.
+
+CRIPTOMOEDAS QUE VOCÊ USA NO DIA A DIA
+
+A Bipa não é só uma exchange – é uma plataforma completa para integrar Bitcoin e USDT ao seu cotidiano:
+
+RECEBA PIX EM CRIPTO
+Cadastre sua chave BitPix e receba Pix direto em Bitcoin ou USDT, sem complicação.
+
+CONTA DIGITAL COMPLETA
+Pague contas, envie e receba transferências, e gerencie reais, Bitcoin e USDT em um só lugar.
+
+SAQUES GRATUITOS, CONTROLE TOTAL
+Transfira seu Bitcoin para qualquer carteira — sem taxas, on-chain ou pela Lightning Network.
+
+ENVIE E RECEBA USDT COM TAXAS BAIXAS
+Use redes como Ethereum ou Polygon para mover USDT com eficiência.
+
+CARTÃO BIPA: PAGUE E GANHE BITCOIN
+
+Com o Cartão Bipa, pague no crédito e acumule Bitcoin em todas as compras:
+
+- CRIPTO COMO GARANTIA: Use BTC ou USDT como garantia para aumentar seu limite sem vender seus ativos.
+- SATSBACK®: Ganhe 0,5% de cashback em Bitcoin em todas as compras.
+- BIPA TURBO: Assinantes ganham 1% de Satsback® e limite de até R$ 160.000!
+
+SEGURANÇA E SUPORTE DEDICADOS
+
+Na Bipa, sua segurança e experiência são prioridade absoluta.","A FORMA MAIS SIMPLES DE COMPRAR, VENDER E VIVER COM BITCOIN<br><br>A Bipa é a conta digital que te conecta ao Bitcoin e Dólar digital de forma simples, rápida e acessível. Compre, venda e use Bitcoin e USDT no dia a dia sem burocracia e sem complicação.<br><br>Com poucos cliques, você pode comprar Bitcoin e USDT a partir de R$ 1, programar compras recorrentes sem taxas, operar com preço-alvo e até receber Pix diretamente convertido em cripto. Além disso, você conta com um cartão gratuito que permite pagar suas compras e ganhar cashback em Bitcoin.<br><br>CONTA PJ PARA EMPRESAS INOVADORAS<br><br>Diversifique o caixa da sua empresa com Bitcoin e USDT. Receba pagamentos internacionais instantâneos, proteja seu patrimônio da inflação e transforme sua empresa em uma Bitcoin Treasury. Ideal para empresas que querem modernizar suas finanças.<br><br>Descubra um novo jeito de ter liberdade financeira com criptomoedas através da Bipa.<br><br>COMPRE BITCOIN E USDT DE FORMA SIMPLES E ACESSÍVEL<br>Seja para investir ou usar no dia a dia, usar a Bipa é rápido e fácil:<br><br>- COMPRE A PARTIR DE R$ 1: Deposite via Pix e compre Bitcoin e USDT de forma acessível, sem burocracia.<br>- TAXA ZERO PARA COMPRAS RECORRENTES: Configure compras automáticas e acumule cripto sem pagar taxa.*<br>- COMPRE E VENDA BITCOIN COM PREÇO-ALVO: Defina o valor desejado e deixe que a Bipa execute automaticamente.<br>- RESERVA DE VALOR INTELIGENTE: Bitcoin é o ativo digital mais sólido e USDT oferece estabilidade atrelada ao dólar. Proteja seu patrimônio de forma simples.<br><br>*Taxa zero para compras de hora em hora ou diárias a partir do oitavo dia.<br>*Taxa zero para compras semanais ou mensais a partir da segunda compra.<br><br>CRIPTOMOEDAS QUE VOCÊ USA NO DIA A DIA<br><br>A Bipa não é só uma exchange – é uma plataforma completa para integrar Bitcoin e USDT ao seu cotidiano:<br><br>RECEBA PIX EM CRIPTO<br>Cadastre sua chave BitPix e receba Pix direto em Bitcoin ou USDT, sem complicação.<br><br>CONTA DIGITAL COMPLETA<br>Pague contas, envie e receba transferências, e gerencie reais, Bitcoin e USDT em um só lugar.<br><br>SAQUES GRATUITOS, CONTROLE TOTAL<br>Transfira seu Bitcoin para qualquer carteira — sem taxas, on-chain ou pela Lightning Network.<br><br>ENVIE E RECEBA USDT COM TAXAS BAIXAS<br>Use redes como Ethereum ou Polygon para mover USDT com eficiência.<br><br>CARTÃO BIPA: PAGUE E GANHE BITCOIN<br><br>Com o Cartão Bipa, pague no crédito e acumule Bitcoin em todas as compras:<br><br>- CRIPTO COMO GARANTIA: Use BTC ou USDT como garantia para aumentar seu limite sem vender seus ativos.<br>- SATSBACK®: Ganhe 0,5% de cashback em Bitcoin em todas as compras.<br>- BIPA TURBO: Assinantes ganham 1% de Satsback® e limite de até R$ 160.000!<br><br>SEGURANÇA E SUPORTE DEDICADOS<br><br>Na Bipa, sua segurança e experiência são prioridade absoluta.","","","","","0","0","4.7164516","","","","","","{}","False","False","","[]",""
+"BitPay - Compre Cripto","BitPay, Inc.","3.4","0","0","1.000.000+","com.bitpay.wallet","","https://play-lh.googleusercontent.com/XrsJr63mKSp3_MJZKFwBlJuJ3ffKy0Zbc9_N8QiQYs5n56Zr_ASj_emoPZJt48mS7Q","","['https://play-lh.googleusercontent.com/XPXNlaGQkVWQ8rFVGiw315_7O571VxXCn4jKRquyRO1RNK6rXvV590Uf5SRhorEHaKM', 'https://play-lh.googleusercontent.com/d886H_3q9jJbF_VwxkIJCzkwLLL5xV9gap1-oW1n-Oatd1vD5PcbEjTXNLypx0xx1Y0o', 'https://play-lh.googleusercontent.com/j3iLN7iy75vgVhLjKtxQoTwWFBqCKD-XhkhSW-_qbVg9-8IH587h74_vrV3Bk1xl0BQ', 'https://play-lh.googleusercontent.com/L4F-9HyM2M-jcNuqjNFw-qWl9CZ1LfYzQNjNwkx3xAtxOy1WKFJiEVpg6Sr-sb3Ciw', 'https://play-lh.googleusercontent.com/5H-eeKDC0fHwGP79ehExE-Uo2qj6Pk0GIYGBIyGh-67U31gFHCeCmVKRL13UWpbkgMA', 'https://play-lh.googleusercontent.com/trrhbcNHki_tYtCzw4qUGRfjt3j8gUoT1S-Ww75MhiTFVY1Pvd1bFwK-N7wNJu6LULk', 'https://play-lh.googleusercontent.com/yiPsJY9lc_7sPIxhLBohv4OmBIAncc2iSN3R7JxnFGhhyTQKTEIIr5OmiXO_LqVcFwXt', 'https://play-lh.googleusercontent.com/IIl-YTaRBrsFrEXz77uRUUBXadVPVM5nF8JUSZJP-wkrNF7ektLpcNqBoBsiyLWvhva-', 'https://play-lh.googleusercontent.com/yIpQmttIqnukK-wMLqMdZzwY29_urer1ryFl9XTHepnbTkRWcePgXOEsqqJwiEaA0fs', 'https://play-lh.googleusercontent.com/9PoZYXvvqTRDgm-eScXQcJox3h7Ic3YJx5Nhz1li8HzX2Q60UvO3fEICr5FRy6dVQg', 'https://play-lh.googleusercontent.com/rGCoEe2AUz_49CqNB1Mo91Cbl9qFKPFWNhufkPdDj6DdTN_ppNej_VoBJHV36yM0mQwj', 'https://play-lh.googleusercontent.com/xgP2bVFPrfpAzKXOv_4fVmExBtQJe_frS1hOJan5xoRrclsLx-3VqQue8aFLp1phzQ', 'https://play-lh.googleusercontent.com/0m0mWYnkcswhWAikNr-dvcjQ6InSnjRLS1g1XVdWSMIAQnWi8D2FMD3xstdsrPZ_fw', 'https://play-lh.googleusercontent.com/kfF7XqGU0m3SnQzLfMMwBWZGchBJuTr1pZ3zcboqphiTTGnWaqkyOBIIDcHcQzMF3Ms', 'https://play-lh.googleusercontent.com/xkBqvbrXJxFQ1Wy7E-aohJMNq-yI1ctE6dY2KFLwmF1u6CcE4QJF5CGDW8VnBpf16Q_5', 'https://play-lh.googleusercontent.com/WMm2VpLEZV4o_GDoinFWvHFJDNxnbEbUzW1jZDFzHsqg_TzpfymCumPilP6Wi9ctvt4', 'https://play-lh.googleusercontent.com/Gjrxk3X8OHIChnOgEf1jWWLh0dY7mFURcummzfBWHw8mHq_uasvul6YPkLZ3BMBAqEE', 'https://play-lh.googleusercontent.com/ISethEpzcJ1CAs6Lor7DBwnxqYBO-_V0rC_7KyxiMrRpCZLx9j_veK2ulGDAi6tiLw', 'https://play-lh.googleusercontent.com/1BojtKTM--DzOGKYgtidJRj22R3JVhWFXht9-NWF1Cwbi00gTwljb87qjaq324T0BA', 'https://play-lh.googleusercontent.com/ZyKnIR-0AFSzwDxfMW9DgBHXdkQDfB7wQO2lAkywRXXn5ezWstZpifibvVlMwbB_X7M', 'https://play-lh.googleusercontent.com/0k037tMnmGdOVDeO73V8LGxtNVN5TcNNtJ02-1tYTKjyLz8iRa76ojl8agyAiqImcg', 'https://play-lh.googleusercontent.com/rMuc8aH_fyi5_eHe8mY6_owtpU8odlgmqTifXsB9JDZ_-2MWhdGOt50mkuaQaC58ccg', 'https://play-lh.googleusercontent.com/slYuK4zpmcpqTo84ceEQVdLzX9lmjP3vKVhbbJYz0w_gIGBqZt9Lby1LIs8K_SKKVtk', 'https://play-lh.googleusercontent.com/nb3UM60PFl_ZvjqO30Gbw9HZDrE13WgKelcSsCUiG6FfaNk79b-b0qVHsqhv4lDJdw', 'https://play-lh.googleusercontent.com/jldo9GvYGqSrv_lCdVLLs45WwWrQ3-zZ3R7BI8JKgrfZECeqoDQY4TvyrBJ_JyXmptTV']","","","0","True","","","Finanças","","","","","Inscreva-se para obter um cartão BitPay e comece a gastar seus criptos instantaneamente. A aprovação leva apenas alguns segundos e o cartão virtual fica disponível para uso online imediatamente. Seu cartão físico chegará em algumas semanas e você poderá converter suas criptos em dinheiro no caixa eletrônico ou gastá-las em qualquer loja de varejo.  **Apenas nos EUA**
+
+Gerencie sua cripto e bitcoin em um aplicativo com a segurança e o código aberto da BitPay Wallet. Armazene e envie fundos, ou compre vales-presente em mais de 90 grandes marcas. **Apenas nos EUA**
+
+Com a BitPay Wallet, você controla suas chaves privadas e o dinheiro, além de usar um código 100% aberto para testes e auditorias da comunidade.
+Os seguintes recursos são integrados a esta versão do aplicativo BitPay:
+
+- Compra de vale-presente de grandes marcas em tempo real, incluindo Amazon.com
+- Suporte para Bitcoin, Bitcoin Cash, Ethereum e XRP
+- Suporte para tokens de stablecoin ERC-20 incluindo USD Coin (USDC), Paxos Standard (PAX), Gemini Dollar (GUSD) e Binance USD (BUSD)
+- Criação e gerenciamento de carteira múltipla no aplicativo (incluindo SegWit)
+- Capacidade de comprar bitcoin e outras criptomoedas
+- Segurança multiassinatura intuitiva para carteiras pessoais ou compartilhadas
+- Segurança baseada em dispositivo: todas as chaves privadas são armazenadas localmente, não em nuvem
+- Geração de endereço determinístico hierárquico (HD) e backups da carteira
+- Suporte ao protocolo de pagamento (BIP70-BIP73): solicitações de pagamento facilmente identificáveis e pagamentos seguros
+- Suporte para mais de 150 opções de preços de moedas e denominação de unidade em BTC ou bits
+- E-mail e notificações push para pagamentos e transferências
+- Fluxo de proposta de gastos simples para carteiras compartilhadas e pagamentos em grupo
+- Suporte para carteiras testnet
+- Nome e pedido de carteiras personalizáveis
+- Suporta múltiplos idiomas, incluindo francês, alemão, chinês (simplificado) e espanhol
+
+O aplicativo BitPay é um software gratuito e de código aberto. Você também pode visualizar o código no GitHub em https://github.com/bitpay/copay.
+
+Divulgação do cartão BitPay
+AO USAR ESTE CARTÃO, VOCÊ CONCORDA COM OS TERMOS E CONDIÇÕES DO CONTRATO DO PORTADOR DO CARTÃO E A TABELA DE TAXAS, SE HOUVER. Este cartão é emitido pelo Metropolitan Commercial Bank (Membro FDIC) de acordo com uma licença da Mastercard International. A ""Metropolitan Commercial Bank"" e ""Metropolitan"" são marcas registradas do Metropolitan Commercial Bank © 2014. A Mastercard é uma marca registrada e o desenho dos círculos é uma marca comercial da Mastercard International Incorporated.","Inscreva-se para obter um cartão BitPay e comece a gastar seus criptos instantaneamente. A aprovação leva apenas alguns segundos e o cartão virtual fica disponível para uso online imediatamente. Seu cartão físico chegará em algumas semanas e você poderá converter suas criptos em dinheiro no caixa eletrônico ou gastá-las em qualquer loja de varejo.  **Apenas nos EUA**<br><br>Gerencie sua cripto e bitcoin em um aplicativo com a segurança e o código aberto da BitPay Wallet. Armazene e envie fundos, ou compre vales-presente em mais de 90 grandes marcas. **Apenas nos EUA**<br><br>Com a BitPay Wallet, você controla suas chaves privadas e o dinheiro, além de usar um código 100% aberto para testes e auditorias da comunidade.<br>Os seguintes recursos são integrados a esta versão do aplicativo BitPay:<br><br>- Compra de vale-presente de grandes marcas em tempo real, incluindo Amazon.com<br>- Suporte para Bitcoin, Bitcoin Cash, Ethereum e XRP<br>- Suporte para tokens de stablecoin ERC-20 incluindo USD Coin (USDC), Paxos Standard (PAX), Gemini Dollar (GUSD) e Binance USD (BUSD)<br>- Criação e gerenciamento de carteira múltipla no aplicativo (incluindo SegWit)<br>- Capacidade de comprar bitcoin e outras criptomoedas<br>- Segurança multiassinatura intuitiva para carteiras pessoais ou compartilhadas<br>- Segurança baseada em dispositivo: todas as chaves privadas são armazenadas localmente, não em nuvem<br>- Geração de endereço determinístico hierárquico (HD) e backups da carteira<br>- Suporte ao protocolo de pagamento (BIP70-BIP73): solicitações de pagamento facilmente identificáveis e pagamentos seguros<br>- Suporte para mais de 150 opções de preços de moedas e denominação de unidade em BTC ou bits<br>- E-mail e notificações push para pagamentos e transferências<br>- Fluxo de proposta de gastos simples para carteiras compartilhadas e pagamentos em grupo<br>- Suporte para carteiras testnet<br>- Nome e pedido de carteiras personalizáveis<br>- Suporta múltiplos idiomas, incluindo francês, alemão, chinês (simplificado) e espanhol<br><br>O aplicativo BitPay é um software gratuito e de código aberto. Você também pode visualizar o código no GitHub em https://github.com/bitpay/copay.<br><br>Divulgação do cartão BitPay<br>AO USAR ESTE CARTÃO, VOCÊ CONCORDA COM OS TERMOS E CONDIÇÕES DO CONTRATO DO PORTADOR DO CARTÃO E A TABELA DE TAXAS, SE HOUVER. Este cartão é emitido pelo Metropolitan Commercial Bank (Membro FDIC) de acordo com uma licença da Mastercard International. A &quot;Metropolitan Commercial Bank&quot; e &quot;Metropolitan&quot; são marcas registradas do Metropolitan Commercial Bank © 2014. A Mastercard é uma marca registrada e o desenho dos círculos é uma marca comercial da Mastercard International Incorporated.","","","","","0","0","3.43","","","","","","{}","False","False","","[]",""
+"MoonPay: Buy Crypto & Bitcoin","MoonPay","3.8","0","0","1.000.000+","com.moonpay","","https://play-lh.googleusercontent.com/rEFQIX3rsjR2uLGO19-eyWN7k9PlS8cMii9qA715aAcm2binItPbRcz7UOWzILB0zJI","","['https://play-lh.googleusercontent.com/3-XXDZxDGIHkPIEFJDL4R5zzoo9yIOl-dHMmOvLjGpxEEbdG5r1QMR6hNnnkFA6ZsIc', 'https://play-lh.googleusercontent.com/ghIEqDDp5wGc27EVixIieM1wxdFcHrgBxjvEt4bPgclJfIg2x-3X7RfPDqzcPtUXlvs', 'https://play-lh.googleusercontent.com/lqWaCw3vK6PD2x3y-CmWkMwNAozZNBYtc6HtRJfbe3XTKHwdbqoQAxrYQ0CaPcuOCbYR', 'https://play-lh.googleusercontent.com/lJj5YmQm5VWMp6ddW1FqD90EcxF8NP2Di5Upmekld8wk1lsGiBGjs9DQxz7W9fAWldw', 'https://play-lh.googleusercontent.com/DW2p5lrLBC7BQrVnJooDoJVEPC-lym8DhceRf2DnwA7Jk1y5pmt54l7aTNkTLu7Y2A4', 'https://play-lh.googleusercontent.com/yjam8lPbI7akdv2S1LL1gGRir6ooJbuvj8dPkIz9tGvqRa5v8chb86KTmKQEW5P7sds', 'https://play-lh.googleusercontent.com/Gg_xCYnfdPfBuCTDcfm1R4NJXRwGTOJQzfVqdiJEzQEMdCJzSyaDdtGtybJN63UxWlQp', 'https://play-lh.googleusercontent.com/mBw_CaMaCxNZOvBpHS9aw2K7CyGVx2txQnM9h4XQyHK7sUH6XOWKWjuZl8sI0_MhSxcj7X7X3su8dtJkasF5Kks']","","","0","True","","","Finanças","","","","","Trusted by millions worldwide, MoonPay allows you to easily buy, sell and swap crypto including BTC, SOL, ETH, XRP, and 170+ more coins using Google Pay.
+
+BUY AND SELL CRYPTO WITH EASE
+- Set up recurring purchases to grow your portfolio automatically, like buying Bitcoin monthly 
+- Use MoonPay Balance for zero-fee transactions and go from USD to crypto in seconds
+- Swap across more than 2,000 crypto pairs like Bitcoin, Solana and Ethereum
+- Access 24/7 global support via chat, email, or phone (US only)
+
+UNIFIED CRYPTO WALLET
+- Manage all your crypto wallets in one place, like your Bitcoin from Coinbase, Solana from Phantom wallet, and Ethereum from Metamask
+- View detailed MoonPay purchase history
+
+BUY CRYPTO WITH MULTIPLE PAYMENT OPTIONS
+Buy Bitcoin, Solana, Ethereum, and many more in just a few clicks using:
+- Debit & credit cards (Visa, Mastercard)
+- Mobile wallets (Apple Pay, Google Pay)
+- Venmo, PayPal, bank transfers
+- Local payment methods worldwide
+
+ZERO-FEE SWAPS
+- Swap crypto cross-chain with no processing fees
+- Connect via WalletConnect for seamless access
+- Explore thousands of other popular crypto pairs and swap between BTC, SOL, ETH, XRP, USDT, USDC, BNB, and more.
+
+WHY PEOPLE CHOOSE MOONPAY
+- Trusted by millions of users worldwide managing their Bitcoin and other cryptos in one place
+- Available in 180+ countries, with 170+ cryptocurrencies and meme coins available for purchase and trading 
+- Backed by leading wallets, websites, and apps: MoonPay works with Trust Wallet, Ledger, Metamask, and Solana wallets like Phantom.
+- Built with strong encryption and privacy protection
+
+GET STARTED IN MINUTES
+1. Download the MoonPay app
+2. Select your cryptocurrency and amount, you can buy Bitcoin, Solana, Ethereum and more coins for as little as $20
+3. Enter your compatible crypto wallet address (works with 40+ blockchains, like Ethereum, Solana, Base, Binance Smart Chain, and Bitcoin).
+4. Complete your purchase in a few clicks and start growing your crypto portfolio
+
+For more info, safety tips, and guides on how to get started with crypto using the MoonPay app, visit: https://support.moonpay.com/","Trusted by millions worldwide, MoonPay allows you to easily buy, sell and swap crypto including BTC, SOL, ETH, XRP, and 170+ more coins using Google Pay.<br><br>BUY AND SELL CRYPTO WITH EASE<br>- Set up recurring purchases to grow your portfolio automatically, like buying Bitcoin monthly <br>- Use MoonPay Balance for zero-fee transactions and go from USD to crypto in seconds<br>- Swap across more than 2,000 crypto pairs like Bitcoin, Solana and Ethereum<br>- Access 24/7 global support via chat, email, or phone (US only)<br><br>UNIFIED CRYPTO WALLET<br>- Manage all your crypto wallets in one place, like your Bitcoin from Coinbase, Solana from Phantom wallet, and Ethereum from Metamask<br>- View detailed MoonPay purchase history<br><br>BUY CRYPTO WITH MULTIPLE PAYMENT OPTIONS<br>Buy Bitcoin, Solana, Ethereum, and many more in just a few clicks using:<br>- Debit &amp; credit cards (Visa, Mastercard)<br>- Mobile wallets (Apple Pay, Google Pay)<br>- Venmo, PayPal, bank transfers<br>- Local payment methods worldwide<br><br>ZERO-FEE SWAPS<br>- Swap crypto cross-chain with no processing fees<br>- Connect via WalletConnect for seamless access<br>- Explore thousands of other popular crypto pairs and swap between BTC, SOL, ETH, XRP, USDT, USDC, BNB, and more.<br><br>WHY PEOPLE CHOOSE MOONPAY<br>- Trusted by millions of users worldwide managing their Bitcoin and other cryptos in one place<br>- Available in 180+ countries, with 170+ cryptocurrencies and meme coins available for purchase and trading <br>- Backed by leading wallets, websites, and apps: MoonPay works with Trust Wallet, Ledger, Metamask, and Solana wallets like Phantom.<br>- Built with strong encryption and privacy protection<br><br>GET STARTED IN MINUTES<br>1. Download the MoonPay app<br>2. Select your cryptocurrency and amount, you can buy Bitcoin, Solana, Ethereum and more coins for as little as $20<br>3. Enter your compatible crypto wallet address (works with 40+ blockchains, like Ethereum, Solana, Base, Binance Smart Chain, and Bitcoin).<br>4. Complete your purchase in a few clicks and start growing your crypto portfolio<br><br>For more info, safety tips, and guides on how to get started with crypto using the MoonPay app, visit: https://support.moonpay.com/","","","","","0","0","3.7524753","","","","","","{}","False","False","","[]",""
+"Coinbase: Bitcoin & Ethereum","Coinbase Inc","4.6","0","0","50.000.000+","com.coinbase.android","","https://play-lh.googleusercontent.com/PjoJoG27miSglVBXoXrxBSLveV6e3EeBPpNY55aiUUBM9Q1RCETKCOqdOkX2ZydqVf0","","['https://play-lh.googleusercontent.com/YLufhIWV2OVrk7ZH1EqzXsnpvWh-YC2SfqQ-ss-TLQyvGGyb9qSiIGV-tZThgujtEw', 'https://play-lh.googleusercontent.com/QKy2TrOfde1TzXfgzGIrgIhcxxKSXeTE-j75p132jDkkh3e98NSX2qRBMxusWoNu5A', 'https://play-lh.googleusercontent.com/RIH9-meMhJqs0be7Ip-hz_PHZZZ0_e8MiwIBdTQamdMNrmLrrQRDs3rFWD_q6yG_Tg', 'https://play-lh.googleusercontent.com/lVOX5H4hH2dtVDGM-T4_TM_5GStytv6YUV_B87_irI34xD57-TSz3wZ_cQsSz4IwLP3R', 'https://play-lh.googleusercontent.com/WClVNTJPiiw_zvZUvJxaMnYi49VQGjlx_0CvOocpWuOSEsf1UNd4bV0eN2YaVEhKnvk', 'https://play-lh.googleusercontent.com/ugRq542uFxP0KMrAZCvGPOqtInC4rplMfNeCDkwBa09-u1ZaxI1v-W7LhoYLtlKdwuX5', 'https://play-lh.googleusercontent.com/en2GK3lyzFXplv-rMvd5E5cIhBUQXWNU5nN3GfwFcaJmghHTbFYEPAVE9meLceBq338']","","","0","True","","","Finanças","","","","","A Coinbase é a maior exchange dos Estados Unidos, e a única listada na NASDAQ (Bolsa de Nova York). Como a única empresa de cripto parte do S&P 500, estamos moldando o futuro do dinheiro com mais segurança. Compre, venda e faça trade de Bitcoin, USDC, Ethereum e mais de 260 moedas com uma interface simples. 
+
+Ativos suportados
+Bitcoin (BTC), Ethereum (ETH), XRP (XRP), USD Coin (USDC)¹, Cardano (ADA), Polygon (MATIC), Polkadot (DOT), Solana (SOL), Tether (USDT), Dai (DAI), VeThor Token (VTHO), Pepe (PEPE), SHIBA INU (SHIB), Dogecoin (DOGE), e mais de 250 outros ativos.
+
+O que a Coinbase oferece:
+
+COMPRE, VENDA E GERENCIE CRIPTO COM MAIS SEGURANÇA
+- Compre cripto a partir de R$10, via Pix, em segundos.
+- Envie e receba cripto de forma segura e sem complicações.
+- Faça staking de cripto e ganhe rendimentos com criptos como Ethereum e Solana¹
+- Ganhe recompensas com stablecoins como USDC²
+- Configure compras automáticas ou recorrentes com facilidade.
+- Transfira cripto internacionalmente sem obstáculos.
+- Indique amigos e ganhe recompensas em cripto.
+- Coinbase One: Negociação com taxa zero, recompensas de staking e USDC aumentadas, suporte prioritário e muito mais.³
+
+MODO AVANÇADO PARA TRADERS, SEM CUSTO
+- Gráficos avançados do TradingView.
+- Negociação de Spot e futuros, com pool de Liquidez em 552 mercados.
+- Saldo em USDC, com rendimentos diários em dólar.
+- Indicadores técnicos e listas de observação personalizadas.
+- Taxas mais competitivas baseadas em volume.
+
+EXCHANGE DE CRIPTO SEGURA E REGULADA
+- A Coinbase é a única exchange de cripto de capital aberto com sede nos EUA (NASDAQ: COIN).
+- Única empresa cripto parte do S&P 500.
+- Todos os ativos dos clientes são mantidos 1:1, e nunca negociamos contra nossos clientes nem alavancamos seus fundos sem consentimento.
+- Nossas finanças são públicas e auditadas trimestralmente por uma das 4 maiores empresas de contabilidade.
+- Segurança e criptografia de ponta são o núcleo da nossa plataforma, e nossa equipe de segurança trabalha continuamente para garantir que você e seus ativos estejam protegidos contra novas ameaças.
+- Oferecemos recursos de segurança poderosos para todos os nossos usuários, como autenticação de dois fatores automática (com suporte para chave de segurança), proteção com senha e retiradas com múltiplas aprovações no Coinbase Vault.
+
+
+PRECISA DE MAIS AJUDA?
+Visite help.coinbase.com para obter informações e entrar em contato com o Suporte da Coinbase.
+
+PRIVACIDADE
+Consulte a política de privacidade legal da Coinbase em https://www.coinbase.com/legal/privacy.
+
+—
+Coinbase Brasil LTDA
+Alameda Santos 2300 Conj 11 Parte
+Cerqueira Cesar
+São Paulo SP
+01418-200
+—
+¹ Disponível em territórios selecionados.
+² Ao adquirir USDC, você será inscrito automaticamente para receber recompensas. Você pode cancelar a inscrição a qualquer momento. A taxa de recompensas está sujeita a alterações. Os clientes poderão ver as últimas taxas aplicáveis diretamente em suas contas.
+³ A assinatura do Coinbase One é renovada automaticamente e exige pagamentos recorrentes. Os benefícios variam conforme a região. Negociação com taxa zero: Coinbase Advanced excluído; aplica-se um spread.
+
+Você ganha recompensas diretamente do protocolo, não da Coinbase. A Coinbase funciona apenas como prestadora de serviços, realizando a conexão entre você, os validadores e o protocolo. Repassamos quaisquer recompensas obtidas com staking, descontando uma tarifa Coinbase transparente.","A Coinbase é a maior exchange dos Estados Unidos, e a única listada na NASDAQ (Bolsa de Nova York). Como a única empresa de cripto parte do S&amp;P 500, estamos moldando o futuro do dinheiro com mais segurança. Compre, venda e faça trade de Bitcoin, USDC, Ethereum e mais de 260 moedas com uma interface simples. <br><br>Ativos suportados<br>Bitcoin (BTC), Ethereum (ETH), XRP (XRP), USD Coin (USDC)¹, Cardano (ADA), Polygon (MATIC), Polkadot (DOT), Solana (SOL), Tether (USDT), Dai (DAI), VeThor Token (VTHO), Pepe (PEPE), SHIBA INU (SHIB), Dogecoin (DOGE), e mais de 250 outros ativos.<br><br>O que a Coinbase oferece:<br><br>COMPRE, VENDA E GERENCIE CRIPTO COM MAIS SEGURANÇA<br>- Compre cripto a partir de R$10, via Pix, em segundos.<br>- Envie e receba cripto de forma segura e sem complicações.<br>- Faça staking de cripto e ganhe rendimentos com criptos como Ethereum e Solana¹<br>- Ganhe recompensas com stablecoins como USDC²<br>- Configure compras automáticas ou recorrentes com facilidade.<br>- Transfira cripto internacionalmente sem obstáculos.<br>- Indique amigos e ganhe recompensas em cripto.<br>- Coinbase One: Negociação com taxa zero, recompensas de staking e USDC aumentadas, suporte prioritário e muito mais.³<br><br>MODO AVANÇADO PARA TRADERS, SEM CUSTO<br>- Gráficos avançados do TradingView.<br>- Negociação de Spot e futuros, com pool de Liquidez em 552 mercados.<br>- Saldo em USDC, com rendimentos diários em dólar.<br>- Indicadores técnicos e listas de observação personalizadas.<br>- Taxas mais competitivas baseadas em volume.<br><br>EXCHANGE DE CRIPTO SEGURA E REGULADA<br>- A Coinbase é a única exchange de cripto de capital aberto com sede nos EUA (NASDAQ: COIN).<br>- Única empresa cripto parte do S&amp;P 500.<br>- Todos os ativos dos clientes são mantidos 1:1, e nunca negociamos contra nossos clientes nem alavancamos seus fundos sem consentimento.<br>- Nossas finanças são públicas e auditadas trimestralmente por uma das 4 maiores empresas de contabilidade.<br>- Segurança e criptografia de ponta são o núcleo da nossa plataforma, e nossa equipe de segurança trabalha continuamente para garantir que você e seus ativos estejam protegidos contra novas ameaças.<br>- Oferecemos recursos de segurança poderosos para todos os nossos usuários, como autenticação de dois fatores automática (com suporte para chave de segurança), proteção com senha e retiradas com múltiplas aprovações no Coinbase Vault.<br><br><br>PRECISA DE MAIS AJUDA?<br>Visite help.coinbase.com para obter informações e entrar em contato com o Suporte da Coinbase.<br><br>PRIVACIDADE<br>Consulte a política de privacidade legal da Coinbase em https://www.coinbase.com/legal/privacy.<br><br>—<br>Coinbase Brasil LTDA<br>Alameda Santos 2300 Conj 11 Parte<br>Cerqueira Cesar<br>São Paulo SP<br>01418-200<br>—<br>¹ Disponível em territórios selecionados.<br>² Ao adquirir USDC, você será inscrito automaticamente para receber recompensas. Você pode cancelar a inscrição a qualquer momento. A taxa de recompensas está sujeita a alterações. Os clientes poderão ver as últimas taxas aplicáveis diretamente em suas contas.<br>³ A assinatura do Coinbase One é renovada automaticamente e exige pagamentos recorrentes. Os benefícios variam conforme a região. Negociação com taxa zero: Coinbase Advanced excluído; aplica-se um spread.<br><br>Você ganha recompensas diretamente do protocolo, não da Coinbase. A Coinbase funciona apenas como prestadora de serviços, realizando a conexão entre você, os validadores e o protocolo. Repassamos quaisquer recompensas obtidas com staking, descontando uma tarifa Coinbase transparente.","","","","","0","0","4.637986","","","","","","{}","False","False","","[]",""
+"Bybit: Compre Bitcoin & Cripto","Bybit","4.8","0","0","10.000.000+","com.bybit.app","","https://play-lh.googleusercontent.com/SJxOSA2a2WY2RYQKv99kKCQVVqA5tmgw2VHn_YY0gL4riv7eDDjZ46X5_6Jge-Ur8uo","","['https://play-lh.googleusercontent.com/BqrJBUVxMysOZVCeJVtS2AaarVjSacBCWVZqNiTz7bLhs0kTx4wTbSHkVjLMQ5jwl3E2ScEYf1Y9KO2KLCHmbQ', 'https://play-lh.googleusercontent.com/C1hV3UkbZNvHAQo9BG9dRtAG0bdqqRHJSVnAkm9YOQLzs4eKek602tVo9aJ0Ygx8OzfBxCQrYKa12ToqU2KK9A', 'https://play-lh.googleusercontent.com/GDinIddavizN3NWWLplQLR3_nhFSo34FnLexGIC9n-Y7qYgQO4Rt8LLhCSp8RPrYTwO4nPgHBazjEy78XGzXiA', 'https://play-lh.googleusercontent.com/5Rq66MNJ2M6frarCdUQzNLBx7UbltLMnjnIOCGSaa1Wrn39hfPtrLqxTbuDxQBAI7vJTR-KAGyfQ4DHQVpuUkw', 'https://play-lh.googleusercontent.com/VxB50hhmBXc5Qa6jeOyS0iHE0k3imQkgByvg20ADYmo1UGP2zfglFQ_2RquelSYrF04CD17bh-fi8aMhY2st', 'https://play-lh.googleusercontent.com/ntg1qDi9q1qvmVGeMxAvgHm8lPRKI1neAj1n_TuKN8mkl5pbVwY17yIcztf1_GbDrc0A0baQskDZq6bj5pBlsl0', 'https://play-lh.googleusercontent.com/Z4AyGKy6ehg52TStDowWgY54cWu0iHYP2DDyEOG5nWzCbTgXCXMSBNt_aomA2str2LCpnCC62dLJhbZfA03xRQ', 'https://play-lh.googleusercontent.com/o9IygB0AV00YeiDaZ7QHtdZIZuwq0F8v7S41pOJq92fXLKibDCnKshCw-OP1t_w0VMGEwudmPxVUOPcW0tKRjA', 'https://play-lh.googleusercontent.com/CxALKzuB_cTnM1n2mcksv1kLeo7V892twgIp_CYq6tp97ZFFucvdwQnjYRNaMn8DsjeZ4AXghib__qpvxmMjxEI', 'https://play-lh.googleusercontent.com/auZOYN0sjUJ_G1C0635wxqVcABIq4Mbm5D1RIYJ2CmXq2VtmrlKV504tJ2WuFZFcnjI3X0fZoubFfTMJ5zbWag', 'https://play-lh.googleusercontent.com/J7Ib9mYK9j5ucWNz0L_CFPMmZwR55SAfFO7t-o9_BCAlVMmaMitPAhdN7kXUfR3ruknVmaFprDIFqns9xijb4A', 'https://play-lh.googleusercontent.com/d035QLvXjjDI-7crJWe1GwSkCYfHsb1fngevbtIs4ZbArblFv7mJIPpd3AhMWr-x9YEJK_MGeTsrX2Us81fQ8g', 'https://play-lh.googleusercontent.com/aPgMOfOuL_A82t2kQfZISiew-p8YzB_ds0RvhKNIAtvgZhcVwacYAQsGCPF6nO8khW0CRgqdVLFMdU7DGeqrxTE', 'https://play-lh.googleusercontent.com/AKudFDih1parVaHPDjJgQ2lW1rcI2za5aVR9WsI4f96-firF7xx2SYerkU700BkHEN2RKDWM2Mss_53SWOD_Lko', 'https://play-lh.googleusercontent.com/o9IygB0AV00YeiDaZ7QHtdZIZuwq0F8v7S41pOJq92fXLKibDCnKshCw-OP1t_w0VMGEwudmPxVUOPcW0tKRjA', 'https://play-lh.googleusercontent.com/CxALKzuB_cTnM1n2mcksv1kLeo7V892twgIp_CYq6tp97ZFFucvdwQnjYRNaMn8DsjeZ4AXghib__qpvxmMjxEI', 'https://play-lh.googleusercontent.com/auZOYN0sjUJ_G1C0635wxqVcABIq4Mbm5D1RIYJ2CmXq2VtmrlKV504tJ2WuFZFcnjI3X0fZoubFfTMJ5zbWag', 'https://play-lh.googleusercontent.com/J7Ib9mYK9j5ucWNz0L_CFPMmZwR55SAfFO7t-o9_BCAlVMmaMitPAhdN7kXUfR3ruknVmaFprDIFqns9xijb4A', 'https://play-lh.googleusercontent.com/d035QLvXjjDI-7crJWe1GwSkCYfHsb1fngevbtIs4ZbArblFv7mJIPpd3AhMWr-x9YEJK_MGeTsrX2Us81fQ8g', 'https://play-lh.googleusercontent.com/aPgMOfOuL_A82t2kQfZISiew-p8YzB_ds0RvhKNIAtvgZhcVwacYAQsGCPF6nO8khW0CRgqdVLFMdU7DGeqrxTE', 'https://play-lh.googleusercontent.com/AKudFDih1parVaHPDjJgQ2lW1rcI2za5aVR9WsI4f96-firF7xx2SYerkU700BkHEN2RKDWM2Mss_53SWOD_Lko', 'https://play-lh.googleusercontent.com/VbhZdAJmFCk91K6RcwIwcSjM8w99EyCbNMF681ek0oSKHrVFPYdZrn9y96EwoEIuKZIQEozwWDhQwI7TESdeWl0']","https://www.youtube.com/embed/yjLxNvKF7b8?ps=play&vq=large&rel=0&autohide=1&showinfo=0","https://i.ytimg.com/vi/yjLxNvKF7b8/hqdefault.jpg","0","True","","","Finanças","","","","","Entre no mundo do Bitcoin e das criptomoedas com a Bybit
+
+Junte-se a 78 milhões de usuários e experimente o trading de criptomoedas de forma integrada, segura e confiável. Negocie, gerencie e aumente seu portfólio de Bitcoin (BTC) e criptomoedas hoje mesmo com nossa simples e inovadora plataforma. Seja você um iniciante ou um profissional, ou esteja de olho em Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT) ou outras das principais criptomoedas, estamos aqui para tornar sua experiência de trading simples, segura e confiável.
+
+Trading de Bitcoin e outras criptos simplificado
+Nossa missão é simplificar a compra de criptomoedas populares, como Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Solana (SOL), Cardano (ADA), Chainlink (LINK), Polkadot (DOT), PEPE, Mantle (MNT), Litecoin (LTC), Dogecoin (DOGE) e Hedera (HBAR). Negocie com facilidade pares em Spot e Derivativos com moeda fiat ou criptomoedas, incluindo os contratos BTCUSDT, ETHUSDT e XRPUSDT.
+
+Nossos recursos de trading
+- Trading de Derivativos: Negocie Perpétuos, Futuros e Opções de forma simples com ferramentas avançadas de gerenciamento de risco.
+ - Trading em Spot: Use recursos como Take Profit/Stop Loss (TP/SL) e maximize a eficiência das suas negociações.
+- Negocie de forma fácil: Aproveite as oportunidades do mercado acelerado de Bitcoin (BTC) e de criptomoedas com facilidade.
+- Grandes operações e monitor de posições: Acompanhe grandes negociações de Bitcoin (BTC) e criptomoedas com atualizações em tempo real.
+- Cartão Bybit: Gaste seus Bitcoins (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT), USDT e outras criptomoedas em milhões de estabelecimentos comerciais online e físicos em todo o mundo para ganhar até 10% de cashback em criptomoedas.
+- Bybit Pay: Envie ou gaste Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT) e outras criptomoedas instantaneamente — sem taxas de gás e com liquidação rápida e segura.
+- Bybit Alpha: Acesso facilitado ao mundo do trading on-chain — conectando usuários da Bybit a DeFi, NFTs e dApps por meio de um ecossistema Web3 totalmente integrado.
+- Gerenciamento de ativos da Bybit: Crie seu portfólio com ferramentas como Bybit Investimento e Mineração de liquidez e maximize seus ganhos de Bitcoin (BTC) e outras criptomoedas recém-listadas.
+- Copy Trading Siga traders especializados e aplique as estratégias deles em suas negociações de Bitcoin (BTC) e outras criptomoedas.
+- Mercado NFT da Bybit Compre, venda ou negocie NFTs com facilidade em um mercado em expansão.
+
+Por que escolher a Bybit para suas negociações de Bitcoin e outras criptomoedas?
+
+Trading instantâneo de cripto
+Negocie Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Solana (SOL), Mantle (MNT) PEPE e outras criptomoedas instantaneamente usando cartões de crédito, transferências bancárias ou outros métodos de pagamento.
+
+Experiência otimizada
+Nossa interface de usuário simplificada para trading em Spot e Derivativos torna o trading de Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT) e outras criptomoedas mais fácil do que nunca.
+
+Depósitos e transferências diretas
+Transfira rapidamente as principais criptomoedas, como Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT) e Ripple (XRP), entre várias carteiras com opções completas de personalização.
+
+Diversificação de portfólio
+Negocie Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Solana (SOL), Mantle (MNT), PEPE e outras criptomoedas nos mercados Spot ou de Derivativos, com ofertas de tokens alavancados, empréstimos de cripto e trading de margem.
+
+Nossos canais oficiais
+Central de Anúncios Bybit: https://announcements.bybit.com/pt-BR
+Bybit Blog: https://blog.bybit.com/pt-BR
+Bybit Learn: https://learn.bybit.com Central de Ajuda Bybit: https://www.bybit.com/pt-BR/help-center
+
+Faça parte da nossa comunidade
+X: https://twitter.com/Bybit_Official 
+Facebook: https://www.facebook.com/Bybit/ 
+Instagram: https://www.instagram.com/bybit_official/ 
+Telegram: https://t.me/BybitEnglish","Entre no mundo do Bitcoin e das criptomoedas com a Bybit<br><br>Junte-se a 78 milhões de usuários e experimente o trading de criptomoedas de forma integrada, segura e confiável. Negocie, gerencie e aumente seu portfólio de Bitcoin (BTC) e criptomoedas hoje mesmo com nossa simples e inovadora plataforma. Seja você um iniciante ou um profissional, ou esteja de olho em Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT) ou outras das principais criptomoedas, estamos aqui para tornar sua experiência de trading simples, segura e confiável.<br><br>Trading de Bitcoin e outras criptos simplificado<br>Nossa missão é simplificar a compra de criptomoedas populares, como Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Solana (SOL), Cardano (ADA), Chainlink (LINK), Polkadot (DOT), PEPE, Mantle (MNT), Litecoin (LTC), Dogecoin (DOGE) e Hedera (HBAR). Negocie com facilidade pares em Spot e Derivativos com moeda fiat ou criptomoedas, incluindo os contratos BTCUSDT, ETHUSDT e XRPUSDT.<br><br>Nossos recursos de trading<br>- Trading de Derivativos: Negocie Perpétuos, Futuros e Opções de forma simples com ferramentas avançadas de gerenciamento de risco.<br> - Trading em Spot: Use recursos como Take Profit/Stop Loss (TP/SL) e maximize a eficiência das suas negociações.<br>- Negocie de forma fácil: Aproveite as oportunidades do mercado acelerado de Bitcoin (BTC) e de criptomoedas com facilidade.<br>- Grandes operações e monitor de posições: Acompanhe grandes negociações de Bitcoin (BTC) e criptomoedas com atualizações em tempo real.<br>- Cartão Bybit: Gaste seus Bitcoins (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT), USDT e outras criptomoedas em milhões de estabelecimentos comerciais online e físicos em todo o mundo para ganhar até 10% de cashback em criptomoedas.<br>- Bybit Pay: Envie ou gaste Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT) e outras criptomoedas instantaneamente — sem taxas de gás e com liquidação rápida e segura.<br>- Bybit Alpha: Acesso facilitado ao mundo do trading on-chain — conectando usuários da Bybit a DeFi, NFTs e dApps por meio de um ecossistema Web3 totalmente integrado.<br>- Gerenciamento de ativos da Bybit: Crie seu portfólio com ferramentas como Bybit Investimento e Mineração de liquidez e maximize seus ganhos de Bitcoin (BTC) e outras criptomoedas recém-listadas.<br>- Copy Trading Siga traders especializados e aplique as estratégias deles em suas negociações de Bitcoin (BTC) e outras criptomoedas.<br>- Mercado NFT da Bybit Compre, venda ou negocie NFTs com facilidade em um mercado em expansão.<br><br>Por que escolher a Bybit para suas negociações de Bitcoin e outras criptomoedas?<br><br>Trading instantâneo de cripto<br>Negocie Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Solana (SOL), Mantle (MNT) PEPE e outras criptomoedas instantaneamente usando cartões de crédito, transferências bancárias ou outros métodos de pagamento.<br><br>Experiência otimizada<br>Nossa interface de usuário simplificada para trading em Spot e Derivativos torna o trading de Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT) e outras criptomoedas mais fácil do que nunca.<br><br>Depósitos e transferências diretas<br>Transfira rapidamente as principais criptomoedas, como Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Mantle (MNT) e Ripple (XRP), entre várias carteiras com opções completas de personalização.<br><br>Diversificação de portfólio<br>Negocie Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Solana (SOL), Mantle (MNT), PEPE e outras criptomoedas nos mercados Spot ou de Derivativos, com ofertas de tokens alavancados, empréstimos de cripto e trading de margem.<br><br>Nossos canais oficiais<br>Central de Anúncios Bybit: https://announcements.bybit.com/pt-BR<br>Bybit Blog: https://blog.bybit.com/pt-BR<br>Bybit Learn: https://learn.bybit.com Central de Ajuda Bybit: https://www.bybit.com/pt-BR/help-center<br><br>Faça parte da nossa comunidade<br>X: https://twitter.com/Bybit_Official <br>Facebook: https://www.facebook.com/Bybit/ <br>Instagram: https://www.instagram.com/bybit_official/ <br>Telegram: https://t.me/BybitEnglish","","","","","0","0","4.790069","","","","","","{}","False","False","","[]",""
+"Wise","Wise Payments Ltd.","4.9","0","0","10.000.000+","com.transferwise.android","","https://play-lh.googleusercontent.com/wU1A9m0ExkOTQAixWpggeLFzqeXFrR4A9GU9eDhLCO29AnAW4KzUYx1kyHPe21qPgw","","['https://play-lh.googleusercontent.com/nEKvs9R4ysaOHWC4noZu4uS5NZDWthe2DDHUCWjVRzubGz1sywblkv9K-vqcXJjckQ', 'https://play-lh.googleusercontent.com/tmUZwccmfIaSjXtpS-PZviUxExGrjiTzbkEdbz5-08Su8dUs_ZyDBznpZGltFl81Sw', 'https://play-lh.googleusercontent.com/0-8T0c9iDt7QwqndvtDV48m3LJ9QUiGT7iBiE6RS54hXO61Gwlm8N0gDfpy7e-Cw_kI', 'https://play-lh.googleusercontent.com/r9_yYbpDE_3S5HytgwtHRgjD9s0AzLT1cG5IDwHaz2NPp0_NyJbgyUKlQzsmP67ejnc', 'https://play-lh.googleusercontent.com/N1zn1qxZ6lnC4tjGIKCSrp3UKZW90cJ3RecfvX7i0Zt0AgYi8UgBN0-d1c0yjliQsA', 'https://play-lh.googleusercontent.com/F7ZOCR3kSSLIauhBx3-2NQt9xsVgiK-Oyv3zRnoK9k31C895CDsvJ19L1gxVij3uUzq8', 'https://play-lh.googleusercontent.com/JHp1TNmda5UU7wwcYEf9wpOVOQTmVcrbYM20QpVIQtQkVJpPkH_Vse2uHia6WD8katw', 'https://play-lh.googleusercontent.com/P4oUcCIYf_AMcTQVssBiAsmZ2JQs88iT_snBKvwE8yBkxSrC4DLG0EmFoYDhxrcR2D8G', 'https://play-lh.googleusercontent.com/fWMwfGf4-JlQZSS-V0iFhvEthOw-rXFq5w8tC6oKKjhzXXuYxYRPVGQ2e63AATFXy3X0', 'https://play-lh.googleusercontent.com/IgTld2H7jD5MbdwZz2_mx-v3bzhS_e75S7-hd7YNmB1VeDbuEEvTMdYoYHQfUI96Fg', 'https://play-lh.googleusercontent.com/JPV-YGH1ERdjimpOywrlTG2A2QSFcBNmh2ixJlZPc0u944yabHPRw94SVnSAY3Zj0r4', 'https://play-lh.googleusercontent.com/6wnwQp-ZGwAYQPgvRxI2nVh-v_yaA1Yy30L2aVN7Ll-H82-xSW2r-0UnJ03LCtnTOA', 'https://play-lh.googleusercontent.com/UOMdGd00lzyBTdvAbLV4d8Dd_8fsLE9-7Qn2wh3kzt8ExzVis4JqcwgHR8EX91R_AIk', 'https://play-lh.googleusercontent.com/4wD-nMIO-u_Z-dbOHkbBB5RMYpY0tI4EFyhEEC7p1WryCKZnOQGweAjP4Fb0366DFA', 'https://play-lh.googleusercontent.com/j_ItZ2YTxPJ8EyBhKJoOOKH6ZWFieLhnbbwZ4tfAAXKjqhyWIg50RgsYw0iBo92V9FkX', 'https://play-lh.googleusercontent.com/dx33xIVws1CWAo57sFcScTjce3azoCg9FNbEYPC_HVpGHcFnZD2Kk9KcyV3RVr9_o3I', 'https://play-lh.googleusercontent.com/_w1o1VEf_y_YnQbUr0WGP--z4ApJC1lF1-C3FDMZ_l6btUxt03iymKpvfo0vEuTTchY', 'https://play-lh.googleusercontent.com/v92EVERtkKsapVnwBh0rOcfHoECg0erT6SfknjaYM07S8UGt0m77vit4paa8SGk83M8', 'https://play-lh.googleusercontent.com/aB7Ow_YH-6zEwUlblohXqBQxl3XoBiYXW_r5HAhUGf3noQUe19ybMUV_BWpP_ujVZQ', 'https://play-lh.googleusercontent.com/4a2h5b7cez4nOxPtGktJQbuYYOu9960QkqSX-TOJw7-qbZibD57VOPkxUr6dChdOOleC', 'https://play-lh.googleusercontent.com/8120FtDAyGwMFHNGhgUA3IFoSRtZckhnpsG6tkiD4mER8J2nEZEcg-Y_rUbO29XHj442', 'https://play-lh.googleusercontent.com/MXqsTxzwKv9sv9k30rPHYJsMtz3Hdh1wb62Jmgp0AOZ3w_8ja3Gj2ZvrzpaHtuFCng', 'https://play-lh.googleusercontent.com/kwhKxOywV_vYjE62YUHFa2FtraPfu0gpvmZtJe5Yob-sdvVNPtFfsdRE58SSuuChBeg', 'https://play-lh.googleusercontent.com/sMfQOTgxaCaTSOXxoNzLYHlP4K-M7yexFnQnDttSQaKeHt7f9ti1eGnlX0AXwkm9TA', 'https://play-lh.googleusercontent.com/lTL9iZL_G9I7Vr-Jlmxa5vVMh6cGmCWHjGXcuzSiOTEXnWrlQiORCufv1x9flYerLQ']","","","0","True","","","Finanças","","","","","Use o seu dinheiro no mundo todo, pagando menos. 160 países. 40 moedas.
+
+Movimente, pague e envie o seu dinheiro internacionalmente com a Wise. Receba pagamentos na moeda local. Guarde quantas moedas quiser. Tudo sem tarifas ocultas e com a taxa de câmbio comercial.
+
+Junte-se a mais de 16 milhões de pessoas e empresas do mundo todo.
+
+— Transferência internacional —
+• Envie dinheiro de forma rápida para mais de 70 países
+• Receba a taxa de câmbio comercial, a mesma que você vê no Google, em todas as transferências de dinheiro
+• Mais de 52% das transferências são instantâneas, chegando em menos de 20 segundos
+• Proteja suas transferências com verificação em duas etapas, criptografia e biometria
+
+— O cartão de débito que sempre tem a moeda certa —
+• Pague ou retire dinheiro em mais de 160 países
+• Se você não tiver a moeda local, converteremos automaticamente o que você tem com o menor preço possível
+• Congele e descongele o seu cartão físico e atualize o seu cartão digital sempre que quiser
+
+— Receba pagamentos na moeda local —
+• Tenha o seu próprio número de conta e sort code do Reino Unido, IBAN europeu, dados de conta australianos e muito mais, como se tivesse contas bancárias locais em todo o mundo
+Use os dados da sua conta para receber em várias moedas gratuitamente e para pagar com débitos automáticos
+• Mantenha-se atualizado com notificações push instantâneas para cada transação que realizar
+
+— Guarde 40 moedas e converta entre elas instantaneamente —
+• Sem tarifas mensais ou de manutenção para manter dinheiro na conta na maioria dos casos
+• Converta entre moedas instantaneamente com a taxa de câmbio comercial e uma tarifa baixa e transparente
+• Converta moedas automaticamente com o câmbio da sua preferência e receba atualizações sobre as moedas que mais usa com os alertas de câmbio
+
+— Coloque seu dinheiro para trabalhar com os Ativos —
+• Experimente Juros ou Ações em apenas alguns cliques. No momento o recurso está disponível no Reino Unido, Singapura e vários países do Espaço Economico Europeu
+• Capital em risco. Lucro não garantido
+
+— A melhor conta empresarial para tornar o seu negócio global —
+• Pague faturas e contas de forma rápida e com uma taxa de câmbio melhor
+• Use os dados da conta para receber pagamentos de clientes de todo o mundo
+• Conecte-se a plataformas compatíveis como PayPal, Stripe, Xero e muito mais
+
+A Wise é regulada por autoridades locais em todo o mundo.
+
+Envie de: GBP (Libra esterlina), EUR (Euro), USD (Dólar americano), AUD (dólar australiano), BGN (Lev búlgaro), BRL (Real brasileiro), CAD (Dólar canadense), CHF (Franco suíço), CZK (Coroa tcheca), DKK (Coroa dinamarquesa), HKD (Dólar de Hong Kong), HUF (Forint húngaro), JPY (Iene japonês), MYR (Ringgit malaio), NOK (Coroa norueguesa), NZD (Dólar neozelandês), PLN (Zloty polaco), RON (Leu romeno), SEK (Coroa sueca), SGD (Dólar singapuriano)
+Envie para: EUR (Euro), USD (Dólar americano), GBP (Libra esterlina), AED (Dirham dos Emirados Árabes Unidos), ARS (Peso argentino), AUD (Dólar australiano), BDT (Taka bengali), BGN (Lev búlgaro), BRL (Real brasileiro), CAD (Dólar canadense), CHF (Franco suíço), CLP (Peso chileno), CNY (Yuan chinês), CRC (Colon costa-riquenho), CZK (Coroa checa), DKK (Coroa dinamarquesa), EGP (Libra egípcia), GHS (Cedi ganês), GEL (Lari georgiano), HKD (Dólar de Hong Kong), HUF (Forint húngaro), IDR (Rupia indonésia), ILS (Shekel israelense), INR (Rupia indiana), JPY (Iene japonês), Kes (Xelim queniano), KRW (Won sul-coreano), LKR (Rupia do Sri Lanka), MAD (Dirham marroquino), MXN (Peso mexicano), MYR (Ringgit malaio), NPR (Rupia nepalesa), NOK (Coroa norueguesa), NZD (Dólar neozelandês), PEN (Sol peruano), PHP (Peso filipino), PKR (Rupia paquistanesa), PLN (Zloty polaco), RON (Leu romeno), SEK (Coroa sueca), SGD (Dólar singapuriano), THB (Baht tailandês), TRY (Lira turca), UAH (Hryvina ucraniana) VND (Dong vietnamita), ZAR (Rand sul-africano), ZMW (Kwacha zambiano)","Use o seu dinheiro no mundo todo, pagando menos. 160 países. 40 moedas.<br><br>Movimente, pague e envie o seu dinheiro internacionalmente com a Wise. Receba pagamentos na moeda local. Guarde quantas moedas quiser. Tudo sem tarifas ocultas e com a taxa de câmbio comercial.<br><br>Junte-se a mais de 16 milhões de pessoas e empresas do mundo todo.<br><br>— Transferência internacional —<br>• Envie dinheiro de forma rápida para mais de 70 países<br>• Receba a taxa de câmbio comercial, a mesma que você vê no Google, em todas as transferências de dinheiro<br>• Mais de 52% das transferências são instantâneas, chegando em menos de 20 segundos<br>• Proteja suas transferências com verificação em duas etapas, criptografia e biometria<br><br>— O cartão de débito que sempre tem a moeda certa —<br>• Pague ou retire dinheiro em mais de 160 países<br>• Se você não tiver a moeda local, converteremos automaticamente o que você tem com o menor preço possível<br>• Congele e descongele o seu cartão físico e atualize o seu cartão digital sempre que quiser<br><br>— Receba pagamentos na moeda local —<br>• Tenha o seu próprio número de conta e sort code do Reino Unido, IBAN europeu, dados de conta australianos e muito mais, como se tivesse contas bancárias locais em todo o mundo<br>Use os dados da sua conta para receber em várias moedas gratuitamente e para pagar com débitos automáticos<br>• Mantenha-se atualizado com notificações push instantâneas para cada transação que realizar<br><br>— Guarde 40 moedas e converta entre elas instantaneamente —<br>• Sem tarifas mensais ou de manutenção para manter dinheiro na conta na maioria dos casos<br>• Converta entre moedas instantaneamente com a taxa de câmbio comercial e uma tarifa baixa e transparente<br>• Converta moedas automaticamente com o câmbio da sua preferência e receba atualizações sobre as moedas que mais usa com os alertas de câmbio<br><br>— Coloque seu dinheiro para trabalhar com os Ativos —<br>• Experimente Juros ou Ações em apenas alguns cliques. No momento o recurso está disponível no Reino Unido, Singapura e vários países do Espaço Economico Europeu<br>• Capital em risco. Lucro não garantido<br><br>— A melhor conta empresarial para tornar o seu negócio global —<br>• Pague faturas e contas de forma rápida e com uma taxa de câmbio melhor<br>• Use os dados da conta para receber pagamentos de clientes de todo o mundo<br>• Conecte-se a plataformas compatíveis como PayPal, Stripe, Xero e muito mais<br><br>A Wise é regulada por autoridades locais em todo o mundo.<br><br>Envie de: GBP (Libra esterlina), EUR (Euro), USD (Dólar americano), AUD (dólar australiano), BGN (Lev búlgaro), BRL (Real brasileiro), CAD (Dólar canadense), CHF (Franco suíço), CZK (Coroa tcheca), DKK (Coroa dinamarquesa), HKD (Dólar de Hong Kong), HUF (Forint húngaro), JPY (Iene japonês), MYR (Ringgit malaio), NOK (Coroa norueguesa), NZD (Dólar neozelandês), PLN (Zloty polaco), RON (Leu romeno), SEK (Coroa sueca), SGD (Dólar singapuriano)<br>Envie para: EUR (Euro), USD (Dólar americano), GBP (Libra esterlina), AED (Dirham dos Emirados Árabes Unidos), ARS (Peso argentino), AUD (Dólar australiano), BDT (Taka bengali), BGN (Lev búlgaro), BRL (Real brasileiro), CAD (Dólar canadense), CHF (Franco suíço), CLP (Peso chileno), CNY (Yuan chinês), CRC (Colon costa-riquenho), CZK (Coroa checa), DKK (Coroa dinamarquesa), EGP (Libra egípcia), GHS (Cedi ganês), GEL (Lari georgiano), HKD (Dólar de Hong Kong), HUF (Forint húngaro), IDR (Rupia indonésia), ILS (Shekel israelense), INR (Rupia indiana), JPY (Iene japonês), Kes (Xelim queniano), KRW (Won sul-coreano), LKR (Rupia do Sri Lanka), MAD (Dirham marroquino), MXN (Peso mexicano), MYR (Ringgit malaio), NPR (Rupia nepalesa), NOK (Coroa norueguesa), NZD (Dólar neozelandês), PEN (Sol peruano), PHP (Peso filipino), PKR (Rupia paquistanesa), PLN (Zloty polaco), RON (Leu romeno), SEK (Coroa sueca), SGD (Dólar singapuriano), THB (Baht tailandês), TRY (Lira turca), UAH (Hryvina ucraniana) VND (Dong vietnamita), ZAR (Rand sul-africano), ZMW (Kwacha zambiano)","","","","","0","0","4.8872843","","","","","","{}","False","False","","[]",""
+"Binance: Compre BTC e Cripto","Binance Inc.","4.8","0","0","100.000.000+","com.binance.dev","","https://play-lh.googleusercontent.com/PcxBU8KDqmJXKsCXVLTeQ9oenPmvmW091JpbBmrlID6gapbBr1qemZAVmHKZCalkvQ","","['https://play-lh.googleusercontent.com/vvhCQ-b0umkGCz3ZnpzRuc-RrVZ9khVAx9lmzNLKoIwavxGlC3inBHwdtt4eDpzSpRE', 'https://play-lh.googleusercontent.com/CFm7k9BLVBrJsbDU_CgiiRE1elhVEi34vdJby9h6A-EoH_p6iJyr_ezOX4DJXbnVmA', 'https://play-lh.googleusercontent.com/9g5okLXVfJmNsPfG1v6NlsjfgA92_XQODTtInhKqBgXnmdB94kComQK0OxAPpWDBc0g', 'https://play-lh.googleusercontent.com/gOSxPKYWxalBAWwJ10LNprdKfsra3bRZhI9gZafsou9W5MRN89ytNtQ0MLxwC5QGzg', 'https://play-lh.googleusercontent.com/DzZr6c4ob6OEPF7S0ZWBcpd-QcPc68evCCVlvDjmhCxydpVd8CDSyJj1RgFExXmhcgI', 'https://play-lh.googleusercontent.com/pHam03TfJSj43fjt6VwAHS7LSUaZzWrzRZsT_jZg_L2-_ge4L3_SDMN1OFv6lvxsEAM1', 'https://play-lh.googleusercontent.com/S4gIsB9Mh85qsn_q2BbzXuPtagEJ7_3YUSLW8ybL7kaVz28Ibjx72oRabn9BxzC7UMoU', 'https://play-lh.googleusercontent.com/9K9PPko2Q2-MHoSp04YxmuydGV-xOhdBb69jAb-JEjbZCcblGRXPf8_yoKT9S2aA1w', 'https://play-lh.googleusercontent.com/_hLrDusNJ4SVzTImFLq_3lz9b9JMVvgje7ySAaAAPf9ypWPhKHHa5CAAhKV3Ujb-Qpdv', 'https://play-lh.googleusercontent.com/Lrl4aZWuSY55cEo9-ExaRX3HwVN53AYQBXkh263S5Y_Ce_eyUXh2e5AisH7o-_Lw0Q', 'https://play-lh.googleusercontent.com/nX_Nrysjk6iU5hihQXcwo8hCqM2AgTXGuH6dLTPgVl_HKM0GSt7Y_Qgv0rsm5PAYCuI', 'https://play-lh.googleusercontent.com/tJIaKteRz9fYfYLfl05SO4iqZFCRtq0_EUvCuUojiqpieZ-fSdE500hBbowKcuPzKa7s', 'https://play-lh.googleusercontent.com/p-isLUhjUJyB6waUdC1Br3unkheh8-TP9MX2eN4nDZpBLh2RmmSq9Ly8CSdnjq3d-oo', 'https://play-lh.googleusercontent.com/AkIPqpp3cVfTGumAkZoSdju7BrQbC9xJ6491Ken_0pM8G0ow0gn_TZ0KdPeURqud3kK1', 'https://play-lh.googleusercontent.com/_YI2zhXBanf0M2T_wMUNPlejt41Gymt5wa9uE720P0UknWrZHVAG9qYw0pPGsAcC4FU', 'https://play-lh.googleusercontent.com/sWLcY_AQwb-oCo2xN1e2WEUwohpRoIopoVIynP3r7CwNKUO7ydyYl6BdtvnPz7nBjnM9', 'https://play-lh.googleusercontent.com/YPoLDfPb9-m6wQwjlu1VNQRuFpsil_8COc2kODxMflyemKcAd073zK3hf8vtzYcPGg']","https://www.youtube.com/embed/A33Noj53Ec4?ps=play&vq=large&rel=0&autohide=1&showinfo=0","https://i.ytimg.com/vi/A33Noj53Ec4/hqdefault.jpg","0","True","","","Finanças","","","","","Compre, venda e mantenha criptomoedas como Bitcoin (BTC), Ether (ETH), Solana (SOL), Notcoin (NOT) e Pepe (PEPE) com segurança e taxas de trading baixas. Usada por mais de 225 milhões de usuários em todo o mundo, a Binance é a maior corretora de criptomoedas* do mundo. Aqui está o porquê:
+
+NEGOCIE SEUS TOKENS FAVORITOS E MAIS
+
+Negocie mais de 350 criptomoedas listadas, incluindo Bitcoin (BTC) e Ether (ETH).
+Acompanhe o mercado usando alertas de preços e negocie com ferramentas de negociação avançadas. 
+Configure ordens recorrentes (DCA) para comprar criptomoedas a cada hora, dia, semana ou mês.
+Aproveite a melhor liquidez em cada negociação de criptomoedas. 
+Compre criptomoedas e adicione fundos na sua carteira em minutos com opções de pagamento flexíveis, incluindo cartão de crédito/débito, transferências bancárias e negociação ponto a ponto (P2P).
+Encontre traders líderes e reproduza suas estratégias de negociação com um toque.
+
+GANHE RECOMPENSAS DIÁRIAS COM SEUS ATIVOS PARADOS
+
+Ganhe recompensas com staking e rendimento de farm. Aproveite os benefícios de fazer stake de criptomoedas em ativos populares como Bitcoin (BTC). 
+Use o Investimento Automático para comprar criptomoedas e obter renda passiva ao mesmo tempo.**
+
+
+CORRETORA DE CRIPTO SEGURA, CONFORME E REGULADA
+
+A Binance é a corretora de criptomoedas mais regulamentada do mundo, com licenças, registros e aprovações em diversas jurisdições. 
+Todos os fundos dos usuários são mantidos 1:1 em um Fundo Seguro de Ativos dos Usuários (SAFU) no valor de US$ 1 bilhão. 
+Nosso sistema é protegido com medidas de segurança de última geração, incluindo monitoramento de riscos em tempo real, protocolos KYC rigorosos e criptografia avançada de dados de ponta a ponta.
+
+
+GASTE E ENVIE SEU SALDO EM CRIPTO
+
+Use os tokens da sua carteira para comprar passagens aéreas ou fazer compras em marcas que aceitam criptomoedas.
+Faça transferências de criptomoedas seguras da sua carteira para amigos e familiares em todo o mundo. 
+
+
+EXPLORE O MELHOR DA WEB3, CRIPTO E BLOCKCHAIN
+
+Obtenha conteúdo personalizado Web3, blockchain e cripto. Disponível na página inicial do seu aplicativo. 
+Participe das discussões da comunidade Binance sobre as últimas tendências de blockchain e criptomoedas.
+Aprenda sobre criptomoedas com cursos e artigos sobre tópicos relacionados ao Bitcoin, trading e gerenciamento de suas finanças.
+Ganhe recompensas em criptomoedas aprendendo e respondendo questionários sobre como funcionam certas criptomoedas. 
+Use nossa carteira Web3 integrada para interagir com segurança com dApps, obter rendimento com DeFi e negociar mais de 10.000 tokens em diferentes blockchains.
+
+
+ACESSE O ATENDIMENTO AO CLIENTE 24 horas por dia, 7 dias por semana
+Deixe-nos ajudá-lo em sua jornada de criptomoedas, seja você um ávido negociante de criptomoedas ou um iniciante que deseja comprar Bitcoin.
+Obtenha ajuda do suporte ao cliente por chat em tempo real 24 horas por dia, 7 dias por semana, disponível em 18 idiomas.
+Aprenda como comprar Bitcoin, gerenciar sua carteira de criptomoedas e fazer sua primeira negociação de criptomoedas na Binance usando nossos guias de perguntas frequentes.
+
+*por volume de trading - Fonte: https://coinmarketcap.com/rankings/exchanges/ 
+**Isenção de responsabilidade de limitação de região: este é um anúncio geral. Os produtos e serviços mencionados aqui podem não estar disponíveis em sua região.
+***Aplicativo Binance está disponível apenas para cidadãos e residentes de fora dos EUA. Para cidadãos e residentes dos EUA, instale o aplicativo da Binance.US.
+
+Ainda indeciso? Baixe agora e descubra por que mais de 225 milhões de usuários escolhem a Binance para comprar criptomoedas, negociar mais de 350 criptomoedas e manter seus ativos com segurança. O aplicativo da Binance vai além do seu aplicativo de trading tradicional, permitindo que os usuários aprendam mais sobre blockchain, obtenham renda passiva por meio de staking e gastem suas criptomoedas.","Compre, venda e mantenha criptomoedas como Bitcoin (BTC), Ether (ETH), Solana (SOL), Notcoin (NOT) e Pepe (PEPE) com segurança e taxas de trading baixas. Usada por mais de 225 milhões de usuários em todo o mundo, a Binance é a maior corretora de criptomoedas* do mundo. Aqui está o porquê:<br><br>NEGOCIE SEUS TOKENS FAVORITOS E MAIS<br><br>Negocie mais de 350 criptomoedas listadas, incluindo Bitcoin (BTC) e Ether (ETH).<br>Acompanhe o mercado usando alertas de preços e negocie com ferramentas de negociação avançadas. <br>Configure ordens recorrentes (DCA) para comprar criptomoedas a cada hora, dia, semana ou mês.<br>Aproveite a melhor liquidez em cada negociação de criptomoedas. <br>Compre criptomoedas e adicione fundos na sua carteira em minutos com opções de pagamento flexíveis, incluindo cartão de crédito/débito, transferências bancárias e negociação ponto a ponto (P2P).<br>Encontre traders líderes e reproduza suas estratégias de negociação com um toque.<br><br>GANHE RECOMPENSAS DIÁRIAS COM SEUS ATIVOS PARADOS<br><br>Ganhe recompensas com staking e rendimento de farm. Aproveite os benefícios de fazer stake de criptomoedas em ativos populares como Bitcoin (BTC). <br>Use o Investimento Automático para comprar criptomoedas e obter renda passiva ao mesmo tempo.**<br><br><br>CORRETORA DE CRIPTO SEGURA, CONFORME E REGULADA<br><br>A Binance é a corretora de criptomoedas mais regulamentada do mundo, com licenças, registros e aprovações em diversas jurisdições. <br>Todos os fundos dos usuários são mantidos 1:1 em um Fundo Seguro de Ativos dos Usuários (SAFU) no valor de US$ 1 bilhão. <br>Nosso sistema é protegido com medidas de segurança de última geração, incluindo monitoramento de riscos em tempo real, protocolos KYC rigorosos e criptografia avançada de dados de ponta a ponta.<br><br><br>GASTE E ENVIE SEU SALDO EM CRIPTO<br><br>Use os tokens da sua carteira para comprar passagens aéreas ou fazer compras em marcas que aceitam criptomoedas.<br>Faça transferências de criptomoedas seguras da sua carteira para amigos e familiares em todo o mundo. <br><br><br>EXPLORE O MELHOR DA WEB3, CRIPTO E BLOCKCHAIN<br><br>Obtenha conteúdo personalizado Web3, blockchain e cripto. Disponível na página inicial do seu aplicativo. <br>Participe das discussões da comunidade Binance sobre as últimas tendências de blockchain e criptomoedas.<br>Aprenda sobre criptomoedas com cursos e artigos sobre tópicos relacionados ao Bitcoin, trading e gerenciamento de suas finanças.<br>Ganhe recompensas em criptomoedas aprendendo e respondendo questionários sobre como funcionam certas criptomoedas. <br>Use nossa carteira Web3 integrada para interagir com segurança com dApps, obter rendimento com DeFi e negociar mais de 10.000 tokens em diferentes blockchains.<br><br><br>ACESSE O ATENDIMENTO AO CLIENTE 24 horas por dia, 7 dias por semana<br>Deixe-nos ajudá-lo em sua jornada de criptomoedas, seja você um ávido negociante de criptomoedas ou um iniciante que deseja comprar Bitcoin.<br>Obtenha ajuda do suporte ao cliente por chat em tempo real 24 horas por dia, 7 dias por semana, disponível em 18 idiomas.<br>Aprenda como comprar Bitcoin, gerenciar sua carteira de criptomoedas e fazer sua primeira negociação de criptomoedas na Binance usando nossos guias de perguntas frequentes.<br><br>*por volume de trading - Fonte: https://coinmarketcap.com/rankings/exchanges/ <br>**Isenção de responsabilidade de limitação de região: este é um anúncio geral. Os produtos e serviços mencionados aqui podem não estar disponíveis em sua região.<br>***Aplicativo Binance está disponível apenas para cidadãos e residentes de fora dos EUA. Para cidadãos e residentes dos EUA, instale o aplicativo da Binance.US.<br><br>Ainda indeciso? Baixe agora e descubra por que mais de 225 milhões de usuários escolhem a Binance para comprar criptomoedas, negociar mais de 350 criptomoedas e manter seus ativos com segurança. O aplicativo da Binance vai além do seu aplicativo de trading tradicional, permitindo que os usuários aprendam mais sobre blockchain, obtenham renda passiva por meio de staking e gastem suas criptomoedas.","","","","","0","0","4.7946515","","","","","","{}","False","False","","[]",""
+"MetaMask - Crypto Wallet","MetaMask Web3 Wallet","4.7","0","0","10.000.000+","io.metamask","","https://play-lh.googleusercontent.com/lm6Rk4Qc3eXUIxC8qkFCj46Bho6fbi6Lu3TwWuS3JNU2bBEcNU61arw_wG5wA0c-4IE","","['https://play-lh.googleusercontent.com/dFfl_FnN94YElcCa6C6JvSOma5Irg7WzRjboyidVAvkMhotvPX89J4PPK0izSqbdq1FHnqDirX_rNtEffrkDkg', 'https://play-lh.googleusercontent.com/aQkryAQivJsz5NcwhgkPZUIYPJaBV7Yv78Y02v26qSfrv-qBEdSDT9JW0iUYNlF1Z4jjiEozpUFJf3ChxWfO', 'https://play-lh.googleusercontent.com/gKE10unUf_-4MWUjihbca1dso0s5GVzWqOtwVP29__TUUW8gVqhjl-C9ICqVcL4gesJ9AXMDWcWi2nSDb7_VOg', 'https://play-lh.googleusercontent.com/PqPh9AfL2rzFabLRvCSVXwDXifeRKYgT4EnKFIY1CB-aiasWi7OH05DWo6qa84-GCU07TM0yuWbYA0-dLGkt', 'https://play-lh.googleusercontent.com/gpuetq9fo6JS1pqu1g42uaUWa7S7vbdDJ58R4S5rMiae5Fi0_-BTfHE_IZvHlVEXdoYPsAlJKg-U9RQigDLaAA', 'https://play-lh.googleusercontent.com/cTyiT4Hn4GPS4D-fcVGxR0kcBYVNRg4QiKNDLn0wRnrUuaAGL7veQWb9N0Ph-qSLQMdw0IxEGbUvGa0nRzScIDI', 'https://play-lh.googleusercontent.com/7GbvvKCyypKOAIGGiHvJSx57UIxcQEEhn6lUbK0I7D7G-RDzuk8y3wJ1QM2k6-aZv6okhy4GV0kAtOpl9I0mwg', 'https://play-lh.googleusercontent.com/f7QnbRkc6xO7cM0h2X5XGXO5SOuMaBbw9MejLvYiJ0cnAs3lirm69MlAiH0Z7bECnTpMoSwplJ2hgaJ9S31zbg', 'https://play-lh.googleusercontent.com/sB4ZHp9NlOS3mPVaYemqO0qPZ6evFa_swmv0M9pcgUBcVvs77bAnlozNE3bpKh8P6bs']","","","0","True","","","Finanças","","","","","MetaMask is the world’s most secure and flexible crypto wallet. Trusted by over 100 million users to buy, sell, and swap digital assets, our industry-leading security protects every move you make.
+
+
+Get more out of crypto
+– Buy, sell, swap tokens directly in your wallet
+– Trade perps
+– Get MetaMask Rewards points
+– Earn passive income from your assets
+– Discover the decentralized web
+– Try DeFi, buy meme coins, collect NFTs, explore web3 gaming, and more
+
+
+Crypto made easy
+– One wallet, many chains
+– Trade directly in your wallet
+– Choose from thousands of tokens 
+– Connect to dapps across networks 
+
+
+Advanced security protects you
+– Know what you’re signing before you transact 
+– Live threat surveillance safeguards your wallet
+– Designed for privacy, control what you share
+– MEV and front-running protection
+
+
+Live support 24/7
+– Around-the-clock support from our customer service experts
+
+
+SUPPORTED NETWORKS
+Ethereum, Linea, Solana, BSC, ZkSync, Base, Arbitrum, Avalanche, Polygon, Optimism, Sei, and more.
+
+
+SUPPORTED TOKENS
+Ether (ETH), MetaMask USD (mUSD), USD Coin (USDC), Tether (USDT), Wrapped Bitcoin (wBTC), Shiba Inu (SHIB), Pepe (PEPE), Dai (DAI), Dogecoin (DOGE), Cronos (CRO), Celo (CELO), and thousands more.
+
+
+Download MetaMask today","MetaMask is the world’s most secure and flexible crypto wallet. Trusted by over 100 million users to buy, sell, and swap digital assets, our industry-leading security protects every move you make.<br><br><br>Get more out of crypto<br>– Buy, sell, swap tokens directly in your wallet<br>– Trade perps<br>– Get MetaMask Rewards points<br>– Earn passive income from your assets<br>– Discover the decentralized web<br>– Try DeFi, buy meme coins, collect NFTs, explore web3 gaming, and more<br><br><br>Crypto made easy<br>– One wallet, many chains<br>– Trade directly in your wallet<br>– Choose from thousands of tokens <br>– Connect to dapps across networks <br><br><br>Advanced security protects you<br>– Know what you’re signing before you transact <br>– Live threat surveillance safeguards your wallet<br>– Designed for privacy, control what you share<br>– MEV and front-running protection<br><br><br>Live support 24/7<br>– Around-the-clock support from our customer service experts<br><br><br>SUPPORTED NETWORKS<br>Ethereum, Linea, Solana, BSC, ZkSync, Base, Arbitrum, Avalanche, Polygon, Optimism, Sei, and more.<br><br><br>SUPPORTED TOKENS<br>Ether (ETH), MetaMask USD (mUSD), USD Coin (USDC), Tether (USDT), Wrapped Bitcoin (wBTC), Shiba Inu (SHIB), Pepe (PEPE), Dai (DAI), Dogecoin (DOGE), Cronos (CRO), Celo (CELO), and thousands more.<br><br><br>Download MetaMask today","","","","","0","0","4.721637","","","","","","{}","False","False","","[]",""
+"Bitybank: Bitcoin e Crypto","bity.com.br","4.8","0","0","100.000+","io.biscoint.lite","","https://play-lh.googleusercontent.com/lBSEt8opS8GHtDF3FnyTuKzqVBFL5f0DbYpZHABnnHEiqtW9XopgYeCIM6zSOfYfdEI","","['https://play-lh.googleusercontent.com/1LxzPVFD-BNmEgxivRr4fQhrwsmGEuPT8b1hYFewg9E-EGG7APl5FB4pOq-J_NAeFRs', 'https://play-lh.googleusercontent.com/1bQfNQhFFJoq_i4ynjpsEl0o2I4YJeIUd1a8RAlY3Yro_owIBfqGLek2keqcLSk_vjA', 'https://play-lh.googleusercontent.com/dkWbKwW9gold00IvzEuDdagueCPg1vhgAt3kThu2yHYP6mdUTziWquyC40EBo-Elvj0', 'https://play-lh.googleusercontent.com/JMhCm3usoyt0pumvYBe-aRYjmk1wZ53JqbQphKFHEj3VqObX5G7sSBqjvPChpWx6xg', 'https://play-lh.googleusercontent.com/cxmeItLvFg4QG55xPLIRiraGdrez49m8q5p5Ybf4znpp8z7dfkWmNJ6MyQegik6sE3fe', 'https://play-lh.googleusercontent.com/S4QO0eJfX0Q2UEczjpEPa7xXQRd4Ci7kX3nC1dtMP-YJ8p_aupbNfpaepGJITONRmcs', 'https://play-lh.googleusercontent.com/dGshR6-CP9kBCtDmYaRtU8iGh2Y-Vg3BjB00VOJvXgF914suTu18z9vnYO1J78F0yDI', 'https://play-lh.googleusercontent.com/e1hgD6g8KYFx2TVp7yYflpu8RBMviGJa4Mh7zC0v4O-an1MMDL86fcyc7CzFkqsCtMs', 'https://play-lh.googleusercontent.com/w-BFRoTtorJ0-RlIBoLEJvWbmSRcDCRUw_VrVmigXnUzo4BTFykzXUZ-YJLVEMJi-g']","https://www.youtube.com/embed/6236g6xWG14?ps=play&vq=large&rel=0&autohide=1&showinfo=0","https://i.ytimg.com/vi/6236g6xWG14/hqdefault.jpg","0","True","","","Finanças","","","","","Chegou a hora de usar criptomoedas em seu Cripto Banco Digital - Bitybank by Biscoint e Bitypreço.
+Com seu cartão cripto você paga com Bitcoin ou outras criptos e recebe cashback em seu criptoativo favorito.
+Você também pode negociar Bitcoin, Ethereum, Tether, e mais de 90 criptos com o melhor preço. Isso porque o Bitybank reúne ofertas das principais corretoras do mundo, como Binance, Mercado Bitcoin, Novadax, e disponibiliza a melhor oferta do momento para você.
+Unimos o que há de mais inovador nos bancos digitais, e nas corretoras de criptomoedas, e criamos o melhor Cripto Banco do Brasil, onde você pode comprar, vender, sacar e depositar criptoativos de forma simples, e segura, com as melhores taxas.
+E para facilitar ainda mais a sua vida, nosso Banco Cripto, resultado da união entre as empresas Bitypreço e Biscoint, vai permitir que você use suas criptomoedas no dia a dia, através de um cartão cripto, e ainda dar cashback em bitcoin, e outras criptos. Faça parte da economia do futuro. Venha para o Bitybank.
+QUER COMPRAR E VENDER CRIPTOMOEDAS?
+Nós te ajudamos. No Bitybank, você abre sua conta em poucos cliques, e em poucos minutos já consegue comprar Bitcoin, Ethereum, Tether, Solana, BNB, Cardano, e mais uma variedade de criptomoedas, sempre aproveitando as melhores ofertas do mercado.
+Isso porque o Bitybank está conectado às principais corretoras cripto do mundo, como Binance, Mercado Bitcoin, Novadax, Bitso, Foxbit, PancakeSwap,, Kraken, OSL, Walltime, BitcoinTrade, Okcoin, Coinext, Pagcripto, Bitifinex, BitcoinToYou, Liqi, Bitnuvem, Blocktane, Comprar Bitcoin, Brasil Bitcoin. Dessa forma, conseguimos buscar o melhor preço para você comprar e vender seus criptoativos, com muita praticidade.
+Nosso modelo de negócio permite que com apenas uma conta você tenha acesso ao melhor Cripto Banco do Brasil e às maiores corretoras de criptomoedas.
+SAQUE SEUS BITCOINS E CRIPTOMOEDAS COM FACILIDADE
+Sabemos que muitos bancos digitais têm adicionado cripto aos seus aplicativos, mas isso é pouco, e nós demos um passo a mais: aqui no Bitybank, além de comprar e vender Bitcoin, Ethereum e outras criptomoedas, você pode sacar e depositar, trazendo a liberdade que as criptos proporcionam e o total controle sobre seus criptoativos.
+É SEGURO INVESTIR PELO BITYBANK?
+Para nós, do Bitybank, segurança é prioridade. Somos uma empresa registrada no Brasil e que cumpre todas as leis do país, além de seguirmos várias boas práticas do mercado cripto!
+Tudo isso, para proteger proteger nosso ativo mais importante, você.
+INICIANTE OU AVANÇADO? PODEMOS TE AJUDAR!
+No Bitybank você consegue investir de maneira rápida em Bitcoin, Ethereum, USDT e outras criptomoedas! O aplicativo do Bitybank é ideal para você que está começando a investir em criptomoedas agora!
+Mas, se você for trader ou tiver um conhecimento avançado, temos uma liquidez alta e uma plataforma PRO de negociação! Por isso somos a empresa com maior volume de negociação de Bitcoin do Brasil!
+VOCÊ CONHECE O BIX?
+O Bix é o jeito mais fácil de comprar Bitcoin do mundo. Basta você fazer um Pix para pix@bity.com.br com a #bix na descrição e o valor será convertido em Bitcoin automaticamente, sem nem precisar abrir nosso aplicativo.
+DICA: você pode agendar diversos #bix ao longo da semana ou do mês e assim, comprar Bitcoin periodicamente sem ter que se preocupar em entrar na corretora toda hora!
+QUER USAR SUAS CRIPTOS NO DIA A DIA?
+Baixe o app, se inscreva na lista para receber nosso cartão cripto e seja um dos primeiros a receber um cartão com cashback em Bitcoin, Ethereum, Tether e outras criptomoedas!
+SAC - SUPORTE AO CRIPTOINVESTIDOR
+Conte com nosso suporte premium em português para te ajudar quando você precisar!
+O Bitybank possui atendimento ágil, com especialistas para tirar todas as suas dúvidas.
+Invista em Bitcoin, Ethereum, Tether, Solana, BNB, Cardano e outras diversas criptomoedas, com toda segurança, e faça parte da economia do futuro.
+Baixe nosso app.","Chegou a hora de usar criptomoedas em seu Cripto Banco Digital - Bitybank by Biscoint e Bitypreço.<br>Com seu cartão cripto você paga com Bitcoin ou outras criptos e recebe cashback em seu criptoativo favorito.<br>Você também pode negociar Bitcoin, Ethereum, Tether, e mais de 90 criptos com o melhor preço. Isso porque o Bitybank reúne ofertas das principais corretoras do mundo, como Binance, Mercado Bitcoin, Novadax, e disponibiliza a melhor oferta do momento para você.<br>Unimos o que há de mais inovador nos bancos digitais, e nas corretoras de criptomoedas, e criamos o melhor Cripto Banco do Brasil, onde você pode comprar, vender, sacar e depositar criptoativos de forma simples, e segura, com as melhores taxas.<br>E para facilitar ainda mais a sua vida, nosso Banco Cripto, resultado da união entre as empresas Bitypreço e Biscoint, vai permitir que você use suas criptomoedas no dia a dia, através de um cartão cripto, e ainda dar cashback em bitcoin, e outras criptos. Faça parte da economia do futuro. Venha para o Bitybank.<br>QUER COMPRAR E VENDER CRIPTOMOEDAS?<br>Nós te ajudamos. No Bitybank, você abre sua conta em poucos cliques, e em poucos minutos já consegue comprar Bitcoin, Ethereum, Tether, Solana, BNB, Cardano, e mais uma variedade de criptomoedas, sempre aproveitando as melhores ofertas do mercado.<br>Isso porque o Bitybank está conectado às principais corretoras cripto do mundo, como Binance, Mercado Bitcoin, Novadax, Bitso, Foxbit, PancakeSwap,, Kraken, OSL, Walltime, BitcoinTrade, Okcoin, Coinext, Pagcripto, Bitifinex, BitcoinToYou, Liqi, Bitnuvem, Blocktane, Comprar Bitcoin, Brasil Bitcoin. Dessa forma, conseguimos buscar o melhor preço para você comprar e vender seus criptoativos, com muita praticidade.<br>Nosso modelo de negócio permite que com apenas uma conta você tenha acesso ao melhor Cripto Banco do Brasil e às maiores corretoras de criptomoedas.<br>SAQUE SEUS BITCOINS E CRIPTOMOEDAS COM FACILIDADE<br>Sabemos que muitos bancos digitais têm adicionado cripto aos seus aplicativos, mas isso é pouco, e nós demos um passo a mais: aqui no Bitybank, além de comprar e vender Bitcoin, Ethereum e outras criptomoedas, você pode sacar e depositar, trazendo a liberdade que as criptos proporcionam e o total controle sobre seus criptoativos.<br>É SEGURO INVESTIR PELO BITYBANK?<br>Para nós, do Bitybank, segurança é prioridade. Somos uma empresa registrada no Brasil e que cumpre todas as leis do país, além de seguirmos várias boas práticas do mercado cripto!<br>Tudo isso, para proteger proteger nosso ativo mais importante, você.<br>INICIANTE OU AVANÇADO? PODEMOS TE AJUDAR!<br>No Bitybank você consegue investir de maneira rápida em Bitcoin, Ethereum, USDT e outras criptomoedas! O aplicativo do Bitybank é ideal para você que está começando a investir em criptomoedas agora!<br>Mas, se você for trader ou tiver um conhecimento avançado, temos uma liquidez alta e uma plataforma PRO de negociação! Por isso somos a empresa com maior volume de negociação de Bitcoin do Brasil!<br>VOCÊ CONHECE O BIX?<br>O Bix é o jeito mais fácil de comprar Bitcoin do mundo. Basta você fazer um Pix para pix@bity.com.br com a #bix na descrição e o valor será convertido em Bitcoin automaticamente, sem nem precisar abrir nosso aplicativo.<br>DICA: você pode agendar diversos #bix ao longo da semana ou do mês e assim, comprar Bitcoin periodicamente sem ter que se preocupar em entrar na corretora toda hora!<br>QUER USAR SUAS CRIPTOS NO DIA A DIA?<br>Baixe o app, se inscreva na lista para receber nosso cartão cripto e seja um dos primeiros a receber um cartão com cashback em Bitcoin, Ethereum, Tether e outras criptomoedas!<br>SAC - SUPORTE AO CRIPTOINVESTIDOR<br>Conte com nosso suporte premium em português para te ajudar quando você precisar!<br>O Bitybank possui atendimento ágil, com especialistas para tirar todas as suas dúvidas.<br>Invista em Bitcoin, Ethereum, Tether, Solana, BNB, Cardano e outras diversas criptomoedas, com toda segurança, e faça parte da economia do futuro.<br>Baixe nosso app.","","","","","0","0","4.8043637","","","","","","{}","False","False","","[]",""
+"MB | Mercado Bitcoin: criptos","MERCADO BITCOIN SERVICOS DIGITAIS LTDA","4.5","0","0","1.000.000+","br.com.mercadobitcoin.android","","https://play-lh.googleusercontent.com/GcNJiyiih8pbePtHoUAh3sVOxv1LCh6O35fFAb0fQXeH31QsyiHphXVD7yvAZyPnTQo","","['https://play-lh.googleusercontent.com/AyZTDDG639U3JD7QKDyvvfWpwcrgTi0Y7JswYMRHa-UcLMTSbzI9bHIVzSm_jkZcgQ', 'https://play-lh.googleusercontent.com/0XrBKjze-xkVw1Q6jensxAjRSeRlwxE9jpityp3btp1USA-ki7SeCmdq_X8j74JaCGc', 'https://play-lh.googleusercontent.com/PlEkx5N7K4cAiqrHDAvJTWqKTKd2yYFcD4NAOFbNpKH_INTUDrywkemHf2LM9wvk-Wj-', 'https://play-lh.googleusercontent.com/xnY_Yh2XtPav1fD-ncovkGCr_9qlCFx74jKiDA5_Eoqzin04ol4xMRYDymyREcfLeow', 'https://play-lh.googleusercontent.com/thE0PY5HfZ1t1Nutml525Evhr3U09osPdmoOdqoea4evWz7zO2Ufd6yKslv7q5TSftOr', 'https://play-lh.googleusercontent.com/80N3h7388WdC38YR_HIWuKam2jGgZgv2mZgy72DNizZ-vCfb6wmIuXE5u8QJ6YqM4g', 'https://play-lh.googleusercontent.com/N67-hlrUGHoeYKssUpYV6JmtWvz0P8KGykOxLBIToAC8M658I6g-oz55KHvVQmD6T2A', 'https://play-lh.googleusercontent.com/lGrytFzszCZ2bPqeQGLksGQk1EJx3heF4f8S0tdMubpiAVZdn3htl9wJjIBpnOJF88jbkKcgO2oD2La9UVsNH9c']","https://www.youtube.com/embed/C4LIUEusZdg?ps=play&vq=large&rel=0&autohide=1&showinfo=0","https://i.ytimg.com/vi/C4LIUEusZdg/hqdefault.jpg","0","True","","","Finanças","","","","","Negocie bitcoin (BTC), ethereum (ETH), XRP (XRP), tether (USDT), dogecoin (DOGE), solana (SOL) e outras criptomoedas na maior e mais segura plataforma de ativos digitais do Brasil. 
+
+São diversas opções para ampliar seus investimentos, incluindo Renda Fixa Digital, Renda Fixa Variável, Crédito e Renda Passiva. Abra sua conta no MB e comece em poucos cliques!
+
+<b>Por que escolher o MB?</b>
+• Especialistas no segmento, com mais de 12 anos de experiência 
+•Plataforma intuitiva, com saldo em reais e visão completa dos ativos
+• Gráficos de preços em tempo real para tomar decisões com confiança
+• Facilidade para compra e venda de criptoativos
+• Atendimento 24/7 e feito por pessoas, não robôs 
+• Selo RA 1.000 de excelência em atendimento ao cliente, concedido pelo Reclame Aqui
+• Segurança reforçada com autenticação biométrica
+• Ordens de compra e venda com a cotação atualizadas instantaneamente
+
+Conheça as categorias disponíveis para você investir com segurança e inteligência:
+
+<b>Criptomoedas</b>
+Aqui é o lugar certo para investir em cripto! Tenha acesso a bitcoin (BTC), ethereum (ETH), XRP, tether (USDT), dogecoin (DOGE), solana (SOL), memecoins e outras centenas de criptomoedas. As criptos funcionam como meio de troca, reserva de valor e unidade de conta, ideais para diversificação de patrimônio.
+
+<b>Renda Fixa Digital</b>
+Invista na Renda Fixa Digital com previsibilidade e segurança. Aproveite a taxa zero e dinheiro na conta com prazos flexíveis para mais previsibilidade e risco controlado para sua carteira.
+
+<b>Renda Variável Digital</b>
+Descubra ativos inovadores e diversificados. Invista em setores de startups, participe da performance de atletas e explore novas oportunidades com possibilidades de ganhos exponenciais.
+
+<b>Tokens e DeFi</b>
+Expanda sua carteira com tokens e explore o universo DeFi. Aproveite a variedade de ativos digitais para criar estratégias modernas de investimento, com segurança e transparência.
+
+<b>Dólar Digital e Stablecoins</b>
+Stablecoins são criptomoedas estáveis, atreladas a ativos reais, como o dólar, euro, real e commodities. Combine variação e inovação, sem abrir mão da estabilidade e segurança! Além disso, oferece uma grande oportunidade de diversificação com dólar digital, uma das moedas mais fortes do mundo. 
+
+<b>Renda Passiva</b>
+Coloque suas criptomoedas para gerar renda passiva. Faça staking de ADA, ETH, CHZ,  NEAR, SOL, USDC ou USDT e CHZ e receba recompensas diárias sem precisar vender ativos.
+
+<b>Cesta Inteligente</b>
+Simplifica o investimento em criptomoedas, com uma estratégia pronta e com rebalanceamento automático, permitindo uma diversificação eficiente sem a complexidade da gestão manual. São diversos portfólios prontos para você adicionar a sua estratégia! 
+
+Com mais de 4 milhões de clientes, o MB é referência em ativos digitais na América Latina!
+
+Agora é a hora de ter bitcoin (BTC), ethereum (ETH), XRP, tether (USDT), dogecoin (DOGE),  Solana (SOL), diversas opções de memecoins e stablecoins.
+
+Baixe o app, monte sua carteira e descubra como investir em criptomoedas pode ser simples, seguro e acessível!
+
+Links úteis:
+Conteúdos educativos: https://www.youtube.com/user/MercadoBitcoin
+Política de privacidade: https://www.mercadobitcoin.com.br/privacidade
+Central de ajuda: https://central.ajuda.mercadobitcoin.com.br/servicedesk/customer/portals
+
+⚠️O mercado de ativos digitais tem volatilidade. Conheça os riscos antes de investir.
+
+Mercado Bitcoin Serviços Digitais LTDA – CNPJ 18.213.434/0001-35
+Alameda Mamoré, 687 - conjuntos 303 - sala 03 - Alphaville Industrial - Barueri - SP - CEP 06454-040","Negocie bitcoin (BTC), ethereum (ETH), XRP (XRP), tether (USDT), dogecoin (DOGE), solana (SOL) e outras criptomoedas na maior e mais segura plataforma de ativos digitais do Brasil. <br><br>São diversas opções para ampliar seus investimentos, incluindo Renda Fixa Digital, Renda Fixa Variável, Crédito e Renda Passiva. Abra sua conta no MB e comece em poucos cliques!<br><br><b>Por que escolher o MB?</b><br>• Especialistas no segmento, com mais de 12 anos de experiência <br>•Plataforma intuitiva, com saldo em reais e visão completa dos ativos<br>• Gráficos de preços em tempo real para tomar decisões com confiança<br>• Facilidade para compra e venda de criptoativos<br>• Atendimento 24/7 e feito por pessoas, não robôs <br>• Selo RA 1.000 de excelência em atendimento ao cliente, concedido pelo Reclame Aqui<br>• Segurança reforçada com autenticação biométrica<br>• Ordens de compra e venda com a cotação atualizadas instantaneamente<br><br>Conheça as categorias disponíveis para você investir com segurança e inteligência:<br><br><b>Criptomoedas</b><br>Aqui é o lugar certo para investir em cripto! Tenha acesso a bitcoin (BTC), ethereum (ETH), XRP, tether (USDT), dogecoin (DOGE), solana (SOL), memecoins e outras centenas de criptomoedas. As criptos funcionam como meio de troca, reserva de valor e unidade de conta, ideais para diversificação de patrimônio.<br><br><b>Renda Fixa Digital</b><br>Invista na Renda Fixa Digital com previsibilidade e segurança. Aproveite a taxa zero e dinheiro na conta com prazos flexíveis para mais previsibilidade e risco controlado para sua carteira.<br><br><b>Renda Variável Digital</b><br>Descubra ativos inovadores e diversificados. Invista em setores de startups, participe da performance de atletas e explore novas oportunidades com possibilidades de ganhos exponenciais.<br><br><b>Tokens e DeFi</b><br>Expanda sua carteira com tokens e explore o universo DeFi. Aproveite a variedade de ativos digitais para criar estratégias modernas de investimento, com segurança e transparência.<br><br><b>Dólar Digital e Stablecoins</b><br>Stablecoins são criptomoedas estáveis, atreladas a ativos reais, como o dólar, euro, real e commodities. Combine variação e inovação, sem abrir mão da estabilidade e segurança! Além disso, oferece uma grande oportunidade de diversificação com dólar digital, uma das moedas mais fortes do mundo. <br><br><b>Renda Passiva</b><br>Coloque suas criptomoedas para gerar renda passiva. Faça staking de ADA, ETH, CHZ,  NEAR, SOL, USDC ou USDT e CHZ e receba recompensas diárias sem precisar vender ativos.<br><br><b>Cesta Inteligente</b><br>Simplifica o investimento em criptomoedas, com uma estratégia pronta e com rebalanceamento automático, permitindo uma diversificação eficiente sem a complexidade da gestão manual. São diversos portfólios prontos para você adicionar a sua estratégia! <br><br>Com mais de 4 milhões de clientes, o MB é referência em ativos digitais na América Latina!<br><br>Agora é a hora de ter bitcoin (BTC), ethereum (ETH), XRP, tether (USDT), dogecoin (DOGE),  Solana (SOL), diversas opções de memecoins e stablecoins.<br><br>Baixe o app, monte sua carteira e descubra como investir em criptomoedas pode ser simples, seguro e acessível!<br><br>Links úteis:<br>Conteúdos educativos: https://www.youtube.com/user/MercadoBitcoin<br>Política de privacidade: https://www.mercadobitcoin.com.br/privacidade<br>Central de ajuda: https://central.ajuda.mercadobitcoin.com.br/servicedesk/customer/portals<br><br>⚠️O mercado de ativos digitais tem volatilidade. Conheça os riscos antes de investir.<br><br>Mercado Bitcoin Serviços Digitais LTDA – CNPJ 18.213.434/0001-35<br>Alameda Mamoré, 687 - conjuntos 303 - sala 03 - Alphaville Industrial - Barueri - SP - CEP 06454-040","","","","","0","0","4.5433426","","","","","","{}","False","False","","[]",""
+"Carteira DeFi Bitcoin e Cripto","Bitcoin.com Developer","4.6","0","0","10.000.000+","com.bitcoin.mwallet","","https://play-lh.googleusercontent.com/UR2llx50nIVzw1l8OMZ2feCjyb4HOYtENKRG-9Ep4xSHpPTbVuG1875s3oqBzVGVQtSH","","['https://play-lh.googleusercontent.com/xThCeJNdomn03x4mLX_oAWR7V13mmMvmJscuMleUQlJAkGCYesVoa9Uagp15x_xAMeA0SpGH0kelRweFknTRNrA', 'https://play-lh.googleusercontent.com/WkzVjz59SpZYPzUE0RM68HXWpIGE6PzYZQJC1AydaEVYy0pWGkL2kfTXSjYa9xvqS3AHkzJrULZFV_TxuW6_Yw', 'https://play-lh.googleusercontent.com/Fn8FwHdTWpIpJmmvBziBpPqEW_cwTH-csMnqYbNBP8ixyCJR0AixwoZ0C0mXfnET9levwJQmjGVCK9s-txVaLA', 'https://play-lh.googleusercontent.com/RIXRFYnaknZiJCd359oQQq6Fx0KmWyRs6otZ4jWuD4SsnPIEP5lxL_CUxiWD7fUwrRDOiKdnxuGOIY9kJDWuEg', 'https://play-lh.googleusercontent.com/ljGug5STXuITT6CbxGBhveGe_zMMCfx7sX6JtY0VymcWbgnxrUVHll6pOdfXHEVVE3F2Ls6zYXcYbZwu8Xzv_w', 'https://play-lh.googleusercontent.com/8hvPNUa6O1RRTCeqE4hrpkZdMBmhnQ-_6XHrfrJRPenN54gm9GhwK1L_gqBknie5K5nESmOBcFTfCaSlLWd2CQ', 'https://play-lh.googleusercontent.com/0XjcQlTXP0Xe5RcoNXepiKQWK92vOw8NouvrIcV6ecUvq4jv_2kt3nC0fWKUNgFiAhy0R0HfEZHM4ANEP-WI', 'https://play-lh.googleusercontent.com/8d_vuki4uXyMdn8Qlcz0Ea814pFxVFMUvK1B1JMyVGRa1R7kuXaCUndcUuekTyTGa5o']","https://www.youtube.com/embed/LoVXK6_l9sA?ps=play&vq=large&rel=0&autohide=1&showinfo=0","https://i.ytimg.com/vi/LoVXK6_l9sA/hqdefault.jpg","0","True","","","Finanças","","","","","Bitcoin.com Wallet: Sua Carteira DeFi de Bitcoin e Cripto com Autocustódia
+A carteira multichain mais segura e fácil de usar que dá a você controle total sobre seus ativos.
+
+Compre, venda, envie, receba e troque criptomoedas populares:
+Bitcoin (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Avalanche (AVAX), Polygon (MATIC), BNB Smart Chain (BNB), ZANO, fUSD e tokens ERC-20 selecionados. Pague com cartão de crédito, Google Pay e muito mais. Compatível com stablecoins como USDT, USDC, DAI, fUSD e outras.
+
+Principais recursos:
+
+Carteira cripto com autocustódia
+Você controla suas chaves privadas e seus ativos — nem mesmo a Bitcoin.com pode acessá-los. Sem custodiante, sem bloqueios, sem risco de terceiros. Transfira suas criptos para qualquer carteira a qualquer momento.
+
+Carteira DeFi não custodial
+Conecte-se a DApps no Ethereum, Avalanche, Polygon e BNB Smart Chain usando o WalletConnect. Acesse as finanças descentralizadas: ganhe rendimento, forneça liquidez, empreste, tome empréstimos e interaja com DAOs e marketplaces de NFTs.
+
+Compatível com multichain e cross-chain
+Gerencie ativos em várias blockchains em um só aplicativo. Troque facilmente entre cadeias e acompanhe seu portfólio multichain.
+
+Acesso rápido e seguro
+Proteja sua carteira com impressão digital, Face ID ou PIN. Funciona perfeitamente em dispositivos Android. Ideal para pagamentos do dia a dia e armazenamento de longo prazo.
+
+Backup em nuvem ou frases-semente manuais
+Faça backup na nuvem com uma única senha mestra ou guarde suas frases-semente manualmente, como preferir.
+
+Taxas de rede personalizadas
+Defina suas próprias taxas de gás. Pague mais por velocidade ou economize quando não tiver pressa. Funciona com Bitcoin, Ethereum e todas as cadeias compatíveis.
+
+Blockchains de baixo custo para DeFi e pagamentos
+Use Bitcoin Cash, Polygon e BNB Smart Chain para pagamentos P2P, negociações e contratos inteligentes com taxas mínimas.
+
+Suporte para ZANO e fUSD
+Envie, receba, armazene e gerencie ZANO — o token nativo da blockchain Zano voltada para privacidade. Use tokens como fUSD (stablecoin privada) para pagamentos anônimos e sem censura. O Zano utiliza assinaturas em anel, endereços furtivos e memorandos criptografados por padrão.
+
+Suporte para Ethereum, Avalanche, Polygon e BNB Smart Chain
+Compre, venda, troque e gerencie ETH, AVAX, MATIC, BNB e seus tokens. Acesse protocolos DeFi rápidos, jogos NFT, trocas de baixo custo, yield farms e contratos inteligentes quase sem taxas de gás.
+
+Carteiras multisig para equipes e famílias
+Crie carteiras com múltiplas assinaturas para acesso compartilhado. Ideal para DAOs, poupanças familiares e tesourarias de empresas.
+
+Widgets ao vivo
+Adicione widgets de preços de criptos em tempo real à tela inicial.
+
+Visão de mercado
+Acompanhe preços, valor de mercado e volume das principais criptos como Solana, DOGE, SHIB, XRP e outras.
+
+Notas e etiquetas
+Adicione notas às transações para contabilidade, lembretes ou registros compartilhados.
+
+Envio via redes sociais
+Envie Bitcoin Cash pelo Telegram, WhatsApp, Messenger, SMS ou e-mail — mesmo para quem não tem carteira. Eles resgatam com um clique.
+
+Descubra ferramentas cripto
+Encontre comerciantes que aceitam cripto, compre cartões-presente, explore jogos blockchain, teste DApps e descubra recursos Web3.
+
+Exibição em moeda local
+Veja saldos em BRL, USD, EUR, GBP, JPY, INR, NGN, PHP, AUD e mais.
+
+Auditada e confiável
+Auditada de forma independente pela Kudelski Security. Suas chaves e dados estão seguros.
+
+Confiada por milhões
+Junte-se a mais de 70 milhões de usuários e assuma o controle da sua vida cripto. Seja Bitcoin, DeFi, NFTs, stablecoins ou tokens de privacidade como o ZANO — esta é sua carteira Web3 completa.","Bitcoin.com Wallet: Sua Carteira DeFi de Bitcoin e Cripto com Autocustódia<br>A carteira multichain mais segura e fácil de usar que dá a você controle total sobre seus ativos.<br><br>Compre, venda, envie, receba e troque criptomoedas populares:<br>Bitcoin (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Avalanche (AVAX), Polygon (MATIC), BNB Smart Chain (BNB), ZANO, fUSD e tokens ERC-20 selecionados. Pague com cartão de crédito, Google Pay e muito mais. Compatível com stablecoins como USDT, USDC, DAI, fUSD e outras.<br><br>Principais recursos:<br><br>Carteira cripto com autocustódia<br>Você controla suas chaves privadas e seus ativos — nem mesmo a Bitcoin.com pode acessá-los. Sem custodiante, sem bloqueios, sem risco de terceiros. Transfira suas criptos para qualquer carteira a qualquer momento.<br><br>Carteira DeFi não custodial<br>Conecte-se a DApps no Ethereum, Avalanche, Polygon e BNB Smart Chain usando o WalletConnect. Acesse as finanças descentralizadas: ganhe rendimento, forneça liquidez, empreste, tome empréstimos e interaja com DAOs e marketplaces de NFTs.<br><br>Compatível com multichain e cross-chain<br>Gerencie ativos em várias blockchains em um só aplicativo. Troque facilmente entre cadeias e acompanhe seu portfólio multichain.<br><br>Acesso rápido e seguro<br>Proteja sua carteira com impressão digital, Face ID ou PIN. Funciona perfeitamente em dispositivos Android. Ideal para pagamentos do dia a dia e armazenamento de longo prazo.<br><br>Backup em nuvem ou frases-semente manuais<br>Faça backup na nuvem com uma única senha mestra ou guarde suas frases-semente manualmente, como preferir.<br><br>Taxas de rede personalizadas<br>Defina suas próprias taxas de gás. Pague mais por velocidade ou economize quando não tiver pressa. Funciona com Bitcoin, Ethereum e todas as cadeias compatíveis.<br><br>Blockchains de baixo custo para DeFi e pagamentos<br>Use Bitcoin Cash, Polygon e BNB Smart Chain para pagamentos P2P, negociações e contratos inteligentes com taxas mínimas.<br><br>Suporte para ZANO e fUSD<br>Envie, receba, armazene e gerencie ZANO — o token nativo da blockchain Zano voltada para privacidade. Use tokens como fUSD (stablecoin privada) para pagamentos anônimos e sem censura. O Zano utiliza assinaturas em anel, endereços furtivos e memorandos criptografados por padrão.<br><br>Suporte para Ethereum, Avalanche, Polygon e BNB Smart Chain<br>Compre, venda, troque e gerencie ETH, AVAX, MATIC, BNB e seus tokens. Acesse protocolos DeFi rápidos, jogos NFT, trocas de baixo custo, yield farms e contratos inteligentes quase sem taxas de gás.<br><br>Carteiras multisig para equipes e famílias<br>Crie carteiras com múltiplas assinaturas para acesso compartilhado. Ideal para DAOs, poupanças familiares e tesourarias de empresas.<br><br>Widgets ao vivo<br>Adicione widgets de preços de criptos em tempo real à tela inicial.<br><br>Visão de mercado<br>Acompanhe preços, valor de mercado e volume das principais criptos como Solana, DOGE, SHIB, XRP e outras.<br><br>Notas e etiquetas<br>Adicione notas às transações para contabilidade, lembretes ou registros compartilhados.<br><br>Envio via redes sociais<br>Envie Bitcoin Cash pelo Telegram, WhatsApp, Messenger, SMS ou e-mail — mesmo para quem não tem carteira. Eles resgatam com um clique.<br><br>Descubra ferramentas cripto<br>Encontre comerciantes que aceitam cripto, compre cartões-presente, explore jogos blockchain, teste DApps e descubra recursos Web3.<br><br>Exibição em moeda local<br>Veja saldos em BRL, USD, EUR, GBP, JPY, INR, NGN, PHP, AUD e mais.<br><br>Auditada e confiável<br>Auditada de forma independente pela Kudelski Security. Suas chaves e dados estão seguros.<br><br>Confiada por milhões<br>Junte-se a mais de 70 milhões de usuários e assuma o controle da sua vida cripto. Seja Bitcoin, DeFi, NFTs, stablecoins ou tokens de privacidade como o ZANO — esta é sua carteira Web3 completa.","","","","","0","0","4.5897436","","","","","","{}","False","False","","[]",""
+"MEXC: Compre Bitcoin e Cripto","MEXC Ltd","4.7","0","0","10.000.000+","com.mexcpro.client","","https://play-lh.googleusercontent.com/nwTKN5i_FrGt2zmWDhaqNoPjS2N7e4gaxa2H09dl9_4FTve103brHDEPeAr_kwTxF40","","['https://play-lh.googleusercontent.com/sMpLd2Y3fnbGNuHLxrysAsvGtDikJIzO4Hr2N4w4N03wM8SHUM-wtL2NMhnHzsx1a5U', 'https://play-lh.googleusercontent.com/rsl7bFRsCguTdqFJbbENckHBn2uom8aI8IrEZIQy89uDw-PvpRyw8-QAqI2oW95-pA', 'https://play-lh.googleusercontent.com/n3auPE86ZOrpK5hE7WH49LJ6cttRIdu-Irirsr_yANhtHNaNqTCEC1dOadCOrB8S1w', 'https://play-lh.googleusercontent.com/6EeHgBTaBM1aH_6Z-cBp-1THr8crLP09IBgnaAKrMV-uKmZDE9-yz7F1foJpfKzSZyc', 'https://play-lh.googleusercontent.com/i2KdNrFUSlmb1BQIP-02ReZ31QI4C44I6nHypNhQJuFh6fthnvRzAU6byz-4ILPQtg', 'https://play-lh.googleusercontent.com/5m_OJIp3WF2l7spuM_HRsr6ZBYYm6vtnEHEnl_yDU2X6fTM0_ytYaFTHfiD4cKEyDXA', 'https://play-lh.googleusercontent.com/VVi2EtFuwb3JQppsdxPMsXfWmf3CBUfy7D57KncK_MXt7FRAfVQbGeCXfAyv07stuy4', 'https://play-lh.googleusercontent.com/YHnOYVI90aMsPEeE58dnp9V2vryjoQGxC4Wf8k0CvJByfxHrUlATLyl32hXHOav2LA', 'https://play-lh.googleusercontent.com/QWAfaiuRlY8wTjCSStZ267UCaeVpcvHvkQ8ZLnxAw07wDtc5N7WJ1Ku3CgMYevfsgMY']","https://www.youtube.com/embed/NfjMlUYhQjo?ps=play&vq=large&rel=0&autohide=1&showinfo=0","https://i.ytimg.com/vi/NfjMlUYhQjo/hqdefault.jpg","0","True","","","Finanças","","","","","MEXC é uma das principais exchanges de ativos digitais do mundo. Com as taxas mais baixas do setor (taxas zero), a maior variedade de pares de negociação (mais de 3,000) e um motor de negociação seguro e confiável, a MEXC oferece uma experiência de negociação de primeira classe, conquistando a confiança de mais de 40 milhões de usuários globalmente. A MEXC torna as negociações mais eficientes e simples!
+
+Na MEXC, você pode obter:
+- Mais pares: Mais de 3,000 pares de negociação listados, permitindo que você aproveite ao máximo as oportunidades de riqueza.
+- Menores taxas: Taxa de maker 0 para negociação no spot e em futuros, com taxas de taker entre 1bps–2bps.
+- Melhor profundidade de mercado: Liquidez líder no setor para spreads menores, negociação mais estável e execução mais rápida.
+- Maiores retornos: Recompensas de até $8,000 para novos usuários, e rendimento de até 60% para quem segura MX.
+- Segurança garantida: A cada dois meses, a plataforma publica seus ativos de reserva e a proporção de reserva.
+
+1. Grande variedade de criptomoedas
+Explore mais de 3,000 ativos cripto, incluindo Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Ripple (XRP), Tether (USDT), MX Token (MX), Dogecoin (DOGE), Shiba Inu (SHIB), PEPE (PEPE), Notcoin (NOT), Toncoin (TON), USDC (USDC), Binance Coin (BNB), People DAO (PEOPLE), Chainlink (LINK), Cardano (ADA), Polkadot (DOT), Decentraland (MANA), Gala Games (GALA), Polygon (POL) e mais.
+
+2. Taxas 0 de negociação
+- Negociação Spot: Taxas maker 0 e taxas taker entre 1bps–2bps.
+- Negociação de Futuros: Taxas maker 0 e taxas taker entre 1bps–2bps.
+- Faça hold de mais de 1,000 MX: Desfrute de taxas de taker de 1bps (aplicável à negociação spot e futuros).
+- P2P: Transferências bancárias e mais de 30 opções, com taxa 0 para negociação P2P.
+
+3. Liquidez líder no setor
+Nos mercados de futuros e spot, o volume negociável no preço médio ±0,05% (5 bps) é significativamente superior ao dos concorrentes. Isso resulta em spreads menores, negociação mais estável e execução mais rápida.
+
+4. Retornos estáveis
+- Ganhe tokens negociando: Participe do evento diário M-Day—quanto mais você negociar, mais você ganha.
+- Rendimentos com MX: Faça hold de MX e aproveite rendimentos de até 60%.
+
+5. Garantia de segurança
+Não poupamos esforços para proteger a segurança de seus fundos. A MEXC publica suas reservas de plataforma e a proporção de reserva a cada dois meses. Você pode verificar as proporções de reserva para Bitcoin (BTC), Tether (USDT) e Ethereum (ETH), entre outros.
+
+
+
+Junte-se à vibrante comunidade de traders da MEXC:
+X: https://x.com/MEXC_Official
+Facebook: https://www.facebook.com/mexcofficial
+Instagram: https://www.instagram.com/mexc_official/
+Telegram: https://t.me/MEXCPortugal","MEXC é uma das principais exchanges de ativos digitais do mundo. Com as taxas mais baixas do setor (taxas zero), a maior variedade de pares de negociação (mais de 3,000) e um motor de negociação seguro e confiável, a MEXC oferece uma experiência de negociação de primeira classe, conquistando a confiança de mais de 40 milhões de usuários globalmente. A MEXC torna as negociações mais eficientes e simples!<br><br>Na MEXC, você pode obter:<br>- Mais pares: Mais de 3,000 pares de negociação listados, permitindo que você aproveite ao máximo as oportunidades de riqueza.<br>- Menores taxas: Taxa de maker 0 para negociação no spot e em futuros, com taxas de taker entre 1bps–2bps.<br>- Melhor profundidade de mercado: Liquidez líder no setor para spreads menores, negociação mais estável e execução mais rápida.<br>- Maiores retornos: Recompensas de até $8,000 para novos usuários, e rendimento de até 60% para quem segura MX.<br>- Segurança garantida: A cada dois meses, a plataforma publica seus ativos de reserva e a proporção de reserva.<br><br>1. Grande variedade de criptomoedas<br>Explore mais de 3,000 ativos cripto, incluindo Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Ripple (XRP), Tether (USDT), MX Token (MX), Dogecoin (DOGE), Shiba Inu (SHIB), PEPE (PEPE), Notcoin (NOT), Toncoin (TON), USDC (USDC), Binance Coin (BNB), People DAO (PEOPLE), Chainlink (LINK), Cardano (ADA), Polkadot (DOT), Decentraland (MANA), Gala Games (GALA), Polygon (POL) e mais.<br><br>2. Taxas 0 de negociação<br>- Negociação Spot: Taxas maker 0 e taxas taker entre 1bps–2bps.<br>- Negociação de Futuros: Taxas maker 0 e taxas taker entre 1bps–2bps.<br>- Faça hold de mais de 1,000 MX: Desfrute de taxas de taker de 1bps (aplicável à negociação spot e futuros).<br>- P2P: Transferências bancárias e mais de 30 opções, com taxa 0 para negociação P2P.<br><br>3. Liquidez líder no setor<br>Nos mercados de futuros e spot, o volume negociável no preço médio ±0,05% (5 bps) é significativamente superior ao dos concorrentes. Isso resulta em spreads menores, negociação mais estável e execução mais rápida.<br><br>4. Retornos estáveis<br>- Ganhe tokens negociando: Participe do evento diário M-Day—quanto mais você negociar, mais você ganha.<br>- Rendimentos com MX: Faça hold de MX e aproveite rendimentos de até 60%.<br><br>5. Garantia de segurança<br>Não poupamos esforços para proteger a segurança de seus fundos. A MEXC publica suas reservas de plataforma e a proporção de reserva a cada dois meses. Você pode verificar as proporções de reserva para Bitcoin (BTC), Tether (USDT) e Ethereum (ETH), entre outros.<br><br><br><br>Junte-se à vibrante comunidade de traders da MEXC:<br>X: https://x.com/MEXC_Official<br>Facebook: https://www.facebook.com/mexcofficial<br>Instagram: https://www.instagram.com/mexc_official/<br>Telegram: https://t.me/MEXCPortugal","","","","","0","0","4.716353","","","","","","{}","False","False","","[]",""
+"Revolut: conta e cartão global","Revolut Ltd","4.6","0","0","50.000.000+","com.revolut.revolut","","https://play-lh.googleusercontent.com/Y_CbXaP96Rat-_YP9MDXjQguDLLWXuEXZ3NhLyA5hh_e4EKNP4fr5_qFxUN4895DVzts","","['https://play-lh.googleusercontent.com/nijPBIbt2IJCGeOTN3vyzABztfzlK8q7ePxzpf6boaopCPa98F6iDwduoSfv8jnncCoWni7KoBK2ZU4qgnx-', 'https://play-lh.googleusercontent.com/QRIfeCFS-66IHnH9YoxbZqpAk788Ja-two0GQruiQR7FRAzjQe41WgSWVTJhVI4AqLCOysVgs5m8OYUp7IkOTA', 'https://play-lh.googleusercontent.com/1cteUewIsVHEUEipur6gxpBn_bte6T731rA9wU8k--VG37wiaosDcv9E7l1hlYdX1BGa5SrBHk8uoBEfzXUB5Q', 'https://play-lh.googleusercontent.com/mE88ikm7wp0KTpVRbUa1_w44BT5WVK4fAiHsdv3dOScJJfVDiZobqVfe5qRUFhVsXPxGcVyqQXlhThOq1p9g', 'https://play-lh.googleusercontent.com/ENvr872CxosaHwuIO6Ixy2pzUrYO2gmpAKseXjcO7vNXTe9VOGoZpUP5URbcjE7UhfN3iswAZiQZhiaHQucysgs', 'https://play-lh.googleusercontent.com/LuxYg8hKt1T4WN6Px5QnjMzK7Z3_8PTyJzbUE-o2Kn4xI0Zb1OVWAEBnKXgK8h_CDCx0EQcwfhski1UwWRxM', 'https://play-lh.googleusercontent.com/dWpBqhZT2rn2dhrYrf0PiVlyLrlohpsHe2yaJZHQOHgAKhu7QI0vTE851iqqdKl2-Y1BUAcIr5JrfDrb-8DaZw', 'https://play-lh.googleusercontent.com/9fZH7GYdtFgG_pFZ_Vm45paBaIW5fsND_hRFMVvYrA29jzpqFsS8ttQz7bG-BYpiJDmlAdOsG_pcij9DC7JDfQ', 'https://play-lh.googleusercontent.com/w0aRANTKXAEf3SkPAbNvyM4eQCHO3vLKOYzDkC7UIGrc1-jQ9D3awn3Oqj0-bfn-ehaH7KPbc9aGGAc-H7W5nw']","","","0","True","","","Finanças","","","","","Gerencie seu dinheiro em dólar, euro e +30 moedas em uma conta internacional.
+
+Toda sua vida financeira no exterior em um único app. Gerencie suas metas, faça pagamentos, guarde e envie dinheiro em dólar americano, euro ou em mais de 30 moedas! Use seu cartão gratuito para compras online ou presencialmente, em casa ou no exterior, sem taxas ocultas.
+ 
+Abra uma conta internacional hoje e junte-se aos nossos mais de 60 milhões de clientes. Conta e cartão sem anuidade e sem custo de abertura.
+
+Compre dólar, euro e mais de 30 moedas
+- Compre dólar e comece a usar hoje mesmo seu cartão virtual. 
+- Câmbio instantâneo e sempre que desejar. Deposite na sua conta ou cartão mesmo aos finais de semana e fora do horário comercial.
+- Cotação em dólar comercial.
+
+Pague e receba em segundos
+- Faça pagamentos para outros clientes da Revolut em dólar, euro e mais de 30 moedas de forma simples, instantânea e gratuita.
+- Pague como um local com o melhor câmbio. Viaje pelo mundo com um cartão grátis da Revolut aceito em mais de 150 países sem taxas ocultas. O dinheiro é seu, use-o como quiser!
+- Envie e solicite dinheiro com apenas alguns cliques.
+
+Transferências sem fronteiras
+- Envie dinheiro para os Estados Unidos, para a Europa e para diversas outras regiões em minutos.
+
+Tenha total controle do seu cartão
+- Acompanhe seu orçamento com notificações sempre que fizer uma transação.
+- Mantenha o controle e a segurança do seu cartão com nosso recurso de congelamento do cartão.
+- Crie cartões virtuais descartáveis para maior segurança em compras online, defina limites de gastos e muito mais, tudo isso na palma da sua mão!
+
+Assuma o controle do seu dinheiro com ferramentas analíticas
+- Defina limites para cumprir seu orçamento ou suas metas e receba notificações quando estiver perto de alcançá-los.
+
+Maximize seu dinheiro
+- Conquiste seus objetivos financeiros mais rapidamente usando nossos Pockets.
+
+Junte-se aos nossos mais de 65 milhões de clientes e descubra por que eles adoram a Revolut.
+
+Faça o download agora, crie sua conta global e compre dólar ainda hoje!
+
+*Todas as cotações exemplificadas nas imagens e textos são meramente ilustrativas. O valor do câmbio será calculado no momento da conversão, e todas as taxas serão mostradas em tempo real no app.
+
+A Revolut Ltd. (n.º 08804411) é uma instituição financeira devidamente autorizada pela FCA (Financial Conduct Authority) de acordo com a Normativa sobre Dinheiro Eletrônico de 2011 (registro empresarial n.º 900562), e tem sede estabelecida em 30 South Colonnade, London E14 5HX, United Kingdom.
+
+A Revolut Tecnologia Brasil Ltda é uma entidade não regulada, registrada no CNPJ sob o n. 44.626.880/0001-81, com sede na Rua Manoel da Nóbrega, n.º 1.280, 10º andar, Paraíso, São Paulo, SP, CEP 04001-902.","Gerencie seu dinheiro em dólar, euro e +30 moedas em uma conta internacional.<br><br>Toda sua vida financeira no exterior em um único app. Gerencie suas metas, faça pagamentos, guarde e envie dinheiro em dólar americano, euro ou em mais de 30 moedas! Use seu cartão gratuito para compras online ou presencialmente, em casa ou no exterior, sem taxas ocultas.<br> <br>Abra uma conta internacional hoje e junte-se aos nossos mais de 60 milhões de clientes. Conta e cartão sem anuidade e sem custo de abertura.<br><br>Compre dólar, euro e mais de 30 moedas<br>- Compre dólar e comece a usar hoje mesmo seu cartão virtual. <br>- Câmbio instantâneo e sempre que desejar. Deposite na sua conta ou cartão mesmo aos finais de semana e fora do horário comercial.<br>- Cotação em dólar comercial.<br><br>Pague e receba em segundos<br>- Faça pagamentos para outros clientes da Revolut em dólar, euro e mais de 30 moedas de forma simples, instantânea e gratuita.<br>- Pague como um local com o melhor câmbio. Viaje pelo mundo com um cartão grátis da Revolut aceito em mais de 150 países sem taxas ocultas. O dinheiro é seu, use-o como quiser!<br>- Envie e solicite dinheiro com apenas alguns cliques.<br><br>Transferências sem fronteiras<br>- Envie dinheiro para os Estados Unidos, para a Europa e para diversas outras regiões em minutos.<br><br>Tenha total controle do seu cartão<br>- Acompanhe seu orçamento com notificações sempre que fizer uma transação.<br>- Mantenha o controle e a segurança do seu cartão com nosso recurso de congelamento do cartão.<br>- Crie cartões virtuais descartáveis para maior segurança em compras online, defina limites de gastos e muito mais, tudo isso na palma da sua mão!<br><br>Assuma o controle do seu dinheiro com ferramentas analíticas<br>- Defina limites para cumprir seu orçamento ou suas metas e receba notificações quando estiver perto de alcançá-los.<br><br>Maximize seu dinheiro<br>- Conquiste seus objetivos financeiros mais rapidamente usando nossos Pockets.<br><br>Junte-se aos nossos mais de 65 milhões de clientes e descubra por que eles adoram a Revolut.<br><br>Faça o download agora, crie sua conta global e compre dólar ainda hoje!<br><br>*Todas as cotações exemplificadas nas imagens e textos são meramente ilustrativas. O valor do câmbio será calculado no momento da conversão, e todas as taxas serão mostradas em tempo real no app.<br><br>A Revolut Ltd. (n.º 08804411) é uma instituição financeira devidamente autorizada pela FCA (Financial Conduct Authority) de acordo com a Normativa sobre Dinheiro Eletrônico de 2011 (registro empresarial n.º 900562), e tem sede estabelecida em 30 South Colonnade, London E14 5HX, United Kingdom.<br><br>A Revolut Tecnologia Brasil Ltda é uma entidade não regulada, registrada no CNPJ sob o n. 44.626.880/0001-81, com sede na Rua Manoel da Nóbrega, n.º 1.280, 10º andar, Paraíso, São Paulo, SP, CEP 04001-902.","","","","","0","0","4.6018867","","","","","","{}","False","False","","[]",""
+"Trust: Crypto & Bitcoin Wallet","DApps Platform, Inc.","4.6","0","0","50.000.000+","com.wallet.crypto.trustapp","","https://play-lh.googleusercontent.com/cd5BevWohRqLwsI2_i3k4YIVtcO57cIZCs6l20H1Hcdj0P2rFEcX_7QtgKbTM3Sn_A","","['https://play-lh.googleusercontent.com/YTRiFBawAcuhfUCZKzP-OdArHhF30-QbZJu0lZ8gVw2P-4zD37LeGhD-5GicWvvIVMc', 'https://play-lh.googleusercontent.com/GCvm-GCp08y5rQui3UadscOvQDw626xCZDYGsGyL2HXmbNqDfudcLZhKwwHtKXPPSQ', 'https://play-lh.googleusercontent.com/PjLgzjhE_aDRmN1R0kAtcpXAutNnesmADZLZMlCPRMyHM85UjgS3EeJoP_de3GRKHBc', 'https://play-lh.googleusercontent.com/FEZv2UB0II7200Dvre5GWWiASFWJLEY4d_s_WyoXjeznuXsOdpbo6alARfb4-uwGosA', 'https://play-lh.googleusercontent.com/H-D_J3_77lrfkcNLYgklitGW0V7kyU2KomCZFmxmEXKcPlVwqQceJ9zGUthi5mZLdUg', 'https://play-lh.googleusercontent.com/uB593ixUDfR4qEw1t8tE-kX6E1jdbiHkOgKdNtweTiMRdXotN09OxiXjwnAG0Ulfx7zE', 'https://play-lh.googleusercontent.com/_smk24k2KJlb7OqSmnze0vtCGINFzELLP6HJwBEkvepj8UgQgxtLjiLMAYuKXa57vgk', 'https://play-lh.googleusercontent.com/HsMMvDeVi-G2MJbKjzAO4rx3u3Fp3sgEIalXNOrauJvZzNdFOKYblo7C7JOcWQu9zQ', 'https://play-lh.googleusercontent.com/_pONFLPRZ8HH0tCUQqYH2g5mzCf2b5dUH6bpjny7Rf-_KwjfjMNCYelDomw3Aax6wFY9', 'https://play-lh.googleusercontent.com/5rvl9QZXkj--7eNESU8cNdZiZBGJvvAiEamvsu5uidUeUk34tLJRZZjWVsRm1jjR5g_D', 'https://play-lh.googleusercontent.com/mlW6tqXb4HpMtqXk-YMGTB6eJBphj7zTbZPK81X1aZ377gXYOHUQ3hi5O6zX_PxeInY', 'https://play-lh.googleusercontent.com/cisz7pHTlTR4fVzv187ecuCvAZe115nrKgTyjtYUT5nk5UVD1jvjfrcW39iqH5OWlUo', 'https://play-lh.googleusercontent.com/IIBvBu8j3msrrySr4vv7w_lgbGscf-oP5EsFVZPAUnKAJgnJ23HJQzhm4AJADcSVhA', 'https://play-lh.googleusercontent.com/J3qZI4U2mgjLWeTeGcLVXqhMM1SUkJyNmdjcsJNwNELHg4w7H7Og2b_5i551An4vLaE', 'https://play-lh.googleusercontent.com/Y_P7EseI3cZxdNE2s6wvezKwkMdZA84zork8WoSOiKldp1O6sqRKIc0ZFFs6R8qVcw', 'https://play-lh.googleusercontent.com/98gP_4juazYjaM7H14DuYbK_j7XI3-nTT6tZKLNkHkCICaeClY5FqT0xwdrfGtWeK5M', 'https://play-lh.googleusercontent.com/E6DbWkDDJG1mjnmyS-vxUrPsj2yXi8GVgfplr5_ZATR9dny1b4NtKydP7DAieCTCRx4', 'https://play-lh.googleusercontent.com/pAdo09ojrY4TGFbrIjL5m-UJYfLQNHY_6B9-lxvzdHOqgQrEqDiJ-W9Dew7CD-OwElbn', 'https://play-lh.googleusercontent.com/Yae8WhVl91QPDEaqTHXBJqSf6wPlOIo9UNtlpI5GIZtXsszrSJ5SaIIIwflgEqcFTmE', 'https://play-lh.googleusercontent.com/9LgDhbrJYzPFYBWcC7av4g7bwR6DWN_2MmrSPsBbS8Y3I6PvGLRvsnelNNjrindRFig', 'https://play-lh.googleusercontent.com/jyQP-Dypm1dwUzHcoKSRTVen-wrAuAyb7bsCv8VJN_Mo_P1wIGd-u65g94WDcThxdLY', 'https://play-lh.googleusercontent.com/l3pYrgxC6i78t_1oaDN7wd8PusYbuBENz_QNl0OAeG3cwZWaBh3HR6NUtm17hYTHtw', 'https://play-lh.googleusercontent.com/bokPMjvxYmRR67l0cTxtYQIXYr22aNZp49XuAXtwLds-X32diXYRaX9miOvtWgKq8g', 'https://play-lh.googleusercontent.com/asvBZWTbLJNAmFxmarIrhwjPPd4rWTUJSFsh0Q1dBRBtIEGWkXxqGKbOMf0jVPjWfufM', 'https://play-lh.googleusercontent.com/VyavnGLfG49q0_z0AnvCUwEPJngJkLIkOezgHMHFA-eYOkDSad1Cn19ccwxo13ZL6hE']","","","0","True","","","Finanças","","","","","Uma Carteira em que Você Pode Confiar — Agora com Ganhos em Stablecoins
+Cresça seu portfólio cripto com segurança usando o novo recurso do Trust Wallet: Stablecoin Earn. Comece a ganhar recompensas diárias com stablecoins como USDT, USDC, DAI e USDA — diretamente na carteira confiada por mais de 200 milhões de usuários ao redor do mundo.
+
+Novidades
+- Stablecoin Earn – Coloque suas stablecoins (como USDT, USDC, USDA e DAI) para trabalhar com protocolos on-chain transparentes e de auto custódia.
+- Ganhe recompensas competitivas em tempo real. Saques a qualquer momento. Controle total nas suas mãos.
+- Já disponível na versão mais recente do Trust Wallet.
+
+Trust Wallet – Sua Carteira Web3 Tudo-em-Um
+Trust Wallet é uma carteira segura, multi-chain e de auto custódia, que conecta você a mais de 10 milhões de ativos digitais, NFTs e milhares de dApps do universo Web3.
+
+Segura e Privada
+- Você controla suas chaves privadas, armazenadas com segurança no seu dispositivo e criptografadas com AES.
+- Ninguém pode congelar ou acessar seus fundos.
+- Nenhum dado pessoal é coletado.
+
+Suporte Extenso a Múltiplas Blockchains
+- Compatível com mais de 100 blockchains e mais de 10 milhões de ativos: BTC, ETH, SOL, USDT, USDC, XRP, ADA, SUI, AVAX, TRUMP, TRON, PEPE e muitos outros.
+- Gerencie NFTs em várias redes, tudo em um só lugar.
+
+Novo no mundo cripto? Usuário avançado? Todos são bem-vindos.
+- Use integrações como Coinbase Pay e Binance Pay para depósitos fáceis.
+- Explore nosso navegador de dApps com detecção automática de rede inteligente.
+
+Facilite sua declaração de impostos com ferramentas fiscais opcionais dentro do app.
+Adicione tokens personalizados, acompanhe carteiras e ajuste nós RPC.
+
+Explore o Web3 com Confiança
+Conecte-se com segurança a DeFi, marketplaces de NFT, jogos Web3 e metaverso — tudo pelo Trust Wallet.
+
+Use o Trust Wallet em Qualquer Lugar — Celular e Desktop
+Gerencie seus ativos e explore o Web3 sem interrupções entre dispositivos.
+Já usa a extensão para desktop? Importe sua carteira e continue de onde parou.
+
+Junte-se a Mais de 200 Milhões de Usuários Hoje
+Seja para armazenar Bitcoin, gerenciar NFTs ou lucrar com stablecoins — o Trust Wallet te dá controle total. Baixe agora e libere todo o potencial do Web3.
+
+Precisa de ajuda ou quer deixar um feedback? Acesse nosso suporte: support.trustwallet.com
+Siga a gente no Twitter: @TrustWallet","Uma Carteira em que Você Pode Confiar — Agora com Ganhos em Stablecoins<br>Cresça seu portfólio cripto com segurança usando o novo recurso do Trust Wallet: Stablecoin Earn. Comece a ganhar recompensas diárias com stablecoins como USDT, USDC, DAI e USDA — diretamente na carteira confiada por mais de 200 milhões de usuários ao redor do mundo.<br><br>Novidades<br>- Stablecoin Earn – Coloque suas stablecoins (como USDT, USDC, USDA e DAI) para trabalhar com protocolos on-chain transparentes e de auto custódia.<br>- Ganhe recompensas competitivas em tempo real. Saques a qualquer momento. Controle total nas suas mãos.<br>- Já disponível na versão mais recente do Trust Wallet.<br><br>Trust Wallet – Sua Carteira Web3 Tudo-em-Um<br>Trust Wallet é uma carteira segura, multi-chain e de auto custódia, que conecta você a mais de 10 milhões de ativos digitais, NFTs e milhares de dApps do universo Web3.<br><br>Segura e Privada<br>- Você controla suas chaves privadas, armazenadas com segurança no seu dispositivo e criptografadas com AES.<br>- Ninguém pode congelar ou acessar seus fundos.<br>- Nenhum dado pessoal é coletado.<br><br>Suporte Extenso a Múltiplas Blockchains<br>- Compatível com mais de 100 blockchains e mais de 10 milhões de ativos: BTC, ETH, SOL, USDT, USDC, XRP, ADA, SUI, AVAX, TRUMP, TRON, PEPE e muitos outros.<br>- Gerencie NFTs em várias redes, tudo em um só lugar.<br><br>Novo no mundo cripto? Usuário avançado? Todos são bem-vindos.<br>- Use integrações como Coinbase Pay e Binance Pay para depósitos fáceis.<br>- Explore nosso navegador de dApps com detecção automática de rede inteligente.<br><br>Facilite sua declaração de impostos com ferramentas fiscais opcionais dentro do app.<br>Adicione tokens personalizados, acompanhe carteiras e ajuste nós RPC.<br><br>Explore o Web3 com Confiança<br>Conecte-se com segurança a DeFi, marketplaces de NFT, jogos Web3 e metaverso — tudo pelo Trust Wallet.<br><br>Use o Trust Wallet em Qualquer Lugar — Celular e Desktop<br>Gerencie seus ativos e explore o Web3 sem interrupções entre dispositivos.<br>Já usa a extensão para desktop? Importe sua carteira e continue de onde parou.<br><br>Junte-se a Mais de 200 Milhões de Usuários Hoje<br>Seja para armazenar Bitcoin, gerenciar NFTs ou lucrar com stablecoins — o Trust Wallet te dá controle total. Baixe agora e libere todo o potencial do Web3.<br><br>Precisa de ajuda ou quer deixar um feedback? Acesse nosso suporte: support.trustwallet.com<br>Siga a gente no Twitter: @TrustWallet","","","","","0","0","4.642857","","","","","","{}","False","False","","[]",""
+"SafePal: Crypto Wallet BTC NFT","SafePal Wallet","4.9","0","0","5.000.000+","io.safepal.wallet","","https://play-lh.googleusercontent.com/uT6ByyNvUeLRMDnMKEC91RrbHftl2EBB58r9vZaNbiYf1F5Twa33_Hx0zYvEfCtiG1kE","","['https://play-lh.googleusercontent.com/Vtg6hl1-sXr22wH7XBshdJDFwVsQALlF3AEvCyDFZIzZugwHzsyiQ93cATY8X1htvw', 'https://play-lh.googleusercontent.com/hNdWfAjSODg_PYnCovER5KErThUTQKk1vl3E3GjPwRLH6z321jgrNjAXCR46h1Ei4aM', 'https://play-lh.googleusercontent.com/TTLA7WLB9Z8Z03J_q7fPDiysrOBvqc-mWhHSKJPkw_A6m_9_1NtKSweQmUtBy4B51bBF', 'https://play-lh.googleusercontent.com/UKekQ-PUAtFqZiay0_JxUVWPLLMuN7dY5dhOodx-qnHJXZppKENhvP3AVI3Zy5wgQXY', 'https://play-lh.googleusercontent.com/bJJSRy1qaGppnR97-EXorz3AG1T8bIrLaUFdE2PVPR0cWtKrhZ0dmqa5bHzcG1cz_5PP', 'https://play-lh.googleusercontent.com/b1jMvTBTIOTXy60Pi2e2HOZzanqgIH58Y0n5VRKxAGi-9hduM3fym7Bp0kB1QBHeUcI', 'https://play-lh.googleusercontent.com/Yny7JnG1JWEuWzmNq2CKPTDIGkq74zvNG-Wf7ASr8uLp1tQ00sAjQagUjoSwok3f-C0', 'https://play-lh.googleusercontent.com/_bqNLSHngVm_WuM7hyDARmkLB001gZ9dm7wcIQOTKUK7j667meEJ7MErCVcux65m1JM', 'https://play-lh.googleusercontent.com/OZKAsomi9M7WIZfvT0FPc58YMaXJD7erPUBZC13piQr3zEvJFZqgk-yIR_rusOI29rs', 'https://play-lh.googleusercontent.com/qC8qIE0WDR8EapGRYb45LwM1iCJ_tPnNJEzvygGqK6NYrYEz0bSQUZDi7WsXM5UZhcI', 'https://play-lh.googleusercontent.com/ATRJsuVsJyfjYyW_ejRM4rngF4PGzHDbMK3eYwAjjPQ0b39TBavwiIWP3-reROiSSwM3', 'https://play-lh.googleusercontent.com/DWn7jGnbGp113s8KEvLJm8hPSNxSjHDtf_iFeALwD5qubE9pl2QuzG09YIxFGxI2_Q', 'https://play-lh.googleusercontent.com/enbS58dD_kkA5Ryxmh2RyOhwOM09Jdp5NeByjoGIcaRm-2nHprGWVDL09b0WbezzZHE', 'https://play-lh.googleusercontent.com/LsxLP34CWfqGCRHIGfz5TtUjyDMTIhHqhUaKEYd87OuvPxicoLY0x2Vrntg3Pgc8TL8', 'https://play-lh.googleusercontent.com/g8qKBn_RffzNMcypIe47cFKr3qTssWaVOEaUHRC3cRuBi5086wiTvB8GSp-jesM3O4o', 'https://play-lh.googleusercontent.com/3uXlKu3RwIVIfIumkmP2q_oj7yvnZ62KxCNcJhJrPabN4p0T2TfQ_REZ9cZ1rpqzpgA']","https://www.youtube.com/embed/iCe1bRxpFPI?ps=play&vq=large&rel=0&autohide=1&showinfo=0","https://i.ytimg.com/vi/iCe1bRxpFPI/hqdefault.jpg","0","True","","","Finanças","","","","","SafePal is a next generation non-custodial crypto wallet suite founded in 2018 with over 25 million users globally and backed by industry leaders like Binance, Animoca Brands, and Superscrypt. As a non-custodial wallet suite with hardware wallet, mobile app, and browser extension solutions — SafePal empowers users to own their crypto adventure, by helping them to access opportunities safely in the decentralized world.
+
+The SafePal mobile app supports 16 languages, 200+ blockchains, 200,000+ tokens and NFTs with a custom RPC feature supporting 400+ custom EVM networks and counting. It supports on ramp features to buy over 35 cryptocurrencies using convenient payment methods, and off-ramp into fiat such as USD, EUR and GBP using respected providers such as MoonPay, Simplex, Binance Connect to facilitate secure and seamless management of assets. The app also has a CeDeFi banking gateway and Mastercard which empowers users to enjoy crypto friendly living with individual ownership of compliant swiss banking accounts.
+
+With 4x better swap rates and fees than MetaMask, and no bridging fees for amounts within daily thresholds; SafePal offers the best interoperability through its cross-chain in-app swap and is one of the ONLY wallets integrating leading decentralized and centralized exchanges, with over $100 billion in transaction volume done and the most swap-pair options in the industry. 
+
+SafePal also offers in-app features which enable users to earn rewards from staking assets via SafePal Earn, and regular giftbox events which allow opportunities for users to learn and participate in meaningful projects, and win exciting rewards NFT whitelists, presales, token airdrops, and more. Its in-app experience allows users to explore established platforms such as Uniswap, OpenSea, Aave, PancakeSwap, Compound Finance, 1inch, Stargate Finance, and more.
+
+We want to help users self-custody their crypto assets and access Web3 safely and conveniently via our wallet suite. If you want to provide feedback, please contact customer support via safepal.com/sitemap or from within the app itself.
+
+SafePal Crypto Wallet stores and protects the following digital assets :
+
+Bitcoin BTC
+Ethereum ETH
+Solana SOL
+BNB Chain BNB
+Ripple XRP
+Arbitrum ARB
+Optimism OP
+Base
+Mantle MNT
+Litecoin LTC
+Berachain BERA
+Dogecoin DOGE
+DASH DASH
+Zcash ZEC
+Bitcoin Cash BCH
+DigiByte DGB
+Qtum QTUM
+Harmony ONE
+NEO NEO
+TRON TRX
+EOS EOS
+POLKADOT DOT
+Kusama KSM
+Ethereum Classic ETC
+Stellar XLM
+VeChain VET
+Theta THETA
+Polygon POL
+Cardano ADA
+Sonic S
+Heco HT
+Avalanche AVAX
+Nervos CKB
+BOBA ETH
+Songbird SGB
+Godwoken CKB
+Cosmos ATOM
+Terra LUNA
+Injective INJ
+Near NEAR
+KuCoin Community Chain（KCC) KCS
+Fuse FUSE
+Metis METIS
+Aurora AURORAETH
+Celo CELO
+Moonbeam GLMR
+Cronos CRO
+Gnosis xDAI
+Syscoin SYS
+RSK RBTC
+Terra2.0 LUNA2
+Godwoken V1 CKB
+ETHW ETHW
+Flare FLR
+Sui SUI
+NFT","SafePal is a next generation non-custodial crypto wallet suite founded in 2018 with over 25 million users globally and backed by industry leaders like Binance, Animoca Brands, and Superscrypt. As a non-custodial wallet suite with hardware wallet, mobile app, and browser extension solutions — SafePal empowers users to own their crypto adventure, by helping them to access opportunities safely in the decentralized world.<br><br>The SafePal mobile app supports 16 languages, 200+ blockchains, 200,000+ tokens and NFTs with a custom RPC feature supporting 400+ custom EVM networks and counting. It supports on ramp features to buy over 35 cryptocurrencies using convenient payment methods, and off-ramp into fiat such as USD, EUR and GBP using respected providers such as MoonPay, Simplex, Binance Connect to facilitate secure and seamless management of assets. The app also has a CeDeFi banking gateway and Mastercard which empowers users to enjoy crypto friendly living with individual ownership of compliant swiss banking accounts.<br><br>With 4x better swap rates and fees than MetaMask, and no bridging fees for amounts within daily thresholds; SafePal offers the best interoperability through its cross-chain in-app swap and is one of the ONLY wallets integrating leading decentralized and centralized exchanges, with over $100 billion in transaction volume done and the most swap-pair options in the industry. <br><br>SafePal also offers in-app features which enable users to earn rewards from staking assets via SafePal Earn, and regular giftbox events which allow opportunities for users to learn and participate in meaningful projects, and win exciting rewards NFT whitelists, presales, token airdrops, and more. Its in-app experience allows users to explore established platforms such as Uniswap, OpenSea, Aave, PancakeSwap, Compound Finance, 1inch, Stargate Finance, and more.<br><br>We want to help users self-custody their crypto assets and access Web3 safely and conveniently via our wallet suite. If you want to provide feedback, please contact customer support via safepal.com/sitemap or from within the app itself.<br><br>SafePal Crypto Wallet stores and protects the following digital assets :<br><br>Bitcoin BTC<br>Ethereum ETH<br>Solana SOL<br>BNB Chain BNB<br>Ripple XRP<br>Arbitrum ARB<br>Optimism OP<br>Base<br>Mantle MNT<br>Litecoin LTC<br>Berachain BERA<br>Dogecoin DOGE<br>DASH DASH<br>Zcash ZEC<br>Bitcoin Cash BCH<br>DigiByte DGB<br>Qtum QTUM<br>Harmony ONE<br>NEO NEO<br>TRON TRX<br>EOS EOS<br>POLKADOT DOT<br>Kusama KSM<br>Ethereum Classic ETC<br>Stellar XLM<br>VeChain VET<br>Theta THETA<br>Polygon POL<br>Cardano ADA<br>Sonic S<br>Heco HT<br>Avalanche AVAX<br>Nervos CKB<br>BOBA ETH<br>Songbird SGB<br>Godwoken CKB<br>Cosmos ATOM<br>Terra LUNA<br>Injective INJ<br>Near NEAR<br>KuCoin Community Chain（KCC) KCS<br>Fuse FUSE<br>Metis METIS<br>Aurora AURORAETH<br>Celo CELO<br>Moonbeam GLMR<br>Cronos CRO<br>Gnosis xDAI<br>Syscoin SYS<br>RSK RBTC<br>Terra2.0 LUNA2<br>Godwoken V1 CKB<br>ETHW ETHW<br>Flare FLR<br>Sui SUI<br>NFT","","","","","0","0","4.8875303","","","","","","{}","False","False","","[]",""
+"Bitso: Poupe e invista fácil","Bitso","4.3","0","0","10.000.000+","com.bitso.wallet","","https://play-lh.googleusercontent.com/wIzD4NPu1jYB6rjS8JVIiEec2L-4nzr9Sy33NAFabSi7h1KpLihpwpoS2X38dELW8OI","","['https://play-lh.googleusercontent.com/3wRapkuJwRAf0QKeAscwzxkXAykaw2-9PaxrTf3e-jDDdx9P9azKC8dE8M_9psvBw3mpyoKb827nQXWvaoHIvg', 'https://play-lh.googleusercontent.com/BII0dGyA9hj5TlfktUcY_3kuovq69xuTcLQcXc-7dIfR_klEKb1ZUIwALrNBd1QkBB4P4cDvIas3q7jFhXwJCQ', 'https://play-lh.googleusercontent.com/qAEtHLQi1x5uTjkfj_N1vSfH4cXvFEqI2wp4HZubg1LZcDvSFiTuqneI3MNXAM2rILMYsBCg1d4cvzTx5ELa_iU', 'https://play-lh.googleusercontent.com/YYJ0aZnu4B-0AY6bqC9DCh0dfE0C7JE1t-yP1Klww7VtrYLtGd5aQVZrXZQ8Ktdq9BfoFqHJp5l1OXtbYhVlHQ', 'https://play-lh.googleusercontent.com/v9yqcDdz_nxIRrCkj1s0mDr5n6BJ1dkSO-9jC6l5FmCyOvBLQf6_nhwTEmbV7wps9eOhqBhYHWXG5xF2NFEW', 'https://play-lh.googleusercontent.com/5tXQ5_SzafDq-BJh8YOc0Y_aKQfNiynZrhHi2RiN4RIjsyuvFzUO5RVD6NsjltNL_ZaCGlmk_cFD7uRN9ryX3w', 'https://play-lh.googleusercontent.com/LfzKB1C4nGrBWZ7W59ASiDnApicmRNELKq1r12kbQEGAvRvaqo9gBE3NppapX-S_vQLIO8_pKwe97tsHXscI7Q']","","","0","True","","","Finanças","","","","","Bitso é a plataforma financeira criada para que você tenha controle total dos seus investimentos. Na Bitso, você pode acessar mais de 150 criptomoedas como bitcoin (BTC) e gerar rendimentos em seus ativos. Com a confiança de mais de 9 milhões de usuários globais e 1900 clientes corporativos, nossa missão é simplificar o mundo cripto para todos. É hora de descobrir do que o seu dinheiro é capaz.
+
+Criptomoedas: Sua porta de entrada para o futuro financeiro
+Explore e gerencie mais de 150 criptomoedas em nossa exchange segura e fácil de usar. Se você busca o pioneiro bitcoin (BTC), o inovador ether (ETH) ou quer diversificar com stablecoins e memecoins como Dogecoin e Shiba Inu, a Bitso oferece as ferramentas para fazer isso de forma simples.
+
+◉ Diversificação sem limites: Acesse um mercado amplo que inclui desde ativos tradicionais como bitcoin (BTC), até criptomoedas ligadas à inteligência artificial (IA) que estão moldando o futuro da tecnologia.
+◉ Segurança regulatória: Suas criptomoedas estão protegidas sob uma estrutura regulatória reforçada. A Bitso é licenciada pela Comissão de Serviços Financeiros de Gibraltar, o que garante a custódia e o manuseio seguro de seus ativos digitais.
+
+Rendimentos: Faça seu dinheiro trabalhar para você
+Com os Rendimentos da Bitso, seus ativos digitais podem gerar ganhos semanais de forma passiva. Ative esta função e veja suas criptomoedas crescerem, sem estresse e sem taxas ocultas. Você mantém controle total, com a liberdade de retirar seus fundos quando quiser, otimizando assim o potencial de seus investimentos.
+
+Por que a Bitso é uma opção segura?
+A segurança é o principal pilar da Bitso. Contamos com uma licença de provedor DLT de Gibraltar e um sistema de prova de solvência que dá total visibilidade sobre a disponibilidade de seus fundos. Para proteger seus investimentos e seus dados, oferecemos:
+
+◉ Autenticação de dois fatores (2FA) para um acesso mais seguro.
+◉ Gestão de sessões e dispositivos para controlar sua conta.
+◉ Acesso seguro via PIN ou Face ID.
+◉ Notificações em tempo real sobre acessos.
+
+Comece a investir em 3 passos simples
+1. Baixe o app da Bitso.
+2. Cadastre seu e-mail, crie uma senha e envie seu documento de identificação.
+3. Pronto! Você já pode começar a comprar, vender e receber rendimentos em criptomoedas.
+
+Funcionalidades do app
+◉ Deposite e retire fundos de seu banco em moeda local (reais) 24 horas por dia, 7 dias por semana, via PIX e TED.
+◉ Monitore o preço de cada criptomoeda em tempo real para tomar as melhores decisões.
+◉ Receba rendimentos semanais em suas criptomoedas de forma passiva.
+◉ Compre bitcoin (BTC), Ether (ETH) e mais de 150 ativos digitais.","Bitso é a plataforma financeira criada para que você tenha controle total dos seus investimentos. Na Bitso, você pode acessar mais de 150 criptomoedas como bitcoin (BTC) e gerar rendimentos em seus ativos. Com a confiança de mais de 9 milhões de usuários globais e 1900 clientes corporativos, nossa missão é simplificar o mundo cripto para todos. É hora de descobrir do que o seu dinheiro é capaz.<br><br>Criptomoedas: Sua porta de entrada para o futuro financeiro<br>Explore e gerencie mais de 150 criptomoedas em nossa exchange segura e fácil de usar. Se você busca o pioneiro bitcoin (BTC), o inovador ether (ETH) ou quer diversificar com stablecoins e memecoins como Dogecoin e Shiba Inu, a Bitso oferece as ferramentas para fazer isso de forma simples.<br><br>◉ Diversificação sem limites: Acesse um mercado amplo que inclui desde ativos tradicionais como bitcoin (BTC), até criptomoedas ligadas à inteligência artificial (IA) que estão moldando o futuro da tecnologia.<br>◉ Segurança regulatória: Suas criptomoedas estão protegidas sob uma estrutura regulatória reforçada. A Bitso é licenciada pela Comissão de Serviços Financeiros de Gibraltar, o que garante a custódia e o manuseio seguro de seus ativos digitais.<br><br>Rendimentos: Faça seu dinheiro trabalhar para você<br>Com os Rendimentos da Bitso, seus ativos digitais podem gerar ganhos semanais de forma passiva. Ative esta função e veja suas criptomoedas crescerem, sem estresse e sem taxas ocultas. Você mantém controle total, com a liberdade de retirar seus fundos quando quiser, otimizando assim o potencial de seus investimentos.<br><br>Por que a Bitso é uma opção segura?<br>A segurança é o principal pilar da Bitso. Contamos com uma licença de provedor DLT de Gibraltar e um sistema de prova de solvência que dá total visibilidade sobre a disponibilidade de seus fundos. Para proteger seus investimentos e seus dados, oferecemos:<br><br>◉ Autenticação de dois fatores (2FA) para um acesso mais seguro.<br>◉ Gestão de sessões e dispositivos para controlar sua conta.<br>◉ Acesso seguro via PIN ou Face ID.<br>◉ Notificações em tempo real sobre acessos.<br><br>Comece a investir em 3 passos simples<br>1. Baixe o app da Bitso.<br>2. Cadastre seu e-mail, crie uma senha e envie seu documento de identificação.<br>3. Pronto! Você já pode começar a comprar, vender e receber rendimentos em criptomoedas.<br><br>Funcionalidades do app<br>◉ Deposite e retire fundos de seu banco em moeda local (reais) 24 horas por dia, 7 dias por semana, via PIX e TED.<br>◉ Monitore o preço de cada criptomoeda em tempo real para tomar as melhores decisões.<br>◉ Receba rendimentos semanais em suas criptomoedas de forma passiva.<br>◉ Compre bitcoin (BTC), Ether (ETH) e mais de 150 ativos digitais.","","","","","0","0","4.2877455","","","","","","{}","False","False","","[]",""
+"Simple: Buy Сrypto BTC, USDT","Simple Europe","4.9","0","0","1.000.000+","app.simple.com","","https://play-lh.googleusercontent.com/3rjQutzSa6LtgyAEwiJEUWkp79cY6OF2MBZ2A9WpMrUIgqcNfz0iN39LeaMZw8q_6i_B","","['https://play-lh.googleusercontent.com/4rkmi4grOLTOJpdCLJPVZP0dw39_kEQ1vm9Jnz1EDE1k4y2BOMB7mbZnbzDnYw7gvQ', 'https://play-lh.googleusercontent.com/AYRwmovB6O31gYtp6s_SATHjhtwvEzT-HOPyKCRfnnL_WsRWEHNQgl2Lefho67LO7g', 'https://play-lh.googleusercontent.com/vCIUs2XquBC_xZk307Y7KxKuefc2RV4_HLmkw30UOhAaS0ngGeFHkim75lGSIKYxGyO2', 'https://play-lh.googleusercontent.com/kUWmZq8VpZ-H6cueW7Gn5DX7rXnOKBXIOL6Yn9jIylwzZWhmHdnhmX7wslJljbWAWGlv', 'https://play-lh.googleusercontent.com/nfVCIQW8CuoGfdfy0xv12sthtMi2aDuoo-7z8NkXnjGcT7PyMrZh4jB8ghKG7gEIMQ', 'https://play-lh.googleusercontent.com/h_04ZFc-IQLyclDKEFPc2_UlqU5ImFoPkXQRoXsDo_iOI68-oyap6fvRmMGqK9zp-w', 'https://play-lh.googleusercontent.com/ERIIBKZh8HvW8eUmStZwxldfTyP6Jg8gl1GGAKMTz1H1KJ6neZIwjT8IJdftk5vnG3_l', 'https://play-lh.googleusercontent.com/l6kd3w_Cl6NhFB-OjeYpmmmUi-RJ5fO8kXDFiVdccZ0RIxSf3l-BhxMvS_ukC0kj2A', 'https://play-lh.googleusercontent.com/DRwR0Lm7ylcbRtjHJ9WexSHF314kF1siTMO2bm2MCXlkNhnodgDrhPrPKRxbuo7bU5o']","","","0","True","","","Finanças","","","","","Introducing Simple – The Ultimate Crypto Wallet and Finance App:
+
+Simple is your gateway to effortless cryptocurrency management. Whether you're new to crypto or a seasoned investor, Simple makes it easy to buy, sell, and trade top cryptocurrencies like Bitcoin, Ethereum, Solana, Ton, and more. Our app is designed for everyone, offering a clear and straightforward interface, even if you've never engaged in crypto before. With just a few clicks, you can connect your bank account, choose your desired cryptocurrency, and complete the transaction seamlessly.
+
+Why Choose Simple?
+
+Comprehensive Wallet: Store and manage a wide array of assets, including Bitcoin (BTC), Ethereum (ETH), Tether (USDT), and over 200 crypto pairs. You can easily track your transactions, monitor market trends, and stay updated with the latest financial news.
+
+Instant Trading: Exchange cryptocurrencies such as Binance Coin (BNB), Dogecoin (DOGE), and Cardano (ADA) instantly with real-time exchange rates. Our platform supports p2p transactions, enabling secure and fast trading.
+
+Virtual & Debit Cards: Soon, you’ll be able to acquire a virtual card for daily use, just like your Visa or Mastercard, allowing you to spend your crypto anywhere, anytime.
+
+Global Transfers: Enjoy fee-free global transfers, allowing you to send money or crypto to friends, family, or businesses worldwide. Simplify your transactions by sending crypto using phone numbers with our innovative “Gift” feature.
+
+Advanced Security: Your funds are secure with our robust authentication process, including two-factor authentication. Rest assured, your crypto assets are protected with the highest security standards.
+
+All-in-One Financial Hub: Simple is more than just a crypto wallet. Manage your fiat money, set up savings, and explore investment opportunities. Our app supports multi-currency transactions, including USD, Euro, and more.
+
+Support & Resources: Access price charts, market updates, and financial news through our app. Whether you’re interested in Bitcoin, Solana, or Polygon, we’ve got all the information you need. Plus, our 24/7 customer support is always ready to assist you.
+
+Supported Cryptocurrencies:
+
+Simple supports a vast array of cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), The Sandbox (SAND), Uniswap (UNI), Litecoin (LTC), XRP (Ripple), EOS, Polkadot (DOT), and many more. Whether you’re trading, holding, or transferring, our app covers all your needs.
+
+Join the Future of Finance:
+
+Simple is not just an app; it’s a complete financial ecosystem. Whether you’re investing, trading, or just exploring the world of cryptocurrency, Simple offers everything you need in one easy-to-use app. Connect globally, trade securely, and manage your finances effortlessly with Simple.
+
+Instagram: https://www.instagram.com/smpl_app
+Telegram: https://t.me/smpl_app
+YouTube: https://youtube.com/@smpl_app?si=l0485vmZ2h45XIff
+TikTok: https://www.tiktok.com/@simple_wallet?_t=8p3fq1I0uqD&_r=
+Twitter: http://twitter.com/smpl_app","Introducing Simple – The Ultimate Crypto Wallet and Finance App:<br><br>Simple is your gateway to effortless cryptocurrency management. Whether you&#39;re new to crypto or a seasoned investor, Simple makes it easy to buy, sell, and trade top cryptocurrencies like Bitcoin, Ethereum, Solana, Ton, and more. Our app is designed for everyone, offering a clear and straightforward interface, even if you&#39;ve never engaged in crypto before. With just a few clicks, you can connect your bank account, choose your desired cryptocurrency, and complete the transaction seamlessly.<br><br>Why Choose Simple?<br><br>Comprehensive Wallet: Store and manage a wide array of assets, including Bitcoin (BTC), Ethereum (ETH), Tether (USDT), and over 200 crypto pairs. You can easily track your transactions, monitor market trends, and stay updated with the latest financial news.<br><br>Instant Trading: Exchange cryptocurrencies such as Binance Coin (BNB), Dogecoin (DOGE), and Cardano (ADA) instantly with real-time exchange rates. Our platform supports p2p transactions, enabling secure and fast trading.<br><br>Virtual &amp; Debit Cards: Soon, you’ll be able to acquire a virtual card for daily use, just like your Visa or Mastercard, allowing you to spend your crypto anywhere, anytime.<br><br>Global Transfers: Enjoy fee-free global transfers, allowing you to send money or crypto to friends, family, or businesses worldwide. Simplify your transactions by sending crypto using phone numbers with our innovative “Gift” feature.<br><br>Advanced Security: Your funds are secure with our robust authentication process, including two-factor authentication. Rest assured, your crypto assets are protected with the highest security standards.<br><br>All-in-One Financial Hub: Simple is more than just a crypto wallet. Manage your fiat money, set up savings, and explore investment opportunities. Our app supports multi-currency transactions, including USD, Euro, and more.<br><br>Support &amp; Resources: Access price charts, market updates, and financial news through our app. Whether you’re interested in Bitcoin, Solana, or Polygon, we’ve got all the information you need. Plus, our 24/7 customer support is always ready to assist you.<br><br>Supported Cryptocurrencies:<br><br>Simple supports a vast array of cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), The Sandbox (SAND), Uniswap (UNI), Litecoin (LTC), XRP (Ripple), EOS, Polkadot (DOT), and many more. Whether you’re trading, holding, or transferring, our app covers all your needs.<br><br>Join the Future of Finance:<br><br>Simple is not just an app; it’s a complete financial ecosystem. Whether you’re investing, trading, or just exploring the world of cryptocurrency, Simple offers everything you need in one easy-to-use app. Connect globally, trade securely, and manage your finances effortlessly with Simple.<br><br>Instagram: https://www.instagram.com/smpl_app<br>Telegram: https://t.me/smpl_app<br>YouTube: https://youtube.com/@smpl_app?si=l0485vmZ2h45XIff<br>TikTok: https://www.tiktok.com/@simple_wallet?_t=8p3fq1I0uqD&amp;_r=<br>Twitter: http://twitter.com/smpl_app","","","","","0","0","4.881188","","","","","","{}","False","False","","[]",""
+"Brasil Bitcoin","Brasil Bitcoin","3.8","0","0","100.000+","br.com.brasilbitcoin","","https://play-lh.googleusercontent.com/W_0GGnj5og847Quy2Xwj6OgZ0Rdn9elIzPVWYPfvLYyAKStI40tVT_JNd8fkTxqKr88","","['https://play-lh.googleusercontent.com/FZ5VRTpgHasetVj2uXV37SFAXpCnWmIsFo6psW-c4D8RUkGb9K6OkDGnkD0ZPJLFkJ0', 'https://play-lh.googleusercontent.com/wR0wxCpLG-x_vuwvqzoa81_LdVUxwYxEPjwBuOTYVxZxwUEwOSAE6GBI0tMyDe50XaA', 'https://play-lh.googleusercontent.com/vqYCDUX1TU25xMA5MjVDfiC8AB0E-K_GoNPzua8MNkrrRtVOGqY6l52MB9S_tINxcm12', 'https://play-lh.googleusercontent.com/wX7GKF45J4F4mb6O7AVOMxLqjV2mecLHDz5v_lNBBl7RNvELAlobV4QZPDStxwiB4Vsr', 'https://play-lh.googleusercontent.com/qEtxKCt6aR04ys4m3Kv6kdMlqyTzQYk_5Oae-ht8rWUTVTmCOfj-sKwjG62LZpGA95c', 'https://play-lh.googleusercontent.com/8yxzJK9AAtRSlASSqQX2aDW6qMaV7zJ9VM6CXa3Y8-EqIjVzHqZ2EKCGmUN-iLNfD8c', 'https://play-lh.googleusercontent.com/jPl71mf-84-e9fwZFJWNlGEoh-MTRh-LGJsBkWTUEfW1OQpM8qJZDJ8dPp1MSAaw8jI']","","","0","True","","","Finanças","","","","","A única plataforma onde você pode ganhar criptomoedas todos os dias! 🤑
+
+A corretora mais segura para comprar Bitcoin e +40 criptomoedas, comece com apenas R$ 10 e conte com depósito Pix 24/7. 📈
+
+Você pode pagar boletos com criptomoedas e reais sem taxas.
+
++ R$ 3 bilhões negociados e 400 mil Bitlovers! 💙
+
+Dúvidas ou feedbacks? Manda pra gente: suporte@brasilbitcoin.com.br","A única plataforma onde você pode ganhar criptomoedas todos os dias! 🤑<br><br>A corretora mais segura para comprar Bitcoin e +40 criptomoedas, comece com apenas R$ 10 e conte com depósito Pix 24/7. 📈<br><br>Você pode pagar boletos com criptomoedas e reais sem taxas.<br><br>+ R$ 3 bilhões negociados e 400 mil Bitlovers! 💙<br><br>Dúvidas ou feedbacks? Manda pra gente: suporte@brasilbitcoin.com.br","","","","","0","0","3.7906008","","","","","","{}","False","False","","[]",""
+"ProBit Global: Buy BTC, Crypto","Probit Global Services Limited","4.1","0","0","1.000.000+","com.probit.app.android2.release.global","","https://play-lh.googleusercontent.com/x6s4EzOzdcdCbejr_Z2BjoWfXrznPQBYdpFKlcxDCuZmXEPJOb-SUXBT9rgs-nT6mQ","","['https://play-lh.googleusercontent.com/ByGtAJsyQ-5WQtiICGv6nkfviZhjTFPxO96MCExpfsTAtMhfGB1IQXXIXEhJcR0e9Q', 'https://play-lh.googleusercontent.com/hcRU3RgYC1abOkhgKbTjSa8FLtI5PxOwDX5pz2xrpfLSGEP0HgkrnBNlX3kwKF7DVhU1', 'https://play-lh.googleusercontent.com/zfuiiI-LgsuMq43meRAZoIhAIbM5YG6RQrvOy_UA5LA8aa4oG476PaLgWBgboOfWDQ', 'https://play-lh.googleusercontent.com/mwuawvQbob1AGa9c-RNdard217IndjVX4Ya3Dd2ijnD0IJV4RvZTmrgJ7PsgYZ89xZE', 'https://play-lh.googleusercontent.com/pAGnYfvnrDMI2jq2ngVf3cyK2e0d2G4PAvZ1BmMn6RMtA9XpYAsithEniLixOtY-PDWi', 'https://play-lh.googleusercontent.com/a-RpO954WF1eyZzrd6JDT-mGEkOYmtqa2YuRnib1bDVs630MRK_NiIljea0vYca6n5k']","","","0","True","","","Finanças","","","","","* Accessibility
+
+The ProBit Global app interface provides a detailed layout featuring 700+ tokens along with trading pairs, volume, price, and 24HR volume. The bird’s eye view provides an overview of key market metrics and movements for crypto traders of all types to buy and sell tokens in a convenient and secure manner.
+
+The app will also display periodic banners highlighting new and ongoing events including IEO, Exclusives, listings, and more to keep users in the loop with embedded links conveniently navigating directly to the source. 
+
+The latest feature called ProBit Lab enables users to test out the latest interface features aimed at providing an enhanced trading experience and improved visibility with full localization support for 45 languages and counting. 
+
+
+* Market tools
+
+The app provides key market data alongside a detailed order book and a comprehensive trading feed for traders to place market or limit orders to execute at specific price points. A separate trading view is also provided with a wide range of key indicators that can be activated to accommodate technical analysis strategies for more advanced traders. 
+
+The order book provides a thorough view of current orders, spreads, and a trading feed to track the latest activity with a convenient option to switch between the staple quote currencies of BTC, ETH, and USDT for versatile trading possibilities. 
+
+A dedicated DeFi tab has also been added to provide an overview of the latest DeFi tokens trading on ProBit Global.
+
+
+* Tracking
+
+The history tab provides several features to track open orders waiting to be settled as well as a detailed log of all orders and trades executed on ProBit Global. These features are aimed at giving users full control and oversight which are an invaluable feature for traders with more frequent trading activity and transactions across the market. 
+
+
+* In-depth views
+
+Traders can filter markets according to their desired time frame ranging from 1-minute to 1-month intervals to glean more key data including price action and trading trends.","* Accessibility<br><br>The ProBit Global app interface provides a detailed layout featuring 700+ tokens along with trading pairs, volume, price, and 24HR volume. The bird’s eye view provides an overview of key market metrics and movements for crypto traders of all types to buy and sell tokens in a convenient and secure manner.<br><br>The app will also display periodic banners highlighting new and ongoing events including IEO, Exclusives, listings, and more to keep users in the loop with embedded links conveniently navigating directly to the source. <br><br>The latest feature called ProBit Lab enables users to test out the latest interface features aimed at providing an enhanced trading experience and improved visibility with full localization support for 45 languages and counting. <br><br><br>* Market tools<br><br>The app provides key market data alongside a detailed order book and a comprehensive trading feed for traders to place market or limit orders to execute at specific price points. A separate trading view is also provided with a wide range of key indicators that can be activated to accommodate technical analysis strategies for more advanced traders. <br><br>The order book provides a thorough view of current orders, spreads, and a trading feed to track the latest activity with a convenient option to switch between the staple quote currencies of BTC, ETH, and USDT for versatile trading possibilities. <br><br>A dedicated DeFi tab has also been added to provide an overview of the latest DeFi tokens trading on ProBit Global.<br><br><br>* Tracking<br><br>The history tab provides several features to track open orders waiting to be settled as well as a detailed log of all orders and trades executed on ProBit Global. These features are aimed at giving users full control and oversight which are an invaluable feature for traders with more frequent trading activity and transactions across the market. <br><br><br>* In-depth views<br><br>Traders can filter markets according to their desired time frame ranging from 1-minute to 1-month intervals to glean more key data including price action and trading trends.","","","","","0","0","4.1372547","","","","","","{}","False","False","","[]",""

@@ -1,0 +1,101 @@
+ESTATÍSTICAS AVANÇADAS - BIPA
+======================================================================
+
+Total de itens: 12
+Fontes únicas: 2
+Tipos únicos: 2
+
+
+ESTATÍSTICAS NUMÉRICAS:
+----------------------------------------------------------------------
+
+rating:
+  Média: 3.38
+  Mediana: 4.35
+  Desvio Padrão: 1.72
+  Mínimo: 1.00
+  Máximo: 5.00
+  Q25: 1.75
+  Q75: 5.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 12
+  Valores faltantes: 0
+
+ratings_count:
+  Média: 4251.50
+  Mediana: 4251.50
+  Desvio Padrão: 4251.50
+  Mínimo: 0.00
+  Máximo: 8503.00
+  Q25: 2125.75
+  Q75: 6377.25
+  Q90: 7652.70
+  Q95: 8077.85
+  Valores válidos: 2
+  Valores faltantes: 10
+
+reviews_count:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 1
+  Valores faltantes: 11
+
+price:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 2
+  Valores faltantes: 10
+
+artistId:
+  Média: 1516842323.00
+  Mediana: 1516842323.00
+  Desvio Padrão: 0.00
+  Mínimo: 1516842323.00
+  Máximo: 1516842323.00
+  Q25: 1516842323.00
+  Q75: 1516842323.00
+  Q90: 1516842323.00
+  Q95: 1516842323.00
+  Valores válidos: 1
+  Valores faltantes: 11
+
+thumbsUpCount:
+  Média: 0.10
+  Mediana: 0.00
+  Desvio Padrão: 0.30
+  Mínimo: 0.00
+  Máximo: 1.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.10
+  Q95: 0.55
+  Valores válidos: 10
+  Valores faltantes: 2
+
+
+ESTATÍSTICAS POR FONTE:
+----------------------------------------------------------------------
+
+App Stores:
+  Total: 1
+  app: 1
+
+App Store (App Store):
+  Total: 11
+  review: 10
+  app: 1

@@ -1,0 +1,116 @@
+{
+  "numeric_summary": {
+    "relevancia": {
+      "mean": 620.8709408825978,
+      "median": 556.0,
+      "std": 170.238014786549,
+      "min": 550.0,
+      "max": 1252.0,
+      "q25": 553.0,
+      "q75": 600.0,
+      "q90": 751.0,
+      "q95": 1200.0,
+      "count": 1201,
+      "missing": 1339
+    },
+    "valor": {
+      "mean": 63.338235294117645,
+      "median": 49.5,
+      "std": 141.24671888892078,
+      "min": 0.0,
+      "max": 1200.0,
+      "q25": 21.0,
+      "q75": 60.25,
+      "q90": 85.60000000000001,
+      "q95": 99.65,
+      "count": 68,
+      "missing": 2472
+    },
+    "posicao": {
+      "mean": 10.0,
+      "median": 9.5,
+      "std": 5.6182931030077405,
+      "min": 1.0,
+      "max": 20.0,
+      "q25": 5.25,
+      "q75": 14.75,
+      "q90": 18.0,
+      "q95": 19.0,
+      "count": 46,
+      "missing": 2494
+    },
+    "likes": {
+      "mean": 3.1755102040816325,
+      "median": 0.0,
+      "std": 25.900551807314162,
+      "min": 0.0,
+      "max": 363.0,
+      "q25": 0.0,
+      "q75": 0.0,
+      "q90": 1.0,
+      "q95": 2.0,
+      "count": 245,
+      "missing": 2295
+    },
+    "rating": {
+      "mean": 4.2170859538784065,
+      "median": 5.0,
+      "std": 1.3838055187727554,
+      "min": 1.0,
+      "max": 5.0,
+      "q25": 4.0,
+      "q75": 5.0,
+      "q90": 5.0,
+      "q95": 5.0,
+      "count": 954,
+      "missing": 1586
+    }
+  },
+  "Google Suggest": {
+    "total": 1201,
+    "tipos": {
+      "sugestao": 1201
+    }
+  },
+  "Google Trends": {
+    "total": 68,
+    "tipos": {
+      "top": 28,
+      "regioes": 26,
+      "rising": 13,
+      "tempo": 1
+    }
+  },
+  "SERP": {
+    "total": 46,
+    "tipos": {
+      "resultado_busca": 46
+    }
+  },
+  "YouTube": {
+    "total": 270,
+    "tipos": {
+      "comentario": 245,
+      "video": 25
+    }
+  },
+  "App Stores": {
+    "total": 739,
+    "tipos": {
+      "review": 729,
+      "app": 10
+    }
+  },
+  "App Store (App Store)": {
+    "total": 216,
+    "tipos": {
+      "review": 206,
+      "app": 10
+    }
+  },
+  "geral": {
+    "total_itens": 2540,
+    "fontes_unicas": 6,
+    "tipos_unicos": 10
+  }
+}

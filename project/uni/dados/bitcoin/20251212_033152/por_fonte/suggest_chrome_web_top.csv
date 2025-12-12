@@ -1,0 +1,16 @@
+﻿rank,sugestao,categoria,relevancia,tipo,termo_original,regiao,cliente,fonte_suggest
+1,bitcoin price,a-z,1250,QUERY,BITCOIN,us,chrome,web
+2,bitcoin price usd,a-z,850,QUERY,BITCOIN,us,chrome,web
+3,bitcoin price today,a-z,700,QUERY,BITCOIN,us,chrome,web
+4,bitcoin news,a-z,601,QUERY,BITCOIN,us,chrome,web
+5,bitcoin usd,a-z,600,QUERY,BITCOIN,us,chrome,web
+6,bitcoin etf,a-z,559,QUERY,BITCOIN,us,chrome,web
+7,bitcoin miner,a-z,558,QUERY,BITCOIN,us,chrome,web
+8,bitcoin stock,a-z,557,QUERY,BITCOIN,us,chrome,web
+9,bitcoin price prediction,a-z,556,QUERY,BITCOIN,us,chrome,web
+10,bitcoin value,a-z,555,QUERY,BITCOIN,us,chrome,web
+11,bitcoin mining,a-z,554,QUERY,BITCOIN,us,chrome,web
+12,bitcoin crashing,a-z,553,QUERY,BITCOIN,us,chrome,web
+13,bitcoin chart,a-z,552,QUERY,BITCOIN,us,chrome,web
+14,bitcoin meaning,a-z,551,QUERY,BITCOIN,us,chrome,web
+15,bitcoin price live,a-z,550,QUERY,BITCOIN,us,chrome,web

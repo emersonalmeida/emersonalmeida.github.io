@@ -1,0 +1,11 @@
+﻿rank,title,link,score,comments,author,created,story_text
+1,Proposed Bitcoin BIP for dealing with transaction malleability,https://gist.github.com/sipa/8907691,1,0,mdelias,2014-02-10T13:47:14Z,
+2,Support Grows for BIP 100 Bitcoin Block Size Proposal,http://www.coindesk.com/support-grows-for-bip-100-bitcoin-block-size-proposal/?utm_source=CoinDesk+subscribers&utm_campaign=9986f00ba0-EMAIL_RSS_CAMPAIGN&utm_medium=email&utm_term=0_74abb9e6ab-9986f00ba0-78980309,1,0,bpolania,2015-08-26T14:07:27Z,
+3,Ask HN: How do we solve the Bitcoin schism?,https://news.ycombinator.com/item?id=10130429,1,0,Kinnard,2015-08-27T16:33:11Z,How do we solve the Bitcoin schism? What solutions are you getting behind? What do you personally propose as the way forward?<p>Here&#x27;s some background information for those not in the know:<p>spectrum.ieee.org&#x2F;tech-talk&#x2F;computing&#x2F;networks&#x2F;the-bitcoin-for-is-a-coup<p>https:&#x2F;&#x2F;medium.com&#x2F;faith-and-future&#x2F;why-is-bitcoin-forking-d647312d22c1?1<p>http:&#x2F;&#x2F;www.newyorker.com&#x2F;business&#x2F;currency&#x2F;inside-the-fight-over-bitcoins-future<p>http
+4,Bitcoin to adopt a finite coin supply.,https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki,12,11,nullc,2014-04-01T22:03:30Z,
+5,A finite monetary supply for Bitcoin,https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki,3,0,DantesKite,2024-06-22T00:34:38Z,
+6,Merkelized Abstract Syntax Tree: Evolution of Bitcoin Script System,https://github.com/bitcoin/bips/blob/master/bip-0114.mediawiki,2,0,naveen99,2017-12-24T16:46:21Z,
+7,BIP-360: QuBit – Pay to Quantum Resistant Hash,https://github.com/bitcoin/bips/pull/1670,1,0,greyface-,2025-03-12T06:03:42Z,
+8,Hierarchical Deterministic Wallets,https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki,1,0,tosh,2018-08-23T17:27:30Z,
+9,"Scale Bitcoin: Updated BIP 102 Gets Community Support, Now It’s Miners’ Turn",http://forklog.net/gavin-andresens-updated-bip-102-proposal-garners-community-support-hey-miners/,2,0,samueljenkins,2016-01-29T14:07:05Z,
+10,"Bitcoin payment processor BIPS compromised, 1295 BTC stolen",https://bitcointalk.org/index.php?topic=252308.msg3645043#msg3645043,72,66,nwh,2013-11-25T20:06:39Z,

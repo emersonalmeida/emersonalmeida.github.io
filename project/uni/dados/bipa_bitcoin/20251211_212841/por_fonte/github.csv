@@ -1,0 +1,3 @@
+﻿rank,nome,url,descricao,estrelas,forks,linguagem,criado,atualizado,tamanho,licenca,topics
+1,TheusBoot/bipay,https://github.com/TheusBoot/bipay,A bipay é um Gateway de Pagamento em formato bitcoin(satoshi)....,0,0,Python,2024-04-02T05:00:53Z,2024-04-02T05:46:58Z,11,,
+2,felipesaraivac/bipa-test,https://github.com/felipesaraivac/bipa-test,This is an app that fetches a list of nodes of a bitcoin network and shows to the user,0,0,Kotlin,2025-04-03T15:20:27Z,2025-04-03T18:23:19Z,130,Apache License 2.0,

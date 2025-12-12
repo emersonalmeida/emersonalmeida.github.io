@@ -1,0 +1,82 @@
+COLETA DE DADOS - 2025-12-11 17:47:52
+============================================================
+
+Termo: bitcoin
+Total: 37 resultados
+
+
+Google Suggest:
+------------------------------------------------------------
+  [1] bitcoin price
+  [2] bitcoin price usd
+  [3] bitcoin price today
+  [4] bitcoin news
+  [5] bitcoin usd
+  [6] bitcoin etf
+  [7] bitcoin miner
+  [8] bitcoin stock
+  [9] bitcoin value
+  [10] bitcoin price prediction
+
+SERP:
+------------------------------------------------------------
+  [1] Bitcoin - Open source P2P money
+      https://bitcoin.org/
+  [2] Bitcoin
+      https://en.wikipedia.org/wiki/Bitcoin
+  [3] Bitcoin price today, BTC to USD live price, marketcap ...
+      https://coinmarketcap.com/currencies/bitcoin/
+  [4] Bitcoin - The Currency of the Internet
+      https://www.reddit.com/r/Bitcoin/
+  [5] Bitcoin: A Peer-to-Peer Electronic Cash System
+      https://www.ussc.gov/sites/default/files/pdf/training/annual-national-training-seminar/2018/Emerging_Tech_Bitcoin_Crypto.pdf
+  [6] What is Bitcoin?
+      https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin
+  [7] Bitcoin Price: BTC Live Price Chart, Market Cap & ...
+      https://www.coingecko.com/en/coins/bitcoin
+
+Google Play:
+------------------------------------------------------------
+  [1] Bitcoin.com Wallet: Buy, Sell
+      https://play.google.com/store/apps/details?id=com.bitcoin.mwallet
+  [2] BTCC - Trade Bitcoin & Crypto
+      https://play.google.com/store/apps/details?id=com.btcc.hy
+  [3] Coinbase: Buy BTC, ETH, SOL
+      https://play.google.com/store/apps/details?id=com.coinbase.android
+  [4] Bybit: Buy Bitcoin & Crypto
+      https://play.google.com/store/apps/details?id=com.bybit.app
+  [5] Bitcoin Miner Earn Real Crypto
+      https://play.google.com/store/apps/details?id=com.fumbgames.bitcoinminor
+  [6] Fold: Bitcoin Personal Finance
+      https://play.google.com/store/apps/details?id=com.fold
+  [7] BitPay: Buy BTC ETH & Solana
+      https://play.google.com/store/apps/details?id=com.bitpay.wallet
+  [8] Blockchain.com: Buy BTC, SOL
+      https://play.google.com/store/apps/details?id=piuk.blockchain.android
+  [9] OKX: Buy Bitcoin BTC & Crypto
+      https://play.google.com/store/apps/details?id=com.okinc.okex.gp
+  [10] Trust: Crypto & Bitcoin Wallet
+      https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp
+
+App Store:
+------------------------------------------------------------
+  [1] Bitcoin.com Wallet: Buy, sell
+      https://apps.apple.com/us/app/bitcoin-com-wallet-buy-sell/id1252903728?uo=4
+  [2] Coinbase: Buy BTC, ETH, SOL
+      https://apps.apple.com/us/app/coinbase-buy-btc-eth-sol/id886427730?uo=4
+  [3] Crypto.com: Buy BTC, ETH & CRO
+      https://apps.apple.com/us/app/crypto-com-buy-btc-eth-cro/id1262148500?uo=4
+  [4] Bitcoin Miner: Idle Tycoon
+      https://apps.apple.com/us/app/bitcoin-miner-idle-tycoon/id1413770650?uo=4
+  [5] Bitcoin Mining · Cloud Mining
+      https://apps.apple.com/us/app/bitcoin-mining-cloud-mining/id6503180820?uo=4
+  [6] Blockchain.com: Buy Bitcoin
+      https://apps.apple.com/us/app/blockchain-com-buy-bitcoin/id493253309?uo=4
+  [7] Trust: Crypto & Bitcoin Wallet
+      https://apps.apple.com/us/app/trust-crypto-bitcoin-wallet/id1288339409?uo=4
+  [8] Bitcoin Mining: Crypto Miner
+      https://apps.apple.com/us/app/bitcoin-mining-crypto-miner/id6468313323?uo=4
+  [9] Bitcoin!
+      https://apps.apple.com/us/app/bitcoin/id1319025639?uo=4
+  [10] Binance.US: Buy Bitcoin & ETH
+      https://apps.apple.com/us/app/binance-us-buy-bitcoin-eth/id1492670702?uo=4

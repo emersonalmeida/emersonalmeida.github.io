@@ -1,0 +1,28 @@
+{
+  "numeric_summary": {
+    "relevancia": {
+      "mean": 608.1606498194946,
+      "median": 556.0,
+      "std": 151.89573246742648,
+      "min": 550.0,
+      "max": 1252.0,
+      "q25": 553.0,
+      "q75": 600.0,
+      "q90": 650.0,
+      "q95": 1050.0,
+      "count": 1108,
+      "missing": 0
+    }
+  },
+  "Google Suggest": {
+    "total": 1108,
+    "tipos": {
+      "sugestao": 1108
+    }
+  },
+  "geral": {
+    "total_itens": 1108,
+    "fontes_unicas": 1,
+    "tipos_unicos": 1
+  }
+}

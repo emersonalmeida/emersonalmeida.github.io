@@ -1,0 +1,13 @@
+{
+  "bitcoin": {
+    "term": "bitcoin",
+    "mode": "rapido",
+    "fontes": "todas",
+    "params_globais": {
+      "region": "us",
+      "lang": "en",
+      "limit": 10
+    },
+    "params_especificos": {}
+  }
+}

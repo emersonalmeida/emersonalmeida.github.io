@@ -1,0 +1,14 @@
+{
+  "termo": "bitcoin",
+  "regiao": "br",
+  "idioma": "pt",
+  "limite": 0,
+  "fontes_selecionadas": [
+    "AppStore-Apple App Store",
+    "AppStore-Google Play"
+  ],
+  "modo": "personalizado",
+  "timestamp": "2025-12-12T04:56:03.629742",
+  "data_coleta": "2025-12-12 04:56:03",
+  "versao_script": "7.4"
+}

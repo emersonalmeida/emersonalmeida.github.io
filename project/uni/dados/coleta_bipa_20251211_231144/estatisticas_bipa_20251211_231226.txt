@@ -1,0 +1,34 @@
+ESTATÍSTICAS - BIPA
+======================================================================
+
+Total de itens: 1403
+Fontes únicas: 6
+Tipos únicos: 8
+
+
+Google Suggest:
+  Total: 1184
+  sugestao: 1184
+
+Google Trends:
+  Total: 46
+  regioes: 40
+  top: 5
+  rising: 1
+
+SERP:
+  Total: 48
+  resultado_busca: 48
+
+YouTube:
+  Total: 110
+  comentario: 100
+  video: 10
+
+App Stores:
+  Total: 10
+  app: 10
+
+App Store (App Store):
+  Total: 5
+  app: 5

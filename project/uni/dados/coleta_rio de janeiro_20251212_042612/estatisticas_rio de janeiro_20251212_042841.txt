@@ -1,0 +1,265 @@
+ESTATÍSTICAS AVANÇADAS - RIO DE JANEIRO
+======================================================================
+
+Total de itens: 1935
+Fontes únicas: 6
+Tipos únicos: 10
+
+
+ESTATÍSTICAS NUMÉRICAS:
+----------------------------------------------------------------------
+
+relevancia:
+  Média: 660.98
+  Mediana: 557.00
+  Desvio Padrão: 213.40
+  Mínimo: 550.00
+  Máximo: 1255.00
+  Q25: 553.00
+  Q75: 601.00
+  Q90: 1100.00
+  Q95: 1250.00
+  Valores válidos: 783
+  Valores faltantes: 1152
+
+valor:
+  Média: 4351.68
+  Mediana: 70.00
+  Desvio Padrão: 13826.56
+  Mínimo: 6.00
+  Máximo: 112800.00
+  Q25: 28.50
+  Q75: 850.00
+  Q90: 9470.00
+  Q95: 24285.00
+  Valores válidos: 179
+  Valores faltantes: 1756
+
+posicao:
+  Média: 8.68
+  Mediana: 8.00
+  Desvio Padrão: 5.15
+  Mínimo: 1.00
+  Máximo: 19.00
+  Q25: 4.75
+  Q75: 12.25
+  Q90: 16.30
+  Q95: 17.65
+  Valores válidos: 28
+  Valores faltantes: 1907
+
+views:
+  Média: 30274680.17
+  Mediana: 15736.00
+  Desvio Padrão: 65413150.52
+  Mínimo: 0.00
+  Máximo: 273905911.00
+  Q25: 809.00
+  Q75: 28757693.00
+  Q90: 97553396.40
+  Q95: 176488688.20
+  Valores válidos: 29
+  Valores faltantes: 1906
+
+likes:
+  Média: 21091.24
+  Mediana: 9.00
+  Desvio Padrão: 153845.64
+  Mínimo: 0.00
+  Máximo: 2069860.00
+  Q25: 2.00
+  Q75: 42.00
+  Q90: 1759.90
+  Q95: 6315.45
+  Valores válidos: 358
+  Valores faltantes: 1577
+
+dislikes:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 29
+  Valores faltantes: 1906
+
+favorites:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 29
+  Valores faltantes: 1906
+
+commentCount:
+  Média: 1980.97
+  Mediana: 36.00
+  Desvio Padrão: 4128.96
+  Mínimo: 0.00
+  Máximo: 15896.00
+  Q25: 0.00
+  Q75: 1377.00
+  Q90: 6641.20
+  Q95: 12073.60
+  Valores válidos: 29
+  Valores faltantes: 1906
+
+replyCount:
+  Média: 1.53
+  Mediana: 0.00
+  Desvio Padrão: 2.00
+  Mínimo: 0.00
+  Máximo: 5.00
+  Q25: 0.00
+  Q75: 3.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 329
+  Valores faltantes: 1606
+
+totalReplyCount:
+  Média: 16.78
+  Mediana: 0.00
+  Desvio Padrão: 65.95
+  Mínimo: 0.00
+  Máximo: 631.00
+  Q25: 0.00
+  Q75: 3.00
+  Q90: 22.00
+  Q95: 85.00
+  Valores válidos: 329
+  Valores faltantes: 1606
+
+replies_count:
+  Média: 1.53
+  Mediana: 0.00
+  Desvio Padrão: 2.00
+  Mínimo: 0.00
+  Máximo: 5.00
+  Q25: 0.00
+  Q75: 3.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 329
+  Valores faltantes: 1606
+
+rating:
+  Média: 3.25
+  Mediana: 4.00
+  Desvio Padrão: 1.82
+  Mínimo: 1.00
+  Máximo: 5.00
+  Q25: 1.00
+  Q75: 5.00
+  Q90: 5.00
+  Q95: 5.00
+  Valores válidos: 583
+  Valores faltantes: 1352
+
+ratings_count:
+  Média: 1310.80
+  Mediana: 0.00
+  Desvio Padrão: 6269.57
+  Mínimo: 0.00
+  Máximo: 34919.00
+  Q25: 0.00
+  Q75: 9.25
+  Q90: 189.10
+  Q95: 2228.35
+  Valores válidos: 30
+  Valores faltantes: 1905
+
+reviews_count:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 20
+  Valores faltantes: 1915
+
+price:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 30
+  Valores faltantes: 1905
+
+artistId:
+  Média: 1240463287.10
+  Mediana: 1370724630.50
+  Desvio Padrão: 417839716.65
+  Mínimo: 314195280.00
+  Máximo: 1761134422.00
+  Q25: 957960651.00
+  Q75: 1488583621.25
+  Q90: 1705216868.50
+  Q95: 1733175645.25
+  Valores válidos: 10
+  Valores faltantes: 1925
+
+thumbsUpCount:
+  Média: 14.24
+  Mediana: 0.00
+  Desvio Padrão: 83.01
+  Mínimo: 0.00
+  Máximo: 1594.00
+  Q25: 0.00
+  Q75: 5.00
+  Q90: 17.40
+  Q95: 40.20
+  Valores válidos: 557
+  Valores faltantes: 1378
+
+
+ESTATÍSTICAS POR FONTE:
+----------------------------------------------------------------------
+
+Google Suggest:
+  Total: 783
+  sugestao: 783
+
+Google Trends:
+  Total: 179
+  rising: 89
+  top: 62
+  regioes: 27
+  tempo: 1
+
+SERP:
+  Total: 28
+  resultado_busca: 28
+
+YouTube:
+  Total: 358
+  comentario: 329
+  video: 29
+
+App Stores:
+  Total: 472
+  review: 452
+  app: 20
+
+App Store (App Store):
+  Total: 115
+  review: 105
+  app: 10

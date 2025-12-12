@@ -1,0 +1,74 @@
+ESTATÍSTICAS AVANÇADAS - BITCOIN
+======================================================================
+
+Total de itens: 20
+Fontes únicas: 2
+Tipos únicos: 1
+
+
+ESTATÍSTICAS NUMÉRICAS:
+----------------------------------------------------------------------
+
+rating:
+  Média: 4.55
+  Mediana: 4.60
+  Desvio Padrão: 0.37
+  Mínimo: 3.40
+  Máximo: 4.90
+  Q25: 4.57
+  Q75: 4.80
+  Q90: 4.81
+  Q95: 4.90
+  Valores válidos: 20
+  Valores faltantes: 0
+
+ratings_count:
+  Média: 11119.60
+  Mediana: 124.00
+  Desvio Padrão: 32953.51
+  Mínimo: 0.00
+  Máximo: 152354.00
+  Q25: 0.00
+  Q75: 8409.00
+  Q90: 14990.40
+  Q95: 28719.10
+  Valores válidos: 20
+  Valores faltantes: 0
+
+reviews_count:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 20
+  Valores faltantes: 0
+
+price:
+  Média: 0.00
+  Mediana: 0.00
+  Desvio Padrão: 0.00
+  Mínimo: 0.00
+  Máximo: 0.00
+  Q25: 0.00
+  Q75: 0.00
+  Q90: 0.00
+  Q95: 0.00
+  Valores válidos: 20
+  Valores faltantes: 0
+
+
+ESTATÍSTICAS POR FONTE:
+----------------------------------------------------------------------
+
+App Stores:
+  Total: 10
+  app: 10
+
+App Store (App Store):
+  Total: 10
+  app: 10

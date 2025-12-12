@@ -1,0 +1,27 @@
+{
+  "total_registros": 163,
+  "total_colunas": 170,
+  "fontes": {
+    "Suggest-chrome-web-a-z": 10,
+    "Suggest-chrome-web-top": 10,
+    "YouTube-viewCount": 10,
+    "YouTube-relevance": 10,
+    "YouTube-date": 10,
+    "Wikipedia": 10,
+    "Suggest-chrome-youtube-top": 10,
+    "Suggest-chrome-youtube-a-z": 10,
+    "arXiv": 10,
+    "GitHub": 10,
+    "SERP-Duckduckgo": 10,
+    "SERP-Brave": 10,
+    "SERP-Bing": 10,
+    "Hacker News": 10,
+    "Google Scholar": 10,
+    "Google News": 10,
+    "AppStore-Google Play": 3
+  },
+  "data_criacao": "2025-12-12T04:37:35.424285",
+  "termo": "bitcoin",
+  "regiao": "br",
+  "modo": "personalizado"
+}

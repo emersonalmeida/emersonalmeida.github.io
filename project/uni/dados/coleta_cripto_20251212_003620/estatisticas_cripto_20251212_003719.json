@@ -1,0 +1,112 @@
+{
+  "numeric_summary": {
+    "relevancia": {
+      "mean": 609.3027027027027,
+      "median": 556.0,
+      "std": 153.70219330552712,
+      "min": 550.0,
+      "max": 1253.0,
+      "q25": 553.0,
+      "q75": 600.0,
+      "q90": 650.0,
+      "q95": 1050.0,
+      "count": 1110,
+      "missing": 206
+    },
+    "valor": {
+      "mean": 17.285714285714285,
+      "median": 0.0,
+      "std": 29.146825126692388,
+      "min": 0.0,
+      "max": 100.0,
+      "q25": 0.0,
+      "q75": 43.0,
+      "q90": 53.0,
+      "q95": 66.0,
+      "count": 21,
+      "missing": 1295
+    },
+    "posicao": {
+      "mean": 10.155172413793103,
+      "median": 10.0,
+      "std": 5.662343014914351,
+      "min": 1.0,
+      "max": 20.0,
+      "q25": 5.25,
+      "q75": 15.0,
+      "q90": 18.0,
+      "q95": 19.0,
+      "count": 58,
+      "missing": 1258
+    },
+    "likes": {
+      "mean": 12.45360824742268,
+      "median": 0.0,
+      "std": 50.06552832194831,
+      "min": 0.0,
+      "max": 456.0,
+      "q25": 0.0,
+      "q75": 2.0,
+      "q90": 27.40000000000009,
+      "q95": 58.99999999999994,
+      "count": 97,
+      "missing": 1219
+    },
+    "rating": {
+      "mean": 4.720000000000001,
+      "median": 4.7,
+      "std": 0.1363818169698587,
+      "min": 4.5,
+      "max": 4.9,
+      "q25": 4.6,
+      "q75": 4.825,
+      "q90": 4.9,
+      "q95": 4.9,
+      "count": 20,
+      "missing": 1296
+    }
+  },
+  "Google Suggest": {
+    "total": 1110,
+    "tipos": {
+      "sugestao": 1110
+    }
+  },
+  "Google Trends": {
+    "total": 21,
+    "tipos": {
+      "regioes": 20,
+      "tempo": 1
+    }
+  },
+  "SERP": {
+    "total": 58,
+    "tipos": {
+      "resultado_busca": 58
+    }
+  },
+  "YouTube": {
+    "total": 107,
+    "tipos": {
+      "comentario": 97,
+      "video": 10
+    }
+  },
+  "App Stores": {
+    "total": 10,
+    "tipos": {
+      "app": 10
+    }
+  },
+  "App Store (App Store)": {
+    "total": 10,
+    "tipos": {
+      "app": 10
+    }
+  },
+  "geral": {
+    "total_itens": 1316,
+    "fontes_unicas": 6,
+    "tipos_unicos": 7
+  }
+}
