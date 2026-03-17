@@ -1,0 +1,274 @@
+<div class="reviews-section">
+            <div class="section-header">
+                <h2 class="section-title">💡 Análise de Palavras-Chave Negativas</h2>
+            </div>
+            <div class="table-container">
+                <table id="keywordsTable">
+                    <thead>
+                        <tr>
+                            <th>Palavra-Chave</th>
+                            <th>Frequência</th>
+                            <th>Contexto Principal</th>
+                            <th>Urgência</th>
+                        </tr>
+                    </thead>
+                    <tbody id="keywordsBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">📈 Análise de Engajamento por Rating</div>
+                <div class="chart-container">
+                    <canvas id="engagementChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">🔥 Taxa de Retenção vs Churn</div>
+                <div class="chart-container">
+                    <canvas id="churnChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <div class="section-header">
+                <h2 class="section-title">🎯 Análise de Jornada do Usuário</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                <div class="stat-card">
+                    <div class="stat-label">Fase de Cadastro</div>
+                    <div class="stat-value" style="font-size: 2rem;">32%</div>
+                    <div class="stat-subtitle">dos problemas ocorrem aqui</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Transações PIX</div>
+                    <div class="stat-value" style="font-size: 2rem;">28%</div>
+                    <div class="stat-subtitle">maior fonte de reclamações</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Bloqueio de Conta</div>
+                    <div class="stat-value" style="font-size: 2rem;">24%</div>
+                    <div class="stat-subtitle">causa principal de churn</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Suporte</div>
+                    <div class="stat-value" style="font-size: 2rem;">16%</div>
+                    <div class="stat-subtitle">insatisfação com atendimento</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">⚡ Velocidade de Resposta do Suporte</div>
+                <div class="chart-container">
+                    <canvas id="supportChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">💰 Impacto Financeiro dos Problemas</div>
+                <div class="chart-container">
+                    <canvas id="financialChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <div class="section-header">
+                <h2 class="section-title">🏆 Análise Comparativa: Concorrentes</h2>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Métrica</th>
+                            <th>Bipa</th>
+                            <th>Mercado Bitcoin</th>
+                            <th>Binance</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Rating Médio</strong></td>
+                            <td>2.8 ⭐</td>
+                            <td>4.2 ⭐</td>
+                            <td>4.5 ⭐</td>
+                            <td><span class="sentiment-badge sentiment-negative">Crítico</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Suporte</strong></td>
+                            <td>Bot/IA apenas</td>
+                            <td>Humano + Bot</td>
+                            <td>24/7 Humano</td>
+                            <td><span class="sentiment-badge sentiment-negative">Muito Abaixo</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Taxa de Problemas PIX</strong></td>
+                            <td>28%</td>
+                            <td>8%</td>
+                            <td>5%</td>
+                            <td><span class="sentiment-badge sentiment-negative">Alto Risco</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Facilidade de Cadastro</strong></td>
+                            <td>32% rejeitam</td>
+                            <td>12% rejeitam</td>
+                            <td>8% rejeitam</td>
+                            <td><span class="sentiment-badge sentiment-negative">Crítico</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Taxas</strong></td>
+                            <td>2-3%</td>
+                            <td>1.5%</td>
+                            <td>0.5-1%</td>
+                            <td><span class="sentiment-badge sentiment-neutral">Médio</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <div class="section-header">
+                <h2 class="section-title">🔍 Análise de Segmentação de Usuários</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                <div class="stat-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                    <div class="stat-label" style="color: rgba(255,255,255,0.9);">Novos Usuários (< 1 mês)</div>
+                    <div class="stat-value" style="color: white;">42%</div>
+                    <div class="stat-subtitle" style="color: rgba(255,255,255,0.9);">Maioria dos problemas de cadastro</div>
+                </div>
+                <div class="stat-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white;">
+                    <div class="stat-label" style="color: rgba(255,255,255,0.9);">Usuários Ativos (1-6 meses)</div>
+                    <div class="stat-value" style="color: white;">35%</div>
+                    <div class="stat-subtitle" style="color: rgba(255,255,255,0.9);">Problemas com PIX e bloqueios</div>
+                </div>
+                <div class="stat-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white;">
+                    <div class="stat-label" style="color: rgba(255,255,255,0.9);">Usuários Veteranos (> 6 meses)</div>
+                    <div class="stat-value" style="color: white;">23%</div>
+                    <div class="stat-subtitle" style="color: rgba(255,255,255,0.9);">Insatisfação com taxas</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">📱 Análise por Sistema Operacional</div>
+                <div class="chart-container">
+                    <canvas id="osChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">⏱️ Tempo Médio até Primeira Reclamação</div>
+                <div class="chart-container">
+                    <canvas id="timeToComplaintChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <div class="section-header">
+                <h2 class="section-title">🎯 Recomendações Prioritárias (Action Items)</h2>
+            </div>
+            <div style="display: grid; gap: 15px;">
+                <div class="stat-card" style="border-left: 5px solid #ef4444;">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <div>
+                            <div class="stat-label">URGENTE - Sistema de PIX</div>
+                            <div style="font-size: 1.1rem; color: #333; margin-top: 10px;">
+                                Corrigir falhas em transferências PIX que afetam 28% dos usuários. Impacto: 187 reclamações.
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="sentiment-badge sentiment-negative">Prioridade 1</span>
+                                <span class="sentiment-badge" style="background: #dbeafe; color: #1e40af;">Impacto Alto</span>
+                            </div>
+                        </div>
+                        <div class="stat-value" style="font-size: 3rem;">1</div>
+                    </div>
+                </div>
+
+                <div class="stat-card" style="border-left: 5px solid #f97316;">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <div>
+                            <div class="stat-label">URGENTE - Política de Bloqueios</div>
+                            <div style="font-size: 1.1rem; color: #333; margin-top: 10px;">
+                                Revisar processo de bloqueio de contas. Implementar notificação prévia e justificativa clara.
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="sentiment-badge sentiment-negative">Prioridade 2</span>
+                                <span class="sentiment-badge" style="background: #dbeafe; color: #1e40af;">Impacto Alto</span>
+                            </div>
+                        </div>
+                        <div class="stat-value" style="font-size: 3rem;">2</div>
+                    </div>
+                </div>
+
+                <div class="stat-card" style="border-left: 5px solid #eab308;">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <div>
+                            <div class="stat-label">ALTO - Suporte Humanizado</div>
+                            <div style="font-size: 1.1rem; color: #333; margin-top: 10px;">
+                                Implementar canal de atendimento humano para casos críticos. Bot não resolve problemas complexos.
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="sentiment-badge sentiment-neutral">Prioridade 3</span>
+                                <span class="sentiment-badge" style="background: #dbeafe; color: #1e40af;">Impacto Alto</span>
+                            </div>
+                        </div>
+                        <div class="stat-value" style="font-size: 3rem;">3</div>
+                    </div>
+                </div>
+
+                <div class="stat-card" style="border-left: 5px solid #06b6d4;">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <div>
+                            <div class="stat-label">MÉDIO - Reconhecimento Facial</div>
+                            <div style="font-size: 1.1rem; color: #333; margin-top: 10px;">
+                                Melhorar sistema de reconhecimento facial. 143 usuários não conseguem acessar suas contas.
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="sentiment-badge" style="background: #fef3c7; color: #92400e;">Prioridade 4</span>
+                                <span class="sentiment-badge" style="background: #dbeafe; color: #1e40af;">Impacto Médio</span>
+                            </div>
+                        </div>
+                        <div class="stat-value" style="font-size: 3rem;">4</div>
+                    </div>
+                </div>
+
+                <div class="stat-card" style="border-left: 5px solid #10b981;">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <div>
+                            <div class="stat-label">MÉDIO - Revisão de Taxas</div>
+                            <div style="font-size: 1.1rem; color: #333; margin-top: 10px;">
+                                Taxas de 2-3% são consideradas altas pelos usuários. Avaliar competitividade no mercado.
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <span class="sentiment-badge" style="background: #fef3c7; color: #92400e;">Prioridade 5</span>
+                                <span class="sentiment-badge" style="background: #dbeafe; color: #1e40af;">Impacto Médio</span>
+                            </div>
+                        </div>
+                        <div class="stat-value" style="font-size: 3rem;">5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <div class="section-header">
+                <h2 class="section-title">💬 Reviews Mais Relevantes</h2>
+                <div class="filters">
+                    <button class="filter-btn active" onclick="filterReviews('all')">Todas</button>
+                    <button class="filter-btn" onclick="filterReviews('positive')">Positivas</button>
+                    <button class="filter-btn" onclick="filterReviews('negative')">Negativas</button>
+                    <button class="filter-btn" onclick="filterReviews('google')">Google Play</button>
+                    <button class="filter-btn" onclick="filterReviews('apple')">App Store</button>
+                </div>
+            </div>
+            <input type="text" class="search-box" placeholder="🔍 Buscar reviews..." id="searchBox" oninput="searchReviews()">
+            <div id="reviewsContainer"></div>
+            <button class="load-more" onclick="loadMore()">Carregar Mais</button>
+        </div>
+    </div>

@@ -48,13 +48,16 @@ h5, h6{}
 pre, small, figcaption{
     font-size: 2.7vw;
     line-height: 150%;
-    color: hsl(0, 0%, 40%);;
+    color: hsl(0, 0%, 40%);
     padding: 1vw 0;
     display: block;
     text-transform: uppercase;
     letter-spacing: 1vw;
     font-family: 'Roboto Mono', monospace;
     /* font-weight: normal; */
+}
+.tit small{
+    line-height: 200%;
 }
 figcaption{
     font-size: 2.7vw;
@@ -70,6 +73,11 @@ p, blockquote{
     color: hsl(0, 0%, 40%);;
     font-family: 'Roboto Mono';
 }
+
+.tit p{
+    font-family: inherit;
+}
+
 blockquote{
     font-size: 3vw;
     color: hsl(0, 0%, 40%);;
@@ -113,7 +121,7 @@ ul li a{
     padding: 0 10vw;
 }
 .txt{
-    padding: 0 10vw;
+    padding: 0 5vw;
 }
 /* links */
 .links{
@@ -206,6 +214,21 @@ section.googletrends .grafico{
     font-size: 2.7vw;
     letter-spacing: .7vw;
     /* color: white; */
+}
+.blog-list li:hover{
+    color: hsl(0, 0%, 40%);
+    background:hsl(0, 0%, 100%);
+
+}
+.blog-list {
+    padding: 10vw;
+}
+.blog-list li{
+    padding: 2vw 2vw 2vw 2vw;
+}
+.blog-list li a:hover{
+    color: hsl(0, 0%, 40%)
+
 }
 .projects-list h3, .projects-list h4{
     font-size: 8vw;

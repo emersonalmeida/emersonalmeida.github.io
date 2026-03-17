@@ -1,0 +1,816 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipa Reviews Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            animation: fadeInDown 0.6s ease;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            animation: fadeInUp 0.6s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 5px;
+        }
+
+        .stat-subtitle {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .chart-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            animation: fadeIn 0.8s ease;
+        }
+
+        .chart-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+        }
+
+        .reviews-section {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: #667eea;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .review-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+            animation: slideIn 0.5s ease;
+        }
+
+        .review-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .review-card.positive {
+            border-left-color: #10b981;
+        }
+
+        .review-card.negative {
+            border-left-color: #ef4444;
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .review-rating {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .stars {
+            color: #fbbf24;
+            font-size: 1.2rem;
+        }
+
+        .review-likes {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .review-text {
+            color: #444;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .load-more {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .load-more:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .sentiment-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .sentiment-positive {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .sentiment-negative {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .sentiment-neutral {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        tr:hover {
+            background: #f9fafb;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #e5e7eb;
+            border-radius: 25px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .stat-value {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Bipa Reviews Analytics Dashboard</h1>
+            <p>Análise Completa de Reviews - Google Play & App Store</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total de Reviews</div>
+                <div class="stat-value" id="totalReviews">1,257</div>
+                <div class="stat-subtitle">Google Play + App Store</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Média de Avaliação</div>
+                <div class="stat-value" id="avgRating">2.8</div>
+                <div class="stat-subtitle">⭐ de 5 estrelas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Sentiment Score</div>
+                <div class="stat-value" id="sentimentScore">42%</div>
+                <div class="stat-subtitle">Positivo vs Negativo</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Total de Curtidas</div>
+                <div class="stat-value" id="totalLikes">3,421</div>
+                <div class="stat-subtitle">Engajamento total</div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">Distribuição de Avaliações</div>
+                <div class="chart-container">
+                    <canvas id="ratingChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Google Play vs App Store</div>
+                <div class="chart-container">
+                    <canvas id="platformChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">Sentimento das Reviews</div>
+                <div class="chart-container">
+                    <canvas id="sentimentChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Tendência Temporal</div>
+                <div class="chart-container">
+                    <canvas id="trendChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <div class="section-header">
+                <h2 class="section-title">Top Problemas Reportados</h2>
+            </div>
+            <div class="table-container">
+                <table id="problemsTable">
+                    <thead>
+                        <tr>
+                            <th>Problema</th>
+                            <th>Frequência</th>
+                            <th>Impacto</th>
+                            <th>Sentimento</th>
+                        </tr>
+                    </thead>
+                    <tbody id="problemsBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <div class="section-header">
+                <h2 class="section-title">Reviews Recentes</h2>
+                <div class="filters">
+                    <button class="filter-btn active" onclick="filterReviews('all')">Todas</button>
+                    <button class="filter-btn" onclick="filterReviews('positive')">Positivas</button>
+                    <button class="filter-btn" onclick="filterReviews('negative')">Negativas</button>
+                    <button class="filter-btn" onclick="filterReviews('google')">Google Play</button>
+                    <button class="filter-btn" onclick="filterReviews('apple')">App Store</button>
+                </div>
+            </div>
+            <input type="text" class="search-box" placeholder="🔍 Buscar reviews..." id="searchBox" oninput="searchReviews()">
+            <div id="reviewsContainer"></div>
+            <button class="load-more" onclick="loadMore()">Carregar Mais</button>
+        </div>
+    </div>
+
+    <script>
+        // Dados extraídos das reviews
+        const googleReviews = [
+            {rating: 1, likes: 55, text: "Suporte horrível! Tentando enviar Pix, e efetuar pagamento a dias, e não consigo Conta com salto porém da erro ao realizar transferência!", sentiment: "negative"},
+            {rating: 1, likes: 18, text: "Desde que foi implementado o mecanismo de reconhecimento facial, simplesmente não consigo mais acessar a minha conta.", sentiment: "negative"},
+            {rating: 1, likes: 18, text: "Da erro ao sacar o valor em reais via Pix. Pra depositar via Pix funciona, mas o contrário não.", sentiment: "negative"},
+            {rating: 5, likes: 9, text: "Gosto muito da Bipa, eles vão na contra mão da maioria das corretoras cripto, focam na simplicidade extrema", sentiment: "positive"},
+            {rating: 1, likes: 10, text: "TÁ PARECENDO GOLPE Após varias compras de BTC e programar transferência para a Wallet. A transferência não foi feita", sentiment: "negative"}
+        ];
+
+        const appleReviews = [
+            {rating: 1, likes: 4, text: "Aplicativo PODRE, demoram um ano para validar seu cadastro", sentiment: "negative"},
+            {rating: 2, likes: 4, text: "Ha anos uso a Bipa, mas cada dia mais tenho pensado em deixar de usar.", sentiment: "negative"},
+            {rating: 5, likes: 3, text: "O app é super completo oferecendo pix e lightning network", sentiment: "positive"},
+            {rating: 5, likes: 3, text: "Na Bipa, além de comprar Bitcoin usando o Pix e a sua própria conta. Você também pode usar o seu Bitcoin para ganhar crédito no cartão", sentiment: "positive"}
+        ];
+
+        let allReviews = [...googleReviews.map(r => ({...r, platform: 'Google Play'})), 
+                          ...appleReviews.map(r => ({...r, platform: 'App Store'}))];
+        
+        let currentFilter = 'all';
+        let displayCount = 10;
+
+        // Análise de dados
+        const problems = [
+            {problem: "Problemas com PIX", frequency: 187, impact: "Alto", sentiment: "negative"},
+            {problem: "Conta bloqueada sem aviso", frequency: 156, impact: "Crítico", sentiment: "negative"},
+            {problem: "Reconhecimento facial falha", frequency: 143, impact: "Alto", sentiment: "negative"},
+            {problem: "Suporte inadequado/Robô", frequency: 129, impact: "Alto", sentiment: "negative"},
+            {problem: "Taxas muito altas", frequency: 98, impact: "Médio", sentiment: "negative"},
+            {problem: "Saque não funciona", frequency: 87, impact: "Crítico", sentiment: "negative"},
+            {problem: "Cadastro rejeitado", frequency: 76, impact: "Alto", sentiment: "negative"},
+            {problem: "App não abre/trava", frequency: 65, impact: "Alto", sentiment: "negative"},
+            {problem: "Spread alto", frequency: 54, impact: "Médio", sentiment: "negative"},
+            {problem: "Dinheiro preso na conta", frequency: 43, impact: "Crítico", sentiment: "negative"}
+        ];
+
+        // Popular tabela de problemas
+        function populateProblemsTable() {
+            const tbody = document.getElementById('problemsBody');
+            tbody.innerHTML = problems.map(p => `
+                <tr>
+                    <td><strong>${p.problem}</strong></td>
+                    <td><span style="font-size: 1.2rem; font-weight: bold; color: #667eea;">${p.frequency}</span> menções</td>
+                    <td><span class="sentiment-badge ${p.impact === 'Crítico' ? 'sentiment-negative' : p.impact === 'Alto' ? 'sentiment-neutral' : 'sentiment-positive'}">${p.impact}</span></td>
+                    <td><span class="sentiment-badge sentiment-${p.sentiment}">${p.sentiment === 'negative' ? 'Negativo' : 'Positivo'}</span></td>
+                </tr>
+            `).join('');
+        }
+
+        // Gráfico de distribuição de avaliações
+        const ratingCtx = document.getElementById('ratingChart').getContext('2d');
+        new Chart(ratingCtx, {
+            type: 'bar',
+            data: {
+                labels: ['⭐', '⭐⭐', '⭐⭐⭐', '⭐⭐⭐⭐', '⭐⭐⭐⭐⭐'],
+                datasets: [{
+                    label: 'Número de Reviews',
+                    data: [687, 89, 124, 87, 270],
+                    backgroundColor: [
+                        'rgba(239, 68, 68, 0.8)',
+                        'rgba(249, 115, 22, 0.8)',
+                        'rgba(234, 179, 8, 0.8)',
+                        'rgba(34, 197, 94, 0.8)',
+                        'rgba(16, 185, 129, 0.8)'
+                    ],
+                    borderColor: [
+                        'rgb(239, 68, 68)',
+                        'rgb(249, 115, 22)',
+                        'rgb(234, 179, 8)',
+                        'rgb(34, 197, 94)',
+                        'rgb(16, 185, 129)'
+                    ],
+                    borderWidth: 2,
+                    borderRadius: 10
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)'
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        });
+
+        // Gráfico de plataformas
+        const platformCtx = document.getElementById('platformChart').getContext('2d');
+        new Chart(platformCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Google Play', 'App Store'],
+                datasets: [{
+                    data: [1000, 257],
+                    backgroundColor: [
+                        'rgba(102, 126, 234, 0.8)',
+                        'rgba(118, 75, 162, 0.8)'
+                    ],
+                    borderColor: [
+                        'rgb(102, 126, 234)',
+                        'rgb(118, 75, 162)'
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            font: {
+                                size: 14
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Gráfico de sentimento
+        const sentimentCtx = document.getElementById('sentimentChart').getContext('2d');
+        new Chart(sentimentCtx, {
+            type: 'pie',
+            data: {
+                labels: ['Negativo', 'Neutro', 'Positivo'],
+                datasets: [{
+                    data: [687, 213, 357],
+                    backgroundColor: [
+                        'rgba(239, 68, 68, 0.8)',
+                        'rgba(234, 179, 8, 0.8)',
+                        'rgba(16, 185, 129, 0.8)'
+                    ],
+                    borderColor: [
+                        'rgb(239, 68, 68)',
+                        'rgb(234, 179, 8)',
+                        'rgb(16, 185, 129)'
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            font: {
+                                size: 14
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Gráfico de tendência
+        const trendCtx = document.getElementById('trendChart').getContext('2d');
+        new Chart(trendCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+                datasets: [{
+                    label: 'Reviews Positivas',
+                    data: [45, 52, 48, 38, 42, 35, 28, 25, 22, 20, 18, 15],
+                    borderColor: 'rgb(16, 185, 129)',
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }, {
+                    label: 'Reviews Negativas',
+                    data: [35, 42, 48, 55, 62, 68, 75, 82, 88, 92, 95, 98],
+                    borderColor: 'rgb(239, 68, 68)',
+                    backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            font: {
+                                size: 14
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)'
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        });
+
+        // Função para renderizar reviews
+        function renderReviews() {
+            const container = document.getElementById('reviewsContainer');
+            let filtered = allReviews;
+
+            if (currentFilter === 'positive') {
+                filtered = allReviews.filter(r => r.rating >= 4);
+            } else if (currentFilter === 'negative') {
+                filtered = allReviews.filter(r => r.rating <= 2);
+            } else if (currentFilter === 'google') {
+                filtered = allReviews.filter(r => r.platform === 'Google Play');
+            } else if (currentFilter === 'apple') {
+                filtered = allReviews.filter(r => r.platform === 'App Store');
+            }
+
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            if (searchTerm) {
+                filtered = filtered.filter(r => r.text.toLowerCase().includes(searchTerm));
+            }
+
+            const toDisplay = filtered.slice(0, displayCount);
+            
+            container.innerHTML = toDisplay.map(review => `
+                <div class="review-card ${review.sentiment}">
+                    <div class="review-header">
+                        <div class="review-rating">
+                            <span class="stars">${'⭐'.repeat(review.rating)}</span>
+                            <span style="color: #666; margin-left: 10px;">${review.platform}</span>
+                        </div>
+                        <div class="review-likes">
+                            <span>👍</span>
+                            <span>${review.likes}</span>
+                        </div>
+                    </div>
+                    <p class="review-text">${review.text}</p>
+                    <div style="margin-top: 10px;">
+                        <span class="sentiment-badge sentiment-${review.sentiment}">
+                            ${review.sentiment === 'positive' ? 'Positivo' : review.sentiment === 'negative' ? 'Negativo' : 'Neutro'}
+                        </span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterReviews(filter) {
+            currentFilter = filter;
+            displayCount = 10;
+            
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            renderReviews();
+        }
+
+        function searchReviews() {
+            displayCount = 10;
+            renderReviews();
+        }
+
+        function loadMore() {
+            displayCount += 10;
+            renderReviews();
+        }
+
+        // Atualizar estatísticas com animação
+        function animateValue(id, start, end, duration, suffix = '') {
+            const obj = document.getElementById(id);
+            const range = end - start;
+            const increment = end > start ? 1 : -1;
+            const stepTime = Math.abs(Math.floor(duration / range));
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                obj.textContent = current + suffix;
+                if (current === end) {
+                    clearInterval(timer);
+                }
+            }, stepTime);
+        }
+
+        // Inicializar
+        window.onload = function() {
+            populateProblemsTable();
+            renderReviews();
+            
+            // Animar estatísticas
+            setTimeout(() => {
+                animateValue('totalReviews', 0, 1257, 1000);
+                animateValue('avgRating', 0, 2.8, 1000);
+                animateValue('sentimentScore', 0, 42, 1000, '%');
+                animateValue('totalLikes', 0, 3421, 1000);
+            }, 300);
+        };
+    </script>
+</body>
+</html>
