@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research OS</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:       #0c0c10;
+  --s1:       #13131a;
+  --s2:       #1a1a24;
+  --s3:       #22222f;
+  --border:   rgba(255,255,255,0.07);
+  --border2:  rgba(255,255,255,0.12);
+  --text:     #e8e8f2;
+  --muted:    #6b6b84;
+  --dim:      #3a3a50;
+
+  /* camada cores */
+  --c1: #6c8fff; /* busca */
+  --c2: #34d399; /* conteúdo */
+  --c3: #f472b6; /* voz */
+  --c4: #fbbf24; /* benchmark */
+  --c5: #a78bfa; /* literatura */
+
+  --mono: 'JetBrains Mono', monospace;
+  --sans: 'Syne', sans-serif;
+  --r: 10px;
+}
+
+body { font-family: var(--sans); background: var(--bg); color: var(--text); min-height: 100vh; font-size: 14px; line-height: 1.6; }
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--dim); border-radius: 2px; }
+
+/* ── HEADER ── */
+header {
+  background: var(--s1);
+  border-bottom: 1px solid var(--border);
+  padding: 0 28px;
+  height: 54px;
+  display: flex; align-items: center; justify-content: space-between;
+  position: sticky; top: 0; z-index: 200;
+}
+.logo { display: flex; align-items: center; gap: 10px; }
+.logo-mark {
+  width: 30px; height: 30px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--c1), var(--c5));
+  display: flex; align-items: center; justify-content: center; font-size: 15px;
+}
+.logo-text { font-weight: 700; font-size: 15px; letter-spacing: -0.02em; }
+.logo-sub  { font-family: var(--mono); font-size: 10px; color: var(--muted); margin-left: 4px; }
+.status-pill {
+  display: flex; align-items: center; gap: 6px;
+  background: var(--s2); border: 1px solid var(--border);
+  border-radius: 20px; padding: 4px 10px;
+  font-family: var(--mono); font-size: 11px; color: var(--muted);
+}
+.sdot { width: 6px; height: 6px; border-radius: 50%; background: var(--dim); transition: background .3s; }
+.sdot.on  { background: #34d399; box-shadow: 0 0 6px #34d39966; }
+.sdot.err { background: #f87171; }
+
+/* ── SEARCH PANEL ── */
+.search-panel {
+  background: var(--s1);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 28px;
+}
+.search-row { display: flex; gap: 10px; align-items: stretch; margin-bottom: 14px; }
+.search-input {
+  flex: 1; background: var(--s2); border: 1px solid var(--border2);
+  border-radius: 8px; color: var(--text); font-family: var(--sans);
+  font-size: 15px; padding: 12px 16px; outline: none; transition: border-color .2s;
+}
+.search-input:focus { border-color: var(--c1); }
+.search-input::placeholder { color: var(--muted); }
+.sel {
+  background: var(--s2); border: 1px solid var(--border2); border-radius: 8px;
+  color: var(--text); font-family: var(--mono); font-size: 12px; padding: 12px 10px; outline: none; cursor: pointer;
+}
+.btn-run {
+  padding: 12px 28px; border-radius: 8px; border: none;
+  background: var(--c1); color: #fff; font-family: var(--sans);
+  font-weight: 600; font-size: 14px; cursor: pointer;
+  transition: opacity .2s; white-space: nowrap; display: flex; align-items: center; gap: 8px;
+}
+.btn-run:hover { opacity: .85; }
+.btn-run:disabled { opacity: .35; cursor: not-allowed; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.spin { width: 14px; height: 14px; border: 2px solid #fff4; border-top-color: #fff; border-radius: 50%; animation: spin .7s linear infinite; display: none; }
+
+/* ── LAYER PILLS ── */
+.layer-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+.lpill {
+  display: flex; align-items: center; gap: 6px;
+  padding: 5px 12px; border-radius: 20px; border: 1px solid var(--border2);
+  background: transparent; color: var(--muted); font-family: var(--mono);
+  font-size: 11px; font-weight: 500; cursor: pointer; transition: all .15s;
+}
+.lpill.on { color: #fff; }
+.lpip { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: .7; }
+
+/* ── CONFIG BAR ── */
+.config-bar {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--s2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px 12px; margin-bottom: 14px;
+  font-family: var(--mono); font-size: 11px; color: var(--muted);
+}
+.api-input {
+  flex: 1; background: var(--bg); border: 1px solid var(--border);
+  border-radius: 6px; color: var(--text); font-family: var(--mono);
+  font-size: 11px; padding: 5px 10px; outline: none; transition: border-color .2s;
+}
+.api-input:focus { border-color: var(--c1); }
+.btn-sm {
+  padding: 5px 10px; border-radius: 5px; border: 1px solid var(--border2);
+  background: var(--s3); color: var(--text); font-family: var(--mono);
+  font-size: 11px; cursor: pointer; white-space: nowrap; transition: all .15s;
+}
+.btn-sm:hover { border-color: var(--c1); color: var(--c1); }
+
+/* ── CONTAINER ── */
+.container { max-width: 1140px; margin: 0 auto; padding: 28px 24px; }
+
+/* ── PROGRESS ── */
+.progress-wrap {
+  background: var(--s1); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px 20px; margin-bottom: 24px; display: none;
+}
+.prog-label { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: .07em; text-transform: uppercase; margin-bottom: 12px; }
+.prog-grid  { display: grid; grid-template-columns: repeat(4,1fr); gap: 8px; }
+@media(max-width:700px) { .prog-grid { grid-template-columns: repeat(2,1fr); } }
+.prog-item  { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); transition: color .3s; }
+.prog-item.active { color: var(--c1); }
+.prog-item.done   { color: #34d399; }
+.prog-circle {
+  width: 16px; height: 16px; border-radius: 50%;
+  border: 1.5px solid currentColor; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; font-size: 9px;
+}
+@keyframes pulse-glow { 0%,100%{box-shadow:0 0 0 0 #6c8fff44} 50%{box-shadow:0 0 0 4px #6c8fff22} }
+.prog-item.active .prog-circle { animation: pulse-glow 1.2s infinite; }
+.prog-item.done   .prog-circle { background: #34d399; border-color: #34d399; color: var(--bg); }
+
+/* ── STATS ROW ── */
+.stats-row { display: grid; grid-template-columns: repeat(5,1fr); gap: 10px; margin-bottom: 24px; }
+@media(max-width:800px) { .stats-row { grid-template-columns: repeat(3,1fr); } }
+@keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+.stat-card {
+  background: var(--s1); border: 1px solid var(--border); border-radius: var(--r);
+  padding: 14px 16px; animation: fadeUp .3s ease both;
+}
+.stat-n { font-size: 26px; font-weight: 700; line-height: 1; color: var(--text); }
+.stat-l { font-family: var(--mono); font-size: 10px; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: .06em; }
+
+/* ── SECTION DIVIDER ── */
+.layer-divider {
+  display: flex; align-items: center; gap: 12px;
+  margin: 28px 0 14px; padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.layer-badge {
+  display: flex; align-items: center; gap: 7px;
+  font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: .05em;
+  padding: 4px 10px; border-radius: 4px; background: var(--s2); border: 1px solid var(--border2);
+}
+.layer-question { font-size: 13px; color: var(--muted); font-style: italic; }
+.layer-count { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-left: auto; background: var(--s2); padding: 3px 8px; border-radius: 4px; border: 1px solid var(--border); }
+
+/* ── GRID ── */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-bottom: 14px; }
+.grid-1 { margin-bottom: 14px; }
+@media(max-width:800px) { .grid-2,.grid-3 { grid-template-columns: 1fr; } }
+
+/* ── CARD ── */
+.card {
+  background: var(--s1); border: 1px solid var(--border);
+  border-radius: var(--r); overflow: hidden; animation: fadeUp .3s ease both;
+}
+.card-head {
+  padding: 10px 14px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.card-source { display: flex; align-items: center; gap: 7px; font-family: var(--mono); font-size: 11px; font-weight: 500; }
+.csrc-dot { width: 6px; height: 6px; border-radius: 50%; }
+.card-count { font-family: var(--mono); font-size: 10px; color: var(--muted); background: var(--s2); padding: 2px 8px; border-radius: 20px; border: 1px solid var(--border); }
+.card-body { padding: 12px 14px; max-height: 360px; overflow-y: auto; }
+
+/* ── ITEMS ── */
+.item { padding: 7px 0; border-bottom: 1px solid var(--border); }
+.item:last-child { border-bottom: none; }
+
+.rank { font-family: var(--mono); font-size: 10px; color: var(--dim); width: 18px; display: inline-block; text-align: right; }
+
+.suggest-item { display: flex; align-items: center; gap: 8px; }
+.suggest-item:hover { background: var(--s2); margin: 0 -6px; padding: 7px 6px; border-radius: 6px; }
+.stext { font-size: 13px; color: var(--text); }
+
+.news-item .ntitle { font-size: 13px; font-weight: 500; color: var(--c2); text-decoration: none; display: block; margin-bottom: 2px; }
+.news-item .ntitle:hover { text-decoration: underline; }
+.news-item .nmeta  { font-family: var(--mono); font-size: 10px; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
+
+.serp-item .stitle { font-size: 13px; font-weight: 500; color: var(--c2); text-decoration: none; display: block; }
+.serp-item .stitle:hover { text-decoration: underline; }
+.serp-item .sdomain { font-family: var(--mono); font-size: 10px; color: #34d39988; margin-bottom: 3px; }
+.serp-item .ssnip { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+.yt-item { display: flex; gap: 8px; }
+.yt-info .ytitle { font-size: 13px; font-weight: 500; color: #f87171; text-decoration: none; display: block; margin-bottom: 3px; }
+.yt-info .ytitle:hover { text-decoration: underline; }
+.yt-info .ymeta  { font-family: var(--mono); font-size: 10px; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
+
+.reddit-item .rtitle { font-size: 13px; font-weight: 500; color: var(--c3); text-decoration: none; display: block; margin-bottom: 2px; }
+.reddit-item .rtitle:hover { text-decoration: underline; }
+.reddit-item .rmeta  { font-family: var(--mono); font-size: 10px; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
+.reddit-item .rtext  { font-size: 12px; color: var(--muted); margin-top: 3px; line-height: 1.5; }
+
+.hn-item .htitle { font-size: 13px; font-weight: 500; color: var(--c4); text-decoration: none; display: block; margin-bottom: 2px; }
+.hn-item .htitle:hover { text-decoration: underline; }
+.hn-item .hmeta  { font-family: var(--mono); font-size: 10px; color: var(--muted); display: flex; gap: 8px; }
+
+.ra-item .ratitle { font-size: 13px; font-weight: 500; color: #f87171; display: block; margin-bottom: 2px; }
+.ra-item .radesc  { font-size: 12px; color: var(--muted); line-height: 1.5; margin-top: 3px; }
+.ra-item .rameta  { font-family: var(--mono); font-size: 10px; color: var(--muted); display: flex; gap: 8px; margin-top: 3px; }
+.ra-status { font-family: var(--mono); font-size: 10px; padding: 1px 6px; border-radius: 3px; }
+.ra-status.resolved   { background: #34d39922; color: #34d399; }
+.ra-status.unresolved { background: #f8717122; color: #f87171; }
+
+.ph-item .phtitle { font-size: 13px; font-weight: 500; color: var(--c4); text-decoration: none; display: block; margin-bottom: 2px; }
+.ph-item .phtitle:hover { text-decoration: underline; }
+.ph-item .phtagline { font-size: 12px; color: var(--muted); margin-bottom: 3px; }
+.ph-item .phmeta    { font-family: var(--mono); font-size: 10px; color: var(--muted); display: flex; gap: 8px; }
+
+.arxiv-item .atitle  { font-size: 13px; font-weight: 500; color: var(--c5); text-decoration: none; display: block; margin-bottom: 2px; }
+.arxiv-item .atitle:hover { text-decoration: underline; }
+.arxiv-item .ameta   { font-family: var(--mono); font-size: 10px; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 3px; }
+.arxiv-item .asum    { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+.se-item .setitle { font-size: 13px; font-weight: 500; color: var(--c5); text-decoration: none; display: block; margin-bottom: 2px; }
+.se-item .setitle:hover { text-decoration: underline; }
+.se-item .semeta  { font-family: var(--mono); font-size: 10px; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* ── RELATED BAR ── */
+.rel-item { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid var(--border); }
+.rel-item:last-child { border-bottom: none; }
+.rel-text { font-size: 12px; color: var(--text); flex: 1; }
+.rel-bar-wrap { width: 70px; height: 3px; background: var(--s3); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
+.rel-bar  { height: 100%; border-radius: 2px; }
+.rel-val  { font-family: var(--mono); font-size: 10px; color: var(--muted); min-width: 32px; text-align: right; }
+.rising-badge { font-family: var(--mono); font-size: 9px; background: #fbbf2422; color: #fbbf24; padding: 1px 5px; border-radius: 3px; }
+
+/* ── EXPAND CATEGORIES ── */
+.exp-cat { margin-bottom: 12px; }
+.exp-cat-label { font-family: var(--mono); font-size: 10px; color: var(--c1); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 5px; opacity: .8; }
+.exp-tag { display: inline-block; font-size: 11px; color: var(--muted); background: var(--s2); border: 1px solid var(--border); border-radius: 4px; padding: 2px 8px; margin: 2px 3px 2px 0; transition: all .12s; }
+.exp-tag:hover { border-color: var(--c1); color: var(--c1); }
+
+/* ── WIKIPEDIA CARD ── */
+.wiki-wrap { padding: 14px; }
+.wiki-title { font-size: 16px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
+.wiki-text  { font-size: 13px; color: var(--muted); line-height: 1.7; }
+.wiki-link  { display: inline-block; margin-top: 8px; font-family: var(--mono); font-size: 11px; color: var(--c2); text-decoration: none; }
+.wiki-link:hover { text-decoration: underline; }
+
+/* ── CHART ── */
+.chart-wrap { padding: 14px; height: 200px; position: relative; }
+
+/* ── EMPTY ── */
+.empty {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 380px; gap: 14px; text-align: center;
+}
+.empty-mark { font-size: 52px; opacity: .08; }
+.empty-title { font-size: 16px; font-weight: 600; color: var(--muted); }
+.empty-sub   { font-size: 13px; color: var(--muted); opacity: .6; max-width: 380px; line-height: 1.6; }
+.ex-pills    { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 6px; }
+.expill {
+  padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border2);
+  background: transparent; color: var(--muted); font-size: 12px;
+  font-family: var(--mono); cursor: pointer; transition: all .15s;
+}
+.expill:hover { border-color: var(--c1); color: var(--c1); }
+
+/* ── EXPORT ── */
+.export-row { display: flex; gap: 8px; margin-top: 24px; }
+
+/* ── TOAST ── */
+.toast {
+  position: fixed; bottom: 24px; right: 24px;
+  background: var(--s1); border: 1px solid var(--border2); border-radius: 10px;
+  padding: 12px 18px; font-size: 13px; color: var(--text);
+  box-shadow: 0 8px 32px #0008;
+  transform: translateY(80px); opacity: 0; transition: all .25s ease;
+  z-index: 999; max-width: 340px;
+}
+.toast.show { transform: translateY(0); opacity: 1; }
+.toast.ok  { border-color: #34d39966; }
+.toast.err { border-color: #f8717166; }
+
+/* ── ERROR CARD ── */
+.err-card { padding: 12px 14px; font-family: var(--mono); font-size: 11px; color: #f87171; background: #f8717108; border-radius: 6px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">◎</div>
+    <span class="logo-text">Research OS</span>
+    <span class="logo-sub">signal map</span>
+  </div>
+  <div class="status-pill">
+    <div class="sdot" id="sdot"></div>
+    <span id="stext">desconectado</span>
+  </div>
+</header>
+
+<div class="search-panel">
+  <div class="config-bar">
+    <span>backend:</span>
+    <input class="api-input" id="apiUrl" placeholder="https://script.google.com/macros/s/SEU_ID/exec">
+    <button class="btn-sm" onclick="testConn()">testar</button>
+    <button class="btn-sm" onclick="saveUrl()">salvar</button>
+  </div>
+
+  <div class="search-row">
+    <input class="search-input" id="termInput" placeholder="Ex: aplicativo de saúde mental, fintech brasil, delivery de remédios…" onkeydown="if(event.key==='Enter')runSearch()">
+    <select class="sel" id="regionInput">
+      <option value="br">🇧🇷 BR</option>
+      <option value="us">🇺🇸 US</option>
+      <option value="pt">🇵🇹 PT</option>
+      <option value="es">🇪🇸 ES</option>
+      <option value="mx">🇲🇽 MX</option>
+      <option value="ar">🇦🇷 AR</option>
+    </select>
+    <select class="sel" id="limitInput">
+      <option value="5">5</option>
+      <option value="10" selected>10</option>
+      <option value="20">20</option>
+    </select>
+    <button class="btn-run" id="runBtn" onclick="runSearch()">
+      <div class="spin" id="spinner"></div>
+      <span id="runLabel">◎ Pesquisar</span>
+    </button>
+  </div>
+
+  <div class="layer-pills">
+    <button class="lpill on" data-layer="busca"     style="--lc:var(--c1);border-color:var(--c1);color:var(--c1)" onclick="toggleLayer(this)"><span class="lpip"></span>O que buscam</button>
+    <button class="lpill on" data-layer="conteudo"  style="--lc:var(--c2);border-color:var(--c2);color:var(--c2)" onclick="toggleLayer(this)"><span class="lpip"></span>O que encontram</button>
+    <button class="lpill on" data-layer="voz"       style="--lc:var(--c3);border-color:var(--c3);color:var(--c3)" onclick="toggleLayer(this)"><span class="lpip"></span>O que dizem</button>
+    <button class="lpill on" data-layer="benchmark" style="--lc:var(--c4);border-color:var(--c4);color:var(--c4)" onclick="toggleLayer(this)"><span class="lpip"></span>Benchmark</button>
+    <button class="lpill on" data-layer="literatura" style="--lc:var(--c5);border-color:var(--c5);color:var(--c5)" onclick="toggleLayer(this)"><span class="lpip"></span>Literatura</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="progress-wrap" id="progressWrap">
+    <div class="prog-label">coletando sinais…</div>
+    <div class="prog-grid" id="progGrid"></div>
+  </div>
+
+  <div id="results">
+    <div class="empty">
+      <div class="empty-mark">◎</div>
+      <div class="empty-title">Research OS</div>
+      <div class="empty-sub">Digite um tema e clique em Pesquisar. O dashboard monta automaticamente o mapa de sinais com todas as fontes.</div>
+      <div class="ex-pills">
+        <button class="expill" onclick="setEx('saúde mental jovens')">saúde mental jovens</button>
+        <button class="expill" onclick="setEx('fintech brasil')">fintech brasil</button>
+        <button class="expill" onclick="setEx('delivery remédios')">delivery remédios</button>
+        <button class="expill" onclick="setEx('app educação infantil')">app educação infantil</button>
+        <button class="expill" onclick="setEx('bitcoin')">bitcoin</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="export-row" id="exportRow" style="display:none">
+    <button class="btn-sm" onclick="exportCSV()">⬇ CSV</button>
+    <button class="btn-sm" onclick="exportJSON()">⬇ JSON</button>
+    <button class="btn-sm" onclick="copyMD()">📋 Copiar markdown</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ─── CONFIG ───────────────────────────────────────────────────
+var API_URL  = localStorage.getItem('ros_api_url') || '';
+var lastData = null;
+var activeLayers = new Set(['busca','conteudo','voz','benchmark','literatura']);
+var trendChart   = null;
+var progEls      = [];
+
+document.getElementById('apiUrl').value = API_URL;
+if (API_URL) testConn(true);
+
+// ─── UTILS ───────────────────────────────────────────────────
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function setEx(t) { document.getElementById('termInput').value = t; }
+function toast(msg, type) {
+  var el = document.getElementById('toast');
+  el.textContent = msg; el.className = 'toast ' + (type||'');
+  el.classList.add('show');
+  setTimeout(function(){ el.classList.remove('show'); }, 3200);
+}
+function setLoading(on) {
+  document.getElementById('spinner').style.display = on ? 'block' : 'none';
+  document.getElementById('runLabel').textContent = on ? 'coletando…' : '◎ Pesquisar';
+  document.getElementById('runBtn').disabled = on;
+}
+function saveUrl() {
+  API_URL = document.getElementById('apiUrl').value.trim();
+  if (API_URL) { localStorage.setItem('ros_api_url', API_URL); testConn(); }
+}
+function toggleLayer(el) {
+  var l = el.dataset.layer;
+  el.classList.toggle('on');
+  if (el.classList.contains('on')) activeLayers.add(l); else activeLayers.delete(l);
+}
+document.getElementById('apiUrl').addEventListener('change', function() {
+  API_URL = this.value.trim();
+  if (API_URL) localStorage.setItem('ros_api_url', API_URL);
+});
+
+// ─── CONNECTION ───────────────────────────────────────────────
+async function testConn(silent) {
+  if (!API_URL) { setStatus(false); return; }
+  try {
+    var r = await fetch(API_URL + '?action=ping&t=' + Date.now());
+    var d = await r.json();
+    setStatus(d.ok);
+    if (!silent) toast(d.ok ? 'Backend conectado! v' + (d.version||'') : 'Resposta inesperada', d.ok ? 'ok' : 'err');
+  } catch(e) { setStatus(false); if (!silent) toast('Erro: ' + e.message, 'err'); }
+}
+function setStatus(on) {
+  document.getElementById('sdot').className  = 'sdot ' + (on ? 'on' : 'err');
+  document.getElementById('stext').textContent = on ? 'backend online' : 'desconectado';
+}
+
+// ─── TASKS MAP ────────────────────────────────────────────────
+var TASKS = [
+  { key: 'suggest',       action: 'suggest',       layer: 'busca',      label: 'Google Suggest' },
+  { key: 'suggest_expand',action: 'suggest_expand', layer: 'busca',      label: 'Suggest expandido' },
+  { key: 'trends',        action: 'trends',         layer: 'busca',      label: 'Google Trends' },
+  { key: 'news',          action: 'news',           layer: 'conteudo',   label: 'Google News' },
+  { key: 'serp',          action: 'serp',           layer: 'conteudo',   label: 'SERP' },
+  { key: 'youtube',       action: 'youtube',        layer: 'voz',        label: 'YouTube' },
+  { key: 'reddit',        action: 'reddit',         layer: 'voz',        label: 'Reddit' },
+  { key: 'hackernews',    action: 'hackernews',     layer: 'voz',        label: 'Hacker News' },
+  { key: 'reclameaqui',   action: 'reclameaqui',    layer: 'voz',        label: 'Reclame Aqui' },
+  { key: 'producthunt',   action: 'producthunt',    layer: 'benchmark',  label: 'Product Hunt' },
+  { key: 'arxiv',         action: 'arxiv',          layer: 'literatura', label: 'arXiv' },
+  { key: 'wikipedia',     action: 'wikipedia',      layer: 'literatura', label: 'Wikipedia' },
+];
+
+// ─── SEARCH ──────────────────────────────────────────────────
+async function runSearch() {
+  var term   = document.getElementById('termInput').value.trim();
+  var region = document.getElementById('regionInput').value;
+  var limit  = document.getElementById('limitInput').value;
+  if (!term)    { toast('Digite um tema', 'err'); return; }
+  if (!API_URL) { toast('Configure o backend', 'err'); return; }
+
+  setLoading(true);
+  document.getElementById('results').innerHTML = '';
+  document.getElementById('exportRow').style.display = 'none';
+
+  var tasks = TASKS.filter(function(t) { return activeLayers.has(t.layer); });
+  lastData  = { term: term, region: region, limit: limit, collected_at: new Date().toISOString(), sources: {} };
+
+  showProgress(tasks);
+
+  for (var i = 0; i < tasks.length; i++) {
+    var t = tasks[i];
+    setProgStep(i, 'active');
+    try {
+      var url  = API_URL + '?action=' + t.action
+        + '&term=' + encodeURIComponent(term)
+        + '&region=' + region + '&lang=pt'
+        + '&limit=' + limit + '&t=' + Date.now();
+      var resp = await fetch(url);
+      lastData.sources[t.key] = await resp.json();
+    } catch(e) {
+      lastData.sources[t.key] = { error: e.message, items: [], total: 0 };
+    }
+    setProgStep(i, 'done');
+  }
+
+  hideProgress();
+  render(lastData);
+  setLoading(false);
+  document.getElementById('exportRow').style.display = 'flex';
+}
+
+// ─── PROGRESS ────────────────────────────────────────────────
+function showProgress(tasks) {
+  progEls = [];
+  var grid = document.getElementById('progGrid');
+  grid.innerHTML = '';
+  document.getElementById('progressWrap').style.display = 'block';
+  tasks.forEach(function(t) {
+    var el = document.createElement('div');
+    el.className = 'prog-item';
+    el.innerHTML = '<div class="prog-circle"></div><span>' + t.label + '</span>';
+    grid.appendChild(el); progEls.push(el);
+  });
+}
+function setProgStep(i, state) {
+  var el = progEls[i]; if (!el) return;
+  el.className = 'prog-item ' + state;
+  var c = el.querySelector('.prog-circle');
+  c.className = 'prog-circle ' + state;
+  if (state === 'done') c.textContent = '✓';
+}
+function hideProgress() { document.getElementById('progressWrap').style.display = 'none'; }
+
+// ─── RENDER ──────────────────────────────────────────────────
+function render(data) {
+  var el = document.getElementById('results');
+  el.innerHTML = '';
+
+  // Stats
+  el.appendChild(renderStats(data));
+
+  // ── CAMADA 1: O QUE BUSCAM
+  if (activeLayers.has('busca')) {
+    el.appendChild(layerDiv('busca', 'var(--c1)', '🔍 O que buscam', 'Qual linguagem real usam? Quais dúvidas têm?'));
+    var g1 = div('grid-2');
+    if (data.sources.suggest)        g1.appendChild(renderSuggest(data.sources.suggest));
+    if (data.sources.suggest_expand) g1.appendChild(renderExpand(data.sources.suggest_expand));
+    el.appendChild(g1);
+    if (data.sources.trends) {
+      if (data.sources.trends.timeline && data.sources.trends.timeline.length)
+        el.appendChild(renderTrendsChart(data.sources.trends));
+      var g1b = div('grid-2');
+      if (data.sources.trends.related_top && data.sources.trends.related_top.length)
+        g1b.appendChild(renderRelated(data.sources.trends.related_top, 'Trends — top', 'var(--c1)'));
+      if (data.sources.trends.related_rising && data.sources.trends.related_rising.length)
+        g1b.appendChild(renderRelated(data.sources.trends.related_rising, 'Trends — em alta 🔥', 'var(--c4)'));
+      if (g1b.children.length) el.appendChild(g1b);
+    }
+  }
+
+  // ── CAMADA 2: O QUE ENCONTRAM
+  if (activeLayers.has('conteudo')) {
+    el.appendChild(layerDiv('conteudo', 'var(--c2)', '📄 O que encontram', 'O que o mercado já responde? Quais são os gaps?'));
+    var g2 = div('grid-2');
+    if (data.sources.news) g2.appendChild(renderNews(data.sources.news));
+    if (data.sources.serp) g2.appendChild(renderSerp(data.sources.serp));
+    el.appendChild(g2);
+    if (data.sources.wikipedia) el.appendChild(renderWiki(data.sources.wikipedia));
+  }
+
+  // ── CAMADA 3: O QUE DIZEM
+  if (activeLayers.has('voz')) {
+    el.appendChild(layerDiv('voz', 'var(--c3)', '💬 O que dizem', 'Opiniões espontâneas, reclamações, elogios não filtrados'));
+    var g3a = div('grid-2');
+    if (data.sources.youtube)    g3a.appendChild(renderYoutube(data.sources.youtube));
+    if (data.sources.reddit)     g3a.appendChild(renderReddit(data.sources.reddit));
+    el.appendChild(g3a);
+    var g3b = div('grid-2');
+    if (data.sources.reclameaqui) g3b.appendChild(renderReclameAqui(data.sources.reclameaqui));
+    if (data.sources.hackernews)  g3b.appendChild(renderHackerNews(data.sources.hackernews));
+    el.appendChild(g3b);
+  }
+
+  // ── CAMADA 4: BENCHMARK
+  if (activeLayers.has('benchmark')) {
+    el.appendChild(layerDiv('benchmark', 'var(--c4)', '🏆 Benchmark', 'O que a concorrência faz? Quais produtos existem?'));
+    if (data.sources.producthunt) el.appendChild(renderProductHunt(data.sources.producthunt));
+  }
+
+  // ── CAMADA 5: LITERATURA
+  if (activeLayers.has('literatura')) {
+    el.appendChild(layerDiv('literatura', 'var(--c5)', '📚 Literatura', 'O que os especialistas sabem? Quais evidências existem?'));
+    var g5 = div('grid-2');
+    if (data.sources.arxiv) g5.appendChild(renderArxiv(data.sources.arxiv));
+    el.appendChild(g5);
+  }
+}
+
+// ─── STATS ───────────────────────────────────────────────────
+function renderStats(data) {
+  var s = data.sources;
+  var counts = [
+    { l: 'sugestões', v: (s.suggest||{}).total||0, c: 'var(--c1)' },
+    { l: 'notícias',  v: (s.news||{}).total||0, c: 'var(--c2)' },
+    { l: 'vozes',     v: ((s.youtube||{}).total||0) + ((s.reddit||{}).total||0) + ((s.reclameaqui||{}).total||0), c: 'var(--c3)' },
+    { l: 'benchmark', v: (s.producthunt||{}).total||0, c: 'var(--c4)' },
+    { l: 'papers',    v: (s.arxiv||{}).total||0, c: 'var(--c5)' },
+  ];
+  var wrap = div('stats-row');
+  counts.forEach(function(c, i) {
+    var card = div('stat-card');
+    card.style.animationDelay = (i * 0.05) + 's';
+    card.innerHTML = '<div class="stat-n" style="color:' + c.c + '">' + c.v + '</div><div class="stat-l">' + c.l + '</div>';
+    wrap.appendChild(card);
+  });
+  return wrap;
+}
+
+// ─── LAYER DIVIDER ────────────────────────────────────────────
+function layerDiv(layer, color, title, question) {
+  var el = div('layer-divider');
+  el.innerHTML = '<div class="layer-badge" style="border-color:' + color + '20;color:' + color + '">' + esc(title) + '</div>'
+    + '<span class="layer-question">' + esc(question) + '</span>';
+  return el;
+}
+
+// ─── SUGGEST ─────────────────────────────────────────────────
+function renderSuggest(data) {
+  if (data.error) return errCard('Google Suggest', data.error);
+  var card = mkCard('Google Suggest', data.total + ' sugestões', 'var(--c1)');
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item suggest-item');
+    el.innerHTML = '<span class="rank">' + item.rank + '</span><span class="stext">' + esc(item.text) + '</span>';
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── EXPAND ──────────────────────────────────────────────────
+function renderExpand(data) {
+  if (data.error) return errCard('Suggest Expandido', data.error);
+  var card = mkCard('Vocabulário expandido', (data.total_unique||0) + ' termos únicos', 'var(--c1)');
+  var body = div('card-body');
+  (data.categories||[]).forEach(function(cat) {
+    var el = div('exp-cat');
+    el.innerHTML = '<div class="exp-cat-label">' + esc(cat.prefix) + '</div>';
+    (cat.items||[]).forEach(function(item) {
+      var tag = document.createElement('span');
+      tag.className = 'exp-tag'; tag.textContent = item.text;
+      el.appendChild(tag);
+    });
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── TRENDS CHART ────────────────────────────────────────────
+function renderTrendsChart(data) {
+  var card = div('card grid-1');
+  var head = div('card-head');
+  head.innerHTML = '<div class="card-source"><div class="csrc-dot" style="background:var(--c1)"></div>Trends — interesse ao longo do tempo</div>'
+    + '<span class="card-count">' + data.timeline.length + ' pts · ' + data.period + '</span>';
+  card.appendChild(head);
+  var cw = div('chart-wrap');
+  var canvas = document.createElement('canvas');
+  cw.appendChild(canvas); card.appendChild(cw);
+  setTimeout(function() {
+    if (trendChart) trendChart.destroy();
+    trendChart = new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels: data.timeline.map(function(t){ return t.date; }),
+        datasets: [{ data: data.timeline.map(function(t){ return t.value; }),
+          borderColor: 'var(--c1)', backgroundColor: '#6c8fff12',
+          borderWidth: 2, pointRadius: 0, pointHoverRadius: 4, tension: 0.4, fill: true }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false },
+          tooltip: { backgroundColor: '#13131a', borderColor: '#ffffff12', borderWidth: 1,
+            titleColor: '#6b6b84', bodyColor: '#e8e8f2',
+            titleFont: { family: 'monospace', size: 10 }, bodyFont: { family: 'monospace', size: 12 } }
+        },
+        scales: {
+          x: { ticks: { color: '#6b6b84', font: { size: 10, family: 'monospace' }, maxTicksLimit: 8 }, grid: { color: '#ffffff08' } },
+          y: { ticks: { color: '#6b6b84', font: { size: 10, family: 'monospace' } }, grid: { color: '#ffffff08' }, min: 0, max: 100 }
+        }
+      }
+    });
+  }, 80);
+  return card;
+}
+
+// ─── RELATED ─────────────────────────────────────────────────
+function renderRelated(items, title, color) {
+  var card = mkCard(title, items.length + ' termos', color);
+  var body = div('card-body');
+  var maxV = Math.max.apply(null, items.map(function(r){ return isNaN(r.value) ? 0 : parseInt(r.value)||0; })) || 1;
+  items.forEach(function(item) {
+    var pct = isNaN(item.value) ? 100 : Math.round((parseInt(item.value)||0) / maxV * 100);
+    var el  = div('rel-item');
+    el.innerHTML = '<span class="rel-text">' + esc(item.text) + '</span>'
+      + (item.value === 'Breakout' ? '<span class="rising-badge">breakout</span>' : '')
+      + '<div class="rel-bar-wrap"><div class="rel-bar" style="width:' + pct + '%;background:' + color + '"></div></div>'
+      + '<span class="rel-val">' + (item.value === 'Breakout' ? '🔥' : (item.value||'')) + '</span>';
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── NEWS ────────────────────────────────────────────────────
+function renderNews(data) {
+  if (data.error) return errCard('Google News', data.error);
+  var card = mkCard('Google News', data.total + ' notícias', 'var(--c2)');
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item news-item');
+    el.innerHTML = '<a class="ntitle" href="' + esc(item.url) + '" target="_blank">' + esc(item.title) + '</a>'
+      + '<div class="nmeta">'
+      + (item.source ? '<span>' + esc(item.source) + '</span>' : '')
+      + (item.published ? '<span>' + item.published.slice(0,16) + '</span>' : '')
+      + '</div>';
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── SERP ────────────────────────────────────────────────────
+function renderSerp(data) {
+  if (data.error) return errCard(data.source||'SERP', data.error);
+  var card = mkCard(data.source||'SERP', data.total + ' resultados', 'var(--c2)');
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item serp-item');
+    var domain = '';
+    try { domain = new URL(item.url).hostname; } catch(e) {}
+    el.innerHTML = '<div class="sdomain">' + esc(domain||item.source||'') + '</div>'
+      + '<a class="stitle" href="' + esc(item.url) + '" target="_blank">' + esc(item.title) + '</a>'
+      + (item.snippet ? '<div class="ssnip">' + esc(item.snippet.slice(0,180)) + '</div>' : '');
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── WIKI ────────────────────────────────────────────────────
+function renderWiki(data) {
+  if (data.error || !data.title) return null;
+  var card = mkCard('Wikipedia', 'contexto', 'var(--c2)');
+  var wrap = div('wiki-wrap');
+  wrap.innerHTML = '<div class="wiki-title">' + esc(data.title) + '</div>'
+    + '<div class="wiki-text">' + esc((data.summary||'').slice(0, 600)) + (data.summary && data.summary.length > 600 ? '…' : '') + '</div>'
+    + (data.url ? '<a class="wiki-link" href="' + esc(data.url) + '" target="_blank">→ Ver artigo completo</a>' : '');
+  card.appendChild(wrap); return card;
+}
+
+// ─── YOUTUBE ─────────────────────────────────────────────────
+function renderYoutube(data) {
+  if (data.error) return errCard('YouTube', data.error);
+  var card = mkCard('YouTube', data.total + ' vídeos', '#f87171');
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item yt-item');
+    el.innerHTML = '<span class="rank" style="margin-top:2px">' + item.rank + '</span>'
+      + '<div class="yt-info"><a class="ytitle" href="' + esc(item.url) + '" target="_blank">' + esc(item.title) + '</a>'
+      + '<div class="ymeta">'
+      + (item.channel   ? '<span>' + esc(item.channel) + '</span>' : '')
+      + (item.views     ? '<span>' + esc(item.views) + '</span>' : '')
+      + (item.published ? '<span>' + esc(item.published) + '</span>' : '')
+      + '</div></div>';
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── REDDIT ──────────────────────────────────────────────────
+function renderReddit(data) {
+  if (data.error) return errCard('Reddit', data.error);
+  var card = mkCard('Reddit', data.total + ' posts', 'var(--c3)');
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item reddit-item');
+    el.innerHTML = '<a class="rtitle" href="' + esc(item.url) + '" target="_blank">' + esc(item.title) + '</a>'
+      + '<div class="rmeta">'
+      + (item.subreddit ? '<span>r/' + esc(item.subreddit) + '</span>' : '')
+      + (item.score     ? '<span>▲ ' + item.score + '</span>' : '')
+      + (item.comments  ? '<span>💬 ' + item.comments + '</span>' : '')
+      + (item.created   ? '<span>' + item.created + '</span>' : '')
+      + '</div>'
+      + (item.selftext  ? '<div class="rtext">' + esc(item.selftext.slice(0,200)) + (item.selftext.length>200?'…':'') + '</div>' : '');
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── RECLAME AQUI ────────────────────────────────────────────
+function renderReclameAqui(data) {
+  if (data.error) return errCard('Reclame Aqui', data.error);
+  var card = mkCard('Reclame Aqui 🇧🇷', data.total + ' reclamações', '#f87171');
+  if (data.total === 0) {
+    var b = div('card-body');
+    b.innerHTML = '<div style="font-size:12px;color:var(--muted);padding:8px 0">Nenhuma reclamação encontrada para este termo. Tente o nome exato da empresa.</div>';
+    card.appendChild(b); return card;
+  }
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item ra-item');
+    var statusClass = item.status && item.status.toLowerCase().includes('resolv') ? 'resolved' : 'unresolved';
+    el.innerHTML = (item.url ? '<a class="ratitle" href="' + esc(item.url) + '" target="_blank">' + esc(item.title) + '</a>'
+                             : '<span class="ratitle">' + esc(item.title) + '</span>')
+      + (item.description ? '<div class="radesc">' + esc(item.description.slice(0,250)) + (item.description.length>250?'…':'') + '</div>' : '')
+      + '<div class="rameta">'
+      + (item.status  ? '<span class="ra-status ' + statusClass + '">' + esc(item.status) + '</span>' : '')
+      + (item.created ? '<span>' + esc(item.created.slice(0,10)) + '</span>' : '')
+      + '</div>';
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── HACKER NEWS ─────────────────────────────────────────────
+function renderHackerNews(data) {
+  if (data.error) return errCard('Hacker News', data.error);
+  var card = mkCard('Hacker News', data.total + ' stories', 'var(--c4)');
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item hn-item');
+    el.innerHTML = '<a class="htitle" href="' + esc(item.url) + '" target="_blank">' + esc(item.title) + '</a>'
+      + '<div class="hmeta">'
+      + (item.author   ? '<span>' + esc(item.author) + '</span>' : '')
+      + (item.points   ? '<span>▲ ' + item.points + '</span>' : '')
+      + (item.comments ? '<span>💬 ' + item.comments + '</span>' : '')
+      + (item.created  ? '<span>' + item.created + '</span>' : '')
+      + '</div>';
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── PRODUCT HUNT ────────────────────────────────────────────
+function renderProductHunt(data) {
+  if (data.error) return errCard('Product Hunt', data.error);
+  var card = mkCard('Product Hunt', data.total + ' produtos', 'var(--c4)');
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item ph-item');
+    el.innerHTML = '<a class="phtitle" href="' + esc(item.url||item.website||'#') + '" target="_blank">' + esc(item.name||item.title||'') + '</a>'
+      + '<div class="phtagline">' + esc(item.tagline||item.snippet||'') + '</div>'
+      + '<div class="phmeta">'
+      + (item.votes    ? '<span>▲ ' + item.votes + '</span>' : '')
+      + (item.comments ? '<span>💬 ' + item.comments + '</span>' : '')
+      + (item.topics   ? '<span>' + esc(item.topics) + '</span>' : '')
+      + (item.created  ? '<span>' + esc(item.created) + '</span>' : '')
+      + '</div>';
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── ARXIV ───────────────────────────────────────────────────
+function renderArxiv(data) {
+  if (data.error) return errCard('arXiv', data.error);
+  var card = mkCard('arXiv', data.total + ' papers', 'var(--c5)');
+  var body = div('card-body');
+  (data.items||[]).forEach(function(item) {
+    var el = div('item arxiv-item');
+    el.innerHTML = '<a class="atitle" href="' + esc(item.url) + '" target="_blank">' + esc(item.title) + '</a>'
+      + '<div class="ameta">'
+      + (item.authors   ? '<span>' + esc(item.authors) + '</span>' : '')
+      + (item.published ? '<span>' + item.published + '</span>' : '')
+      + '</div>'
+      + (item.summary ? '<div class="asum">' + esc(item.summary.slice(0,300)) + (item.summary.length>300?'…':'') + '</div>' : '');
+    body.appendChild(el);
+  });
+  card.appendChild(body); return card;
+}
+
+// ─── HELPERS ─────────────────────────────────────────────────
+function div(cls) { var el = document.createElement('div'); if (cls) el.className = cls; return el; }
+function mkCard(title, count, color) {
+  var card = div('card');
+  var head = div('card-head');
+  head.innerHTML = '<div class="card-source"><div class="csrc-dot" style="background:' + color + '"></div>' + esc(title) + '</div>'
+    + '<span class="card-count">' + esc(count) + '</span>';
+  card.appendChild(head); return card;
+}
+function errCard(source, msg) {
+  var card = mkCard(source, 'erro', 'var(--muted)');
+  var body = div('card-body');
+  body.innerHTML = '<div class="err-card">' + esc(msg) + '</div>';
+  card.appendChild(body); return card;
+}
+
+// ─── EXPORT ──────────────────────────────────────────────────
+function exportJSON() {
+  if (!lastData) return;
+  var blob = new Blob([JSON.stringify(lastData, null, 2)], { type: 'application/json' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'research_' + (lastData.term||'').replace(/\s+/g,'_') + '.json';
+  a.click();
+  toast('JSON exportado!', 'ok');
+}
+
+function exportCSV() {
+  if (!lastData) return;
+  var rows = [['camada','fonte','rank','texto','url','meta']];
+  var s = lastData.sources;
+  function add(layer, source, items, textFn, urlFn, metaFn) {
+    (items||[]).forEach(function(i) {
+      rows.push([layer, source, i.rank||'', textFn(i), urlFn(i), metaFn(i)]);
+    });
+  }
+  if (s.suggest)        add('busca','suggest',s.suggest.items,function(i){return i.text;},function(){return '';},function(){return '';});
+  if (s.news)           add('conteudo','news',s.news.items,function(i){return i.title;},function(i){return i.url;},function(i){return i.source;});
+  if (s.youtube)        add('voz','youtube',s.youtube.items,function(i){return i.title;},function(i){return i.url;},function(i){return i.channel;});
+  if (s.reddit)         add('voz','reddit',s.reddit.items,function(i){return i.title;},function(i){return i.url;},function(i){return 'r/'+i.subreddit+' ▲'+i.score;});
+  if (s.reclameaqui)    add('voz','reclameaqui',s.reclameaqui.items,function(i){return i.title;},function(i){return i.url||'';},function(i){return i.status;});
+  if (s.hackernews)     add('voz','hackernews',s.hackernews.items,function(i){return i.title;},function(i){return i.url;},function(i){return '▲'+i.points;});
+  if (s.producthunt)    add('benchmark','producthunt',s.producthunt.items,function(i){return i.name||i.title;},function(i){return i.url||i.website||'';},function(i){return '▲'+(i.votes||0);});
+  if (s.arxiv)          add('literatura','arxiv',s.arxiv.items,function(i){return i.title;},function(i){return i.url;},function(i){return i.authors;});
+  if (s.suggest_expand && s.suggest_expand.categories) {
+    (s.suggest_expand.categories||[]).forEach(function(cat) {
+      (cat.items||[]).forEach(function(i) {
+        rows.push(['busca','expand_'+cat.prefix,i.rank,i.text,'','']);
+      });
+    });
+  }
+  var csv = rows.map(function(r){ return r.map(function(c){ return '"'+String(c||'').replace(/"/g,'""')+'"'; }).join(','); }).join('\n');
+  var blob = new Blob(['\uFEFF'+csv], { type: 'text/csv' });
+  var a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = 'research_' + (lastData.term||'').replace(/\s+/g,'_') + '.csv'; a.click();
+  toast('CSV exportado!', 'ok');
+}
+
+function copyMD() {
+  if (!lastData) return;
+  var s = lastData.sources;
+  var lines = ['# Research OS — ' + lastData.term, '**Data:** ' + lastData.collected_at, ''];
+
+  function section(title, items, fn) {
+    if (!items || !items.length) return;
+    lines.push('## ' + title);
+    items.slice(0,15).forEach(function(i){ lines.push('- ' + fn(i)); });
+    lines.push('');
+  }
+  if (s.suggest)     section('O que buscam — Google Suggest', s.suggest.items, function(i){ return i.text; });
+  if (s.trends && s.trends.related_top) section('Trends — termos relacionados', s.trends.related_top, function(i){ return i.text + ' (' + i.value + ')'; });
+  if (s.news)        section('O que encontram — News', s.news.items, function(i){ return i.title + ' — ' + i.source; });
+  if (s.reddit)      section('O que dizem — Reddit', s.reddit.items, function(i){ return i.title + ' (' + i.url + ')'; });
+  if (s.reclameaqui) section('Reclamações — Reclame Aqui', s.reclameaqui.items, function(i){ return i.title + (i.status?' ['+i.status+']':''); });
+  if (s.youtube)     section('YouTube', s.youtube.items, function(i){ return i.title + ' — ' + i.url; });
+  if (s.hackernews)  section('Hacker News', s.hackernews.items, function(i){ return i.title + ' ▲' + i.points; });
+  if (s.producthunt) section('Benchmark — Product Hunt', s.producthunt.items, function(i){ return (i.name||i.title) + ' — ' + (i.tagline||''); });
+  if (s.arxiv)       section('Literatura — arXiv', s.arxiv.items, function(i){ return i.title + ' (' + i.authors + ')'; });
+
+  navigator.clipboard.writeText(lines.join('\n')).then(function(){
+    toast('Copiado! Cole aqui no Claude para análise de UX.', 'ok');
+  });
+}
+</script>
+</body>
+</html>
