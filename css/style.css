@@ -275,6 +275,32 @@ section.googletrends .grafico{
     padding: 0vw 10vw 5vw 10vw;
 }
 
+.case-narrative{
+    padding: 10vw;
+    background: hsl(0, 0%, 91%);
+}
+.case-narrative__intro{
+    max-width: 900px;
+}
+.case-narrative h2{
+    font-size: 6vw;
+    line-height: 120%;
+    padding: 3vw 0;
+}
+.case-narrative__grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4vw;
+    padding-top: 5vw;
+}
+.case-narrative article{
+    border-top: 1px solid hsl(0, 0%, 70%);
+    padding-top: 2vw;
+}
+.case-narrative article p{
+    max-width: 520px;
+}
+
 /* process */
 .process{}
 #project .intro .tit{
@@ -1440,4 +1466,14 @@ footer{
 [data-motion].animate {
     opacity: 1;
     transform: translate3d(0,0,0);
+}
+
+@media (max-width: 700px) {
+    .case-narrative__grid{
+        grid-template-columns: 1fr;
+        gap: 8vw;
+    }
+    .case-narrative h2{
+        font-size: 8vw;
+    }
 }
