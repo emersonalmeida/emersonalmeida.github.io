@@ -169,7 +169,8 @@ section.googletrends .grafico{
 }
 /* intro */
 #home .intro{
-    /* padding: 10vw 0vw 5vw 0vw; */
+    padding: 34vw 10vw 8vw 10vw;
+    max-width: 980px;
 }
 .intro a:last-child{
     /* color: hsl(0, 0%, 40%);; */
@@ -197,6 +198,9 @@ section.googletrends .grafico{
     padding: 0;
     font-size: 3.5vw;
     color: hsl(0, 0%, 40%);;
+}
+#home .intro .txt p{
+    max-width: 760px;
 }
 #home .txt p a{
     font-weight: 700;
