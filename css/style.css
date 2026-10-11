@@ -346,6 +346,17 @@ section.googletrends .grafico{
 .case-step-intro p{
     max-width: 720px;
 }
+.case-story{padding:12vw 10vw;background:hsl(0,0%,98%)}
+.case-story__header{max-width:920px;padding-bottom:8vw}
+.case-story__header h2{font-size:6vw;line-height:120%;padding:3vw 0}
+.story-step{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:6vw;align-items:center;padding:10vw 0;border-top:1px solid hsl(0,0%,82%)}
+.story-step--reverse{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)}
+.story-step--reverse .story-step__text{order:2}.story-step--reverse figure{order:1}
+.story-step h3,.story-outcome h3{font-size:4vw;line-height:125%;padding:2vw 0}
+.story-step figure{margin:0}.story-step figure img,.story-step figure video{display:block;width:100%}
+.story-step figcaption{text-align:left;padding:2vw 0}.story-answer{border-left:3px solid hsl(0,0%,70%);padding:1vw 0 1vw 2vw}
+.story-outcome{max-width:820px;margin:4vw auto 0;padding:8vw 0 0;border-top:1px solid hsl(0,0%,82%)}
+.legacy-gallery{display:none}
 
 /* process */
 .process{}
@@ -1515,6 +1526,10 @@ footer{
 }
 
 @media (max-width: 700px) {
+    .case-story__header h2{font-size:8vw}
+    .story-step,.story-step--reverse{display:flex;flex-direction:column;gap:5vw}
+    .story-step--reverse .story-step__text,.story-step--reverse figure{order:initial}
+    .story-step h3,.story-outcome h3{font-size:7vw}
     .case-summary h2{
         font-size: 8vw;
     }
