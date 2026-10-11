@@ -347,6 +347,7 @@ section.googletrends .grafico{
     max-width: 720px;
 }
 .case-story{padding:0;background:transparent}
+.case-story{display:none}
 .case-story__header{max-width:920px;padding:10vw}
 .case-story__header h2{font-size:6vw;line-height:120%;padding:3vw 0}
 .story-step{display:block;padding:5vw 0;border-top:0}
@@ -357,6 +358,10 @@ section.googletrends .grafico{
 .story-step figcaption{text-align:left;padding:2vw 0}.story-answer{border-left:3px solid hsl(0,0%,70%);padding:1vw 0 1vw 2vw}
 .story-outcome{max-width:820px;margin:4vw 10vw 0;padding:8vw 0 0;border-top:0}
 .legacy-gallery{display:none}
+.case-complete__intro,.case-complete__stage{padding:10vw}
+.case-complete__intro{max-width:900px}.case-complete__intro h2{font-size:6vw;line-height:120%;padding:3vw 0}
+.case-complete__stage{padding-bottom:3vw}.case-complete__stage p{max-width:800px}
+.case-complete .media{padding-top:5vw}.case-complete .txt{padding:0 10vw 5vw}.case-complete figcaption{text-align:left}
 
 /* process */
 .process{}
@@ -1528,6 +1533,7 @@ footer{
 @media (max-width: 700px) {
     .case-story__header h2{font-size:8vw}
     .story-step h3,.story-outcome h3{font-size:7vw}
+    .case-complete__intro h2{font-size:8vw}
     .case-summary h2{
         font-size: 8vw;
     }
