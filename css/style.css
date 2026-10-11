@@ -279,6 +279,40 @@ section.googletrends .grafico{
     padding: 10vw;
     background: hsl(0, 0%, 91%);
 }
+.case-summary{
+    padding: 10vw;
+    background: hsl(0, 0%, 15%);
+    color: hsl(0, 0%, 94%);
+}
+.case-summary__lead{
+    max-width: 980px;
+}
+.case-summary h2{
+    font-size: 6vw;
+    line-height: 120%;
+    padding: 3vw 0;
+}
+.case-summary p{
+    color: hsl(0, 0%, 78%);
+}
+.case-summary__facts{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 3vw;
+    padding: 8vw 0 4vw;
+}
+.case-summary__facts > div{
+    border-top: 1px solid hsl(0, 0%, 45%);
+    padding-top: 2vw;
+}
+.case-summary pre{
+    color: hsl(0, 0%, 65%);
+}
+.case-summary__note{
+    max-width: 760px;
+    border-left: 3px solid hsl(0, 0%, 55%);
+    padding-left: 3vw;
+}
 .case-narrative__intro{
     max-width: 900px;
 }
@@ -1481,6 +1515,13 @@ footer{
 }
 
 @media (max-width: 700px) {
+    .case-summary h2{
+        font-size: 8vw;
+    }
+    .case-summary__facts{
+        grid-template-columns: 1fr 1fr;
+        gap: 8vw 5vw;
+    }
     .case-narrative__grid{
         grid-template-columns: 1fr;
         gap: 8vw;
