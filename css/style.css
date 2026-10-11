@@ -364,6 +364,13 @@ section.googletrends .grafico{
 .case-complete__stage h3{font-size:5vw;line-height:125%;padding:2vw 0}
 .case-complete__stage dl{max-width:820px;display:grid;grid-template-columns:10vw 1fr;gap:1vw 2vw;margin:0}
 .case-complete__stage dt{font-family:'Roboto Mono',monospace;text-transform:uppercase;letter-spacing:.15vw;color:hsl(0,0%,45%);padding-top:1vw}
+.case-complete__stage dt{font-size:0}
+.case-complete__stage dt::after{font-size:2.7vw}
+.case-complete__stage dt:nth-of-type(1)::after{content:'Decisão'}
+.case-complete__stage dt:nth-of-type(2)::after{content:'Motivação'}
+.case-complete__stage dt:nth-of-type(3)::after{content:'Abordagem'}
+.case-complete__stage dt:nth-of-type(4)::after{content:'Momento'}
+.case-complete__stage dt:nth-of-type(5)::after{content:'Resultado'}
 .case-complete__stage dd{margin:0;padding:1vw 0;color:hsl(0,0%,40%);line-height:160%}
 .case-complete .media{padding-top:5vw}.case-complete .txt{padding:0 10vw 5vw}.case-complete figcaption{text-align:left}
 
