@@ -358,6 +358,10 @@ section.googletrends .grafico{
 .story-outcome{max-width:820px;margin:4vw 10vw 0;padding:8vw 0 0;border-top:0}
 .legacy-gallery{display:none}
 .case-narrative{display:none}
+.case-summary,.case-narrative,.case-story,.case-complete,.legacy-gallery,.legacy-hero-video{display:none}
+.case-gallery-simple{padding:0 5vw 5vw}
+.case-gallery-simple .media{padding:5vw 0 0}
+.case-gallery-simple figcaption{text-align:left;padding:2vw 0}
 .case-complete__intro,.case-complete__stage{padding:10vw}
 .case-complete__intro{max-width:900px}.case-complete__intro h2{font-size:6vw;line-height:120%;padding:3vw 0}
 .case-complete__stage{padding-bottom:3vw}.case-complete__stage p{max-width:800px}
