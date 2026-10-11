@@ -362,6 +362,7 @@ section.googletrends .grafico{
 .case-gallery-simple{padding:0 5vw 5vw}
 .case-gallery-simple .media{padding:5vw 0 0}
 .case-gallery-simple figcaption{text-align:left;padding:2vw 0}
+.case-gallery-heading{padding:10vw 0 2vw}.case-gallery-heading p{max-width:800px}
 .case-complete__intro,.case-complete__stage{padding:10vw}
 .case-complete__intro{max-width:900px}.case-complete__intro h2{font-size:6vw;line-height:120%;padding:3vw 0}
 .case-complete__stage{padding-bottom:3vw}.case-complete__stage p{max-width:800px}
