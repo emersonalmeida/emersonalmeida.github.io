@@ -300,6 +300,18 @@ section.googletrends .grafico{
 .case-narrative article p{
     max-width: 520px;
 }
+.case-step-intro{
+    max-width: 820px;
+    padding: 12vw 10vw 4vw 10vw;
+}
+.case-step-intro h2{
+    font-size: 5vw;
+    line-height: 125%;
+    padding: 2vw 0;
+}
+.case-step-intro p{
+    max-width: 720px;
+}
 
 /* process */
 .process{}
