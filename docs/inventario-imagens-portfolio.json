@@ -1,0 +1,2535 @@
+{
+  "version": "1.0",
+  "date": "2026-10-08",
+  "repository": "emersonalmeida/emersonalmeida.github.io",
+  "commit": "f1bdeba2c1105bd3fc1ac219dd178af7d1d27b78",
+  "scope": "55 arquivos de imagem referenciados nos HTML ativos, incluindo retrato comum; 5 vídeos amostrados em 4 quadros cada. Backups e imagens não referenciadas ficam listados para revisão posterior.",
+  "limitations": [
+    "As observações descrevem pixels e textos legíveis; não certificam autoria, implementação ou impacto.",
+    "Imagens densas foram lidas por visão geral; parte do texto menor permanece não transcrita.",
+    "Leitura de vídeo é uma amostragem de quadros, não análise integral ou de áudio.",
+    "Descrições e alt são rascunhos a adaptar ao contexto e à posição no site."
+  ],
+  "case_summaries": {
+    "SOMA": "O material sugere uma narrativa de discovery e evolução do +Produtos para apoiar equipes de Estilo na busca, organização e recuperação de referências e produtos. Há hipótese de público, exploração, componentes, protótipo, registros de avaliação e slide de indicadores. O PLM aparece como ferramenta da persona; isso não comprova redesenho integral do PLM.",
+    "OI": "As imagens permitem estruturar uma narrativa de análise e reorganização da oferta mobile: mapas de rolagem e interação, benchmark, marcações de revisão, exploração cromática e propostas de cards. A relação entre achados e cada decisão, além do impacto, depende de confirmação.",
+    "ARKAVE": "Existe uma sequência visual consistente de identidade: referências geométricas, rascunhos, alternativas, construção, cor, tipografia e aplicações digitais/físicas. A narrativa pode explicar critérios de escolha e adaptação da marca; resultados de negócio não estão demonstrados.",
+    "DUNKER": "As imagens descrevem uma proposta de segurança e controle veicular com localização, detalhes e bloqueio/desligamento remoto. O material inclui contexto secundário, ideação, wireframes e adaptações desktop/mobile. Funcionamento real, regras de segurança e estágio do produto precisam de confirmação.",
+    "MISSAO-GENESE": "O conjunto articula experiência itinerante, circulação, conteúdo educativo, interfaces de jogos, controles físicos e VR. Há documentação funcional e registros de uso/instalação. Autoria de cada disciplina e avaliação educacional ainda precisam ser reconstruídas.",
+    "NYTE": "Uma imagem reúne marca, doze funções de descoberta e planejamento de eventos, localização, filtros, contexto social, rota e estimativa de transporte, além de peças promocionais. A complexidade é maior do que a descrição atual da página sugere; dividir a prancha ajudará a escrever o case.",
+    "TECHNOS": "O conjunto mostra apresentação de coleção, navegação por modelos e detalhe técnico com reserva. O layout parece misturar experiência de marca e intenção comercial. Os prints não demonstram checkout, compra concluída ou métricas; autoria e cronologia precisam ser verificadas.",
+    "BIPA": "A leitura de quadros amostrados registra uma página Bipa, notebooks de coleta e mapas de síntese temática. Há material para documentar investigação de dados multifontes, mas a autoria da página capturada e a rastreabilidade das conclusões exigem confirmação.",
+    "NUBANK": "Os quadros amostrados mostram duas versões de um estudo pessoal de pagamento de fatura, com estados de conta, dinheiro guardado e feedback. Não são evidência suficiente de teste A/B, preferência ou desempenho de usuários.",
+    "COMUM": "Retrato compartilhado pelo cabeçalho das dez páginas; registrado uma vez para evitar repetição."
+  },
+  "records": [
+    {
+      "id": "ARKAVE-01",
+      "path": "img/arkave/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_construcao_04_desk.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 190921,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_construcao_04_desk.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Arkave",
+          "media": "(max-width: 1024px)",
+          "line": 84
+        },
+        {
+          "url": "../img/arkave/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_construcao_04_desk.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Arkave",
+          "media": null,
+          "line": 87
+        }
+      ],
+      "title": "Símbolo principal da Arkave",
+      "visible": "Símbolo verde em forma de A sobre fundo preto, composto por planos que sugerem volume e uma abertura central em tons azulados.",
+      "interpretation": "Apresenta o resultado visual do símbolo e a relação entre geometria, profundidade e contraste.",
+      "confirmation": "Confirmar conceito aprovado, autoria e estágio desta versão.",
+      "proposed_caption": "Símbolo verde em forma de A sobre fundo preto, composto por planos que sugerem volume e uma abertura central em tons azulados.",
+      "proposed_alt": "Símbolo principal da Arkave. Símbolo verde em forma de A sobre fundo preto, composto por planos que sugerem volume e uma abertura central em tons azulados.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "ARKAVE-02",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 916075,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Arkave",
+          "media": "(max-width: 1024px)",
+          "line": 112
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Arkave",
+          "media": null,
+          "line": 114
+        }
+      ],
+      "title": "Moodboard de geometria e volume",
+      "visible": "Painel em preto e branco reúne esculturas, estruturas triangulares, formas impossíveis e objetos geométricos tridimensionais.",
+      "interpretation": "Serve como referência visual para explorar um símbolo com volume, ângulos e relações entre planos.",
+      "confirmation": "Confirmar fontes das referências e quais influenciaram a direção final.",
+      "proposed_caption": "Painel em preto e branco reúne esculturas, estruturas triangulares, formas impossíveis e objetos geométricos tridimensionais.",
+      "proposed_alt": "Moodboard de geometria e volume. Painel em preto e branco reúne esculturas, estruturas triangulares, formas impossíveis e objetos geométricos tridimensionais.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Moodboard"
+      ]
+    },
+    {
+      "id": "ARKAVE-03",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 1164697,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Moodboard",
+          "media": "(max-width: 1024px)",
+          "line": 121
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Moodboard",
+          "media": null,
+          "line": 123
+        }
+      ],
+      "title": "Rascunhos e primeiras alternativas",
+      "visible": "Fotografias de desenhos manuais aparecem ao lado de alternativas vetoriais de cubos, hexágonos e formas semelhantes à letra A.",
+      "interpretation": "Documenta a passagem da exploração no papel para estudos digitais do símbolo.",
+      "confirmation": "Confirmar sequência das alternativas, critérios de seleção e contribuição de cada pessoa.",
+      "proposed_caption": "Fotografias de desenhos manuais aparecem ao lado de alternativas vetoriais de cubos, hexágonos e formas semelhantes à letra A.",
+      "proposed_alt": "Rascunhos e primeiras alternativas. Fotografias de desenhos manuais aparecem ao lado de alternativas vetoriais de cubos, hexágonos e formas semelhantes à letra A.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Ideação"
+      ]
+    },
+    {
+      "id": "ARKAVE-04",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 532285,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Ideação",
+          "media": "(max-width: 1024px)",
+          "line": 132
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Ideação",
+          "media": null,
+          "line": 134
+        }
+      ],
+      "title": "Comparação de alternativas de símbolo",
+      "visible": "Duas famílias de variações são organizadas em linhas: formas cúbicas/hexagonais e formas triangulares semelhantes a um A, com diferentes sobreposições e tons.",
+      "interpretation": "Permite explicar quais caminhos foram explorados antes da escolha do símbolo.",
+      "confirmation": "A imagem não demonstra teste com usuários. Confirmar se houve comparação interna, avaliação formal ou apenas exploração.",
+      "proposed_caption": "Duas famílias de variações são organizadas em linhas: formas cúbicas/hexagonais e formas triangulares semelhantes a um A, com diferentes sobreposições e tons.",
+      "proposed_alt": "Comparação de alternativas de símbolo. Duas famílias de variações são organizadas em linhas: formas cúbicas/hexagonais e formas triangulares semelhantes a um A, com diferentes sobreposições e tons.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Test"
+      ]
+    },
+    {
+      "id": "ARKAVE-05",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 130653,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Test",
+          "media": "(max-width: 1024px)",
+          "line": 140
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Test",
+          "media": null,
+          "line": 142
+        }
+      ],
+      "title": "Construção geométrica do símbolo",
+      "visible": "Contorno preto do símbolo em A é acompanhado por linhas diagonais de construção e subdivisões internas sobre fundo branco.",
+      "interpretation": "Mostra estrutura e proporção do desenho; pode ilustrar refinamento formal.",
+      "confirmation": "Confirmar medidas, método construtivo e se o grid foi prescritivo ou preparado para apresentação.",
+      "proposed_caption": "Contorno preto do símbolo em A é acompanhado por linhas diagonais de construção e subdivisões internas sobre fundo branco.",
+      "proposed_alt": "Construção geométrica do símbolo. Contorno preto do símbolo em A é acompanhado por linhas diagonais de construção e subdivisões internas sobre fundo branco.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Grid"
+      ]
+    },
+    {
+      "id": "ARKAVE-06",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 445615,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Grid",
+          "media": "(max-width: 1024px)",
+          "line": 166
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Grid",
+          "media": null,
+          "line": 168
+        }
+      ],
+      "title": "Variações cromáticas, fundos e escalas",
+      "visible": "O símbolo aparece em painéis escuro e claro, com combinações de verde e azul e várias versões menores ao redor.",
+      "interpretation": "Permite discutir adaptações do símbolo a fundo e escala.",
+      "confirmation": "Confirmar paleta, códigos de cor, versões aprovadas e se houve teste de legibilidade.",
+      "proposed_caption": "O símbolo aparece em painéis escuro e claro, com combinações de verde e azul e várias versões menores ao redor.",
+      "proposed_alt": "Variações cromáticas, fundos e escalas. O símbolo aparece em painéis escuro e claro, com combinações de verde e azul e várias versões menores ao redor.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Cor"
+      ]
+    },
+    {
+      "id": "ARKAVE-07",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 107117,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Cor",
+          "media": "(max-width: 1024px)",
+          "line": 175
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Cor",
+          "media": null,
+          "line": 177
+        }
+      ],
+      "title": "Logotipo e repertório tipográfico",
+      "visible": "Prancha branca apresenta a palavra ARKAVE com espaçamento amplo e um alfabeto acompanhado de números e indicação de tipografia.",
+      "interpretation": "Registra a relação entre nome, tipografia e sistema visual.",
+      "confirmation": "Confirmar nome da fonte, licença e eventual customização das letras; a leitura da indicação da fonte não está consolidada.",
+      "proposed_caption": "Prancha branca apresenta a palavra ARKAVE com espaçamento amplo e um alfabeto acompanhado de números e indicação de tipografia.",
+      "proposed_alt": "Logotipo e repertório tipográfico. Prancha branca apresenta a palavra ARKAVE com espaçamento amplo e um alfabeto acompanhado de números e indicação de tipografia.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Type"
+      ]
+    },
+    {
+      "id": "ARKAVE-08",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 1001890,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Type",
+          "media": "(max-width: 1024px)",
+          "line": 183
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Type",
+          "media": null,
+          "line": 185
+        }
+      ],
+      "title": "Aplicação conceitual em seleção de jogos",
+      "visible": "Layout escuro mostra Zelda/Link, Sonic e Mario associados ao símbolo da Arkave; Sonic VR recebe destaque e uma chamada para jogar.",
+      "interpretation": "Explora a identidade como elemento organizador de uma interface de entretenimento.",
+      "confirmation": "Confirmar se é estudo, mockup ou interface implementada e o uso das imagens dos personagens. Não inferir licenciamento ou parceria.",
+      "proposed_caption": "Layout escuro mostra Zelda/Link, Sonic e Mario associados ao símbolo da Arkave; Sonic VR recebe destaque e uma chamada para jogar.",
+      "proposed_alt": "Aplicação conceitual em seleção de jogos. Layout escuro mostra Zelda/Link, Sonic e Mario associados ao símbolo da Arkave; Sonic VR recebe destaque e uma chamada para jogar.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Aplicação"
+      ]
+    },
+    {
+      "id": "ARKAVE-09",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 1176198,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Aplicação",
+          "media": "(max-width: 1024px)",
+          "line": 191
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Aplicação",
+          "media": null,
+          "line": 193
+        }
+      ],
+      "title": "Marca aplicada em sinalização física",
+      "visible": "Fotografia de estrutura metálica apresenta uma placa preta com símbolo verde e o nome Arkave; o ambiente ao fundo está desfocado.",
+      "interpretation": "Mostra aplicação da identidade fora da tela.",
+      "confirmation": "Confirmar local, evento, data e responsabilidade pela produção e fotografia.",
+      "proposed_caption": "Fotografia de estrutura metálica apresenta uma placa preta com símbolo verde e o nome Arkave; o ambiente ao fundo está desfocado.",
+      "proposed_alt": "Marca aplicada em sinalização física. Fotografia de estrutura metálica apresenta uma placa preta com símbolo verde e o nome Arkave; o ambiente ao fundo está desfocado.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Photo"
+      ]
+    },
+    {
+      "id": "ARKAVE-10",
+      "path": "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 954167,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Photo",
+          "media": "(max-width: 1024px)",
+          "line": 199
+        },
+        {
+          "url": "../img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Photo",
+          "media": null,
+          "line": 201
+        }
+      ],
+      "title": "Visualização de ambiente com estações",
+      "visible": "Perspectiva de ambiente escuro apresenta áreas numeradas, estruturas metálicas, monitores e a marca Arkave em painel superior.",
+      "interpretation": "Sugere aplicação da identidade na organização espacial de estações de entretenimento.",
+      "confirmation": "Confirmar se a imagem é renderização, fotografia ou composição e se o ambiente foi executado.",
+      "proposed_caption": "Perspectiva de ambiente escuro apresenta áreas numeradas, estruturas metálicas, monitores e a marca Arkave em painel superior.",
+      "proposed_alt": "Visualização de ambiente com estações. Perspectiva de ambiente escuro apresenta áreas numeradas, estruturas metálicas, monitores e a marca Arkave em painel superior.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Photo"
+      ]
+    },
+    {
+      "id": "ARKAVE-11",
+      "path": "img/arkave/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_capa_desk.jpg",
+      "page": "project/arkave.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 249274,
+      "occurrences": [
+        {
+          "url": "../img/arkave/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_capa_desk.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Photo",
+          "media": "(max-width: 1024px)",
+          "line": 207
+        },
+        {
+          "url": "../img/arkave/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_capa_desk.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Photo",
+          "media": null,
+          "line": 209
+        }
+      ],
+      "title": "Marca aplicada em headset de realidade virtual",
+      "visible": "Fotografia frontal de uma pessoa com headset de VR mostra símbolo verde e nome Arkave na parte externa do equipamento.",
+      "interpretation": "Evidencia a integração da marca ao equipamento da experiência.",
+      "confirmation": "Confirmar autoria da aplicação, contexto da foto e autorização de uso. Não inferir eficácia da experiência.",
+      "proposed_caption": "Fotografia frontal de uma pessoa com headset de VR mostra símbolo verde e nome Arkave na parte externa do equipamento.",
+      "proposed_alt": "Marca aplicada em headset de realidade virtual. Fotografia frontal de uma pessoa com headset de VR mostra símbolo verde e nome Arkave na parte externa do equipamento.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Photo"
+      ]
+    },
+    {
+      "id": "DUNKER-01",
+      "path": "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+      "page": "project/dunker.html",
+      "width": 1920,
+      "height": 1280,
+      "frames": 1,
+      "bytes": 678662,
+      "occurrences": [
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Dunker",
+          "media": "(max-width: 1024px)",
+          "line": 84
+        },
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Dunker",
+          "media": null,
+          "line": 87
+        }
+      ],
+      "title": "Apresentação da proposta de segurança veicular",
+      "visible": "Composição azul reúne marca Dunker, automóvel e dois mockups de celular com mapa e detalhes de localização. A chamada diz Segurança e controle do seu veículo na palma da sua mão.",
+      "interpretation": "Sintetiza uma proposta de localizar e controlar um veículo pelo celular.",
+      "confirmation": "Confirmar vínculo, público, escopo implementado e autoria da peça. A composição não prova operação real de rastreamento.",
+      "proposed_caption": "Composição azul reúne marca Dunker, automóvel e dois mockups de celular com mapa e detalhes de localização. A chamada diz Segurança e controle do seu veículo na palma da sua mão.",
+      "proposed_alt": "Apresentação da proposta de segurança veicular. Composição azul reúne marca Dunker, automóvel e dois mockups de celular com mapa e detalhes de localização. A chamada diz Segurança e controle do seu veículo na palma da sua mão.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "DUNKER-02",
+      "path": "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+      "page": "project/dunker.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 372241,
+      "occurrences": [
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Dunker",
+          "media": "(max-width: 1024px)",
+          "line": 100
+        },
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Dunker",
+          "media": null,
+          "line": 101
+        }
+      ],
+      "title": "Pesquisa secundária sobre roubos e furtos",
+      "visible": "Colagem de notícia, ranking, gráfico e mapa reúne dados históricos sobre roubo e furto de veículos. Uma manchete afirma que há um roubo ou furto a cada minuto e destaca o Rio no ranking.",
+      "interpretation": "Contextualiza o problema social usado como motivação para o projeto.",
+      "confirmation": "Recuperar fontes e datas. Tratar as estatísticas como material histórico, sem apresentá-las como dados atuais.",
+      "proposed_caption": "Colagem de notícia, ranking, gráfico e mapa reúne dados históricos sobre roubo e furto de veículos. Uma manchete afirma que há um roubo ou furto a cada minuto e destaca o Rio no ranking.",
+      "proposed_alt": "Pesquisa secundária sobre roubos e furtos. Colagem de notícia, ranking, gráfico e mapa reúne dados históricos sobre roubo e furto de veículos. Uma manchete afirma que há um roubo ou furto a cada minuto e destaca o Rio no ranking.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "DUNKER-03",
+      "path": "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+      "page": "project/dunker.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 484653,
+      "occurrences": [
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Dunker",
+          "media": "(max-width: 1024px)",
+          "line": 112
+        },
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Dunker",
+          "media": null,
+          "line": 114
+        }
+      ],
+      "title": "Relatos e imagens do contexto de furto",
+      "visible": "Prancha combina imagens de câmeras de segurança com trechos de relatos de pessoas sobre furto de veículos e suas consequências.",
+      "interpretation": "Ajuda a mostrar impactos e situações de uso que podem ter orientado a definição do problema.",
+      "confirmation": "Confirmar origem e permissão das imagens/textos. Relatos reproduzidos não comprovam entrevistas próprias.",
+      "proposed_caption": "Prancha combina imagens de câmeras de segurança com trechos de relatos de pessoas sobre furto de veículos e suas consequências.",
+      "proposed_alt": "Relatos e imagens do contexto de furto. Prancha combina imagens de câmeras de segurança com trechos de relatos de pessoas sobre furto de veículos e suas consequências.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "DUNKER-04",
+      "path": "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+      "page": "project/dunker.html",
+      "width": 1920,
+      "height": 1872,
+      "frames": 1,
+      "bytes": 1128057,
+      "occurrences": [
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Dunker",
+          "media": "(max-width: 1024px)",
+          "line": 121
+        },
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Dunker",
+          "media": null,
+          "line": 123
+        }
+      ],
+      "title": "Ideação manual de localização e bloqueio",
+      "visible": "Duas fotografias de papel mostram desenhos de mapa, dados de localização, referência a bloqueio do veículo e um dispositivo com sinal sem fio.",
+      "interpretation": "Registra exploração inicial da relação entre dispositivo, aplicativo, localização e ação remota.",
+      "confirmation": "Confirmar participantes, data e o que foi escolhido. Parte das anotações é pouco legível; não foi transcrita integralmente.",
+      "proposed_caption": "Duas fotografias de papel mostram desenhos de mapa, dados de localização, referência a bloqueio do veículo e um dispositivo com sinal sem fio.",
+      "proposed_alt": "Ideação manual de localização e bloqueio. Duas fotografias de papel mostram desenhos de mapa, dados de localização, referência a bloqueio do veículo e um dispositivo com sinal sem fio.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Ideação"
+      ]
+    },
+    {
+      "id": "DUNKER-05",
+      "path": "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+      "page": "project/dunker.html",
+      "width": 1920,
+      "height": 1075,
+      "frames": 1,
+      "bytes": 219168,
+      "occurrences": [
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Ideação",
+          "media": "(max-width: 1024px)",
+          "line": 133
+        },
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Ideação",
+          "media": null,
+          "line": 135
+        }
+      ],
+      "title": "Wireframes da confirmação de desligamento",
+      "visible": "Captura de ferramenta de prototipação apresenta quatro estados: mapa, confirmação de desligar veículo, aviso de desligamento em cinco segundos com opção de cancelar, e estado após a ação.",
+      "interpretation": "Mostra desenho de confirmação e possibilidade de cancelar uma ação de alto impacto.",
+      "confirmation": "Confirmar regras reais de segurança, condições de uso e implementação. O wireframe não comprova funcionamento do sistema físico.",
+      "proposed_caption": "Captura de ferramenta de prototipação apresenta quatro estados: mapa, confirmação de desligar veículo, aviso de desligamento em cinco segundos com opção de cancelar, e estado após a ação.",
+      "proposed_alt": "Wireframes da confirmação de desligamento. Captura de ferramenta de prototipação apresenta quatro estados: mapa, confirmação de desligar veículo, aviso de desligamento em cinco segundos com opção de cancelar, e estado após a ação.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Wireframe"
+      ]
+    },
+    {
+      "id": "DUNKER-06",
+      "path": "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+      "page": "project/dunker.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 327935,
+      "occurrences": [
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Wireframe",
+          "media": "(max-width: 1024px)",
+          "line": 142
+        },
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Wireframe",
+          "media": null,
+          "line": 144
+        }
+      ],
+      "title": "Interface mobile de localização e detalhes",
+      "visible": "Dois mockups de iPhone mostram mapa com veículo e painel com endereço, data, CEP, cidade, status, imagem do local e botão com cadeado.",
+      "interpretation": "Descreve uma interface que combina posição geográfica, contexto do local e acesso a uma ação de controle.",
+      "confirmation": "Confirmar fonte dos dados, comportamento do botão, atualização e estados de erro.",
+      "proposed_caption": "Dois mockups de iPhone mostram mapa com veículo e painel com endereço, data, CEP, cidade, status, imagem do local e botão com cadeado.",
+      "proposed_alt": "Interface mobile de localização e detalhes. Dois mockups de iPhone mostram mapa com veículo e painel com endereço, data, CEP, cidade, status, imagem do local e botão com cadeado.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Protótipo"
+      ]
+    },
+    {
+      "id": "DUNKER-07",
+      "path": "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+      "page": "project/dunker.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 432074,
+      "occurrences": [
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Protótipo",
+          "media": "(max-width: 1024px)",
+          "line": 168
+        },
+        {
+          "url": "../img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Protótipo",
+          "media": null,
+          "line": 170
+        }
+      ],
+      "title": "Adaptação do painel para desktop e mobile",
+      "visible": "Prancha compara uma interface desktop com mapa amplo e painel lateral a uma versão mobile com mapa e informação sobreposta. A marca Dunker e um seletor de veículo aparecem no topo.",
+      "interpretation": "Evidencia adaptação da apresentação dos dados a diferentes tamanhos de tela.",
+      "confirmation": "Confirmar se são mockups, protótipos ou capturas de produto e quais adaptações foram implementadas.",
+      "proposed_caption": "Prancha compara uma interface desktop com mapa amplo e painel lateral a uma versão mobile com mapa e informação sobreposta. A marca Dunker e um seletor de veículo aparecem no topo.",
+      "proposed_alt": "Adaptação do painel para desktop e mobile. Prancha compara uma interface desktop com mapa amplo e painel lateral a uma versão mobile com mapa e informação sobreposta. A marca Dunker e um seletor de veículo aparecem no topo.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "MVP - Desktop e Mobile"
+      ]
+    },
+    {
+      "id": "MISSAO-GENESE-01",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-capa_desk.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1400,
+      "height": 788,
+      "frames": 1,
+      "bytes": 193215,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-capa_desk.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Missão Gênese",
+          "media": "(max-width: 1024px)",
+          "line": 82
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-capa_desk.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Missão Gênese",
+          "media": null,
+          "line": 83
+        }
+      ],
+      "title": "Uso de uma estação de realidade virtual",
+      "visible": "Fotografia mostra uma pessoa usando headset, fones e controle manual em ambiente iluminado em roxo e rosa.",
+      "interpretation": "Situa a experiência em um contexto físico e imersivo.",
+      "confirmation": "Confirmar estação, jogo, momento da captura e autoria das interfaces. A foto não comprova resultado educacional.",
+      "proposed_caption": "Fotografia mostra uma pessoa usando headset, fones e controle manual em ambiente iluminado em roxo e rosa.",
+      "proposed_alt": "Uso de uma estação de realidade virtual. Fotografia mostra uma pessoa usando headset, fones e controle manual em ambiente iluminado em roxo e rosa.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Carreta",
+        "Vídeo do Projeto"
+      ]
+    },
+    {
+      "id": "MISSAO-GENESE-02",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 1169777,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Vídeo do Projeto",
+          "media": "(max-width: 1024px)",
+          "line": 160
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Vídeo do Projeto",
+          "media": null,
+          "line": 161
+        }
+      ],
+      "title": "Visualização da carreta e acesso externo",
+      "visible": "Perspectiva mostra caminhão, estrutura branca de acesso e bandeiras verticais; a carreta tem identidade visual temática.",
+      "interpretation": "Apresenta o conjunto físico que recebe a experiência itinerante.",
+      "confirmation": "Confirmar estágio do projeto e se a visualização é renderização ou composição; separar sua contribuição da autoria arquitetônica/3D.",
+      "proposed_caption": "Perspectiva mostra caminhão, estrutura branca de acesso e bandeiras verticais; a carreta tem identidade visual temática.",
+      "proposed_alt": "Visualização da carreta e acesso externo. Perspectiva mostra caminhão, estrutura branca de acesso e bandeiras verticais; a carreta tem identidade visual temática.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Carreta"
+      ]
+    },
+    {
+      "id": "MISSAO-GENESE-03",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 1123538,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Carreta",
+          "media": "(max-width: 1024px)",
+          "line": 168
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Carreta",
+          "media": null,
+          "line": 169
+        }
+      ],
+      "title": "Organização espacial e duração das áreas",
+      "visible": "Vista superior indica depósito, compressores/ar-condicionado, circulação e áreas com tempos. São legíveis Área 1: 8 min, Áreas 2/3/4: 2 min, intervalo: 2 min e Área 5: livre.",
+      "interpretation": "Permite discutir jornada, sequência e tempo previsto de visita.",
+      "confirmation": "Confirmar planejamento versus operação real, número de visitantes e sua participação na definição do percurso.",
+      "proposed_caption": "Vista superior indica depósito, compressores/ar-condicionado, circulação e áreas com tempos. São legíveis Área 1: 8 min, Áreas 2/3/4: 2 min, intervalo: 2 min e Área 5: livre.",
+      "proposed_alt": "Organização espacial e duração das áreas. Vista superior indica depósito, compressores/ar-condicionado, circulação e áreas com tempos. São legíveis Área 1: 8 min, Áreas 2/3/4: 2 min, intervalo: 2 min e Área 5: livre.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Estações"
+      ]
+    },
+    {
+      "id": "MISSAO-GENESE-04",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 463252,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 188
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 189
+        }
+      ],
+      "title": "Especificação da estação Nutrição Avançada",
+      "visible": "Prancha documenta objetivo, interação por cores, investigação, pontuação, fases e informação. Diagramas mostram tela circular com botões ao redor e campos de uma ficha de conteúdo sobre câncer.",
+      "interpretation": "Evidencia documentação funcional da interação entre interface, conteúdo educativo e controles físicos.",
+      "confirmation": "Confirmar autores, versão entregue e validação do conteúdo pelos especialistas. Textos de saúde são descritos como conteúdo do projeto, sem avaliação médica.",
+      "proposed_caption": "Prancha documenta objetivo, interação por cores, investigação, pontuação, fases e informação. Diagramas mostram tela circular com botões ao redor e campos de uma ficha de conteúdo sobre câncer.",
+      "proposed_alt": "Especificação da estação Nutrição Avançada. Prancha documenta objetivo, interação por cores, investigação, pontuação, fases e informação. Diagramas mostram tela circular com botões ao redor e campos de uma ficha de conteúdo sobre câncer.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "MISSAO-GENESE-05",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 891073,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 196
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 197
+        }
+      ],
+      "title": "Estados visuais do jogo de nutrição",
+      "visible": "Montagem reúne apresentação de personagem, telas de instrução, alimento no centro de tela circular e fotografia da estação. Pontos coloridos correspondem aos controles físicos.",
+      "interpretation": "Mostra consistência entre desenho da interface e modo de interação na instalação.",
+      "confirmation": "Confirmar nomes das fases, regras, feedback, testes e contribuição individual.",
+      "proposed_caption": "Montagem reúne apresentação de personagem, telas de instrução, alimento no centro de tela circular e fotografia da estação. Pontos coloridos correspondem aos controles físicos.",
+      "proposed_alt": "Estados visuais do jogo de nutrição. Montagem reúne apresentação de personagem, telas de instrução, alimento no centro de tela circular e fotografia da estação. Pontos coloridos correspondem aos controles físicos.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "MISSAO-GENESE-06",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 806918,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 206
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 207
+        }
+      ],
+      "title": "Pessoa interagindo com painel circular",
+      "visible": "Fotografia mostra uma pessoa em frente à estação, utilizando botões físicos coloridos ao redor de uma tela circular.",
+      "interpretation": "Registra a interação entre corpo, controle e tela em uma estação instalada.",
+      "confirmation": "Confirmar se foi teste, demonstração ou visita pública; não classificar automaticamente como teste de usabilidade.",
+      "proposed_caption": "Fotografia mostra uma pessoa em frente à estação, utilizando botões físicos coloridos ao redor de uma tela circular.",
+      "proposed_alt": "Pessoa interagindo com painel circular. Fotografia mostra uma pessoa em frente à estação, utilizando botões físicos coloridos ao redor de uma tela circular.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "MISSAO-GENESE-07",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 374977,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 215
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 216
+        }
+      ],
+      "title": "Visão próxima da interação com os botões",
+      "visible": "Fotografia em primeira pessoa mostra mãos próximas dos botões iluminados e tela circular exibindo elementos coloridos.",
+      "interpretation": "Ajuda a explicar a correspondência espacial entre feedback visual e controles físicos.",
+      "confirmation": "Confirmar regra de associação entre cores e ações e o contexto da fotografia.",
+      "proposed_caption": "Fotografia em primeira pessoa mostra mãos próximas dos botões iluminados e tela circular exibindo elementos coloridos.",
+      "proposed_alt": "Visão próxima da interação com os botões. Fotografia em primeira pessoa mostra mãos próximas dos botões iluminados e tela circular exibindo elementos coloridos.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "MISSAO-GENESE-08",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 857750,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 236
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 237
+        }
+      ],
+      "title": "Interface de combate e uso de VR",
+      "visible": "Montagem mostra alvos e células com marcações em formato hexagonal, além de fotografias de participantes com headset e controles.",
+      "interpretation": "Sugere uma dinâmica de distinguir alvos em um ambiente imersivo, associada ao tema educativo do projeto.",
+      "confirmation": "Confirmar objetivo, regra de seleção, condição de vitória e o que você desenhou. Não inferir lógica apenas pela aparência.",
+      "proposed_caption": "Montagem mostra alvos e células com marcações em formato hexagonal, além de fotografias de participantes com headset e controles.",
+      "proposed_alt": "Interface de combate e uso de VR. Montagem mostra alvos e células com marcações em formato hexagonal, além de fotografias de participantes com headset e controles.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "MISSAO-GENESE-09",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 384164,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 264
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 265
+        }
+      ],
+      "title": "Infográfico do corpo e hábitos",
+      "visible": "Ilustração de corpo humano em moldura hexagonal reúne chamadas sobre ingestão, nutrição, exercício e outros aspectos corporais.",
+      "interpretation": "Registra conteúdo informativo visual usado na experiência.",
+      "confirmation": "Confirmar posicionamento na jornada, autoria gráfica e revisão especializada; parte do texto menor não foi transcrita.",
+      "proposed_caption": "Ilustração de corpo humano em moldura hexagonal reúne chamadas sobre ingestão, nutrição, exercício e outros aspectos corporais.",
+      "proposed_alt": "Infográfico do corpo e hábitos. Ilustração de corpo humano em moldura hexagonal reúne chamadas sobre ingestão, nutrição, exercício e outros aspectos corporais.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "MISSAO-GENESE-10",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 732380,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 272
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 273
+        }
+      ],
+      "title": "Visualização da estação de mesa interativa",
+      "visible": "Perspectiva de setor com mesas hexagonais mostra gráficos coloridos, assentos translúcidos e painéis; há referência a Setor 5 e mensagens sobre vida.",
+      "interpretation": "Apresenta uma proposta de ambiente com interação em mesa e conteúdo de encerramento.",
+      "confirmation": "Confirmar função da estação, se foi executada e participação em interface, gráfico ou ambiente.",
+      "proposed_caption": "Perspectiva de setor com mesas hexagonais mostra gráficos coloridos, assentos translúcidos e painéis; há referência a Setor 5 e mensagens sobre vida.",
+      "proposed_alt": "Visualização da estação de mesa interativa. Perspectiva de setor com mesas hexagonais mostra gráficos coloridos, assentos translúcidos e painéis; há referência a Setor 5 e mensagens sobre vida.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "MISSAO-GENESE-11",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 839739,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 280
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 281
+        }
+      ],
+      "title": "Registro do ambiente instalado e visitantes",
+      "visible": "Fotografia mostra pessoas em torno de mesas hexagonais com telas ou superfícies gráficas, em ambiente branco com painéis.",
+      "interpretation": "Evidencia existência física de um ambiente semelhante ao apresentado na visualização anterior.",
+      "confirmation": "Confirmar evento, data, contexto e funções dos presentes. A imagem não demonstra, sozinha, lançamento ou validação.",
+      "proposed_caption": "Fotografia mostra pessoas em torno de mesas hexagonais com telas ou superfícies gráficas, em ambiente branco com painéis.",
+      "proposed_alt": "Registro do ambiente instalado e visitantes. Fotografia mostra pessoas em torno de mesas hexagonais com telas ou superfícies gráficas, em ambiente branco com painéis.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "MISSAO-GENESE-12",
+      "path": "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+      "page": "project/missao-genese.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 842231,
+      "occurrences": [
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Estações",
+          "media": "(max-width: 1024px)",
+          "line": 288
+        },
+        {
+          "url": "../img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Estações",
+          "media": null,
+          "line": 289
+        }
+      ],
+      "title": "Fotografia de grupo ligada ao projeto",
+      "visible": "Fotografia reúne um grupo de pessoas em área externa arborizada.",
+      "interpretation": "Pode apoiar créditos e colaboração se a identidade do grupo for confirmada.",
+      "confirmation": "Confirmar quem aparece, relação com o projeto, data e autoria. Não identificar pessoas apenas pela imagem.",
+      "proposed_caption": "Fotografia reúne um grupo de pessoas em área externa arborizada.",
+      "proposed_alt": "Fotografia de grupo ligada ao projeto. Fotografia reúne um grupo de pessoas em área externa arborizada.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "NYTE-01",
+      "path": "img/nyte/nyte_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+      "page": "project/nyte.html",
+      "width": 1400,
+      "height": 5996,
+      "frames": 1,
+      "bytes": 730673,
+      "occurrences": [
+        {
+          "url": "../img/nyte/nyte_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Nyte",
+          "media": "(max-width: 1024px)",
+          "line": 79
+        },
+        {
+          "url": "../img/nyte/nyte_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Nyte",
+          "media": null,
+          "line": 82
+        }
+      ],
+      "title": "Prancha completa de aplicativo de eventos e divulgação",
+      "visible": "Imagem vertical extensa apresenta marca com coruja, interfaces escuras com destaque roxo, doze funções numeradas, peças promocionais, QR code e mockup de divulgação.",
+      "interpretation": "Permite reconstruir um produto de descoberta de eventos, com filtros, localização, detalhes, ação de salvar, informação social e trajeto.",
+      "confirmation": "Confirmar data: HTML indica 2013, mas a imagem mostra recursos e materiais que podem corresponder a outra versão. Confirmar autoria, implementação e origem das peças.",
+      "proposed_caption": "Imagem vertical extensa apresenta marca com coruja, interfaces escuras com destaque roxo, doze funções numeradas, peças promocionais, QR code e mockup de divulgação.",
+      "proposed_alt": "Prancha completa de aplicativo de eventos e divulgação. Imagem vertical extensa apresenta marca com coruja, interfaces escuras com destaque roxo, doze funções numeradas, peças promocionais, QR code e mockup de divulgação.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [],
+      "subsections": [
+        {
+          "title": "01. Login",
+          "description": "Tela de entrada com Facebook e mensagem sobre encontrar festas próximas."
+        },
+        {
+          "title": "02. Selecionar cidade — GPS OFF",
+          "description": "Lista de cidades para escolher localização quando o GPS está desligado."
+        },
+        {
+          "title": "03. Home",
+          "description": "Feed de eventos com imagem, horário, confirmações, distância e local."
+        },
+        {
+          "title": "04. Mapa de eventos",
+          "description": "Mapa com marcadores e cartão de evento, além de ação Atualizar."
+        },
+        {
+          "title": "05. Filtros",
+          "description": "Cidade/bairro, estilos musicais e controle de distância; Limpar e Aplicar."
+        },
+        {
+          "title": "06. Eventos salvos",
+          "description": "Lista de eventos organizada como acesso lateral ou área pessoal."
+        },
+        {
+          "title": "07. Detalhes do evento",
+          "description": "Data, local, confirmações, distância e ação Salvar; exemplo O Rappa."
+        },
+        {
+          "title": "08. Detalhes do local",
+          "description": "Nome e endereço do espaço e grade de fotos; exemplo Fundição Progresso."
+        },
+        {
+          "title": "09. Usuários confirmados",
+          "description": "Grade de avatares de pessoas associadas ao evento."
+        },
+        {
+          "title": "10. Menu flutuante",
+          "description": "Ações Salvar, Ver trajeto e Ver Uber."
+        },
+        {
+          "title": "11. Estimativa de corrida com Uber",
+          "description": "Simulação com Uber X/Black, valores, distância e duração; não comprova integração."
+        },
+        {
+          "title": "12. Como chegar",
+          "description": "Rota no mapa acompanhada de imagem do endereço."
+        },
+        {
+          "title": "Divulgação",
+          "description": "Peças de marca, download e agradecimento por 5.000 likes. Likes não são usuários ativos ou downloads."
+        },
+        {
+          "title": "Estado do produto",
+          "description": "Texto visível identifica Nyte como MVP sujeito a mudanças. Confirmar implementação e data."
+        }
+      ]
+    },
+    {
+      "id": "OI-01",
+      "path": "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+      "page": "project/oi.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 391306,
+      "occurrences": [
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Oi Controle",
+          "media": "(max-width: 1024px)",
+          "line": 82
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Oi Controle",
+          "media": null,
+          "line": 84
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Mudança de Cor",
+          "media": "(max-width: 1024px)",
+          "line": 177
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Mudança de Cor",
+          "media": null,
+          "line": 179
+        }
+      ],
+      "title": "Composição das telas mobile de Oi Controle",
+      "visible": "Quatro telas apresentam oferta promocional, seleção de plano, troca de minutos por internet e benefícios. Cards usam verde, branco e amarelo; há preços e chamadas Assine já.",
+      "interpretation": "Apresenta a experiência de descoberta e comparação de planos no celular.",
+      "confirmation": "Confirmar versão, data e o que pertence ao antes/depois. O mesmo arquivo aparece duas vezes na página e foi documentado uma vez.",
+      "proposed_caption": "Quatro telas apresentam oferta promocional, seleção de plano, troca de minutos por internet e benefícios. Cards usam verde, branco e amarelo; há preços e chamadas Assine já.",
+      "proposed_alt": "Composição das telas mobile de Oi Controle. Quatro telas apresentam oferta promocional, seleção de plano, troca de minutos por internet e benefícios. Cards usam verde, branco e amarelo; há preços e chamadas Assine já.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Oi Controle Mobile",
+        "Prototipo"
+      ]
+    },
+    {
+      "id": "OI-02",
+      "path": "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+      "page": "project/oi.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 286898,
+      "occurrences": [
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Equipe",
+          "media": "(max-width: 1024px)",
+          "line": 132
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Equipe",
+          "media": null,
+          "line": 134
+        }
+      ],
+      "title": "Mapa de profundidade de rolagem",
+      "visible": "Quatro trechos de uma página mobile recebem sobreposição em gradiente vermelho, amarelo, verde, azul e roxo, acompanhada de escala lateral.",
+      "interpretation": "Representa variação de alcance ao longo da página; pode apoiar discussão sobre posição de informação e chamadas.",
+      "confirmation": "Confirmar ferramenta, período, amostra, definição das cores e percentuais. As cores não permitem afirmar abandono ou conversão exatos.",
+      "proposed_caption": "Quatro trechos de uma página mobile recebem sobreposição em gradiente vermelho, amarelo, verde, azul e roxo, acompanhada de escala lateral.",
+      "proposed_alt": "Mapa de profundidade de rolagem. Quatro trechos de uma página mobile recebem sobreposição em gradiente vermelho, amarelo, verde, azul e roxo, acompanhada de escala lateral.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Mapa de Calor - Scroll"
+      ]
+    },
+    {
+      "id": "OI-03",
+      "path": "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+      "page": "project/oi.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 300596,
+      "occurrences": [
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Mapa de Calor - Scroll",
+          "media": "(max-width: 1024px)",
+          "line": 140
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Mapa de Calor - Scroll",
+          "media": null,
+          "line": 142
+        }
+      ],
+      "title": "Mapa de cliques ou toques",
+      "visible": "Quatro trechos da interface apresentam pontos de calor concentrados em regiões como navegação, cards, seleção e chamadas.",
+      "interpretation": "Registra áreas de interação e pode apoiar hipóteses sobre comportamento.",
+      "confirmation": "Confirmar se são cliques, toques ou outra medida, ferramenta, amostra e segmentação. Não inferir intenção a partir de um ponto de calor isolado.",
+      "proposed_caption": "Quatro trechos da interface apresentam pontos de calor concentrados em regiões como navegação, cards, seleção e chamadas.",
+      "proposed_alt": "Mapa de cliques ou toques. Quatro trechos da interface apresentam pontos de calor concentrados em regiões como navegação, cards, seleção e chamadas.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Mapa de Calor - Touch"
+      ]
+    },
+    {
+      "id": "OI-04",
+      "path": "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+      "page": "project/oi.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 462046,
+      "occurrences": [
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Mapa de Calor - Touch",
+          "media": "(max-width: 1024px)",
+          "line": 149
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Mapa de Calor - Touch",
+          "media": null,
+          "line": 151
+        }
+      ],
+      "title": "Benchmark de páginas de planos",
+      "visible": "Prancha alinha páginas de Oi, Claro, TIM, Vivo e Nextel, mostrando cards, preços, franquias e diferentes extensões de conteúdo.",
+      "interpretation": "Ajuda a comparar hierarquia de oferta, informação e navegação entre operadoras.",
+      "confirmation": "Confirmar critérios, data e conclusões usadas. A comparação visual não demonstra qual solução converte melhor.",
+      "proposed_caption": "Prancha alinha páginas de Oi, Claro, TIM, Vivo e Nextel, mostrando cards, preços, franquias e diferentes extensões de conteúdo.",
+      "proposed_alt": "Benchmark de páginas de planos. Prancha alinha páginas de Oi, Claro, TIM, Vivo e Nextel, mostrando cards, preços, franquias e diferentes extensões de conteúdo.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "OI-05",
+      "path": "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+      "page": "project/oi.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 325725,
+      "occurrences": [
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Benchmark",
+          "media": "(max-width: 1024px)",
+          "line": 158
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Benchmark",
+          "media": null,
+          "line": 160
+        }
+      ],
+      "title": "Auditoria visual com pontos de atenção",
+      "visible": "Várias capturas de telas e recortes da interface aparecem com marcadores vermelhos em títulos, cards, benefícios e outros elementos.",
+      "interpretation": "Documenta uma revisão detalhada de pontos da experiência que mereciam discussão ou ajuste.",
+      "confirmation": "Recuperar a legenda dos marcadores, severidade e relação com as mudanças. As marcações pequenas não foram lidas integralmente.",
+      "proposed_caption": "Várias capturas de telas e recortes da interface aparecem com marcadores vermelhos em títulos, cards, benefícios e outros elementos.",
+      "proposed_alt": "Auditoria visual com pontos de atenção. Várias capturas de telas e recortes da interface aparecem com marcadores vermelhos em títulos, cards, benefícios e outros elementos.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Pontos de Atenção"
+      ]
+    },
+    {
+      "id": "OI-06",
+      "path": "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_055.jpg",
+      "page": "project/oi.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 361460,
+      "occurrences": [
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_055.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Pontos de Atenção",
+          "media": "(max-width: 1024px)",
+          "line": 166
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_055.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Pontos de Atenção",
+          "media": null,
+          "line": 168
+        }
+      ],
+      "title": "Exploração de cores e composição visual",
+      "visible": "Prancha reúne tabelas de cores, áreas de gradiente, combinações de verde/rosa/laranja e exemplos de banners com pessoas e ofertas.",
+      "interpretation": "Registra exploração da linguagem cromática das ofertas e materiais da marca.",
+      "confirmation": "Confirmar critérios, paleta final e eventual revisão de contraste. A prancha não comprova atendimento a acessibilidade.",
+      "proposed_caption": "Prancha reúne tabelas de cores, áreas de gradiente, combinações de verde/rosa/laranja e exemplos de banners com pessoas e ofertas.",
+      "proposed_alt": "Exploração de cores e composição visual. Prancha reúne tabelas de cores, áreas de gradiente, combinações de verde/rosa/laranja e exemplos de banners com pessoas e ofertas.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Mudança de Cor"
+      ]
+    },
+    {
+      "id": "OI-07",
+      "path": "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+      "page": "project/oi.html",
+      "width": 1920,
+      "height": 2429,
+      "frames": 1,
+      "bytes": 633872,
+      "occurrences": [
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Prototipo",
+          "media": "(max-width: 1024px)",
+          "line": 186
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Prototipo",
+          "media": null,
+          "line": 188
+        }
+      ],
+      "title": "Mudanças no fluxo dos cards",
+      "visible": "Prancha vertical intitulada Mudanças no fluxo dos cards mostra três mockups de celular, incluindo card de plano, detalhes e uma versão longa da página com preço e chamada.",
+      "interpretation": "Evidencia reorganização da sequência de informação na oferta mobile.",
+      "confirmation": "Confirmar qual tela é anterior, quais propostas foram implementadas e como foram avaliadas.",
+      "proposed_caption": "Prancha vertical intitulada Mudanças no fluxo dos cards mostra três mockups de celular, incluindo card de plano, detalhes e uma versão longa da página com preço e chamada.",
+      "proposed_alt": "Mudanças no fluxo dos cards. Prancha vertical intitulada Mudanças no fluxo dos cards mostra três mockups de celular, incluindo card de plano, detalhes e uma versão longa da página com preço e chamada.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        ""
+      ]
+    },
+    {
+      "id": "OI-08",
+      "path": "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+      "page": "project/oi.html",
+      "width": 1920,
+      "height": 2888,
+      "frames": 1,
+      "bytes": 1040264,
+      "occurrences": [
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Prototipo",
+          "media": "(max-width: 1024px)",
+          "line": 199
+        },
+        {
+          "url": "../img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Prototipo",
+          "media": null,
+          "line": 201
+        }
+      ],
+      "title": "Visão geral de referências e proposta",
+      "visible": "Prancha alta apresenta colunas com mapas de calor, páginas de referência, versões de página e uma proposta em verde e branco.",
+      "interpretation": "Permite mostrar a passagem de análise para exploração de uma solução completa.",
+      "confirmation": "Confirmar sequência, rótulos e relação causal entre achados e cada alteração. Textos menores exigem arquivos originais para leitura.",
+      "proposed_caption": "Prancha alta apresenta colunas com mapas de calor, páginas de referência, versões de página e uma proposta em verde e branco.",
+      "proposed_alt": "Visão geral de referências e proposta. Prancha alta apresenta colunas com mapas de calor, páginas de referência, versões de página e uma proposta em verde e branco.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Mudanças"
+      ]
+    },
+    {
+      "id": "SOMA-01",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_home-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 493026,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_home-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Função",
+          "media": "(max-width: 1024px)",
+          "line": 565
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_home-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Função",
+          "media": null,
+          "line": 567
+        }
+      ],
+      "title": "Registro de encontro remoto",
+      "visible": "Montagem apresenta oito enquadramentos de pessoas em videoconferência.",
+      "interpretation": "Pode contextualizar alinhamento e colaboração remota do projeto, em conjunto com os registros da equipe.",
+      "confirmation": "Confirmar participantes, objetivo e momento. A imagem sozinha não distingue entrevista, workshop ou reunião interna.",
+      "proposed_caption": "Montagem apresenta oito enquadramentos de pessoas em videoconferência.",
+      "proposed_alt": "Registro de encontro remoto. Montagem apresenta oito enquadramentos de pessoas em videoconferência.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Alinhamento"
+      ]
+    },
+    {
+      "id": "SOMA-02",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_03-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 463079,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_03-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Alinhamento",
+          "media": "(max-width: 1024px)",
+          "line": 585
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_03-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Alinhamento",
+          "media": null,
+          "line": 587
+        }
+      ],
+      "title": "Proto-persona Estilista e contexto de trabalho",
+      "visible": "Prancha Persona Estilista descreve contexto, objetivos, necessidades, problemas, desejos e ferramentas. O texto associa pandemia e uso de WhatsApp a dificuldades de busca e organização de imagens.",
+      "interpretation": "Registra uma hipótese de público e dores que dão sentido ao acervo digital: organizar pesquisas, recuperar produtos passados e localizar imagens por características.",
+      "confirmation": "Confirmar se era proto-persona ou persona validada, base de pesquisa e quais itens vieram de observação direta. Não identificar a pessoa fotografada como participante.",
+      "proposed_caption": "Prancha Persona Estilista descreve contexto, objetivos, necessidades, problemas, desejos e ferramentas. O texto associa pandemia e uso de WhatsApp a dificuldades de busca e organização de imagens.",
+      "proposed_alt": "Proto-persona Estilista e contexto de trabalho. Prancha Persona Estilista descreve contexto, objetivos, necessidades, problemas, desejos e ferramentas. O texto associa pandemia e uso de WhatsApp a dificuldades de busca e organização de imagens.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Proto Persona"
+      ],
+      "transcription": {
+        "perfil": "Estilista",
+        "problemas": [
+          "Organizar pesquisas",
+          "Pesquisar coleções/produtos passados",
+          "Encontrar imagem por uma característica/dado",
+          "Status dos produtos"
+        ],
+        "ferramentas": [
+          "Instagram",
+          "Pinterest",
+          "WhatsApp",
+          "WGSN",
+          "PLM",
+          "Acervo físico"
+        ],
+        "desejos": [
+          "Soluções centralizadas e colaborativas",
+          "Dados de performance e status do produto",
+          "Uso intuitivo e estética agradável"
+        ]
+      }
+    },
+    {
+      "id": "SOMA-03",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_referencias-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 648852,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_referencias-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Proto Persona",
+          "media": "(max-width: 1024px)",
+          "line": 604
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_referencias-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Proto Persona",
+          "media": null,
+          "line": 607
+        }
+      ],
+      "title": "Referências de organização visual e descoberta",
+      "visible": "Colagem reúne interfaces de busca, imagens, filtros, perfis, pastas e produtos de moda, com anotações e marcadores.",
+      "interpretation": "Evidencia exploração de referências para descoberta e organização de conteúdo visual.",
+      "confirmation": "Confirmar plataformas, critérios e decisões derivadas; marcas pequenas não foram todas identificadas.",
+      "proposed_caption": "Colagem reúne interfaces de busca, imagens, filtros, perfis, pastas e produtos de moda, com anotações e marcadores.",
+      "proposed_alt": "Referências de organização visual e descoberta. Colagem reúne interfaces de busca, imagens, filtros, perfis, pastas e produtos de moda, com anotações e marcadores.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Referências"
+      ]
+    },
+    {
+      "id": "SOMA-04",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_05-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 618556,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_05-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Referências",
+          "media": "(max-width: 1024px)",
+          "line": 618
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_05-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Referências",
+          "media": null,
+          "line": 620
+        }
+      ],
+      "title": "Ideação no papel e desdobramento digital",
+      "visible": "Montagem mostra papéis, post-its, uma pessoa trabalhando sobre material, quadro digital e wireframes com cards e formulários.",
+      "interpretation": "Registra atividades de exploração que conectam ideias manuais a representações digitais.",
+      "confirmation": "A página credita ideação a @lorenalages. Preservar esse crédito e confirmar seu papel, participantes e dinâmica utilizada.",
+      "proposed_caption": "Montagem mostra papéis, post-its, uma pessoa trabalhando sobre material, quadro digital e wireframes com cards e formulários.",
+      "proposed_alt": "Ideação no papel e desdobramento digital. Montagem mostra papéis, post-its, uma pessoa trabalhando sobre material, quadro digital e wireframes com cards e formulários.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Ideação - by @lorenalages"
+      ]
+    },
+    {
+      "id": "SOMA-05",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_funcionalidade-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 237150,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_funcionalidade-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Ideação - by @lorenalages",
+          "media": "(max-width: 1024px)",
+          "line": 663
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_funcionalidade-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Ideação - by @lorenalages",
+          "media": null,
+          "line": 666
+        }
+      ],
+      "title": "Filtros, favoritos e organização em pastas",
+      "visible": "Quatro telas mostram filtro com categorias, seleção de tipos como vestido/blusa/saia, modal de salvar em favoritos e pasta com produtos recentes.",
+      "interpretation": "Revela funções para encontrar itens por atributos e organizar referências em coleções pessoais ou compartilháveis.",
+      "confirmation": "Confirmar taxonomia, permissões, comportamento de pastas e quais funções chegaram ao MVP.",
+      "proposed_caption": "Quatro telas mostram filtro com categorias, seleção de tipos como vestido/blusa/saia, modal de salvar em favoritos e pasta com produtos recentes.",
+      "proposed_alt": "Filtros, favoritos e organização em pastas. Quatro telas mostram filtro com categorias, seleção de tipos como vestido/blusa/saia, modal de salvar em favoritos e pasta com produtos recentes.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Funcionalidades"
+      ]
+    },
+    {
+      "id": "SOMA-06",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_07-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 173024,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_07-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Funcionalidades",
+          "media": "(max-width: 1024px)",
+          "line": 674
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_07-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Funcionalidades",
+          "media": null,
+          "line": 676
+        }
+      ],
+      "title": "Inventário visual de componentes",
+      "visible": "Prancha exibe ícones, imagens de produto em vários tamanhos, campos, botões, seletores, calendário e painéis.",
+      "interpretation": "Evidencia organização de elementos reutilizáveis para compor as interfaces.",
+      "confirmation": "Confirmar existência de biblioteca, variantes, documentação e vínculo com código. Um inventário de componentes não comprova governança de design system.",
+      "proposed_caption": "Prancha exibe ícones, imagens de produto em vários tamanhos, campos, botões, seletores, calendário e painéis.",
+      "proposed_alt": "Inventário visual de componentes. Prancha exibe ícones, imagens de produto em vários tamanhos, campos, botões, seletores, calendário e painéis.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Componentes"
+      ]
+    },
+    {
+      "id": "SOMA-07",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_08-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 527180,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_08-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Componentes",
+          "media": "(max-width: 1024px)",
+          "line": 683
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_08-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Componentes",
+          "media": null,
+          "line": 685
+        }
+      ],
+      "title": "Mapa de navegação do protótipo",
+      "visible": "Captura apresenta grupos de telas conectadas por muitas linhas, com títulos Calendário, Busca, Filtros, Home, PDP, Coleção e Pastas.",
+      "interpretation": "Mostra cobertura e encadeamento de jornadas no protótipo.",
+      "confirmation": "Confirmar ferramenta, fluxos prioritários e quais eram testáveis. Não inferir implementação ou volume de tarefas concluídas.",
+      "proposed_caption": "Captura apresenta grupos de telas conectadas por muitas linhas, com títulos Calendário, Busca, Filtros, Home, PDP, Coleção e Pastas.",
+      "proposed_alt": "Mapa de navegação do protótipo. Captura apresenta grupos de telas conectadas por muitas linhas, com títulos Calendário, Busca, Filtros, Home, PDP, Coleção e Pastas.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Prototipo"
+      ]
+    },
+    {
+      "id": "SOMA-08",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_10-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 360613,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_10-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Prototipo",
+          "media": "(max-width: 1024px)",
+          "line": 695
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_10-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Prototipo",
+          "media": null,
+          "line": 697
+        }
+      ],
+      "title": "Registros de sessões com protótipo",
+      "visible": "Montagem de duas sessões reúne telas com produtos e janelas de videoconferência; uma janela identifica facilitador Grupo SOMA e há marcador de gravação.",
+      "interpretation": "Em conjunto com a legenda Teste, sugere sessões remotas de avaliação do protótipo.",
+      "confirmation": "Confirmar se foram testes com usuários, participantes, tarefas, roteiro, achados e mudanças. Não concluir aprovação a partir da imagem.",
+      "proposed_caption": "Montagem de duas sessões reúne telas com produtos e janelas de videoconferência; uma janela identifica facilitador Grupo SOMA e há marcador de gravação.",
+      "proposed_alt": "Registros de sessões com protótipo. Montagem de duas sessões reúne telas com produtos e janelas de videoconferência; uma janela identifica facilitador Grupo SOMA e há marcador de gravação.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Teste",
+        "MVP - Mobile",
+        "MVP - Desktop"
+      ]
+    },
+    {
+      "id": "SOMA-09",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_12-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 114861,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_12-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "MVP - Desktop",
+          "media": "(max-width: 1024px)",
+          "line": 724
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_12-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "MVP - Desktop",
+          "media": null,
+          "line": 726
+        }
+      ],
+      "title": "Slide de indicadores do +Produtos",
+      "visible": "Slide apresenta KR de aumentar de 125 para 525 sessões na quinzena, resultado de 621 sessões engajadas na quinzena, 2.048 no trimestre, seta de 575% e NPS 80.",
+      "interpretation": "É evidência documental de indicadores reportados para o produto; oferece material para uma seção de resultados contextualizada.",
+      "confirmation": "Confirmar período, ferramenta, definição de sessão engajada, amostra do NPS e base de 575%. Não atribuir variação integralmente ao seu design nem confundir meta com resultado.",
+      "proposed_caption": "Slide apresenta KR de aumentar de 125 para 525 sessões na quinzena, resultado de 621 sessões engajadas na quinzena, 2.048 no trimestre, seta de 575% e NPS 80.",
+      "proposed_alt": "Slide de indicadores do +Produtos. Slide apresenta KR de aumentar de 125 para 525 sessões na quinzena, resultado de 621 sessões engajadas na quinzena, 2.048 no trimestre, seta de 575% e NPS 80.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Resultados"
+      ],
+      "transcription": {
+        "produto": "+Produtos",
+        "KR": "Aumentar de 125 para 525 sessões no +Produtos na quinzena",
+        "sessões_engajadas_quinzena": 621,
+        "sessões_engajadas_tri": 2048,
+        "variação_exibida": "575% — base não identificada",
+        "NPS_exibido": 80
+      }
+    },
+    {
+      "id": "SOMA-10",
+      "path": "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_13-min.jpg",
+      "page": "project/soma.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 213203,
+      "occurrences": [
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_13-min.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Resultados",
+          "media": "(max-width: 1024px)",
+          "line": 732
+        },
+        {
+          "url": "../img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_13-min.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Resultados",
+          "media": null,
+          "line": 734
+        }
+      ],
+      "title": "Composição da equipe de produto e tecnologia",
+      "visible": "Slide Liga de Produto – Tribo Estilo apresenta doze pessoas, com funções de Product Owner, Product Manager, Tech Lead, Product Designer, estágio, engenharia e modelagem de moda.",
+      "interpretation": "Ajuda a explicar colaboração entre negócio, design, tecnologia e especialistas do domínio.",
+      "confirmation": "O slide nomeia Emerson Santos como Product Designer. Confirmar correspondência com seu nome profissional e descrever responsabilidades sem assumir identidade pela foto.",
+      "proposed_caption": "Slide Liga de Produto – Tribo Estilo apresenta doze pessoas, com funções de Product Owner, Product Manager, Tech Lead, Product Designer, estágio, engenharia e modelagem de moda.",
+      "proposed_alt": "Composição da equipe de produto e tecnologia. Slide Liga de Produto – Tribo Estilo apresenta doze pessoas, com funções de Product Owner, Product Manager, Tech Lead, Product Designer, estágio, engenharia e modelagem de moda.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": [
+        "Equipe s2"
+      ]
+    },
+    {
+      "id": "TECHNOS-01",
+      "path": "img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+      "page": "project/technos.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 363250,
+      "occurrences": [
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Technos",
+          "media": "(max-width: 1024px)",
+          "line": 79
+        },
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Technos",
+          "media": null,
+          "line": 82
+        }
+      ],
+      "title": "Detalhe de relógio com especificações e reserva",
+      "visible": "Layout desktop divide relógio grande sobre fundo branco e conteúdo sobre fundo preto: título de modelo, especificações, preço, parcelamento e chamada Fazer reserva.",
+      "interpretation": "Mostra hierarquia de informação entre imagem, atributos técnicos e ação comercial.",
+      "confirmation": "Confirmar escopo, etapa, autoria e se a reserva foi implementada. Não chamar automaticamente de checkout ou compra concluída.",
+      "proposed_caption": "Layout desktop divide relógio grande sobre fundo branco e conteúdo sobre fundo preto: título de modelo, especificações, preço, parcelamento e chamada Fazer reserva.",
+      "proposed_alt": "Detalhe de relógio com especificações e reserva. Layout desktop divide relógio grande sobre fundo branco e conteúdo sobre fundo preto: título de modelo, especificações, preço, parcelamento e chamada Fazer reserva.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "TECHNOS-02",
+      "path": "img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+      "page": "project/technos.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 436411,
+      "occurrences": [
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Technos",
+          "media": "(max-width: 1024px)",
+          "line": 107
+        },
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Technos",
+          "media": null,
+          "line": 109
+        }
+      ],
+      "title": "Apresentação visual da coleção Acqua",
+      "visible": "Layout escuro destaca um relógio em cenário com água e pontos marcados ao redor, com título Acqua Collection e navegação de marca.",
+      "interpretation": "Explora uma apresentação de coleção com foco em produto, atmosfera e possíveis detalhes interativos.",
+      "confirmation": "Confirmar significado dos pontos, animação/interação e estágio do layout.",
+      "proposed_caption": "Layout escuro destaca um relógio em cenário com água e pontos marcados ao redor, com título Acqua Collection e navegação de marca.",
+      "proposed_alt": "Apresentação visual da coleção Acqua. Layout escuro destaca um relógio em cenário com água e pontos marcados ao redor, com título Acqua Collection e navegação de marca.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "TECHNOS-03",
+      "path": "img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+      "page": "project/technos.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 252659,
+      "occurrences": [
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Technos",
+          "media": "(max-width: 1024px)",
+          "line": 116
+        },
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Technos",
+          "media": null,
+          "line": 118
+        }
+      ],
+      "title": "Conteúdo de coleção e características",
+      "visible": "Página escura combina imagem aproximada de relógio e texto Acqua Special Collection; há referência a um modelo e recurso Waterproof.",
+      "interpretation": "Apresenta conteúdo de descoberta e explicação de características da coleção.",
+      "confirmation": "Confirmar texto final, origem das imagens e interação planejada. Não atribuir produção fotográfica ou 3D sem confirmação.",
+      "proposed_caption": "Página escura combina imagem aproximada de relógio e texto Acqua Special Collection; há referência a um modelo e recurso Waterproof.",
+      "proposed_alt": "Conteúdo de coleção e características. Página escura combina imagem aproximada de relógio e texto Acqua Special Collection; há referência a um modelo e recurso Waterproof.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "TECHNOS-04",
+      "path": "img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+      "page": "project/technos.html",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1,
+      "bytes": 282604,
+      "occurrences": [
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Technos",
+          "media": "(max-width: 1024px)",
+          "line": 127
+        },
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Technos",
+          "media": null,
+          "line": 129
+        }
+      ],
+      "title": "Vitrine e comparação de relógios",
+      "visible": "Prancha clara mostra quatro relógios, setas laterais, preço sob o item em destaque e opções 800 ATM e 30 ATM no topo.",
+      "interpretation": "Sugere navegação por modelos ou variações em uma coleção.",
+      "confirmation": "Confirmar funcionamento dos filtros/abas, modelo de comparação e implementação.",
+      "proposed_caption": "Prancha clara mostra quatro relógios, setas laterais, preço sob o item em destaque e opções 800 ATM e 30 ATM no topo.",
+      "proposed_alt": "Vitrine e comparação de relógios. Prancha clara mostra quatro relógios, setas laterais, preço sob o item em destaque e opções 800 ATM e 30 ATM no topo.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "TECHNOS-05",
+      "path": "img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+      "page": "project/technos.html",
+      "width": 1400,
+      "height": 788,
+      "frames": 1,
+      "bytes": 134705,
+      "occurrences": [
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+          "tag": "source",
+          "alt": null,
+          "section": "Technos",
+          "media": "(max-width: 1024px)",
+          "line": 136
+        },
+        {
+          "url": "../img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+          "tag": "img",
+          "alt": "",
+          "section": "Technos",
+          "media": null,
+          "line": 138
+        }
+      ],
+      "title": "Variação da tela de detalhe e reserva",
+      "visible": "Tela semelhante a TECHNOS-01 apresenta relógio, descrição técnica, preço/parcelamento e Fazer reserva em composição branca e preta, em arquivo de menor resolução.",
+      "interpretation": "Pode ser exportação alternativa ou outra versão do mesmo layout; evita tratá-la como nova entrega sem comparação.",
+      "confirmation": "Confirmar se há diferenças intencionais. O rodapé mostra copyright 2015, enquanto o HTML marca 2014: reconciliar datas do trabalho.",
+      "proposed_caption": "Tela semelhante a TECHNOS-01 apresenta relógio, descrição técnica, preço/parcelamento e Fazer reserva em composição branca e preta, em arquivo de menor resolução.",
+      "proposed_alt": "Variação da tela de detalhe e reserva. Tela semelhante a TECHNOS-01 apresenta relógio, descrição técnica, preço/parcelamento e Fazer reserva em composição branca e preta, em arquivo de menor resolução.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem",
+      "current_captions": []
+    },
+    {
+      "id": "BIPA-V1",
+      "path": "img/case/01_cover.mp4",
+      "page": "project/case.html",
+      "width": 3356,
+      "height": 1860,
+      "duration": 20.8,
+      "sample_times": [
+        1.04,
+        7.279999999999999,
+        13.520000000000001,
+        18.720000000000002
+      ],
+      "title": "Captura visual da página Bipa",
+      "visible": "Quatro quadros amostrados mostram uma página com marca Bipa, moedas roxas com símbolo Bitcoin, conta digital, chamadas de download e QR code.",
+      "interpretation": "Pode ser referência de contexto ou demonstração de uma página; sua presença no case não estabelece autoria do layout.",
+      "confirmation": "Confirmar se a captura é do site existente, proposta sua ou material de referência. Análise limitada aos quadros, sem avaliar todo o movimento.",
+      "proposed_caption": "Quatro quadros amostrados mostram uma página com marca Bipa, moedas roxas com símbolo Bitcoin, conta digital, chamadas de download e QR code.",
+      "proposed_alt": "Captura visual da página Bipa. Quatro quadros amostrados mostram uma página com marca Bipa, moedas roxas com símbolo Bitcoin, conta digital, chamadas de download e QR code.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Quadros de vídeo"
+    },
+    {
+      "id": "BIPA-V2",
+      "path": "img/case/02_colab_geral.mp4",
+      "page": "project/case.html",
+      "width": 3340,
+      "height": 1734,
+      "duration": 258.8,
+      "sample_times": [
+        12.940000000000001,
+        90.58,
+        168.22000000000003,
+        232.92000000000002
+      ],
+      "title": "Demonstração da coleta multifontes no Colab",
+      "visible": "Quadros amostrados mostram notebook com seções suggest, trends e stores, entrada de termo/região/idioma e uma saída de avaliações com estrelas e comentários.",
+      "interpretation": "Documenta uma ferramenta de coleta usada para investigar buscas e opiniões sobre aplicativos.",
+      "confirmation": "Confirmar autoria do código, provedor, dataset, data e método. A imagem não permite auditar execução, completude ou validade da coleta.",
+      "proposed_caption": "Quadros amostrados mostram notebook com seções suggest, trends e stores, entrada de termo/região/idioma e uma saída de avaliações com estrelas e comentários.",
+      "proposed_alt": "Demonstração da coleta multifontes no Colab. Quadros amostrados mostram notebook com seções suggest, trends e stores, entrada de termo/região/idioma e uma saída de avaliações com estrelas e comentários.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Quadros de vídeo"
+    },
+    {
+      "id": "BIPA-V3",
+      "path": "img/case/03_notebooklm_geral.mp4",
+      "page": "project/case.html",
+      "width": 3354,
+      "height": 1858,
+      "duration": 91.399349,
+      "sample_times": [
+        4.56996745,
+        31.989772149999997,
+        59.40957685,
+        82.2594141
+      ],
+      "title": "Organização temática em mapas mentais",
+      "visible": "Quadros amostrados mostram mapas com títulos sobre buscas por Bitcoin, interesse regional, mercado/fundamentos e aplicativos; nós agrupam temas, dúvidas e críticas.",
+      "interpretation": "Evidencia organização e síntese de informações em categorias, em contexto que o arquivo identifica como NotebookLM.",
+      "confirmation": "Confirmar fontes carregadas, prompts, revisão humana e relação entre nós e dados. A classificação exibida não equivale a conclusão validada.",
+      "proposed_caption": "Quadros amostrados mostram mapas com títulos sobre buscas por Bitcoin, interesse regional, mercado/fundamentos e aplicativos; nós agrupam temas, dúvidas e críticas.",
+      "proposed_alt": "Organização temática em mapas mentais. Quadros amostrados mostram mapas com títulos sobre buscas por Bitcoin, interesse regional, mercado/fundamentos e aplicativos; nós agrupam temas, dúvidas e críticas.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Quadros de vídeo"
+    },
+    {
+      "id": "NUBANK-V1",
+      "path": "img/nubank/Nubank_teste_A.mp4",
+      "page": "project/nubank.html",
+      "width": 422,
+      "height": 888,
+      "duration": 55.6,
+      "sample_times": [
+        2.7800000000000002,
+        19.46,
+        36.14,
+        50.04
+      ],
+      "title": "Estudo pessoal: versão A do fluxo de fatura",
+      "visible": "Quadros amostrados mostram interface mobile roxa e branca, saldo inicial zero, valor de fatura de R$ 1.552,79, estado posterior com R$ 1.600,00 em conta e tela Tarefa concluída com sucesso.",
+      "interpretation": "Registra uma versão de protótipo de tarefa financeira; a página identifica o trabalho como estudo pessoal.",
+      "confirmation": "Confirmar fluxo intermediário, hipótese e contexto da gravação. Não deduzir sucesso em teste real nem eficiência pelo tempo do vídeo.",
+      "proposed_caption": "Quadros amostrados mostram interface mobile roxa e branca, saldo inicial zero, valor de fatura de R$ 1.552,79, estado posterior com R$ 1.600,00 em conta e tela Tarefa concluída com sucesso.",
+      "proposed_alt": "Estudo pessoal: versão A do fluxo de fatura. Quadros amostrados mostram interface mobile roxa e branca, saldo inicial zero, valor de fatura de R$ 1.552,79, estado posterior com R$ 1.600,00 em conta e tela Tarefa concluída com sucesso.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Quadros de vídeo"
+    },
+    {
+      "id": "NUBANK-V2",
+      "path": "img/nubank/Nubank_teste_B.mp4",
+      "page": "project/nubank.html",
+      "width": 422,
+      "height": 888,
+      "duration": 30.8,
+      "sample_times": [
+        1.54,
+        10.78,
+        20.02,
+        27.720000000000002
+      ],
+      "title": "Estudo pessoal: versão B com dinheiro guardado",
+      "visible": "Quadros mostram escolha entre pagar com saldo, gerar boleto e pagar com dinheiro guardado, seguida de confirmação e campo para descrever a experiência.",
+      "interpretation": "Apresenta uma alternativa de fluxo que explicita dinheiro guardado como origem do pagamento e solicita feedback.",
+      "confirmation": "Confirmar se houve teste com participantes, roteiro e resultados. Duração da gravação não é tempo de tarefa comparável à versão A.",
+      "proposed_caption": "Quadros mostram escolha entre pagar com saldo, gerar boleto e pagar com dinheiro guardado, seguida de confirmação e campo para descrever a experiência.",
+      "proposed_alt": "Estudo pessoal: versão B com dinheiro guardado. Quadros mostram escolha entre pagar com saldo, gerar boleto e pagar com dinheiro guardado, seguida de confirmação e campo para descrever a experiência.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Quadros de vídeo"
+    },
+    {
+      "id": "COMUM-01",
+      "path": "img/home/foto-perfil-emerson-almeida-branding-product-ux-ui-designer.png",
+      "page": "index.html e todas as páginas de projetos",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "bytes": 15962,
+      "occurrences": [],
+      "title": "Retrato de apresentação do portfólio",
+      "visible": "Retrato quadrado em preto e branco de um homem sorrindo, com camiseta escura, usado como imagem de perfil nos cabeçalhos.",
+      "interpretation": "Cumpre função de apresentação pessoal e reconhecimento do autor do portfólio.",
+      "confirmation": "Imagem original tem 128×128 pixels. Confirmar se há original maior para a atualização; não é evidência de projeto.",
+      "proposed_caption": "Retrato quadrado em preto e branco de um homem sorrindo, com camiseta escura, usado como imagem de perfil nos cabeçalhos.",
+      "proposed_alt": "Retrato de apresentação do portfólio. Retrato quadrado em preto e branco de um homem sorrindo, com camiseta escura, usado como imagem de perfil nos cabeçalhos.",
+      "confidence": "Leitura visual direta; contexto e autoria sujeitos a confirmação",
+      "kind": "Imagem"
+    }
+  ],
+  "unreviewed_image_files": [
+    "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+    "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+    "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+    "img/arkave/arkave_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+    "img/arkave/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_construcao_02_desk.jpg",
+    "img/arkave/bkp/arkave_01.jpg",
+    "img/arkave/bkp/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_capa_desk.jpg",
+    "img/arkave/bkp/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_construcao_01_desk.jpg",
+    "img/arkave/bkp/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_construcao_02_desk.jpg",
+    "img/arkave/bkp/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_construcao_02_mob.jpg",
+    "img/arkave/bkp/arkave_logo_design_emerson-almeida-ux-ui-product-branding-designer_construcao_04_desk.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+    "img/dunker/Portfolio-DS/dunker_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+    "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+    "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+    "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+    "img/dunker/dunker_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+    "img/dunker/dunker_emerson-almeida-ux-ui-product-designer_img-01_mob.jpg",
+    "img/home/1545595212536.jpeg",
+    "img/home/371904150_LISA_AVATAR_1x1_400px.gif",
+    "img/home/371907210_HANDSHAKE_400px.gif",
+    "img/home/432007130_WAVING_HAND_3D_DARK_SKIN_TONE_400px.gif",
+    "img/home/432007131_WAVING_HAND_3D_LIGHT_SKIN_TONE_400px.gif",
+    "img/home/432007132_WAVING_HAND_3D_MONOCHROMATIC_400px.gif",
+    "img/home/432008120_THUMBS_UP_3D_DARK_SKIN_TONE_400px.gif",
+    "img/home/432008121_THUMBS_UP_3D_LIGHT_SKIN_TONE_400px.gif",
+    "img/home/432008122_THUMBS_UP_3D_MONOCHROMATIC_400px.gif",
+    "img/home/432008581_FIST_BUMP_HANDS_3D_400px.gif",
+    "img/home/432008582_FIST_BUMP_HANDS_3D_MONOCHROMATIC_400px.gif",
+    "img/home/432008670_CLAPPING_HANDS_3D_DARK_SKIN_TONE_400px.gif",
+    "img/home/432008670_CLAPPING_HANDS_3D_LIGHT_SKIN_TONE_400px.gif",
+    "img/home/432008670_CLAPPING_HANDS_3D_MONOCHROMATIC_400px.gif",
+    "img/home/432008940_ROCK_ON_HANDS_3D_DARK_SKIN_TONE_400.png",
+    "img/home/432008940_ROCK_ON_HANDS_3D_DARK_SKIN_TONE_400px.gif",
+    "img/home/432008941_ROCK_ON_HANDS_3D_LIGHT_SKIN_TONE_400px.gif",
+    "img/home/432008942_ROCK_ON_HANDS_3D_MONOCHROMATIC_400px.gif",
+    "img/home/442008110_GLANCING_AVATAR_3D_400.png",
+    "img/home/442008110_GLANCING_AVATAR_3D_400px.gif",
+    "img/home/442008111_GLANCING_AVATAR_3D_400.png",
+    "img/home/442008111_GLANCING_AVATAR_3D_400px.gif",
+    "img/home/442008112_GLANCING_AVATAR_3D_400.png",
+    "img/home/442008112_GLANCING_AVATAR_3D_400px.gif",
+    "img/home/442008570_ARTIST_AVATAR_3D_400.png",
+    "img/home/442008570_ARTIST_AVATAR_3D_400px.gif",
+    "img/home/442008571_ARTIST_AVATAR_3D_400.png",
+    "img/home/442008571_ARTIST_AVATAR_3D_400px.gif",
+    "img/home/442008572_ARTIST_AVATAR_3D_400.png",
+    "img/home/442008572_ARTIST_AVATAR_3D_400px.gif",
+    "img/home/442010360_WINKING_AVATAR_3D_400.png",
+    "img/home/442010360_WINKING_AVATAR_3D_400px.gif",
+    "img/home/442010361_WINKING_AVATAR_3D_400.png",
+    "img/home/442010361_WINKING_AVATAR_3D_400px.gif",
+    "img/home/442010362_WINKING_AVATAR_3D_400.png",
+    "img/home/442010362_WINKING_AVATAR_3D_400px.gif",
+    "img/home/442010810_HEADPHONES_AVATAR_3D_400.png",
+    "img/home/442010810_HEADPHONES_AVATAR_3D_400px.gif",
+    "img/home/442010811_HEADPHONES_AVATAR_3D_400.png",
+    "img/home/442010811_HEADPHONES_AVATAR_3D_400px.gif",
+    "img/home/442010812_HEADPHONES_AVATAR_3D_400.png",
+    "img/home/442010812_HEADPHONES_AVATAR_3D_400px.gif",
+    "img/home/__-_emersonalmeida-favicon.png",
+    "img/home/_emersonalmeida-favicon.png",
+    "img/home/avatars-3d-pack.gif",
+    "img/home/emersonalmeida-favicon.jpg",
+    "img/home/emersonalmeida-favicon.png",
+    "img/home/emersonalmeida-favicon_02.png",
+    "img/home/favicon.png",
+    "img/home/hands-3d-pack.gif",
+    "img/home/hekdsgn-logo-white.jpg",
+    "img/home/perfil-emerson-almeida-ux-ui-product-branding-designer.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+    "img/missao-genese/Portfolio-DS/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_01_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_01_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_02_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_03_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_04_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_10_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_bg-blur_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_capa-home_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_capa-home_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_capa_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-analise_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-capa_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-capa_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-foto-01_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-sketch-01_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-sketch-01_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-sketch-02_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-sketch-02_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-ui-01_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-01_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-01_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-02_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-02_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-03_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-03_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-04_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-04_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-analise-game-play_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-analise-game-play_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-01_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-01_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-02_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-02_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-03_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-03_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-04_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-04_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-05_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-layout-05_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-ref-01_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-ref-02_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_combate-vr-ref-02_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_estacoes-carreta-externa_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_estacoes-carreta-externa_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_estacoes-carreta-interna_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_estacoes-carreta-interna_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_estacoes-carreta_desk.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_estacoes-carreta_mob.jpg",
+    "img/missao-genese/bkp/missao-genese_emerson-almeida-ux-ui-produxt-designer_vr-gif.gif",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_14.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_15.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_16.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_17.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_18.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_19.jpg",
+    "img/missao-genese/bkp3/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_20.jpg",
+    "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+    "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+    "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_14.jpg",
+    "img/missao-genese/missao-genese_emerson-almeida-design-portfolio-product-ux-ui_15.jpg",
+    "img/nubank/Nubank_teste_A.gif",
+    "img/nubank/Nubank_teste_B.gif",
+    "img/nyte/nyte_emerson-almeida-ux-ui-produxt-designer_cover_desk.jpg",
+    "img/oi-controle/bkp/_controle_emerson-almeida-ux-ui-produxt-designer_cards-sketch_desk.jpg",
+    "img/oi-controle/bkp/_controle_emerson-almeida-ux-ui-produxt-designer_scrum-process_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-product-designer_benchmark_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_benchmark_mob.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_cards-sketch_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_cards-sketch_mob.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_cover-intern_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_cover-intern_mob.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_ecommerce-oi-squad-team_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_guideline-cor-type-photo_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_jornada-do-usuario-momento_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_jornada-do-usuario_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_mapa-de-calor_02_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_mapa-de-calor_02_mob.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_mapa-de-calor_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_mapa-de-calor_mob.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_nova-pagina_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_novos-cards_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_novos-cards_mob.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_pagina-atual-cards_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_pagina-atual-cards_mob.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_pagina-atual-scroll_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_pagina-atual-scroll_mob.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_personas_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_pontos-de-atencao_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_scrum-process_desk.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_scrum-process_desk__.jpg",
+    "img/oi-controle/bkp/controle_emerson-almeida-ux-ui-produxt-designer_scrum-process_mob.jpg",
+    "img/oi-controle/oi_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+    "img/soma/_grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_04-min.jpg",
+    "img/soma/_grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+    "img/soma/bkp/ideacao.jpg",
+    "img/soma/bkp/image 7.jpg",
+    "img/soma/bkp/image-11.webp",
+    "img/soma/bkp/image-12.webp",
+    "img/soma/bkp/image-13.webp",
+    "img/soma/bkp/image-14.webp",
+    "img/soma/bkp/image-15.webp",
+    "img/soma/bkp/image-19.webp",
+    "img/soma/bkp/image-5.webp",
+    "img/soma/bkp/image1.jpg",
+    "img/soma/bkp/image2.jpg",
+    "img/soma/bkp/image3.jpg",
+    "img/soma/bkp/image4.jpg",
+    "img/soma/bkp/image5.jpg",
+    "img/soma/bkp/image6.jpg",
+    "img/soma/bkp/image8.jpg",
+    "img/soma/bkp/maisprodutos-desktop-min.gif",
+    "img/soma/bkp/maisprodutos.gif",
+    "img/soma/bkp/persona.png",
+    "img/soma/bkp/questionario.png",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_006-min.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_006.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_02-min.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_06-min.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_09-min.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_09.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_10.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_11-min.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_11.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_12.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_13.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_analise-teste-min.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_analise-teste.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_funcionalidade.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_home-min.png",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_home.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_home.png",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_proto-fabula-min.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_proto-fabula.jpg",
+    "img/soma/grupo-soma_emerson-almeida-design-portfolio-product-ux-ui_referencias.jpg",
+    "img/technos/Portfolio-DS (1)/technos_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+    "img/technos/Portfolio-DS (1)/technos_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+    "img/technos/Portfolio-DS (1)/technos_emerson-almeida-design-portfolio-product-ux-ui_03.jpg",
+    "img/technos/Portfolio-DS (1)/technos_emerson-almeida-design-portfolio-product-ux-ui_04.jpg",
+    "img/technos/Portfolio-DS (1)/technos_emerson-almeida-design-portfolio-product-ux-ui_05.jpg",
+    "img/technos/Portfolio-DS (1)/technos_emerson-almeida-design-portfolio-product-ux-ui_06.jpg",
+    "img/technos/Portfolio-DS (1)/technos_emerson-almeida-design-portfolio-product-ux-ui_07.jpg",
+    "img/technos/Portfolio-DS (1)/technos_emerson-almeida-design-portfolio-product-ux-ui_08.jpg",
+    "img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_01.jpg",
+    "img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_02.jpg",
+    "img/technos/technos_emerson-almeida-design-portfolio-product-ux-ui_07.jpg"
+  ]
+}
