@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Collector Advanced — Suggest + AppStore</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root { --bg:#f4f7fb; --panel:#fff; --text:#0b1b2b; --muted:#5b6b7a; --accent:#0b84ff; --card:#fff; --glass:rgba(0,0,0,0.02); }
+    [data-theme="dark"] { --bg:#0f1720; --panel:#0b1220; --text:#e6eef6; --muted:#9aa4b2; --accent:#5dd4b8; --card:#0c1520; --glass:rgba(255,255,255,0.04); }
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Arial;}
+    .wrap{max-width:960px;margin:18px auto;padding:18px}
+    header{display:flex;justify-content:space-between;align-items:center}
+    h1{font-size:16px;margin:0}
+    .small{font-size:12px;color:var(--muted)}
+    main{display:grid;grid-template-columns:360px 1fr;gap:12px;margin-top:12px}
+    aside.sidebar{background:var(--panel);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.3)}
+    section.content{background:var(--panel);padding:12px;border-radius:10px;min-height:560px;overflow:auto}
+    input,select,button{width:100%;padding:8px;margin-top:6px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);background:var(--card);color:var(--text)}
+    .btn{padding:8px 12px;border-radius:8px;border:none;cursor:pointer;font-weight:600;background:var(--accent);color:white;width:auto}
+    .btn.ghost{background:transparent;border:1px solid var(--accent);color:var(--accent)}
+    .section{background:var(--glass);padding:10px;margin-top:12px;border-radius:8px}
+    .checkboxes{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+    .chip{padding:6px 8px;border-radius:8px;background:rgba(0,0,0,0.08);cursor:pointer;font-size:12px}
+    .chip.active{background:var(--accent);color:white}
+    .panelPreview{background:var(--card);padding:10px;border-radius:8px;min-height:120px;box-shadow:0 3px 8px rgba(0,0,0,0.15)}
+    table.previewTable{width:100%;margin-top:12px;border-collapse:collapse}
+    table.previewTable th, table.previewTable td{padding:8px;border-bottom:1px solid rgba(0,0,0,0.1);font-size:13px}
+    footer{margin-top:18px;display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+  </style>
+</head>
+<body data-theme="light">
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Collector Advanced — Suggest + AppStore</h1>
+        <div class="small">Preencha os parâmetros e clique em Coletador de Dados.</div>
+      </div>
+      <div style="display:flex;gap:8px;">
+        <select id="themeSel"><option value="light">Light</option><option value="dark">Dark</option></select>
+        <button id="btnHelp" class="btn ghost">Help</button>
+        <button id="btnCollect" class="btn">Coletador de Dados</button>
+      </div>
+    </header>
+
+    <main>
+      <aside class="sidebar">
+        <label>Termo(s) de busca</label>
+        <input id="term" type="text" value="bitcoin" />
+        <div class="section">
+          <strong>Google Suggest — Configuração</strong>
+          <label>Região</label><input id="gs_region" type="text" value="br" />
+          <label>Idioma</label><input id="gs_lang" type="text" value="auto" />
+          <label>Navegador</label><select id="gs_browser"><option>chrome</option><option>safari</option></select>
+          <label>Fonte</label><input id="gs_source" type="text" value="web,youtube" />
+          <label>Dados a coletar</label>
+          <div class="checkboxes">
+            <div class="chip active" data-ck="top">Top Sugestões</div>
+            <div class="chip active" data-ck="exp">Expansões a–z,0–9</div>
+            <div class="chip active" data-ck="other">Outros</div>
+          </div>
+          <label>Exibir resultados</label><input id="gs_limit" type="number" value="15" />
+        </div>
+
+        <div class="section">
+          <strong>App Store — Configuração</strong>
+          <label>Região</label><input id="as_region" type="text" value="br" />
+          <label>Idioma</label><input id="as_lang" type="text" value="auto" />
+          <label>Quantidade de apps</label><input id="as_limit" type="number" value="30" />
+          <label>Reviews por app</label><input id="as_reviews" type="number" value="5" />
+          <label>Ordenação</label>
+          <select id="as_order"><option value="1">Recentes</option><option value="2">Antigos</option><option value="3">Melhores</option><option value="4">Piores</option></select>
+          <label>Limitar texto? (s/n)</label><select id="as_truncate"><option value="n">n</option><option value="s">s</option></select>
+        </div>
+
+        <div class="section">
+          <strong>Backend URL</strong>
+          <input id="backendUrl" type="text" placeholder="http://127.0.0.1:8080" />
+          <div class="small">Use backend local para evitar erros de CORS.</div>
+        </div>
+      </aside>
+
+      <section class="content">
+        <div style="display:flex;gap:12px;margin-bottom:12px;">
+          <button id="btnCreateScreens" class="btn ghost" disabled>Criar telas no Figma</button>
+          <button id="btnCopy" class="btn ghost" disabled>Copiar texto</button>
+          <button id="btnExportJson" class="btn" disabled>Export JSON</button>
+          <button id="btnExportCsv" class="btn ghost" disabled>Export CSV</button>
+        </div>
+
+        <div id="previewArea">
+          <div id="panelsContainer" style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;"></div>
+          <div id="tableContainer"></div>
+        </div>
+
+        <div id="log" class="small" style="margin-top:10px;"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Clone → importe manifest → preencha configs → coletar → gerar telas.</span>
+      <span>Backend reduz erros de CORS.</span>
+    </footer>
+  </div>
+
+  <script>
+    const PROXY = "https://api.allorigins.win/raw?url=";
+    const qs = s => document.querySelector(s);
+    const chips = document.querySelectorAll(".chip");
+    chips.forEach(c => c.onclick = () => c.classList.toggle("active"));
+    qs("#themeSel").onchange = () => document.body.dataset.theme = qs("#themeSel").value;
+    function log(msg) { qs("#log").textContent = msg; }
+    function proxyUrl(url) {
+      const backend = qs("#backendUrl").value.trim();
+      if (backend) return backend + "/proxy?url=" + encodeURIComponent(url);
+      return PROXY + encodeURIComponent(url);
+    }
+
+    async function fetchSuggest(term, limit = 15, expansions = true) {
+      const backend = qs("#backendUrl").value.trim();
+      if (backend) {
+        // use backend api/collect for suggest (robust)
+        const r = await fetch(backend + "/api/collect", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ source: "suggest", term, limit })
+        });
+        if (!r.ok) throw new Error("Backend suggest failed");
+        const json = await r.json();
+        return (json[1] || []).slice(0, limit).map((s, i) => ({ rank: i + 1, suggestion: s }));
+      }
+
+      // fallback proxy
+      const url = PROXY + encodeURIComponent("https://suggestqueries.google.com/complete/search?client=firefox&q=" + term);
+      const r = await fetch(url);
+      if (!r.ok) throw new Error("Suggest fetch failed");
+      const j = await r.json();
+      return (j[1] || []).slice(0, limit).map((s, i) => ({ rank: i + 1, suggestion: s }));
+    }
+
+    async function fetchItunes(term, limit = 30) {
+      const backend = qs("#backendUrl").value.trim();
+      if (backend) {
+        const r = await fetch(backend + "/api/collect", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ source: "itunes", term, limit })
+        });
+        if (!r.ok) {
+          console.warn("Backend itunes returned not ok:", r.status, r.statusText);
+          return [];
+        }
+        const txt = await r.text();
+        try {
+          const j = JSON.parse(txt);
+          return (j.results || []).map((a, i) => ({
+            rank: i + 1,
+            name: a.trackName,
+            developer: a.sellerName || a.artistName,
+            description: a.description || "",
+            url: a.artworkUrl100
+          }));
+        } catch (e) {
+          console.warn("Itunes response not JSON (backend returned):", (txt||"").slice(0,500));
+          return [];
+        }
+      }
+
+      // fallback via proxy (original behavior)
+      const url = proxyUrl(`https://itunes.apple.com/search?term=${encodeURIComponent(term)}&entity=software&limit=${limit}&country=${region}`);
+      const r = await fetch(url);
+      if (!r.ok) {
+        console.warn("Fallback iTunes fetch failed", r.status);
+        return [];
+      }
+      try {
+        const j = await r.json();
+        return (j.results || []).map((a, i) => ({
+          rank: i + 1,
+          name: a.trackName,
+          developer: a.sellerName || a.artistName,
+          description: a.description || "",
+          url: a.artworkUrl100
+        }));
+      } catch (e) {
+        console.warn("Fallback itunes JSON parse failed", e);
+        return [];
+      }
+    }
+      if (end === -1) return [];
+      let jsonData;
+      try { jsonData = JSON.parse(text.substring(start, end)); } catch (e) { return []; }
+      const videos = [];
+      (function walk(o) { if (!o || typeof o !== "object") return; for (const k in o) { if (k === "videoRenderer") videos.push(o[k]); walk(o[k]); } })(jsonData);
+      return videos.slice(0, limit).map((v,i)=>({ rank:i+1, name: v.title?.runs?.map(r=>r.text).join("")||"", channel: v.ownerText?.runs?.map(r=>r.text).join("")||"", url: v.thumbnail?.thumbnails?.slice(-1)?.[0]?.url || "" }));
+    }
+
+    async function imgToBase64(url) {
+      try {
+        const r = await fetch(proxyUrl(url));
+        if (!r.ok) return null;
+        const blob = await r.blob();
+        return await new Promise(res => { const reader = new FileReader(); reader.onloadend = () => res(reader.result.split(",")[1]); reader.readAsDataURL(blob); });
+      } catch (e) { return null; }
+    }
+
+    qs("#btnCollect").onclick = async () => {
+      const term = qs("#term").value.trim();
+      if (!term) return alert("Digite um termo");
+      log("Coletando dados...");
+      const expansions = document.querySelector('[data-ck="exp"]').classList.contains("active");
+      try {
+        const suggest = await fetchSuggest(term, parseInt(qs("#gs_limit").value||15), expansions);
+        log("Google Suggest ✓");
+        const apps = await fetchItunes(term, parseInt(qs("#as_limit").value||30));
+        log("App Store ✓");
+        const wiki = await fetchWiki(term);
+        log("Wikipedia ✓");
+        const videos = await fetchYouTube(term);
+        log("YouTube ✓");
+        const pack = {
+          meta: { term, ts: Date.now() },
+          frames: [
+            { title: "Search intents", items: suggest },
+            { title: "App Store apps", items: apps.map(a=>({ name: a.name, developer: a.developer, description: a.description, url: a.icon })) },
+            { title: "Wikipedia summary", items: [{ text: (wiki.title?wiki.title+' — ':'') + (wiki.extract||'') }] },
+            { title: "YouTube videos", items: videos.map(v=>({ name: v.name, developer: v.channel, url: v.url })) }
+          ],
+          raw: { suggest, apps, wiki, videos }
+        };
+        window._pack = pack;
+        renderPreview(pack);
+        qs("#btnCreateScreens").disabled = false;
+        qs("#btnCopy").disabled = false;
+        qs("#btnExportJson").disabled = false;
+        qs("#btnExportCsv").disabled = false;
+        log("Coleta concluída!");
+      } catch (e) {
+        console.error(e);
+        log("Erro na coleta: " + (e.message || e));
+      }
+    };
+
+    function renderPreview(pack) {
+      const p = qs("#panelsContainer"); p.innerHTML = "";
+      for (const f of pack.frames) {
+        const div = document.createElement("div"); div.className = "panelPreview";
+        div.innerHTML = `<strong>${f.title}</strong><div style="margin-top:8px;font-size:13px">${(f.items||[]).slice(0,5).map(i=>`<div>${i.name||i.text||''}</div>`).join('')}</div>`;
+        p.appendChild(div);
+      }
+      const t = qs("#tableContainer"); t.innerHTML = "";
+      const tbl = document.createElement("table"); tbl.className = "previewTable";
+      tbl.innerHTML = `<thead><tr><th>rank</th><th>suggestion</th></tr></thead><tbody>${(pack.frames[0].items||[]).map(s=>`<tr><td>${s.rank}</td><td>${s.suggestion}</td></tr>`).join('')}</tbody>`;
+      t.appendChild(tbl);
+    }
+
+    function download(filename, content) { const blob = new Blob([content]); const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); }
+
+    qs("#btnExportJson").onclick = () => { if (!window._pack) return; download("collector_pack.json", JSON.stringify(window._pack, null, 2)); };
+    qs("#btnExportCsv").onclick = () => { if (!window._pack) return; const rows = window._pack.frames[0].items || []; const csv = "rank,suggestion\n" + rows.map(r=>`${r.rank},"${(r.suggestion||'').replace(/"/g,'""')}"`).join("\n"); download("suggest.csv", csv); };
+    qs("#btnCopy").onclick = () => { if (!window._pack) return; const text = window._pack.frames.map(f=>`== ${f.title} ==\n` + (f.items||[]).map(i=>i.name||i.text||'').join("\n")).join("\n\n"); navigator.clipboard.writeText(text); log("Copiado!"); };
+
+    qs("#btnCreateScreens").onclick = async () => {
+      const pack = window._pack; if (!pack) return; log("Carregando imagens para Figma...");
+      for (const f of pack.frames) { for (const it of f.items) { if (it.url) { it.base64 = await imgToBase64(it.url); } } }
+      parent.postMessage({ pluginMessage: { type: "create-screens", pack } }, "*");
+      log("Enviado ao Figma.");
+    };
+
+    qs("#btnHelp").onclick = () => alert("Fluxo:\n1) Preencha parâmetros\n2) Clique Coletador de Dados\n3) Veja preview\n4) Crie telas no Figma / Exporte");
+  </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Iframes</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .iframe-column {
+            flex: 1;
+            padding: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualização de Múltiplas Páginas</h1>
+    <div class="container">
+        <div class="iframe-column">
+            <iframe src="https://facebook.com"></iframe>
+        </div>
+        <div class="iframe-column">
+            <iframe src="https://instagram.com"></iframe>
+        </div>
+        <div class="iframe-column">
+            <iframe src="https://x.com"></iframe>
+        </div>
+    </div>
+</body>
+</html>

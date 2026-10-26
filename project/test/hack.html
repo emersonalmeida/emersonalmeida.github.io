@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Hackers: PvP</title>
+  <style>
+    body {
+      font-family: monospace;
+      background-color: #1a1a1a;
+      color: #0f0;
+      text-align: center;
+    }
+    #terminal {
+      width: 90%;
+      max-width: 600px;
+      height: 60vh;
+      background-color: #000;
+      border: 1px solid #0f0;
+      padding: 15px;
+      margin: 20px auto;
+      overflow-y: auto;
+      text-align: left;
+    }
+    #inputContainer {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    #commandInput {
+      width: 80%;
+      max-width: 400px;
+      padding: 10px;
+      font-size: 1em;
+      color: #0f0;
+      background-color: #111;
+      border: 1px solid #0f0;
+    }
+    button {
+      padding: 10px;
+      font-size: 1em;
+      color: #0f0;
+      background-color: #111;
+      border: 1px solid #0f0;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Jogo de Hackers PvP</h1>
+  <div id="terminal"></div>
+  <div id="inputContainer">
+    <input type="text" id="commandInput" placeholder="Digite seu comando..." />
+    <button onclick="submitCommand()">Enviar</button>
+  </div>
+
+  <script>
+    const terminal = document.getElementById("terminal");
+    const commandInput = document.getElementById("commandInput");
+
+    let player1 = { name: "Player 1", defense: 5, attack: 3, intel: 0 };
+    let player2 = { name: "Player 2", defense: 5, attack: 3, intel: 0 };
+    let currentPlayer = player1;
+    let opponent = player2;
+
+    function displayMessage(message) {
+      terminal.innerHTML += `<p>> ${message}</p>`;
+      terminal.scrollTop = terminal.scrollHeight;
+    }
+
+    function switchTurn() {
+      currentPlayer = currentPlayer === player1 ? player2 : player1;
+      opponent = opponent === player1 ? player2 : player1;
+      displayMessage(`\nTurno de ${currentPlayer.name}.`);
+    }
+
+    function submitCommand() {
+      const command = commandInput.value.trim().toLowerCase();
+      commandInput.value = "";
+
+      if (command === "attack") {
+        executeAttack();
+      } else if (command === "defend") {
+        executeDefend();
+      } else if (command === "collect intel") {
+        executeIntel();
+      } else {
+        displayMessage("Comando inválido! Use: 'attack', 'defend' ou 'collect intel'.");
+      }
+    }
+
+    function executeAttack() {
+      let successChance = currentPlayer.attack + currentPlayer.intel - opponent.defense;
+      if (Math.random() * 10 < successChance) {
+        opponent.defense--;
+        displayMessage(`${currentPlayer.name} atacou com sucesso! Defesa de ${opponent.name} agora é ${opponent.defense}.`);
+        if (opponent.defense <= 0) {
+          displayMessage(`${currentPlayer.name} hackeou o sistema de ${opponent.name}!`);
+          displayMessage(`${currentPlayer.name} venceu o jogo!`);
+          endGame();
+          return;
+        }
+      } else {
+        displayMessage(`${currentPlayer.name} falhou no ataque.`);
+      }
+      switchTurn();
+    }
+
+    function executeDefend() {
+      currentPlayer.defense++;
+      displayMessage(`${currentPlayer.name} reforçou sua defesa. Defesa agora é ${currentPlayer.defense}.`);
+      switchTurn();
+    }
+
+    function executeIntel() {
+      currentPlayer.intel++;
+      displayMessage(`${currentPlayer.name} coletou informações sobre o sistema de ${opponent.name}. Inteligência agora é ${currentPlayer.intel}.`);
+      switchTurn();
+    }
+
+    function endGame() {
+      document.getElementById("inputContainer").style.display = 'none';
+    }
+
+    // Inicia o jogo
+    displayMessage("Bem-vindo ao Jogo de Hackers PvP! Comandos disponíveis: 'attack', 'defend', 'collect intel'.");
+    displayMessage(`\nTurno de ${currentPlayer.name}.`);
+  </script>
+
+</body>
+</html>

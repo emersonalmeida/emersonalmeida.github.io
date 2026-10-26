@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Collector — Suggest + App Store (demo rápido)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:18px;color:#111}
+    h1{font-size:18px;margin:0 0 8px}
+    .row{display:flex;gap:8px;margin-bottom:8px}
+    input,select,button{padding:8px;font-size:14px}
+    input,select{flex:1}
+    #results{margin-top:12px}
+    table{width:100%;border-collapse:collapse;margin-top:8px}
+    th,td{padding:8px;border:1px solid #eee;text-align:left;font-size:13px}
+    pre{background:#f7f7f7;padding:8px;border-radius:6px;overflow:auto}
+    .note{font-size:13px;color:#666;margin-top:8px}
+    .error{color:#a00}
+    #debug{white-space:pre-wrap;background:#111;color:#fff;padding:8px;border-radius:6px;margin-top:12px;display:none}
+  </style>
+</head>
+<body>
+  <h1>Collector — Suggest + App Store (demo rápido)</h1>
+
+  <div class="row">
+    <input id="term" placeholder="Digite termo (ex: calendário)" />
+    <select id="source">
+      <option value="suggest">Google Suggest</option>
+      <option value="appstore">App Store (iTunes)</option>
+      <option value="play">Google Play (requer backend)</option>
+    </select>
+    <button id="run">Buscar</button>
+  </div>
+
+  <div style="display:flex;gap:12px;align-items:center;margin-bottom:8px">
+    <label style="font-size:13px"><input type="checkbox" id="useProxy" /> Usar CORS proxy (apenas teste)</label>
+    <div style="flex:1;font-size:13px;color:#666">Recomendado: rode um servidor local (ex: <code>python3 -m http.server 8000</code>) e abra via <code>http://localhost:8000/collector.html</code>.</div>
+  </div>
+
+  <div id="status" class="note">Fonte Play requer backend — selecione Suggest ou App Store para testar direto.</div>
+
+  <div id="results"></div>
+
+  <div id="debug"></div>
+
+  <script>
+    const elTerm = document.getElementById('term');
+    const elSource = document.getElementById('source');
+    const btn = document.getElementById('run');
+    const results = document.getElementById('results');
+    const status = document.getElementById('status');
+    const debug = document.getElementById('debug');
+    const useProxyCheckbox = document.getElementById('useProxy');
+
+    function download(filename, content, mime='text/plain') {
+      const blob = new Blob([content], {type:mime});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function toCSV(items) {
+      if (!items.length) return '';
+      const keys = Object.keys(items[0]);
+      const lines = [keys.join(',')];
+      for (const it of items) {
+        lines.push(keys.map(k => {
+          const v = it[k] === null || it[k] === undefined ? '' : String(it[k]).replace(/"/g,'""');
+          return `"${v}"`;
+        }).join(','));
+      }
+      return lines.join('\n');
+    }
+
+    function corsProxy(url) {
+      // allorigins is free and simple; também há cors.bridged.cc (nem sempre disponível)
+      return 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url);
+    }
+
+    btn.onclick = async () => {
+      const term = elTerm.value.trim();
+      const source = elSource.value;
+      const useProxy = useProxyCheckbox.checked;
+      results.innerHTML = '';
+      debug.style.display = 'none';
+      debug.textContent = '';
+      if (!term) { status.textContent = 'Digite um termo.'; return; }
+      status.textContent = 'Buscando...';
+      try {
+        if (source === 'suggest') {
+          let url = 'https://suggestqueries.google.com/complete/search?client=firefox&q=' + encodeURIComponent(term);
+          if (useProxy) url = corsProxy(url);
+          const r = await fetch(url);
+          if (!r.ok) throw new Error('Resposta não OK: ' + r.status + ' ' + r.statusText);
+          const j = await r.json(); // ["term", ["sug1","sug2",...]]
+          const items = (j[1] || []).map((s, i) => ({rank: i+1, suggestion: s}));
+          renderTable(items, source, term);
+        } else if (source === 'appstore') {
+          let url = 'https://itunes.apple.com/search?term=' + encodeURIComponent(term) + '&entity=software&country=br&limit=30';
+          if (useProxy) url = corsProxy(url);
+          const r = await fetch(url);
+          if (!r.ok) throw new Error('Resposta não OK: ' + r.status + ' ' + r.statusText);
+          const j = await r.json();
+          const items = (j.results || []).map((res, i) => ({
+            rank: i+1,
+            name: res.trackName,
+            developer: res.sellerName || res.artistName,
+            id: res.trackId,
+            url: res.trackViewUrl,
+            description: res.description ? res.description.slice(0,200) : '',
+            icon: res.artworkUrl100,
+            score: res.averageUserRating || null
+          }));
+          renderTable(items, source, term);
+        } else { // play
+          status.innerHTML = '<span class="note">Google Play requer backend (scraping). Posso gerar um backend Flask para você. Clique no botão abaixo.</span><br/><button id="genBack">Gerar backend exemplo</button>';
+          document.getElementById('genBack').onclick = () => {
+            navigator.clipboard.writeText(sampleBackendInstructions()).then(()=> alert('Instruções copiadas para a área de transferência.'));
+          }
+        }
+      } catch (e) {
+        console.error(e);
+        // mostrar mensagem amigável + info técnica no debug
+        status.innerHTML = `<span class="error">Erro: ${e.message}</span> — veja detalhes no campo de debug abaixo.`;
+        debug.style.display = 'block';
+        debug.textContent = (e.stack || (typeof e === 'string' ? e : JSON.stringify(e, null, 2)));
+      }
+    };
+
+    function sampleBackendInstructions() {
+      return `Use um backend para Google Play. Exemplo mínimo: Flask + requests + BeautifulSoup. Rode local e chame /api/play?q=TERM. Posso gerar o código para você.`;
+    }
+
+    function renderTable(items, source, term) {
+      status.textContent = `Recebido ${items.length} itens de ${source} para "${term}"`;
+      const container = document.createElement('div');
+      const h = document.createElement('div');
+      h.innerHTML = '<strong>Resultados</strong> — <button id="btnJson">Download JSON</button> <button id="btnCsv">Download CSV</button> <button id="btnMd">Download MD</button> <button id="btnTxt">Download TXT</button>';
+      container.appendChild(h);
+
+      const table = document.createElement('table');
+      const keys = items.length ? Object.keys(items[0]) : [];
+      const thead = document.createElement('thead');
+      thead.innerHTML = '<tr>' + keys.map(k=>`<th>${k}</th>`).join('') + '</tr>';
+      table.appendChild(thead);
+      const tbody = document.createElement('tbody');
+      for (const it of items) {
+        const tr = document.createElement('tr');
+        for (const k of keys) {
+          const v = it[k] === null || it[k] === undefined ? '' : it[k];
+          tr.innerHTML += `<td>${escapeHtml(String(v))}</td>`;
+        }
+        tbody.appendChild(tr);
+      }
+      table.appendChild(tbody);
+      container.appendChild(table);
+
+      // buttons
+      h.querySelector('#btnJson').onclick = () => download(`${source}_${term}.json`, JSON.stringify(items, null, 2),'application/json');
+      h.querySelector('#btnCsv').onclick = () => download(`${source}_${term}.csv`, toCSV(items),'text/csv');
+      h.querySelector('#btnMd').onclick = () => {
+        const md = items.map(it => '- ' + Object.values(it).filter(v=>v!==null&&v!==undefined).join(' | ')).join('\n');
+        download(`${source}_${term}.md`, `# Export ${source} - ${term}\n\n${md}`,'text/markdown');
+      };
+      h.querySelector('#btnTxt').onclick = () => download(`${source}_${term}.txt`, items.map(it=>Object.values(it).join(' — ')).join('\n\n'),'text/plain');
+
+      results.innerHTML = '';
+      results.appendChild(container);
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/[&<>"']/g, function(m){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]); });
+    }
+  </script>
+</body>
+</html>

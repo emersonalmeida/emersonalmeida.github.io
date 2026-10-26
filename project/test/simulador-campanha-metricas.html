@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Campanha para Anunciantes</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .input-group { margin-bottom: 10px; }
+        label { display: block; font-weight: bold; }
+        input { width: 100%; padding: 8px; margin-top: 5px; }
+        button { padding: 10px 20px; font-weight: bold; cursor: pointer; }
+        .result { margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<h1>Simulador de Campanha para Anunciantes</h1>
+
+<div id="inputs">
+    <div class="input-group">
+        <label>Orçamento Total (R$):</label>
+        <input type="number" id="budget" value="1000">
+    </div>
+    <div class="input-group">
+        <label>CPM (Custo por Mil Impressões):</label>
+        <input type="number" id="cpm" value="10">
+    </div>
+    <div class="input-group">
+        <label>CTR (Taxa de Cliques - %):</label>
+        <input type="number" id="ctr" value="2">
+    </div>
+    <div class="input-group">
+        <label>Taxa de Conversão (CVR - %):</label>
+        <input type="number" id="conversionRate" value="10">
+    </div>
+    <div class="input-group">
+        <label>Receita por Conversão (R$):</label>
+        <input type="number" id="revenuePerConversion" value="20">
+    </div>
+    <div class="input-group">
+        <label>Número de Streamers:</label>
+        <input type="number" id="numStreamers" value="5">
+    </div>
+    <div class="input-group">
+        <label>Custo Fixo por Streamer (R$):</label>
+        <input type="number" id="fixedCostPerStreamer" value="50">
+    </div>
+    <div class="input-group">
+        <label>Taxa Administrativa (%):</label>
+        <input type="number" id="adminFee" value="5">
+    </div>
+</div>
+
+<button onclick="simulateCampaign()">Simular Campanha</button>
+
+<div class="result" id="result"></div>
+
+<script>
+function simulateCampaign() {
+    const budget = parseFloat(document.getElementById("budget").value);
+    const cpm = parseFloat(document.getElementById("cpm").value);
+    const ctr = parseFloat(document.getElementById("ctr").value) / 100;
+    const conversionRate = parseFloat(document.getElementById("conversionRate").value) / 100;
+    const revenuePerConversion = parseFloat(document.getElementById("revenuePerConversion").value);
+    const numStreamers = parseInt(document.getElementById("numStreamers").value);
+    const fixedCostPerStreamer = parseFloat(document.getElementById("fixedCostPerStreamer").value);
+    const adminFee = parseFloat(document.getElementById("adminFee").value) / 100;
+
+    // Distribuição do orçamento por streamer
+    const budgetPerStreamer = budget / numStreamers;
+    const impressionsPerStreamer = (budgetPerStreamer / cpm) * 1000;
+    const clicksPerStreamer = impressionsPerStreamer * ctr;
+    const conversionsPerStreamer = clicksPerStreamer * conversionRate;
+    const revenuePerStreamer = conversionsPerStreamer * revenuePerConversion;
+    
+    // Custos por streamer
+    const variableCostPerStreamer = budgetPerStreamer * adminFee;
+    const totalCostPerStreamer = fixedCostPerStreamer + variableCostPerStreamer;
+    const netRevenuePerStreamer = revenuePerStreamer - totalCostPerStreamer;
+    const roiPerStreamer = ((netRevenuePerStreamer - budgetPerStreamer) / budgetPerStreamer) * 100;
+
+    // Somar resultados para todos os streamers
+    let totalImpressions = impressionsPerStreamer * numStreamers;
+    let totalClicks = clicksPerStreamer * numStreamers;
+    let totalConversions = conversionsPerStreamer * numStreamers;
+    let totalRevenue = revenuePerStreamer * numStreamers;
+    let totalFixedCosts = fixedCostPerStreamer * numStreamers;
+    let totalVariableCosts = variableCostPerStreamer * numStreamers;
+    let totalCosts = totalFixedCosts + totalVariableCosts;
+    let totalNetRevenue = totalRevenue - totalCosts;
+    let totalROI = ((totalNetRevenue - budget) / budget) * 100;
+
+    // Relatório detalhado para o anunciante
+    let resultHTML = `
+        <h2>Relatório de Simulação da Campanha</h2>
+        <p><strong>Orçamento Total:</strong> R$${budget.toFixed(2)}</p>
+        <p><strong>Número de Streamers:</strong> ${numStreamers}</p>
+        <p><strong>Orçamento por Streamer:</strong> R$${budgetPerStreamer.toFixed(2)}</p>
+        <h3>Detalhes por Streamer</h3>
+        <ul>
+    `;
+
+    for (let i = 1; i <= numStreamers; i++) {
+        resultHTML += `
+            <li>
+                <h4>Streamer ${i}</h4>
+                <p>Impressões: ${impressionsPerStreamer.toFixed(2)}</p>
+                <p>Cliques (CTR): ${clicksPerStreamer.toFixed(2)}</p>
+                <p>Conversões: ${conversionsPerStreamer.toFixed(2)}</p>
+                <p>Receita Gerada: R$${revenuePerStreamer.toFixed(2)}</p>
+                <p>Custo Fixo: R$${fixedCostPerStreamer.toFixed(2)}</p>
+                <p>Custo Variável (Taxa Administrativa): R$${variableCostPerStreamer.toFixed(2)}</p>
+                <p>Custo Total por Streamer: R$${totalCostPerStreamer.toFixed(2)}</p>
+                <p>Receita Líquida: R$${netRevenuePerStreamer.toFixed(2)}</p>
+                <p>ROI Individual: ${roiPerStreamer.toFixed(2)}%</p>
+            </li>
+        `;
+    }
+
+    resultHTML += `
+        </ul>
+        <h3>Resumo Total da Campanha</h3>
+        <p><strong>Impressões Totais:</strong> ${totalImpressions.toFixed(2)}</p>
+        <p><strong>Cliques Totais:</strong> ${totalClicks.toFixed(2)}</p>
+        <p><strong>Conversões Totais:</strong> ${totalConversions.toFixed(2)}</p>
+        <p><strong>Receita Total Gerada:</strong> R$${totalRevenue.toFixed(2)}</p>
+        <p><strong>Custo Fixo Total:</strong> R$${totalFixedCosts.toFixed(2)}</p>
+        <p><strong>Custo Variável Total:</strong> R$${totalVariableCosts.toFixed(2)}</p>
+        <p><strong>Custo Total da Campanha:</strong> R$${totalCosts.toFixed(2)}</p>
+        <p><strong>Receita Líquida Total:</strong> R$${totalNetRevenue.toFixed(2)}</p>
+        <p><strong>ROI Total da Campanha:</strong> ${totalROI.toFixed(2)}%</p>
+    `;
+
+    document.getElementById("result").innerHTML = resultHTML;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Criação de Campanha com IA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #inputContainer, #resultContainer {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 700px;
+            text-align: center;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .field-group {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .field-group label {
+            font-weight: bold;
+        }
+        .campaign-summary, .metrics-info {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criação de Campanha com IA</h1>
+
+    <div id="inputContainer">
+        <div class="field-group">
+            <label for="investmentAmount">Investimento (R$):</label>
+            <input type="number" id="investmentAmount" placeholder="Ex: 50000" oninput="calculateMetrics()">
+        </div>
+        <div class="field-group">
+            <label for="rmc">RMC (Receita Média por Cliente - R$):</label>
+            <input type="number" id="rmc" placeholder="Ex: 80" oninput="calculateMetrics()">
+        </div>
+        <div class="field-group">
+            <label for="cpa">CPA (Custo por Aquisição - R$):</label>
+            <input type="number" id="cpa" placeholder="Ex: 40" oninput="calculateMetrics()">
+        </div>
+        <div class="field-group">
+            <label for="cpm">CPM (Custo por Mil Impressões - R$):</label>
+            <input type="number" id="cpm" placeholder="Ex: 20" oninput="calculateMetrics()">
+        </div>
+        <div class="field-group">
+            <label for="ctr">CTR (Taxa de Cliques - %):</label>
+            <input type="number" id="ctr" placeholder="Ex: 5" oninput="calculateMetrics()">
+        </div>
+    </div>
+
+    <div id="resultContainer">
+        <h2>Resumo da Campanha</h2>
+        <div id="campaignSummary" class="campaign-summary"></div>
+    </div>
+
+    <script>
+        function calculateMetrics() {
+            const investment = parseFloat(document.getElementById("investmentAmount").value) || 0;
+            const rmc = parseFloat(document.getElementById("rmc").value) || 0;
+            const cpa = parseFloat(document.getElementById("cpa").value) || 0;
+            const cpm = parseFloat(document.getElementById("cpm").value) || 0;
+            const ctr = parseFloat(document.getElementById("ctr").value) || 0;
+
+            // Calculando a taxa de conversão esperada com base no CPA
+            const estimatedConversionRate = cpa > 0 ? (investment / cpa) / investment : 0;
+            const totalExpectedConversions = Math.floor(investment / cpa);
+
+            // Calculando alcance com base no CPM
+            const estimatedReach = cpm > 0 ? (investment / cpm) * 1000 : 0;
+
+            // Calculando receita total esperada com RMC
+            const receitaTotalEsperada = totalExpectedConversions * rmc;
+
+            // Calculando ROI
+            const roi = investment > 0 ? ((receitaTotalEsperada - investment) / investment) * 100 : 0;
+
+            // Resumo da campanha
+            const campaignSummary = document.getElementById("campaignSummary");
+            campaignSummary.innerHTML = `
+                <strong>Investimento Total:</strong> R$ ${investment.toFixed(2)}<br>
+                <strong>Conversões Esperadas:</strong> ${totalExpectedConversions} clientes<br>
+                <strong>Receita Total Esperada:</strong> R$ ${receitaTotalEsperada.toFixed(2)}<br>
+                <strong>ROI Esperado:</strong> ${roi.toFixed(2)}%<br>
+                <strong>Alcance Estimado:</strong> ${estimatedReach.toFixed(0)} visualizações<br>
+                <strong>CTR Esperado:</strong> ${ctr}%<br>
+            `;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamagotchi Virtual</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    #status {
+      font-size: 1.2em;
+      margin: 10px;
+    }
+    #actions button {
+      padding: 10px;
+      margin: 5px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cuide do seu Tamagotchi!</h1>
+  <div id="status">
+    <p>Nome: <span id="name">Tamagotchi</span></p>
+    <p>Fome: <span id="hunger">0</span>/10</p>
+    <p>Felicidade: <span id="happiness">10</span>/10</p>
+    <p>Energia: <span id="energy">10</span>/10</p>
+    <p>Status: <span id="lifeStatus">Vivo</span></p>
+  </div>
+  <div id="actions">
+    <button onclick="feed()">Alimentar</button>
+    <button onclick="play()">Brincar</button>
+    <button onclick="sleep()">Dormir</button>
+  </div>
+  <div id="message"></div>
+
+  <script>
+    let hunger = 0;
+    let happiness = 10;
+    let energy = 10;
+    let alive = true;
+
+    function updateStatus() {
+      document.getElementById("hunger").innerText = hunger;
+      document.getElementById("happiness").innerText = happiness;
+      document.getElementById("energy").innerText = energy;
+      document.getElementById("lifeStatus").innerText = alive ? "Vivo" : "Morto";
+
+      if (!alive) {
+        document.getElementById("actions").style.display = 'none';
+        document.getElementById("message").innerText = "Seu Tamagotchi morreu. Recarregue a página para começar de novo.";
+      }
+    }
+
+    function feed() {
+      if (alive && hunger > 0) {
+        hunger -= 2;
+        energy -= 1;
+        happiness += 1;
+        hunger = Math.max(hunger, 0);
+        energy = Math.max(energy, 0);
+        happiness = Math.min(happiness, 10);
+        document.getElementById("message").innerText = "Você alimentou seu Tamagotchi!";
+        checkLife();
+        updateStatus();
+      }
+    }
+
+    function play() {
+      if (alive && happiness < 10 && energy > 0) {
+        happiness += 2;
+        hunger += 1;
+        energy -= 2;
+        happiness = Math.min(happiness, 10);
+        hunger = Math.min(hunger, 10);
+        energy = Math.max(energy, 0);
+        document.getElementById("message").innerText = "Você brincou com seu Tamagotchi!";
+        checkLife();
+        updateStatus();
+      }
+    }
+
+    function sleep() {
+      if (alive && energy < 10) {
+        energy += 3;
+        hunger += 2;
+        happiness -= 1;
+        energy = Math.min(energy, 10);
+        hunger = Math.min(hunger, 10);
+        happiness = Math.max(happiness, 0);
+        document.getElementById("message").innerText = "Seu Tamagotchi dormiu e recuperou energia!";
+        checkLife();
+        updateStatus();
+      }
+    }
+
+    function checkLife() {
+      if (hunger >= 10 || happiness <= 0 || energy <= 0) {
+        alive = false;
+      }
+    }
+
+    function timePasses() {
+      if (alive) {
+        hunger += 1;
+        happiness -= 1;
+        energy -= 1;
+        hunger = Math.min(hunger, 10);
+        happiness = Math.max(happiness, 0);
+        energy = Math.max(energy, 0);
+        checkLife();
+        updateStatus();
+      }
+    }
+
+    setInterval(timePasses, 5000); // A cada 5 segundos, o tempo passa
+  </script>
+
+</body>
+</html>

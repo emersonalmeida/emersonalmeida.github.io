@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Collector Minimal</title>
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, Arial; margin: 12px; color: #111; }
+    input, select, button { font-size: 13px; padding: 6px 8px; }
+    #results { margin-top: 10px; max-height: 220px; overflow:auto; border:1px solid #eee; padding:8px; }
+    .row { display:flex; gap:8px; align-items:flex-start; padding:6px 0; border-bottom:1px solid #f5f5f5; }
+    .title { font-weight:600; }
+    .sub { color:#666; font-size:12px; }
+    #status { margin-top:8px; color:#666; font-size:12px; }
+  </style>
+</head>
+<body>
+  <div style="display:flex;gap:8px;">
+    <input id="term" placeholder="term (ex: bitcoin)" style="flex:1" />
+    <select id="source">
+      <option value="suggest">suggest</option>
+      <option value="itunes">itunes</option>
+    </select>
+    <input id="limit" type="number" value="5" style="width:64px" />
+  </div>
+
+  <div style="display:flex;gap:8px;margin-top:8px;">
+    <button id="btn-search">Buscar</button>
+    <button id="btn-import">Importar selecionados</button>
+    <button id="btn-ping">Ping</button>
+  </div>
+
+  <div id="status">pronto</div>
+  <div id="results"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const backend = "http://127.0.0.1:8080/api/collect"; // ajuste se necessário
+
+  const $term = document.getElementById('term');
+  const $source = document.getElementById('source');
+  const $limit = document.getElementById('limit');
+  const $btnSearch = document.getElementById('btn-search');
+  const $btnImport = document.getElementById('btn-import');
+  const $btnPing = document.getElementById('btn-ping');
+  const $results = document.getElementById('results');
+  const $status = document.getElementById('status');
+
+  function setStatus(s){ $status.textContent = s; }
+
+  async function fetchCollect(source, term, limit) {
+    try {
+      const res = await fetch(backend, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ source, term, limit })
+      });
+      return await res.json();
+    } catch (err) {
+      return { error: String(err) };
+    }
+  }
+
+  function normalizeResponse(r, source) {
+    if (!r) return [];
+    if (r.error) return [];
+    if (Array.isArray(r) && r.length && Array.isArray(r[1])) {
+      return (r[1] || []).map(s => ({ title: s, subtitle: source, description: "" }));
+    }
+    if (r.results && Array.isArray(r.results)) {
+      return r.results.map(it => ({
+        title: it.trackName || it.collectionName || it.trackCensoredName || it.trackName || (it[0]||""),
+        subtitle: it.artistName || it.artistViewUrl || "",
+        description: it.description || it.shortDescription || it.longDescription || ""
+      }));
+    }
+    if (Array.isArray(r)) return r.map(s => ({ title: String(s), subtitle: source, description: "" }));
+    if (typeof r === "object") return [ { title: r.title || r.trackName || JSON.stringify(r), subtitle: source, description: r.description || "" } ];
+    return [];
+  }
+
+  function render(list) {
+    $results.innerHTML = "";
+    list.forEach((it, idx) => {
+      const row = document.createElement("div");
+      row.className = "row";
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.dataset.idx = idx;
+      const col = document.createElement("div");
+      col.style.flex = "1";
+      const t = document.createElement("div");
+      t.className = "title";
+      t.textContent = it.title || "—";
+      const s = document.createElement("div");
+      s.className = "sub";
+      s.textContent = it.subtitle || "";
+      const d = document.createElement("div");
+      d.style.fontSize = "12px";
+      d.style.color = "#444";
+      d.textContent = it.description ? (it.description.slice(0,200) + (it.description.length>200?"…":"")) : "";
+      col.appendChild(t);
+      col.appendChild(s);
+      col.appendChild(d);
+      row.appendChild(cb);
+      row.appendChild(col);
+      $results.appendChild(row);
+    });
+  }
+
+  let lastResults = [];
+
+  $btnSearch.addEventListener('click', async () => {
+    const term = $term.value.trim();
+    const source = $source.value;
+    const limit = Number($limit.value) || 5;
+    if (!term) return alert("Term vazio");
+    setStatus("buscando...");
+    const r = await fetchCollect(source, term, limit);
+    if (r.error) {
+      setStatus("erro: " + r.error);
+      return;
+    }
+    const items = normalizeResponse(r, source).slice(0, limit);
+    lastResults = items;
+    render(items);
+    setStatus("encontrados: " + items.length);
+  });
+
+  $btnImport.addEventListener('click', () => {
+    const checks = Array.from(document.querySelectorAll("#results input[type=checkbox]:checked"));
+    if (!checks.length) return alert("Selecione ao menos um item");
+    const items = checks.map(cb => lastResults[Number(cb.dataset.idx)]);
+    parent.postMessage({ pluginMessage: { type: "create-frames", items } }, "*");
+    setStatus("importando para Figma...");
+  });
+
+  $btnPing.addEventListener('click', () => {
+    parent.postMessage({ pluginMessage: { type: "ping" } }, "*");
+    setStatus("ping enviado");
+  });
+
+  // receber mensagens do plugin
+  onmessage = (ev) => {
+    const msg = ev.data.pluginMessage;
+    if (!msg) return;
+    if (msg.status) setStatus(msg.status);
+    if (msg.ok) setStatus("import ok: " + (msg.created || ""));
+    if (msg.error) setStatus("erro: " + msg.error);
+  };
+});
+</script>
+</body>
+</html>

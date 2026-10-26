@@ -1,0 +1,194 @@
+===================================
+           Relatório de Sistema    
+===================================
+Data: dom 27 out 2024 00:32:07 -03
+
+=== Informações do Sistema Operacional ===
+Sistema: GNU/Linux
+Kernel: 6.8.0-47-generic
+Distribuição: Freedesktop SDK 24.08 (Flatpak runtime)
+
+=== Informações do Processador ===
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               4
+On-line CPU(s) list:                  0-3
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Core(TM) i7-5600U CPU @ 2.60GHz
+CPU family:                           6
+Model:                                61
+Thread(s) per core:                   2
+Core(s) per socket:                   2
+Socket(s):                            1
+Stepping:                             4
+CPU(s) scaling MHz:                   81%
+CPU max MHz:                          3200,0000
+CPU min MHz:                          500,0000
+BogoMIPS:                             5188,61
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap intel_pt xsaveopt dtherm ida arat pln pts vnmi md_clear flush_l1d
+Virtualization:                       VT-x
+L1d cache:                            64 KiB (2 instances)
+L1i cache:                            64 KiB (2 instances)
+L2 cache:                             512 KiB (2 instances)
+L3 cache:                             4 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-3
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                   Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:                    Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:               Mitigation; PTI
+Vulnerability Mmio stale data:        Unknown: No mitigations
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP conditional; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Mitigation; Microcode
+Vulnerability Tsx async abort:        Mitigation; Clear CPU buffers; SMT vulnerable
+
+=== Uso de Memória ===
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       5,8Gi       2,9Gi       1,4Gi       8,5Gi       9,7Gi
+Swap:             0B          0B          0B
+
+=== Uso de Disco ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           7,8G  144K  7,8G   1% /etc/timezone
+/dev/sda2        96G   41G   53G  44% /usr
+tmpfs           7,8G     0  7,8G   0% /usr/lib/x86_64-linux-gnu/GL
+tmpfs           7,8G     0  7,8G   0% /usr/share/runtime/share/themes
+/dev/sda2        96G   41G   53G  44% /home
+tmpfs           1,6G  3,3M  1,6G   1% /run/host/monitor
+udev            7,8G     0  7,8G   0% /dev
+tmpfs           7,8G   11M  7,8G   1% /dev/shm
+tmpfs           7,8G     0  7,8G   0% /home/ea/.local/share/flatpak
+tmpfs           7,8G     0  7,8G   0% /home/ea/.var/app
+/dev/sda4       128G  113G   15G  89% /mnt/sda4
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop1       75M   75M     0 100% /snap/core22/1612
+/dev/loop2      506M  506M     0 100% /snap/gnome-42-2204/176
+/dev/loop3       74M   74M     0 100% /snap/core22/1663
+/dev/loop4       92M   92M     0 100% /snap/gtk-common-themes/1535
+/dev/loop6       12M   12M     0 100% /snap/firmware-updater/147
+/dev/loop5      444M  444M     0 100% /snap/kf5-5-113-qt-5-15-11-core22/1
+/dev/loop7       39M   39M     0 100% /snap/snapd/21759
+tmpfs           7,8G     0  7,8G   0% /tmp/.X11-unix
+tmpfs           1,6G  2,1M  1,6G   1% /run/systemd/journal/socket
+
+=== Dispositivos de Bloco ===
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0     4K  1 loop /snap/bare/5
+loop1    7:1    0  74,3M  1 loop /snap/core22/1612
+loop2    7:2    0 505,1M  1 loop /snap/gnome-42-2204/176
+loop3    7:3    0  73,9M  1 loop /snap/core22/1663
+loop4    7:4    0  91,7M  1 loop /snap/gtk-common-themes/1535
+loop5    7:5    0   444M  1 loop /snap/kf5-5-113-qt-5-15-11-core22/1
+loop6    7:6    0  11,1M  1 loop /snap/firmware-updater/147
+loop7    7:7    0  38,8M  1 loop /snap/snapd/21759
+sda      8:0    0 223,6G  0 disk 
+├─sda1   8:1    0   500M  0 part 
+├─sda2   8:2    0    96G  0 part /run/host/user-share/icons
+│                                /run/host/share/icons
+│                                /run/host/user-fonts-cache
+│                                /run/host/fonts-cache
+│                                /run/host/local-fonts
+│                                /run/host/fonts
+│                                /tmp/.X11-unix/X1
+│                                /home/ea/.var/app/com.visualstudio.code/config/user-dirs.dirs
+│                                /run/host/os-release
+│                                /run/host/etc
+│                                /run/host/usr
+│                                /srv
+│                                /snap
+│                                /sbin.usr-is-merged
+│                                /opt
+│                                /mnt
+│                                /media
+│                                /lib.usr-is-merged
+│                                /home/ea/.var/app/com.visualstudio.code
+│                                /home
+│                                /cdrom
+│                                /bin.usr-is-merged
+│                                /usr/share/zoneinfo
+│                                /var/tmp
+│                                /var/config
+│                                /var/data
+│                                /var/cache
+│                                /etc/xml
+│                                /etc/xdg
+│                                /etc/ssl
+│                                /etc/security
+│                                /etc/rc_keymaps
+│                                /etc/pulse
+│                                /etc/profile.d
+│                                /etc/pki
+│                                /etc/gtk-3.0
+│                                /etc/fonts
+│                                /etc/flatpak-builder
+│                                /etc/debuginfod
+│                                /etc/bash_completion.d
+│                                /etc/alsa
+│                                /etc/xattr.conf
+│                                /etc/vdpau_wrapper.cfg
+│                                /etc/ssh_config
+│                                /etc/slsh.rc
+│                                /etc/services
+│                                /etc/rpc
+│                                /etc/rc_maps.cfg
+│                                /etc/protocols
+│                                /etc/nsswitch.conf
+│                                /etc/moduli
+│                                /etc/mke2fs.conf
+│                                /etc/man_db.conf
+│                                /etc/ld.so.conf
+│                                /etc/issue.net
+│                                /etc/issue
+│                                /etc/gprofng.rc
+│                                /etc/gitconfig
+│                                /etc/e2scrub.conf
+│                                /etc/machine-id
+│                                /usr/share/runtime/share/themes/Yaru-dark/gtk-3.0
+│                                /usr/share/runtime/locale
+│                                /usr/lib/x86_64-linux-gnu/openh264
+│                                /usr/lib/x86_64-linux-gnu/dri/intel-vaapi-driver
+│                                /usr/lib/x86_64-linux-gnu/GL/nvidia-550-107-02
+│                                /usr/lib/x86_64-linux-gnu/GL/default
+│                                /usr/lib/x86_64-linux-gnu/GL/default
+│                                /app
+│                                /usr
+└─sda4   8:4    0 127,1G  0 part /mnt/sda4
+
+=== Uptime do Sistema ===
+ 00:32:07 up  4:10,  0 user,  load average: 0,92, 1,07, 0,83
+
+=== Usuários Conectados ===
+
+=== Processos em Execução ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ea             1  0.0  0.0   3668  1280 ?        S    00:26   0:00 bwrap --args 39 -- code --reuse-window
+ea            22  2.8  1.2 1189408188 208368 ?   SLsl 00:26   0:10 /app/extra/vscode/code --ms-enable-electron-run-as-node --extensions-dir=/home/ea/.var/app/com.visualstudio.code/data/vscode/extensions --reuse-window
+ea            26  0.0  0.4 33915944 70784 ?      S    00:26   0:00 /app/extra/vscode/code --type=zygote --no-zygote-sandbox
+ea            28  0.0  0.0      0     0 ?        Z    00:26   0:00 [zypak-sandbox] <defunct>
+ea            30  0.0  0.0   5848  1792 ?        S    00:26   0:00 cat
+ea            31  0.0  0.0   5848  1792 ?        S    00:26   0:00 cat
+ea            33  0.0  0.0   3580  1408 ?        S    00:26   0:00 bwrap --args 42 -- /app/bin/zypak-helper child - /app/extra/vscode/code --type=zygote
+ea            34  0.0  0.4 33915988 70656 ?      S    00:26   0:00 /app/extra/vscode/code --type=zygote
+ea            55  0.0  0.0 33575824 3200 ?       Sl   00:26   0:00 /app/extra/vscode/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/ea/.var/app/com.visualstudio.code/config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=5b640e7e-4ece-4d10-ac8d-788e9bfdf63a&iid=5b640e7e-4ece-4d10-ac8d-788e9bfdf63a&sid=5b640e7e-4ece-4d10-ac8d-788e9bfdf63a --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.94.2 --annotation=lsb-release=Freedesktop SDK 24.08 (Flatpak runtime) --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=30.5.1 --initial-client-fd=59 --shared-client-connection
+ea            69 14.4  0.6 34156704 113228 ?     Sl   00:26   0:52 /app/extra/vscode/code --type=gpu-process --crashpad-handler-pid=55 --enable-crash-reporter=d1de4765-b36b-47a5-a641-ff526f51547b,no_channel --user-data-dir=/home/ea/.var/app/com.visualstudio.code/config/Code --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,1497695079982743763,14527394701455934243,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+ea            76  0.0  0.5 33966256 91492 ?      Sl   00:26   0:00 /app/extra/vscode/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=55 --enable-crash-reporter=d1de4765-b36b-47a5-a641-ff526f51547b,no_channel --user-data-dir=/home/ea/.var/app/com.visualstudio.code/config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1497695079982743763,14527394701455934243,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+ea           103 16.3  1.6 1191392376 261108 ?   Sl   00:26   0:59 /app/extra/vscode/code --type=renderer --crashpad-handler-pid=55 --enable-crash-reporter=d1de4765-b36b-47a5-a641-ff526f51547b,no_channel --user-data-dir=/home/ea/.var/app/com.visualstudio.code/config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/app/extra/vscode/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1729984885190049 --launch-time-ticks=14677751064 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1497695079982743763,14527394701455934243,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:4aa2e2c0-67be-4e53-b602-6b42d96aad04
+ea           119  2.3  1.7 1189183596 280500 ?   Sl   00:26   0:08 /app/extra/vscode/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=55 --enable-crash-reporter=d1de4765-b36b-47a5-a641-ff526f51547b,no_channel --user-data-dir=/home/ea/.var/app/com.visualstudio.code/config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1497695079982743763,14527394701455934243,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+ea           133  1.1  0.8 1189181820 141548 ?   Sl   00:26   0:04 /app/extra/vscode/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=55 --enable-crash-reporter=d1de4765-b36b-47a5-a641-ff526f51547b,no_channel --user-data-dir=/home/ea/.var/app/com.visualstudio.code/config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1497695079982743763,14527394701455934243,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+ea           135  0.3  0.7 1189198764 119244 ?   Sl   00:26   0:01 /app/extra/vscode/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=55 --enable-crash-reporter=d1de4765-b36b-47a5-a641-ff526f51547b,no_channel --user-data-dir=/home/ea/.var/app/com.visualstudio.code/config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1497695079982743763,14527394701455934243,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+ea           174  0.9  0.9 1186947908 152552 ?   Sl   00:26   0:03 /app/extra/vscode/code /app/extra/vscode/resources/app/extensions/html-language-features/server/dist/node/htmlServerMain --node-ipc --clientProcessId=119
+ea           186  0.1  0.6 1186947908 97832 ?    Sl   00:26   0:00 /app/extra/vscode/code /home/ea/.var/app/com.visualstudio.code/data/vscode/extensions/formulahendry.auto-rename-tag-0.1.10/packages/server/dist/serverMain.js --node-ipc --clientProcessId=119
+ea           257  1.0  0.7 1189198828 126400 ?   Sl   00:27   0:02 /app/extra/vscode/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=55 --enable-crash-reporter=d1de4765-b36b-47a5-a641-ff526f51547b,no_channel --user-data-dir=/home/ea/.var/app/com.visualstudio.code/config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1497695079982743763,14527394701455934243,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+ea           274  0.0  0.0   8140  4608 pts/1    Ss   00:27   0:00 /bin/sh
+ea          1025  0.0  0.0   7896  3712 pts/1    S+   00:32   0:00 /bin/bash ./shell-script.sh
+ea          1040  0.0  0.0   8492  4096 pts/1    R+   00:32   0:00 ps aux
+ea          1041  0.0  0.0   6052  2432 pts/1    S+   00:32   0:00 less
+
